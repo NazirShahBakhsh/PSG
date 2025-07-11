@@ -103,9 +103,8 @@
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 31",
-                "🇨🇳 CN | 🔴 | trojan | @hope_net | 16",
-                "🇸🇬 SG | 🔴 | trojan | @hope_net | 18",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 12",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 6",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
@@ -134,9 +133,8 @@
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 31",
-                "🇨🇳 CN | 🔴 | trojan | @hope_net | 16",
-                "🇸🇬 SG | 🔴 | trojan | @hope_net | 18",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 12",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 6",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
@@ -271,29 +269,6 @@
             }
         },
         {
-            "tag": "🇨🇳 CN | 🔴 | trojan | @hope_net | 16",
-            "type": "trojan",
-            "server": "aexbjbgp01.114837322.xyz",
-            "server_port": 14520,
-            "password": "6AC378EE-C9AE-9D3C-3DD9-8C034898BE44"
-        },
-        {
-            "tag": "🇸🇬 SG | 🔴 | trojan | @hope_net | 18",
-            "type": "trojan",
-            "server": "us01.trojanyyds.xyz",
-            "server_port": 443,
-            "password": "243eab52-9ac1-405c-887c-eb112c0985b8",
-            "tls": {
-                "enabled": true,
-                "server_name": "us01.trojanyyds.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
             "type": "trojan",
             "server": "usa.test3.net",
@@ -308,6 +283,13 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 12",
+            "type": "trojan",
+            "server": "13c2c931-swin40-swy6li-tni2.cu.plebai.net",
+            "server_port": 15229,
+            "password": "5e2f888c-68ef-11ef-96ca-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",

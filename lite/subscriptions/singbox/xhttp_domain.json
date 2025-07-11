@@ -108,10 +108,8 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
-                "🇺🇸 US | 🔴 | vless | @getconfigir | 16",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
-                "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13",
-                "🇳🇱 NL | 🟢 | vless | @vistav2ray | 15",
+                "🇳🇱 NL | 🟢 | vless | @vistav2ray | 14",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
             ],
             "interrupt_exist_connections": false
@@ -130,10 +128,8 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
-                "🇺🇸 US | 🔴 | vless | @getconfigir | 16",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
-                "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13",
-                "🇳🇱 NL | 🟢 | vless | @vistav2ray | 15",
+                "🇳🇱 NL | 🟢 | vless | @vistav2ray | 14",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -267,15 +263,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 16",
-            "type": "vless",
-            "server": "bot.nimeshab-nabod.info",
-            "server_port": 80,
-            "uuid": "itsproxy",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
@@ -285,16 +272,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "4dd5e5d7-8b91-4bdf-8c8b-ea18d6476416",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @vistav2ray | 15",
+            "tag": "🇳🇱 NL | 🟢 | vless | @vistav2ray | 14",
             "type": "vless",
             "server": "statue.lnmarketplace.net",
             "server_port": 443,
