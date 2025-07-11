@@ -6,36 +6,43 @@
 {
     "log": {
         "disabled": false,
-        "level": "fatal",
+        "level": "info",
         "timestamp": true
     },
     "experimental": {
         "clash_api": {
-            "external_controller": "0.0.0.0:9090",
-            "external_ui": "yacd",
-            "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+            "external_controller": "127.0.0.1:9090",
+            "external_ui": "metacubexd",
+            "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
             "external_ui_download_detour": "direct",
-            "secret": "",
             "default_mode": "rule"
+        },
+        "cache_file": {
+            "enabled": true,
+            "path": "cache.db",
+            "store_fakeip": false,
+            "store_rdrc": false,
+            "rdrc_timeout": "7d"
         }
     },
     "dns": {
         "servers": [
             {
-                "address": "tcp://185.228.168.9",
-                "address_resolver": "dns-direct",
+                "address": "https://1.1.1.1/dns-query",
+                "address_resolver": "dns-local",
+                "detour": "Proxy",
                 "strategy": "ipv4_only",
                 "tag": "dns-remote"
             },
             {
-                "address": "tcp://185.228.168.9",
+                "address": "78.157.42.100",
                 "address_resolver": "dns-local",
                 "detour": "direct",
                 "strategy": "ipv4_only",
                 "tag": "dns-direct"
             },
             {
-                "address": "local",
+                "address": "8.8.8.8",
                 "detour": "direct",
                 "tag": "dns-local"
             },
@@ -46,62 +53,48 @@
         ],
         "rules": [
             {
-                "domain_suffix": [
-                    ".ir"
+                "domain": [],
+                "rule_set": [
+                    "geosite-ir"
                 ],
                 "server": "dns-direct"
             },
             {
-                "outbound": "direct",
-                "server": "dns-direct",
-                "rewrite_ttl": 20
+                "disable_cache": true,
+                "rule_set": [
+                    "geosite-category-ads-all",
+                    "geosite-malware",
+                    "geosite-phishing",
+                    "geosite-cryptominers"
+                ],
+                "server": "dns-block"
             },
             {
                 "outbound": "any",
-                "server": "dns-direct",
-                "rewrite_ttl": 20
+                "server": "dns-direct"
             }
         ],
-        "reverse_mapping": true,
-        "strategy": "ipv4_only",
         "independent_cache": true
     },
     "inbounds": [
         {
-            "listen": "0.0.0.0",
-            "listen_port": 6450,
-            "override_address": "8.8.8.8",
-            "override_port": 53,
-            "tag": "dns-in",
-            "type": "direct"
-        },
-        {
             "type": "tun",
             "tag": "tun-in",
-            "domain_strategy": "",
-            "interface_name": "tun0",
+            "domain_strategy": "ipv4_only",
+            "interface_name": "sing-tun",
             "inet4_address": "172.19.0.1/30",
-            "mtu": 9000,
+            "mtu": 1492,
             "auto_route": true,
             "strict_route": true,
-            "stack": "system",
+            "stack": "gvisor",
             "endpoint_independent_nat": true,
             "sniff": true,
             "sniff_override_destination": false
-        },
-        {
-            "domain_strategy": "",
-            "listen": "0.0.0.0",
-            "listen_port": 2080,
-            "sniff": true,
-            "sniff_override_destination": false,
-            "tag": "mixed-in",
-            "type": "mixed"
         }
     ],
     "outbounds": [
         {
-            "tag": "proxy",
+            "tag": "Proxy",
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
@@ -124,7 +117,7 @@
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @custom_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🟢 | vless | @deragv2ray | 2",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇩🇪 DE | 🔴 | vless | @dnsforyou | 0",
@@ -136,7 +129,7 @@
                 "❔ XX | 🔴 | vless | @erfanpaydartelegram | 9",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 6",
                 "🇮🇷 IR | 🔴 | vless | @fastvpnorummobile | 4",
-                "🇺🇸 US | 🔴 | vless | @father_vpn | 5",
+                "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
                 "❔ XX | 🟢 | vless | @flash_proxies | 0",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @freakconfig1 | 2",
@@ -159,7 +152,9 @@
                 "🇺🇸 US | 🟢 | vless | @hopev2ray | 5",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @idigitalz | 0",
+                "🇩🇪 DE | 🔴 | vless | @imhdiyvp | 12",
                 "🇮🇷 IR | 🔴 | vless | @info_2it_channel | 12",
+                "🇮🇷 IR | 🔴 | vless | @ip_cf_config | 12",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @iranbaxvpn | 8",
                 "🇷🇺 RU | 🔴 | vless | @iranbfilter | 6",
@@ -192,22 +187,24 @@
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
-                "🇩🇪 DE | 🔴 | vless | @mowjproxy | 5",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "❔ XX | 🔴 | vless | @mtpv2ray | 8",
                 "🇨🇦 CA | 🟢 | vless | @n2vpn | 9",
                 "🇺🇸 US | 🟢 | vless | @nepo_v2ray | 23",
+                "🇮🇷 IR | 🔴 | vless | @netmellianti | 17",
                 "❔ XX | 🔴 | vless | @next_serverpanel | 4",
                 "🇮🇷 IR | 🔴 | vless | @nitroserver_ir | 1",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "🇩🇪 DE | 🔴 | vless | @nofilter_v2rayng | 8",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 3",
+                "🇮🇷 IR | 🔴 | vless | @outlinev2rayng | 16",
                 "🇺🇸 US | 🟢 | vless | @proxie | 16",
                 "❔ XX | 🔴 | vless | @proxy48 | 14",
                 "❔ XX | 🟢 | vless | @proxy_confiingir | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
+                "🇮🇷 IR | 🔴 | vless | @proxy_mtproto_vpns_free | 16",
                 "🇺🇸 US | 🟢 | vless | @proxycrone | 10",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
@@ -229,7 +226,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
-                "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 18",
+                "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayngalpha | 6",
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
@@ -244,16 +241,15 @@
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
                 "❔ XX | 🟢 | vless | @v2rayvl | 6",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
-                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇮🇷 IR | 🔴 | vless | @v2rez | 3",
                 "🇺🇸 US | 🔴 | vless | @v2source | 19",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
-                "🇮🇷 IR | 🔴 | vless | @vaynora | 11",
+                "🇩🇪 DE | 🔴 | vless | @vaynora | 10",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
                 "🇮🇷 IR | 🔴 | vless | @vipvpnsia | 3",
-                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 18",
+                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 17",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇮🇷 IR | 🟢 | vless | @vpn4ir_1 | 0",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
@@ -265,7 +261,7 @@
                 "❔ XX | 🟢 | vless | @vpncostume | 8",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
-                "🇫🇮 FI | 🔴 | vless | @vpnod | 15",
+                "🇩🇪 DE | 🔴 | vless | @vpnod | 15",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
                 "🇺🇸 US | 🟢 | vless | @vpnv2raytop | 8",
@@ -277,7 +273,8 @@
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0",
                 "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
-            ]
+            ],
+            "interrupt_exist_connections": false
         },
         {
             "tag": "URL-TEST",
@@ -302,7 +299,7 @@
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @custom_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🟢 | vless | @deragv2ray | 2",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇩🇪 DE | 🔴 | vless | @dnsforyou | 0",
@@ -314,7 +311,7 @@
                 "❔ XX | 🔴 | vless | @erfanpaydartelegram | 9",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 6",
                 "🇮🇷 IR | 🔴 | vless | @fastvpnorummobile | 4",
-                "🇺🇸 US | 🔴 | vless | @father_vpn | 5",
+                "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
                 "❔ XX | 🟢 | vless | @flash_proxies | 0",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @freakconfig1 | 2",
@@ -337,7 +334,9 @@
                 "🇺🇸 US | 🟢 | vless | @hopev2ray | 5",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @idigitalz | 0",
+                "🇩🇪 DE | 🔴 | vless | @imhdiyvp | 12",
                 "🇮🇷 IR | 🔴 | vless | @info_2it_channel | 12",
+                "🇮🇷 IR | 🔴 | vless | @ip_cf_config | 12",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @iranbaxvpn | 8",
                 "🇷🇺 RU | 🔴 | vless | @iranbfilter | 6",
@@ -370,22 +369,24 @@
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
-                "🇩🇪 DE | 🔴 | vless | @mowjproxy | 5",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "❔ XX | 🔴 | vless | @mtpv2ray | 8",
                 "🇨🇦 CA | 🟢 | vless | @n2vpn | 9",
                 "🇺🇸 US | 🟢 | vless | @nepo_v2ray | 23",
+                "🇮🇷 IR | 🔴 | vless | @netmellianti | 17",
                 "❔ XX | 🔴 | vless | @next_serverpanel | 4",
                 "🇮🇷 IR | 🔴 | vless | @nitroserver_ir | 1",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "🇩🇪 DE | 🔴 | vless | @nofilter_v2rayng | 8",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 3",
+                "🇮🇷 IR | 🔴 | vless | @outlinev2rayng | 16",
                 "🇺🇸 US | 🟢 | vless | @proxie | 16",
                 "❔ XX | 🔴 | vless | @proxy48 | 14",
                 "❔ XX | 🟢 | vless | @proxy_confiingir | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
+                "🇮🇷 IR | 🔴 | vless | @proxy_mtproto_vpns_free | 16",
                 "🇺🇸 US | 🟢 | vless | @proxycrone | 10",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
@@ -407,7 +408,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
-                "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 18",
+                "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayngalpha | 6",
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
@@ -422,16 +423,15 @@
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
                 "❔ XX | 🟢 | vless | @v2rayvl | 6",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
-                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇮🇷 IR | 🔴 | vless | @v2rez | 3",
                 "🇺🇸 US | 🔴 | vless | @v2source | 19",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
-                "🇮🇷 IR | 🔴 | vless | @vaynora | 11",
+                "🇩🇪 DE | 🔴 | vless | @vaynora | 10",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
                 "🇮🇷 IR | 🔴 | vless | @vipvpnsia | 3",
-                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 18",
+                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 17",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇮🇷 IR | 🟢 | vless | @vpn4ir_1 | 0",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
@@ -443,7 +443,7 @@
                 "❔ XX | 🟢 | vless | @vpncostume | 8",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
-                "🇫🇮 FI | 🔴 | vless | @vpnod | 15",
+                "🇩🇪 DE | 🔴 | vless | @vpnod | 15",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
                 "🇺🇸 US | 🟢 | vless | @vpnv2raytop | 8",
@@ -456,16 +456,13 @@
                 "🇺🇸 US | 🔴 | vless | @zedping | 0",
                 "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
             ],
-            "url": "https://www.gstatic.com/generate_204",
-            "interval": "3m",
-            "tolerance": 50
+            "url": "https://detectportal.firefox.com/success.txt",
+            "interval": "5m",
+            "tolerance": 50,
+            "interrupt_exist_connections": false
         },
         {
             "tag": "direct",
-            "type": "direct"
-        },
-        {
-            "tag": "bypass",
             "type": "direct"
         },
         {
@@ -765,7 +762,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+            "tag": "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 8080,
@@ -919,7 +916,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @father_vpn | 5",
+            "tag": "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
             "type": "vless",
             "server": "server2.ultra-irancell.com",
             "server_port": 80,
@@ -1291,6 +1288,15 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔴 | vless | @imhdiyvp | 12",
+            "type": "vless",
+            "server": "dest.realtechshop.top",
+            "server_port": 666,
+            "uuid": "ff8fffd7-3546-488b-a5f2-a74896da74a2",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇮🇷 IR | 🔴 | vless | @info_2it_channel | 12",
             "type": "vless",
             "server": "hf.tin9.ir",
@@ -1303,6 +1309,24 @@
                 "path": "/",
                 "headers": {
                     "Host": "hf.tin9.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vless | @ip_cf_config | 12",
+            "type": "vless",
+            "server": "hydrovpnsrv1.craftedrpg.ir",
+            "server_port": 443,
+            "uuid": "0001691a-e408-461c-9a09-96e46c156bdb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hydrovpnsrv1.craftedrpg.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -1837,15 +1861,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @mowjproxy | 5",
-            "type": "vless",
-            "server": "00064.mutee.com.tr",
-            "server_port": 4471,
-            "uuid": "868ceb7d-6ef1-4bbd-ad39-2e365a7e22c5",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
             "type": "vless",
             "server": "mrvpn1403.rightel001.chaghooosazi.shop",
@@ -1954,6 +1969,15 @@
             }
         },
         {
+            "tag": "🇮🇷 IR | 🔴 | vless | @netmellianti | 17",
+            "type": "vless",
+            "server": "ir238.cdnscloud.org",
+            "server_port": 7777,
+            "uuid": "3bcc6dbf-0ab4-4674-85c8-39bd994434f9",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "❔ XX | 🔴 | vless | @next_serverpanel | 4",
             "type": "vless",
             "server": "salar.mohad.sbs",
@@ -2034,6 +2058,22 @@
                 "path": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vless | @outlinev2rayng | 16",
+            "type": "vless",
+            "server": "vip.novinaccount.cfd",
+            "server_port": 39706,
+            "uuid": "b6dc86ec-e166-4db4-9a4c-65e44e6773fa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "vip.novinaccount.cfd"
                 }
             }
         },
@@ -2129,6 +2169,15 @@
             "server": "ir.any-server.cfd",
             "server_port": 24041,
             "uuid": "36c540df-eed6-4d7a-994c-dd766a86db30",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vless | @proxy_mtproto_vpns_free | 16",
+            "type": "vless",
+            "server": "world1.royalping.org",
+            "server_port": 44283,
+            "uuid": "310dffcd-5f4b-43eb-ba9b-6d74eab01a40",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -2483,11 +2532,11 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 18",
+            "tag": "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 16",
             "type": "vless",
             "server": "taiger.raheaiande.ir",
             "server_port": 38505,
-            "uuid": "ca53433d-f743-40a4-e9c7-4a16a791ad77",
+            "uuid": "815757b8-48a3-42bf-b14b-5cbb8098d429",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -2792,15 +2841,6 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @v2rayweb | 19",
-            "type": "vless",
-            "server": "ir1.phantompanel.shop",
-            "server_port": 19309,
-            "uuid": "689704e7-1c9b-420a-b685-aaee7d530a4e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
             "type": "vless",
             "server": "www.canva.com",
@@ -2874,11 +2914,11 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @vaynora | 11",
+            "tag": "🇩🇪 DE | 🔴 | vless | @vaynora | 10",
             "type": "vless",
-            "server": "d13.sinapp1.com",
-            "server_port": 12017,
-            "uuid": "fc191c1c-da21-4333-83de-37c1e6657baa",
+            "server": "g1.dynamicf14.top",
+            "server_port": 3400,
+            "uuid": "3a73e2f9-0668-4caf-bc10-1fda91c4d543",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -2917,7 +2957,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vmess_ir | 18",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vmess_ir | 17",
             "type": "vless",
             "server": "it.panelmarzban.com",
             "server_port": 3037,
@@ -3130,7 +3170,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔴 | vless | @vpnod | 15",
+            "tag": "🇩🇪 DE | 🔴 | vless | @vpnod | 15",
             "type": "vless",
             "server": "start.adsplustnet.com",
             "server_port": 80,
@@ -3328,68 +3368,110 @@
     "route": {
         "auto_detect_interface": true,
         "override_android_vpn": true,
-        "final": "proxy",
-        "geoip": {
-            "download_url": "https://github.com/MiSaturo/sing-box-geoip-ir/releases/latest/download/geoip.db",
-            "download_detour": "direct"
-        },
-        "geosite": {
-            "download_url": "https://github.com/MasterKia/iran-hosted-domains/releases/latest/download/iran-geosite.db",
-            "download_detour": "direct"
-        },
+        "final": "Proxy",
         "rules": [
             {
-                "outbound": "dns-out",
-                "port": [
-                    53
-                ]
-            },
-            {
-                "inbound": [
-                    "dns-in"
-                ],
+                "protocol": "dns",
                 "outbound": "dns-out"
             },
             {
+                "network": "udp",
+                "port": 443,
+                "outbound": "block"
+            },
+            {
+                "ip_is_private": true,
+                "outbound": "direct"
+            },
+            {
                 "domain_suffix": [
-                    "ir"
-                ],
-                "outbound": "bypass"
-            },
-            {
-                "geoip": [
-                    "ir"
-                ],
-                "outbound": "bypass"
-            },
-            {
-                "geosite": [
-                    "ir"
+                    ".ir"
                 ],
                 "outbound": "direct"
             },
             {
-                "geosite": [
-                    "other"
-                ],
-                "outbound": "direct"
-            },
-            {
-                "geosite": [
-                    "ads"
+                "rule_set": [
+                    "geosite-category-ads-all",
+                    "geosite-malware",
+                    "geosite-phishing",
+                    "geosite-cryptominers",
+                    "geoip-malware",
+                    "geoip-phishing"
                 ],
                 "outbound": "block"
             },
             {
-                "ip_cidr": [
-                    "224.0.0.0/3",
-                    "ff00::/8"
+                "rule_set": [
+                    "geoip-ir",
+                    "geosite-ir"
                 ],
-                "outbound": "block",
-                "source_ip_cidr": [
-                    "224.0.0.0/3",
-                    "ff00::/8"
-                ]
+                "outbound": "direct"
+            }
+        ],
+        "rule_set": [
+            {
+                "tag": "geosite-ir",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+                "download_detour": "direct",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "geosite-category-ads-all",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-category-ads-all.srs",
+                "download_detour": "direct",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "geosite-malware",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-malware.srs",
+                "download_detour": "direct",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "geosite-phishing",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-phishing.srs",
+                "download_detour": "direct",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "geosite-cryptominers",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-cryptominers.srs",
+                "download_detour": "direct",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "geoip-ir",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
+                "download_detour": "direct",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "geoip-malware",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-malware.srs",
+                "download_detour": "direct",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "geoip-phishing",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-phishing.srs",
+                "download_detour": "direct",
+                "update_interval": "1d"
             }
         ]
     }
