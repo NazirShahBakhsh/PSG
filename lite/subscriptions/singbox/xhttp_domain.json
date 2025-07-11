@@ -99,7 +99,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @blueshekan | 2",
-                "🇮🇹 IT | 🔴 | vless | @club_profsor | 15",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -119,7 +118,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @blueshekan | 2",
-                "🇮🇹 IT | 🔴 | vless | @club_profsor | 15",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -155,15 +153,6 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "7fa08b3d-86d8-4b14-92b3-4c56a83f027d",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇹 IT | 🔴 | vless | @club_profsor | 15",
-            "type": "vless",
-            "server": "fast1.beraghsa.ir",
-            "server_port": 80,
-            "uuid": "babyshark",
             "flow": "",
             "packet_encoding": "xudp"
         },
