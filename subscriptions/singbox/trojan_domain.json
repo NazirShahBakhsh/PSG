@@ -103,9 +103,8 @@
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 31",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 19",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 6",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -133,9 +132,8 @@
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 31",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 19",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 6",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -269,49 +267,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
-            "type": "trojan",
-            "server": "xsdcfrty.852224.dpdns.org",
-            "server_port": 443,
-            "password": "049b291e-5752-448c-9b9d-92c7ea45611f",
-            "tls": {
-                "enabled": true,
-                "server_name": "xsdcfrty.852224.dpdns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/81bnG0PX0s30mLz663",
-                "headers": {
-                    "Host": "xsdcfrty.852224.dpdns.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @freevpnatm | 19",
-            "type": "trojan",
-            "server": "dfrtyu.852224.dpdns.org",
-            "server_port": 443,
-            "password": "049b291e-5752-448c-9b9d-92c7ea45611f",
-            "tls": {
-                "enabled": true,
-                "server_name": "dfrtyu.852224.dpdns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "81bnG0PX0s37kaCCauulmSV2t"
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
             "type": "trojan",
             "server": "usa.test3.net",
@@ -326,6 +281,13 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
+            "type": "trojan",
+            "server": "391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net",
+            "server_port": 15229,
+            "password": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",

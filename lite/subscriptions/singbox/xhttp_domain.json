@@ -109,8 +109,8 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13",
+                "🇳🇱 NL | 🟢 | vless | @vistav2ray | 15",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
             ],
             "interrupt_exist_connections": false
@@ -130,8 +130,8 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13",
+                "🇳🇱 NL | 🟢 | vless | @vistav2ray | 15",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -274,15 +274,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
-            "type": "vless",
-            "server": "viop.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "f2806d75-82b6-4983-897e-29171592a589",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13",
             "type": "vless",
             "server": "speedtest.net",
@@ -290,6 +281,24 @@
             "uuid": "4dd5e5d7-8b91-4bdf-8c8b-ea18d6476416",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @vistav2ray | 15",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @zedping | 0",

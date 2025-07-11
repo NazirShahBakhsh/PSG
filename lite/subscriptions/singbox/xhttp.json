@@ -100,7 +100,7 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
-                "🇺🇸 US | 🔴 | vless | @freevirgoolnet | 8",
+                "🇺🇸 US | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 16",
                 "🇺🇸 US | 🔴 | vless | @hooshemasnui | 4",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 12",
@@ -111,7 +111,8 @@
                 "🇺🇸 US | 🔴 | vless | @srcvpn | 30",
                 "🇺🇸 US | 🔴 | vless | @trueproxy | 5",
                 "🇺🇸 US | 🔴 | vless | @v2rayopen | 8",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 17",
+                "🇺🇸 US | 🔴 | vless | @v2rayvpn2 | 4",
+                "🇹🇷 TR | 🟢 | vless | @vmesc | 16",
                 "🇺🇸 US | 🔴 | vless | @blueshekan | 2",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
@@ -123,8 +124,8 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13",
+                "🇳🇱 NL | 🟢 | vless | @vistav2ray | 15",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
             ],
             "interrupt_exist_connections": false
@@ -135,7 +136,7 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
-                "🇺🇸 US | 🔴 | vless | @freevirgoolnet | 8",
+                "🇺🇸 US | 🔴 | vless | @free1_vpn | 10",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 16",
                 "🇺🇸 US | 🔴 | vless | @hooshemasnui | 4",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 12",
@@ -146,7 +147,8 @@
                 "🇺🇸 US | 🔴 | vless | @srcvpn | 30",
                 "🇺🇸 US | 🔴 | vless | @trueproxy | 5",
                 "🇺🇸 US | 🔴 | vless | @v2rayopen | 8",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 17",
+                "🇺🇸 US | 🔴 | vless | @v2rayvpn2 | 4",
+                "🇹🇷 TR | 🟢 | vless | @vmesc | 16",
                 "🇺🇸 US | 🔴 | vless | @blueshekan | 2",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
@@ -158,8 +160,8 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13",
+                "🇳🇱 NL | 🟢 | vless | @vistav2ray | 15",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -198,7 +200,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @freevirgoolnet | 8",
+            "tag": "🇺🇸 US | 🔴 | vless | @free1_vpn | 10",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
@@ -325,13 +327,36 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 17",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayvpn2 | 4",
             "type": "vless",
-            "server": "151.101.67.8",
+            "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "8088c605-e0c2-4774-9ee4-7fa7e47b6112",
+            "uuid": "e12c912c-4172-491c-b3bd-628a6821b6fa",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇹🇷 TR | 🟢 | vless | @vmesc | 16",
+            "type": "vless",
+            "server": "46.31.76.3",
+            "server_port": 80,
+            "uuid": "295afac4-e906-4e08-b1ce-524177c7ecb1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oTX6mQJYxkmmdF7Rq_stAKX_hYoOMXGaWmoblFl2zgo",
+                    "short_id": "5942e2"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @blueshekan | 2",
@@ -456,15 +481,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
-            "type": "vless",
-            "server": "viop.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "f2806d75-82b6-4983-897e-29171592a589",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13",
             "type": "vless",
             "server": "speedtest.net",
@@ -472,6 +488,24 @@
             "uuid": "4dd5e5d7-8b91-4bdf-8c8b-ea18d6476416",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @vistav2ray | 15",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @zedping | 0",
