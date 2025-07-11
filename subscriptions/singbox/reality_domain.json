@@ -108,13 +108,11 @@
                 "🇳🇱 NL | 🟢 | vless | @canfing_vpn | 16",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
-                "🇫🇮 FI | 🟢 | vless | @config_proxy | 98",
-                "🇫🇮 FI | 🟢 | vless | @config_proxy | 99",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 16",
                 "🇺🇦 UA | 🟢 | vless | @cook_vpn | 0",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 11",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
                 "🇩🇪 DE | 🟢 | vless | @filter_breaker | 98",
                 "🇮🇷 IR | 🟢 | vless | @filter_breaker | 99",
                 "❔ XX | 🟢 | vless | @free_omega | 0",
@@ -163,8 +161,9 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_sub | 0",
                 "❔ XX | 🟢 | vless | @v2rayang201 | 3",
+                "🇩🇪 DE | 🟢 | vless | @v2raych | 19",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
-                "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 11",
+                "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 8",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
@@ -209,13 +208,11 @@
                 "🇳🇱 NL | 🟢 | vless | @canfing_vpn | 16",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
-                "🇫🇮 FI | 🟢 | vless | @config_proxy | 98",
-                "🇫🇮 FI | 🟢 | vless | @config_proxy | 99",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 16",
                 "🇺🇦 UA | 🟢 | vless | @cook_vpn | 0",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 11",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
                 "🇩🇪 DE | 🟢 | vless | @filter_breaker | 98",
                 "🇮🇷 IR | 🟢 | vless | @filter_breaker | 99",
                 "❔ XX | 🟢 | vless | @free_omega | 0",
@@ -264,8 +261,9 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_sub | 0",
                 "❔ XX | 🟢 | vless | @v2rayang201 | 3",
+                "🇩🇪 DE | 🟢 | vless | @v2raych | 19",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
-                "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 11",
+                "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 8",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
@@ -550,52 +548,6 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @config_proxy | 98",
-            "type": "vless",
-            "server": "howl.origamimarketings.com",
-            "server_port": 6666,
-            "uuid": "905c78d8-a213-4b15-b4ae-e1b5a8fdde45",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E",
-                    "short_id": "42c0b628ba6a42a9"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @config_proxy | 99",
-            "type": "vless",
-            "server": "howl.origamimarketings.com",
-            "server_port": 6666,
-            "uuid": "23c66348-016f-4db8-9786-e6b618698541",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E",
-                    "short_id": "42c0b628ba6a42a9"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🟢 | vless | @configfa | 16",
             "type": "vless",
             "server": "www.zooboming.com",
@@ -696,7 +648,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 11",
+            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
             "type": "vless",
             "server": "real-all2.sdcards.ir",
             "server_port": 8509,
@@ -1902,6 +1854,33 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2raych | 19",
+            "type": "vless",
+            "server": "S1.LoadBalance.LAT",
+            "server_port": 7845,
+            "uuid": "6fcb287e-1b92-4c03-b5ca-aa668dad2f51",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OTv4I7eaaqHgYAlL5EIrDlotApPujvk9OoJU58FRGz4",
+                    "short_id": "e17185329455b179"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
             "type": "vless",
             "server": "pub2.legendaryking.link",
@@ -1929,7 +1908,7 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 11",
+            "tag": "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 8",
             "type": "vless",
             "server": "taiger.raheaiande.ir",
             "server_port": 38505,

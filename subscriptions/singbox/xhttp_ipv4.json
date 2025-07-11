@@ -134,17 +134,17 @@
                 "🇺🇸 US | 🔴 | vless | @proxyy | 0",
                 "🇺🇸 US | 🔴 | vless | @proxyy | 1",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @trueproxy | 4",
+                "🇺🇸 US | 🔴 | vless | @trueproxy | 2",
                 "🇳🇱 NL | 🟢 | vless | @uvpn_org | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_one1 | 9",
                 "🇸🇪 SE | 🟢 | vless | @v2ray_sos | 0",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_vmes | 14",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 9",
+                "🇺🇸 US | 🔴 | vless | @v2rayng_channel_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @v2reay | 10",
                 "🇺🇸 US | 🔴 | vless | @v2source | 15",
                 "🇹🇷 TR | 🟢 | vless | @vmesc | 14",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 15",
-                "🇺🇸 US | 🔴 | vless | @vpn_ioss | 17",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 14",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 9",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 12",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13"
@@ -191,17 +191,17 @@
                 "🇺🇸 US | 🔴 | vless | @proxyy | 0",
                 "🇺🇸 US | 🔴 | vless | @proxyy | 1",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @trueproxy | 4",
+                "🇺🇸 US | 🔴 | vless | @trueproxy | 2",
                 "🇳🇱 NL | 🟢 | vless | @uvpn_org | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_one1 | 9",
                 "🇸🇪 SE | 🟢 | vless | @v2ray_sos | 0",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_vmes | 14",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 9",
+                "🇺🇸 US | 🔴 | vless | @v2rayng_channel_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @v2reay | 10",
                 "🇺🇸 US | 🔴 | vless | @v2source | 15",
                 "🇹🇷 TR | 🟢 | vless | @vmesc | 14",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 15",
-                "🇺🇸 US | 🔴 | vless | @vpn_ioss | 17",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 14",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 9",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 12",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13"
@@ -613,7 +613,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @trueproxy | 4",
+            "tag": "🇺🇸 US | 🔴 | vless | @trueproxy | 2",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
@@ -718,6 +718,15 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayng_channel_vpn | 3",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "04327cef-1084-431a-d595-cfcf9593cbc3",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @v2reay | 10",
             "type": "vless",
             "server": "151.101.67.8",
@@ -759,20 +768,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 15",
+            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 14",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
             "uuid": "8088c605-e0c2-4774-9ee4-7fa7e47b6112",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vpn_ioss | 17",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "04327cef-1084-431a-d595-cfcf9593cbc3",
             "flow": "",
             "packet_encoding": "xudp"
         },
