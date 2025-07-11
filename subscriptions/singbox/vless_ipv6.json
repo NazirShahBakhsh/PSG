@@ -114,7 +114,6 @@
                 "❔ XX | 🔴 | vless | @vpn_matin_best1 | 1",
                 "❔ XX | 🔴 | vless | @vpnstorefast | 11",
                 "❔ XX | 🔴 | vless | @vpnstorefast | 12",
-                "❔ XX | 🟢 | vless | @vpnvg | 10",
                 "❔ XX | 🟢 | vless | @yekoyekvpn | 0",
                 "❔ XX | 🔴 | vless | @zilv2ray_service | 6",
                 "❔ XX | 🔴 | vless | @zilv2ray_service | 9",
@@ -142,7 +141,6 @@
                 "❔ XX | 🔴 | vless | @vpn_matin_best1 | 1",
                 "❔ XX | 🔴 | vless | @vpnstorefast | 11",
                 "❔ XX | 🔴 | vless | @vpnstorefast | 12",
-                "❔ XX | 🟢 | vless | @vpnvg | 10",
                 "❔ XX | 🟢 | vless | @yekoyekvpn | 0",
                 "❔ XX | 🔴 | vless | @zilv2ray_service | 6",
                 "❔ XX | 🔴 | vless | @zilv2ray_service | 9",
@@ -425,33 +423,6 @@
             "uuid": "TELEGRAM-ServerNett",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @vpnvg | 10",
-            "type": "vless",
-            "server": "[2a01:4f8:1c17:cadc::1]",
-            "server_port": 2083,
-            "uuid": "5a0beb93-56ae-4390-b5c2-8ed92f5f591d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Qa9ePuwo1TY2uVN8143Sh3YAiVqdDj9VIZcQK20DTzc",
-                    "short_id": "5654bc18"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Digiv2ray"
-            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @yekoyekvpn | 0",
