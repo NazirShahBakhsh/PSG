@@ -112,7 +112,7 @@
                 "🇺🇦 UA | 🟢 | vless | @cook_vpn | 1",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 9",
                 "🇩🇪 DE | 🟢 | vless | @filter_breaker | 98",
                 "🇮🇷 IR | 🟢 | vless | @filter_breaker | 99",
                 "❔ XX | 🟢 | vless | @free_omega | 0",
@@ -167,10 +167,11 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
                 "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
-                "🇮🇷 IR | 🟢 | vless | @v2reay | 11",
-                "🇩🇪 DE | 🟢 | vless | @v2reay | 12",
+                "🇮🇷 IR | 🟢 | vless | @v2reay | 10",
+                "🇩🇪 DE | 🟢 | vless | @v2reay | 11",
                 "🇩🇪 DE | 🟢 | vless | @vaslvip | 13",
                 "❔ XX | 🟢 | vless | @vp22ray | 6",
                 "❔ XX | 🟢 | vless | @vp22ray | 7",
@@ -212,7 +213,7 @@
                 "🇺🇦 UA | 🟢 | vless | @cook_vpn | 1",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 9",
                 "🇩🇪 DE | 🟢 | vless | @filter_breaker | 98",
                 "🇮🇷 IR | 🟢 | vless | @filter_breaker | 99",
                 "❔ XX | 🟢 | vless | @free_omega | 0",
@@ -267,10 +268,11 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
                 "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
-                "🇮🇷 IR | 🟢 | vless | @v2reay | 11",
-                "🇩🇪 DE | 🟢 | vless | @v2reay | 12",
+                "🇮🇷 IR | 🟢 | vless | @v2reay | 10",
+                "🇩🇪 DE | 🟢 | vless | @v2reay | 11",
                 "🇩🇪 DE | 🟢 | vless | @vaslvip | 13",
                 "❔ XX | 🟢 | vless | @vp22ray | 6",
                 "❔ XX | 🟢 | vless | @vp22ray | 7",
@@ -648,7 +650,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
+            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 9",
             "type": "vless",
             "server": "real-all2.sdcards.ir",
             "server_port": 8509,
@@ -2000,6 +2002,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
+            "type": "vless",
+            "server": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
+            "server_port": 443,
+            "uuid": "33707040-edcf-4185-94e4-2a071315c602",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ",
+                    "short_id": "7def4dde"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
             "type": "vless",
             "server": "accpremium.outlineprivate.store",
@@ -2050,7 +2075,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @v2reay | 11",
+            "tag": "🇮🇷 IR | 🟢 | vless | @v2reay | 10",
             "type": "vless",
             "server": "Host.iranservers.space",
             "server_port": 1040,
@@ -2073,7 +2098,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2reay | 12",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2reay | 11",
             "type": "vless",
             "server": "de01-vlr01.tcp-reset-club.net",
             "server_port": 443,
