@@ -98,13 +98,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦 CA | 🔴 | trojan | @NamiraNet | 65",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 31",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 14",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 6",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
@@ -131,8 +131,9 @@
                 "🇩🇪 DE | 🟢 | trojan | @free_serverir | 30",
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 10",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 8",
-                "🇷🇺 RU | 🟢 | trojan | @jokerrvpn | 41",
+                "🇷🇺 RU | 🟢 | trojan | @jokerrvpn | 36",
                 "🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13",
                 "🇮🇷 IR | 🔴 | trojan | @mahanvpn | 0",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
@@ -174,13 +175,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦 CA | 🔴 | trojan | @NamiraNet | 65",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 31",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 14",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 6",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
@@ -207,8 +208,9 @@
                 "🇩🇪 DE | 🟢 | trojan | @free_serverir | 30",
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 10",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 8",
-                "🇷🇺 RU | 🟢 | trojan | @jokerrvpn | 41",
+                "🇷🇺 RU | 🟢 | trojan | @jokerrvpn | 36",
                 "🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13",
                 "🇮🇷 IR | 🔴 | trojan | @mahanvpn | 0",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
@@ -260,6 +262,20 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦 CA | 🔴 | trojan | @NamiraNet | 65",
+            "type": "trojan",
+            "server": "ssrsub.cloudflare.182682.xyz",
+            "server_port": 8443,
+            "password": "67828a6e-0144-4e57-8169-2447a3dd2e61",
+            "transport": {
+                "type": "ws",
+                "path": "/profile/telegram@ssrsub",
+                "headers": {
+                    "Host": "cdn-node-oss-99.paofu.de"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @armodchannel | 59",
@@ -375,13 +391,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 14",
-            "type": "trojan",
-            "server": "13c2c931-swin40-swy6li-tni2.cu.plebai.net",
-            "server_port": 15229,
-            "password": "5e2f888c-68ef-11ef-96ca-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -846,6 +855,22 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 10",
+            "type": "trojan",
+            "server": "198.23.229.250",
+            "server_port": 443,
+            "password": "2ee85121-31de-4581-a492-eb00f606e392",
+            "tls": {
+                "enabled": true,
+                "server_name": "rc6.freeguard.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🟢 | trojan | @jiedianf | 8",
             "type": "trojan",
             "server": "15.236.173.146",
@@ -862,7 +887,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | trojan | @jokerrvpn | 41",
+            "tag": "🇷🇺 RU | 🟢 | trojan | @jokerrvpn | 36",
             "type": "trojan",
             "server": "176.32.39.29",
             "server_port": 443,

@@ -293,8 +293,8 @@
     "config_proxy": {
         "types": [
             "vless",
-            "vmess",
-            "trojan"
+            "trojan",
+            "vmess"
         ],
         "title": "Proxy | V2ray | Config | Vpn | Hiddify | Nekobox | Segaro | پروکسی | فیلترشکن | ایرانسل | همراه اول | رایتل | سامانتل | مخابرات|",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/config_proxy.jpg"
@@ -766,9 +766,9 @@
     },
     "freakconfig": {
         "types": [
-            "ss",
             "vmess",
-            "vless"
+            "vless",
+            "trojan"
         ],
         "title": "سرور کانفیگ کانفینگ رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/freakconfig.jpg"
@@ -1201,8 +1201,8 @@
     },
     "ip_cf_config": {
         "types": [
-            "vless",
             "vmess",
+            "vless",
             "trojan",
             "ss"
         ],
@@ -1812,8 +1812,8 @@
     },
     "mowjproxy": {
         "types": [
-            "vmess",
             "vless",
+            "vmess",
             "ss"
         ],
         "title": "Mowj Proxy",
@@ -2251,7 +2251,6 @@
     "proxy_mtproto_vpns_free": {
         "types": [
             "vless",
-            "vmess",
             "ss"
         ],
         "title": "VPNs Proxy Mtproto",
@@ -2921,7 +2920,6 @@
     "v2rayfree": {
         "types": [
             "vless",
-            "vmess",
             "ss"
         ],
         "title": "VPNs Proxy Mtproto",
@@ -3213,8 +3211,7 @@
     },
     "v2rayweb": {
         "types": [
-            "vless",
-            "vmess"
+            "vless"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -3325,7 +3322,6 @@
     },
     "vaynora": {
         "types": [
-            "ss",
             "vless"
         ],
         "title": "VayNora",
@@ -3692,8 +3688,8 @@
     },
     "vpnv2rayngv": {
         "types": [
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "کانفینگ پروکسی وی توری نت ملی اسکوئید گیم خرید سرورفیلترشکن بازی مرکب وی پی ان اسکویید گیم ایران vpn v2rayNG vmess vless proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpnv2rayngv.jpg"
