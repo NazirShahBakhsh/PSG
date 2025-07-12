@@ -109,10 +109,11 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 16",
+                "🇳🇱 NL | 🟢 | vless | @configshubplus | 18",
                 "🇺🇦 UA | 🟢 | vless | @cook_vpn | 1",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 13",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
                 "🇩🇪 DE | 🟢 | vless | @filter_breaker | 98",
                 "🇮🇷 IR | 🟢 | vless | @filter_breaker | 99",
                 "❔ XX | 🟢 | vless | @free_omega | 0",
@@ -167,7 +168,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
-                "🇳🇱 NL | 🟢 | vless | @v2rayweb | 15",
                 "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇮🇷 IR | 🟢 | vless | @v2reay | 7",
@@ -211,10 +211,11 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 16",
+                "🇳🇱 NL | 🟢 | vless | @configshubplus | 18",
                 "🇺🇦 UA | 🟢 | vless | @cook_vpn | 1",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 13",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
                 "🇩🇪 DE | 🟢 | vless | @filter_breaker | 98",
                 "🇮🇷 IR | 🟢 | vless | @filter_breaker | 99",
                 "❔ XX | 🟢 | vless | @free_omega | 0",
@@ -269,7 +270,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
-                "🇳🇱 NL | 🟢 | vless | @v2rayweb | 15",
                 "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇮🇷 IR | 🟢 | vless | @v2reay | 7",
@@ -579,6 +579,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🟢 | vless | @configshubplus | 18",
+            "type": "vless",
+            "server": "a.nl.maviks.ru",
+            "server_port": 443,
+            "uuid": "c3afb549-2c79-4787-9d67-ccd1581fb70f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
+                    "short_id": "21181028b56c8702"
+                }
+            }
+        },
+        {
             "tag": "🇺🇦 UA | 🟢 | vless | @cook_vpn | 1",
             "type": "vless",
             "server": "rffxfgjfgngf.mohammad8563.site",
@@ -652,7 +675,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 13",
+            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
             "type": "vless",
             "server": "real-all2.sdcards.ir",
             "server_port": 8509,
@@ -2000,29 +2023,6 @@
                     "enabled": true,
                     "public_key": "bf0D8kLkfGVYP8NVpiOGKcm-wutxlcLXua3760tRgkI",
                     "short_id": "adf6b90c"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @v2rayweb | 15",
-            "type": "vless",
-            "server": "a.nl.maviks.ru",
-            "server_port": 443,
-            "uuid": "c3afb549-2c79-4787-9d67-ccd1581fb70f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
-                    "short_id": "21181028b56c8702"
                 }
             }
         },

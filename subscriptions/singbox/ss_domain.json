@@ -99,26 +99,22 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧 GB | 🟢 | ss | @Fr33C0nfig | 55",
-                "🇳🇱 NL | 🟢 | ss | @NamiraNet | 65",
-                "🇺🇸 US | 🟢 | ss | @NamiraNet | 66",
                 "🇺🇸 US | 🟢 | ss | @chestertm | 10",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇬🇧 GB | 🟢 | ss | @club_profsor | 15",
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 2",
-                "🇬🇧 GB | 🟢 | ss | @connect_sho | 19",
                 "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
+                "🇳🇱 NL | 🟢 | ss | @dalton_ping | 11",
                 "🇨🇭 CH | 🟢 | ss | @dalton_ping | 12",
                 "🇬🇧 GB | 🟢 | ss | @deamnet_proxy | 15",
                 "🇬🇧 GB | 🟢 | ss | @deamnet_proxy | 18",
-                "🇩🇪 DE | 🟢 | ss | @entrynet | 16",
                 "🇬🇧 GB | 🟢 | ss | @expressvpn_420 | 10",
                 "🇬🇧 GB | 🟢 | ss | @fastkanfig | 8",
                 "🇬🇧 GB | 🟢 | ss | @fastkanfig | 9",
                 "🇬🇧 GB | 🟢 | ss | @fastvpnorummobile | 3",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
-                "🇳🇱 NL | 🟢 | ss | @ip_cf_config | 15",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -154,26 +150,22 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧 GB | 🟢 | ss | @Fr33C0nfig | 55",
-                "🇳🇱 NL | 🟢 | ss | @NamiraNet | 65",
-                "🇺🇸 US | 🟢 | ss | @NamiraNet | 66",
                 "🇺🇸 US | 🟢 | ss | @chestertm | 10",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇬🇧 GB | 🟢 | ss | @club_profsor | 15",
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 2",
-                "🇬🇧 GB | 🟢 | ss | @connect_sho | 19",
                 "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
+                "🇳🇱 NL | 🟢 | ss | @dalton_ping | 11",
                 "🇨🇭 CH | 🟢 | ss | @dalton_ping | 12",
                 "🇬🇧 GB | 🟢 | ss | @deamnet_proxy | 15",
                 "🇬🇧 GB | 🟢 | ss | @deamnet_proxy | 18",
-                "🇩🇪 DE | 🟢 | ss | @entrynet | 16",
                 "🇬🇧 GB | 🟢 | ss | @expressvpn_420 | 10",
                 "🇬🇧 GB | 🟢 | ss | @fastkanfig | 8",
                 "🇬🇧 GB | 🟢 | ss | @fastkanfig | 9",
                 "🇬🇧 GB | 🟢 | ss | @fastvpnorummobile | 3",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
-                "🇳🇱 NL | 🟢 | ss | @ip_cf_config | 15",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -228,22 +220,6 @@
             "password": "69MUii7VDwMqh7Hz"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraNet | 65",
-            "type": "shadowsocks",
-            "server": "h110vpnnl.outlinekeys.net",
-            "server_port": 52571,
-            "method": "chacha20-ietf-poly1305",
-            "password": "jXfsyaUTwZxGuaSLwIky3S"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | ss | @NamiraNet | 66",
-            "type": "shadowsocks",
-            "server": "h110vpnus.outlinekeys.net",
-            "server_port": 9483,
-            "method": "chacha20-ietf-poly1305",
-            "password": "nLwAl3svNCBPtG9I2FrVYI"
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | ss | @chestertm | 10",
             "type": "shadowsocks",
             "server": "fake.namasha.co",
@@ -292,20 +268,20 @@
             "password": "M2E4ZGY2ZjI5MzU2ODAxMjEwYzgyNzQ0MGM5NGUy"
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | ss | @connect_sho | 19",
-            "type": "shadowsocks",
-            "server": "Peweza2.digipedia.shop",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "WstuSnlu4ieA9M0L"
-        },
-        {
             "tag": "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
             "type": "shadowsocks",
             "server": "account-mec.emofid.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "7ivrGEHY88sQk3DP"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | ss | @dalton_ping | 11",
+            "type": "shadowsocks",
+            "server": "h110vpnnl.outlinekeys.net",
+            "server_port": 52571,
+            "method": "chacha20-ietf-poly1305",
+            "password": "jXfsyaUTwZxGuaSLwIky3S"
         },
         {
             "tag": "🇨🇭 CH | 🟢 | ss | @dalton_ping | 12",
@@ -330,14 +306,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "WstuSnlu4ieA9M0L"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | ss | @entrynet | 16",
-            "type": "shadowsocks",
-            "server": "h110vpnde.outlinekeys.net",
-            "server_port": 21712,
-            "method": "chacha20-ietf-poly1305",
-            "password": "aXUYPhCtCGnMqSAqs86dhq"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @expressvpn_420 | 10",
@@ -378,14 +346,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "AcGFEsMR6c07Txux"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | ss | @ip_cf_config | 15",
-            "type": "shadowsocks",
-            "server": "beesyar.org",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
