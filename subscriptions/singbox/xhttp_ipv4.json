@@ -102,7 +102,8 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 15",
                 "🇺🇸 US | 🔴 | vless | @befreewithus | 0",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
-                "🇺🇸 US | 🔴 | vless | @configms | 16",
+                "🇺🇸 US | 🔴 | vless | @config_proxy | 74",
+                "🇺🇸 US | 🔴 | vless | @configms | 15",
                 "🇩🇪 DE | 🟢 | vless | @custom_config | 0",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🔴 | vless | @dalton_ping | 9",
@@ -151,7 +152,8 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 15",
                 "🇺🇸 US | 🔴 | vless | @befreewithus | 0",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
-                "🇺🇸 US | 🔴 | vless | @configms | 16",
+                "🇺🇸 US | 🔴 | vless | @config_proxy | 74",
+                "🇺🇸 US | 🔴 | vless | @configms | 15",
                 "🇩🇪 DE | 🟢 | vless | @custom_config | 0",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 10",
                 "🇺🇸 US | 🔴 | vless | @dalton_ping | 9",
@@ -244,7 +246,16 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @configms | 16",
+            "tag": "🇺🇸 US | 🔴 | vless | @config_proxy | 74",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "c60c5106-08b1-4fe7-eff9-d665d62f3030",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @configms | 15",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
