@@ -108,12 +108,12 @@
                 "🇳🇱 NL | 🟢 | vless | @canfing_vpn | 16",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
+                "🇩🇪 DE | 🟢 | vless | @config_proxy | 72",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 16",
-                "🇳🇱 NL | 🟢 | vless | @configshubplus | 18",
                 "🇺🇦 UA | 🟢 | vless | @cook_vpn | 1",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 12",
                 "🇩🇪 DE | 🟢 | vless | @filter_breaker | 98",
                 "🇮🇷 IR | 🟢 | vless | @filter_breaker | 99",
                 "❔ XX | 🟢 | vless | @free_omega | 0",
@@ -140,6 +140,7 @@
                 "🇩🇪 DE | 🟢 | vless | @kurdistan_vpn_perfectt | 4",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "🇬🇧 GB | 🟢 | vless | @meli_proxyy | 13",
+                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 5",
                 "❔ XX | 🟢 | vless | @mtpv2ray | 7",
                 "🇮🇷 IR | 🟢 | vless | @netmellianti | 14",
                 "🇮🇷 IR | 🟢 | vless | @netmellianti | 15",
@@ -210,12 +211,12 @@
                 "🇳🇱 NL | 🟢 | vless | @canfing_vpn | 16",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
+                "🇩🇪 DE | 🟢 | vless | @config_proxy | 72",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 16",
-                "🇳🇱 NL | 🟢 | vless | @configshubplus | 18",
                 "🇺🇦 UA | 🟢 | vless | @cook_vpn | 1",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
-                "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
+                "🇩🇪 DE | 🟢 | vless | @falcunargo | 12",
                 "🇩🇪 DE | 🟢 | vless | @filter_breaker | 98",
                 "🇮🇷 IR | 🟢 | vless | @filter_breaker | 99",
                 "❔ XX | 🟢 | vless | @free_omega | 0",
@@ -242,6 +243,7 @@
                 "🇩🇪 DE | 🟢 | vless | @kurdistan_vpn_perfectt | 4",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "🇬🇧 GB | 🟢 | vless | @meli_proxyy | 13",
+                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 5",
                 "❔ XX | 🟢 | vless | @mtpv2ray | 7",
                 "🇮🇷 IR | 🟢 | vless | @netmellianti | 14",
                 "🇮🇷 IR | 🟢 | vless | @netmellianti | 15",
@@ -552,6 +554,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @config_proxy | 72",
+            "type": "vless",
+            "server": "hecror.bizipsych.ir",
+            "server_port": 38755,
+            "uuid": "7ff8a0c0-d0dd-4251-8f8f-46e9b44d44ba",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Hz-XqYNjjbZ4yOjM6IKlQSvzUbipK0DY5-rmH7f4SAo",
+                    "short_id": "585d50e4e2"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🟢 | vless | @configfa | 16",
             "type": "vless",
             "server": "www.zooboming.com",
@@ -576,29 +601,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers"
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @configshubplus | 18",
-            "type": "vless",
-            "server": "a.nl.maviks.ru",
-            "server_port": 443,
-            "uuid": "c3afb549-2c79-4787-9d67-ccd1581fb70f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
-                    "short_id": "21181028b56c8702"
-                }
             }
         },
         {
@@ -675,7 +677,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 10",
+            "tag": "🇩🇪 DE | 🟢 | vless | @falcunargo | 12",
             "type": "vless",
             "server": "real-all2.sdcards.ir",
             "server_port": 8509,
@@ -1351,6 +1353,29 @@
                     "enabled": true,
                     "public_key": "ioE61VC3V30U7IdRmQ3bjhOq2ij9tPhVIgAD4JZ4YRY",
                     "short_id": "0b5922be64fc5713"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @mowjproxy | 5",
+            "type": "vless",
+            "server": "ca.panelmarzban.com",
+            "server_port": 3041,
+            "uuid": "bb33bbef-ae43-4937-b636-e9ba3edcad73",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
+                    "short_id": ""
                 }
             }
         },
