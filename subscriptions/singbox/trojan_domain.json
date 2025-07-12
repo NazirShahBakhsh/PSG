@@ -100,12 +100,11 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇺🇸 US | 🟢 | trojan | @configshubplus | 15",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 31",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 7",
+                "🇭🇰 HK | 🟢 | trojan | @ip_cf_config | 13",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 6",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
@@ -120,7 +119,6 @@
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "❔ XX | 🟢 | trojan | @tenzovpn | 0",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
-                "🇩🇪 DE | 🔴 | trojan | @v2rayweb | 12",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12"
             ],
@@ -132,12 +130,11 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇺🇸 US | 🟢 | trojan | @configshubplus | 15",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 31",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 7",
+                "🇭🇰 HK | 🟢 | trojan | @ip_cf_config | 13",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 6",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
@@ -152,7 +149,6 @@
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "❔ XX | 🟢 | trojan | @tenzovpn | 0",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
-                "🇩🇪 DE | 🔴 | trojan | @v2rayweb | 12",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12"
             ],
@@ -207,29 +203,6 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @configshubplus | 15",
-            "type": "trojan",
-            "server": "log.bpminecraft.com",
-            "server_port": 443,
-            "password": "vip",
-            "tls": {
-                "enabled": true,
-                "server_name": "heihu880.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "heihu880.pages.dev"
                 }
             }
         },
@@ -312,11 +285,20 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 7",
+            "tag": "🇭🇰 HK | 🟢 | trojan | @ip_cf_config | 13",
             "type": "trojan",
-            "server": "13c2c931-swin40-swy6li-tni2.cu.plebai.net",
-            "server_port": 15229,
-            "password": "5e2f888c-68ef-11ef-96ca-f23c9164ca5d"
+            "server": "v01.gutingting.com",
+            "server_port": 30002,
+            "password": "1957909a-4f2a-4d9c-99ad-119d45f052c1",
+            "tls": {
+                "enabled": true,
+                "server_name": "v2tw01.fuqiangren.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -585,22 +567,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "170-187-134-190.ipv4.rush.ml",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | trojan | @v2rayweb | 12",
-            "type": "trojan",
-            "server": "nearby-sheep.goat627.mom",
-            "server_port": 443,
-            "password": "3763495894587285504",
-            "tls": {
-                "enabled": true,
-                "server_name": "nearby-sheep.goat627.mom",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
