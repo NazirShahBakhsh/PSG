@@ -100,11 +100,12 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇨🇳 CN | 🔴 | trojan | @connect_sho | 19",
+                "🇨🇳 CN | 🔴 | trojan | @connect_sho | 16",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 39",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 9",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 6",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
@@ -129,11 +130,12 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇨🇳 CN | 🔴 | trojan | @connect_sho | 19",
+                "🇨🇳 CN | 🔴 | trojan | @connect_sho | 16",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 39",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 9",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 6",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
@@ -205,7 +207,7 @@
             }
         },
         {
-            "tag": "🇨🇳 CN | 🔴 | trojan | @connect_sho | 19",
+            "tag": "🇨🇳 CN | 🔴 | trojan | @connect_sho | 16",
             "type": "trojan",
             "server": "q1.46322416.xyz",
             "server_port": 20220,
@@ -288,6 +290,13 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 9",
+            "type": "trojan",
+            "server": "13c2c931-swin40-swy6li-tni2.cu.plebai.net",
+            "server_port": 15229,
+            "password": "5e2f888c-68ef-11ef-96ca-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
