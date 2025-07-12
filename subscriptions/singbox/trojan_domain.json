@@ -104,7 +104,6 @@
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 39",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
-                "🇭🇰 HK | 🟢 | trojan | @ip_cf_config | 9",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 6",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 4",
@@ -118,6 +117,7 @@
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
+                "🇩🇪 DE | 🟢 | trojan | @v2rayweb | 17",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12"
             ],
@@ -133,7 +133,6 @@
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 39",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
-                "🇭🇰 HK | 🟢 | trojan | @ip_cf_config | 9",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 6",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 4",
@@ -147,6 +146,7 @@
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
+                "🇩🇪 DE | 🟢 | trojan | @v2rayweb | 17",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12"
             ],
@@ -275,22 +275,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "usa.test3.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🟢 | trojan | @ip_cf_config | 9",
-            "type": "trojan",
-            "server": "v01.gutingting.com",
-            "server_port": 30002,
-            "password": "1957909a-4f2a-4d9c-99ad-119d45f052c1",
-            "tls": {
-                "enabled": true,
-                "server_name": "v2tw01.fuqiangren.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -542,6 +526,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "170-187-134-190.ipv4.rush.ml",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayweb | 17",
+            "type": "trojan",
+            "server": "de01a.kbservice.club",
+            "server_port": 443,
+            "password": "6e1b9a65-884f-3aa9-9469-bf6ec0f08610",
+            "tls": {
+                "enabled": true,
+                "server_name": "45.32.28.232",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
