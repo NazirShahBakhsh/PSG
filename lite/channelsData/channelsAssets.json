@@ -474,10 +474,9 @@
     },
     "deamnet_proxy": {
         "types": [
-            "vless",
             "ss",
-            "vmess",
-            "trojan"
+            "vless",
+            "vmess"
         ],
         "title": "DeamNet_proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/deamnet_proxy.jpg"
@@ -794,8 +793,8 @@
     },
     "free1ss": {
         "types": [
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "🍊Aperto Shadowsocks Outline Vless VPN 🍊",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/free1ss.jpg"
@@ -819,7 +818,6 @@
     },
     "free_outline_keys": {
         "types": [
-            "vless",
             "ss"
         ],
         "title": "FREE Outline VPN keys",
@@ -1110,8 +1108,8 @@
     "hope_net": {
         "types": [
             "vless",
-            "trojan",
-            "ss"
+            "ss",
+            "vmess"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1190,8 +1188,8 @@
         "types": [
             "trojan",
             "vless",
-            "vmess",
-            "ss"
+            "ss",
+            "vmess"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2222,7 +2220,8 @@
     },
     "proxy_mtproto_vpns_free": {
         "types": [
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/proxy_mtproto_vpns_free.jpg"
@@ -2729,8 +2728,8 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vmess",
             "vless",
+            "vmess",
             "ss",
             "trojan"
         ],
@@ -2847,7 +2846,8 @@
     },
     "v2rayfree": {
         "types": [
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayfree.jpg"
@@ -2878,7 +2878,6 @@
     },
     "v2rayng_fast": {
         "types": [
-            "trojan",
             "vless"
         ],
         "title": "کانفینگ انجکتور | آرگو | V2rayng",
@@ -3275,8 +3274,8 @@
     },
     "vistav2ray": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "vmess"
         ],
         "title": "Vista Pc (It _ja)",
@@ -3352,13 +3351,6 @@
         ],
         "title": "451°F VPN || НОВОСТИ",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpn451.jpg"
-    },
-    "vpn4ir_1": {
-        "types": [
-            "vless"
-        ],
-        "title": "VPN Market IRI",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpn4ir_1.jpg"
     },
     "vpn_accounti": {
         "types": [
