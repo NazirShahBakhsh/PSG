@@ -109,6 +109,7 @@
                 "🇦🇪 AE | 🟢 | vless | @darkfiilter | 2",
                 "🇺🇦 UA | 🟢 | vless | @dashv2ray | 4",
                 "🇺🇦 UA | 🟢 | vless | @dashv2ray | 7",
+                "🇺🇸 US | 🟢 | vless | @entrynet | 17",
                 "🇳🇱 NL | 🟢 | vless | @expressvpn_420 | 12",
                 "🇳🇱 NL | 🟢 | vless | @expressvpn_420 | 14",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
@@ -220,6 +221,7 @@
                 "🇦🇪 AE | 🟢 | vless | @darkfiilter | 2",
                 "🇺🇦 UA | 🟢 | vless | @dashv2ray | 4",
                 "🇺🇦 UA | 🟢 | vless | @dashv2ray | 7",
+                "🇺🇸 US | 🟢 | vless | @entrynet | 17",
                 "🇳🇱 NL | 🟢 | vless | @expressvpn_420 | 12",
                 "🇳🇱 NL | 🟢 | vless | @expressvpn_420 | 14",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
@@ -593,6 +595,29 @@
                     "enabled": true,
                     "public_key": "n9OO75eOaHXQyfUByQSZviDY4RmSUQyoU1YSs4yQXEs",
                     "short_id": "7f700392"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @entrynet | 17",
+            "type": "vless",
+            "server": "3.145.179.167",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
                 }
             }
         },
