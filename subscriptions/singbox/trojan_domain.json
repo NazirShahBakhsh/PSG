@@ -98,13 +98,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 67",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "🇺🇸 US | 🟢 | trojan | @free_serverir | 31",
+                "🇺🇸 US | 🟢 | trojan | @free_serverir | 39",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 6",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
@@ -127,13 +127,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 67",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "🇺🇸 US | 🟢 | trojan | @free_serverir | 31",
+                "🇺🇸 US | 🟢 | trojan | @free_serverir | 39",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 6",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
@@ -166,22 +166,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraNet | 67",
-            "type": "trojan",
-            "server": "download2hkt.windowsupdate.lol",
-            "server_port": 443,
-            "password": "7778e684-f435-4166-bf9e-0256cb28bf10",
-            "tls": {
-                "enabled": true,
-                "server_name": "download2hkt.windowsupdate.lol",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @armodchannel | 59",
@@ -260,14 +244,14 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @free_serverir | 31",
+            "tag": "🇺🇸 US | 🟢 | trojan | @free_serverir | 39",
             "type": "trojan",
-            "server": "azadnet-9ya.pages.dev",
-            "server_port": 443,
-            "password": "trojan",
+            "server": "top-azx.pages.dev",
+            "server_port": 8443,
+            "password": "123456",
             "tls": {
                 "enabled": true,
-                "server_name": "azadnet-9ya.pages.dev",
+                "server_name": "top-azx.pages.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -276,9 +260,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/?ed=2560",
+                "path": "/Az1.vpn.33.TOP/?ed=2560",
                 "headers": {
-                    "Host": "azadnet-9ya.pages.dev"
+                    "Host": "top-azx.pages.dev"
                 }
             }
         },
@@ -297,6 +281,13 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
+            "type": "trojan",
+            "server": "13c2c931-swin40-swy6li-tni2.cu.plebai.net",
+            "server_port": 15229,
+            "password": "5e2f888c-68ef-11ef-96ca-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
