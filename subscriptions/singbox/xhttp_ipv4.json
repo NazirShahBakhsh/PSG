@@ -108,6 +108,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @free_vpn02 | 6",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 14",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann | 15",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann | 18",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 5",
@@ -153,6 +154,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🔴 | vless | @free1_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @free_vpn02 | 6",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 14",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann | 15",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann | 18",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 5",
@@ -295,6 +297,15 @@
             "server": "151.101.67.8",
             "server_port": 80,
             "uuid": "8088c605-e0c2-4774-9ee4-7fa7e47b6112",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 14",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "turboo-server",
             "flow": "",
             "packet_encoding": "xudp"
         },

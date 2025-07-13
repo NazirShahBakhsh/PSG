@@ -81,8 +81,8 @@
     },
     "argo_vpn1": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "vmess"
         ],
         "title": "𝐀𝐫𝐠𝐨_𝐕𝐏𝐍1 /پل فالکن /هیدیفای",
@@ -1091,9 +1091,9 @@
     },
     "hope_net": {
         "types": [
-            "trojan",
+            "ss",
             "vless",
-            "ss"
+            "trojan"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1170,10 +1170,10 @@
     },
     "ip_cf_config": {
         "types": [
+            "trojan",
             "vmess",
             "vless",
-            "ss",
-            "trojan"
+            "ss"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1760,8 +1760,9 @@
     },
     "mowjproxy": {
         "types": [
+            "vless",
             "vmess",
-            "vless"
+            "ss"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -2706,9 +2707,9 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vless",
             "vmess",
             "trojan",
+            "vless",
             "ss"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
@@ -3620,7 +3621,6 @@
     "zdyz2": {
         "types": [
             "hy2",
-            "vless",
             "vmess",
             "trojan"
         ],
