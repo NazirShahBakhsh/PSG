@@ -100,6 +100,7 @@
                 "URL-TEST",
                 "🇯🇵 JP | 🟢 | trojan | @awlix_ir | 9",
                 "🇺🇸 US | 🔴 | trojan | @bored_vpn | 9",
+                "🇺🇸 US | 🔴 | trojan | @configshubplus | 18",
                 "🇺🇸 US | 🟢 | trojan | @connect_sho | 3",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 11",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 12",
@@ -110,7 +111,8 @@
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 14",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
-                "🇺🇸 US | 🔴 | trojan | @hope_net | 18",
+                "🇺🇸 US | 🔴 | trojan | @hope_net | 15",
+                "🇺🇸 US | 🔴 | trojan | @hope_net | 16",
                 "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 8",
                 "🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13",
@@ -128,6 +130,7 @@
                 "🇺🇸 US | 🟢 | trojan | @rsv2ray | 16",
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 16",
                 "v@104.21.43.168:443?path=/trTcwZRw8JC0TPp6d1?ed=2560&security=tls&alpn=h3,h2,http/1.1&host=2.lINK-KoN.IR&fp=randomized&type=ws&sni=2.link-kon.ir#🇺🇸 US | 🟢 | trojan | @v2ray_tz | 5",
+                "🇨🇾 CY | 🔴 | trojan | @v2raych | 15",
                 "🇮🇳 IN | 🔴 | trojan | @v2raych | 19",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayngconfig | 42",
                 "🇨🇦 CA | 🟢 | trojan | @v2rayngconfig | 43",
@@ -149,6 +152,7 @@
             "outbounds": [
                 "🇯🇵 JP | 🟢 | trojan | @awlix_ir | 9",
                 "🇺🇸 US | 🔴 | trojan | @bored_vpn | 9",
+                "🇺🇸 US | 🔴 | trojan | @configshubplus | 18",
                 "🇺🇸 US | 🟢 | trojan | @connect_sho | 3",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 11",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 12",
@@ -159,7 +163,8 @@
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 14",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
-                "🇺🇸 US | 🔴 | trojan | @hope_net | 18",
+                "🇺🇸 US | 🔴 | trojan | @hope_net | 15",
+                "🇺🇸 US | 🔴 | trojan | @hope_net | 16",
                 "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 8",
                 "🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13",
@@ -177,6 +182,7 @@
                 "🇺🇸 US | 🟢 | trojan | @rsv2ray | 16",
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 16",
                 "v@104.21.43.168:443?path=/trTcwZRw8JC0TPp6d1?ed=2560&security=tls&alpn=h3,h2,http/1.1&host=2.lINK-KoN.IR&fp=randomized&type=ws&sni=2.link-kon.ir#🇺🇸 US | 🟢 | trojan | @v2ray_tz | 5",
+                "🇨🇾 CY | 🔴 | trojan | @v2raych | 15",
                 "🇮🇳 IN | 🔴 | trojan | @v2raych | 19",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayngconfig | 42",
                 "🇨🇦 CA | 🟢 | trojan | @v2rayngconfig | 43",
@@ -229,6 +235,13 @@
             "server": "62.60.176.240",
             "server_port": 36557,
             "password": "@bored_vpn@bored_vpn@bored_vpn@bored_vpn@bored_vpn@bored_vpn"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | trojan | @configshubplus | 18",
+            "type": "trojan",
+            "server": "104.19.4.237",
+            "server_port": 8443,
+            "password": "Aimer"
         },
         {
             "tag": "🇺🇸 US | 🟢 | trojan | @connect_sho | 3",
@@ -396,25 +409,39 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | trojan | @hope_net | 18",
+            "tag": "🇺🇸 US | 🔴 | trojan | @hope_net | 15",
             "type": "trojan",
-            "server": "173.245.59.202",
-            "server_port": 2083,
+            "server": "162.159.38.104",
+            "server_port": 2087,
+            "password": "Aimer"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | trojan | @hope_net | 16",
+            "type": "trojan",
+            "server": "45.153.7.216",
+            "server_port": 2053,
             "password": "Aimer"
         },
         {
             "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
             "type": "trojan",
-            "server": "198.23.229.250",
-            "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
+            "server": "104.21.75.120",
+            "server_port": 2053,
+            "password": "100b5163-fbb8-425d-9621-44d119555aa4",
             "tls": {
                 "enabled": true,
-                "server_name": "rc6.freeguard.org",
+                "server_name": "MaHSA2.cffoRm.SitE",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trWCuRIwSn9S6fDZGE/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=",
+                "headers": {
+                    "Host": "MaHSA2.cffoRm.SitE"
                 }
             }
         },
@@ -671,10 +698,17 @@
             "password": ""
         },
         {
+            "tag": "🇨🇾 CY | 🔴 | trojan | @v2raych | 15",
+            "type": "trojan",
+            "server": "213.109.205.55",
+            "server_port": 2096,
+            "password": "Aimer"
+        },
+        {
             "tag": "🇮🇳 IN | 🔴 | trojan | @v2raych | 19",
             "type": "trojan",
-            "server": "108.165.152.130",
-            "server_port": 2083,
+            "server": "108.165.152.58",
+            "server_port": 2087,
             "password": "Aimer"
         },
         {

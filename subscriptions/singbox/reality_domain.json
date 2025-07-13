@@ -137,7 +137,7 @@
                 "❔ XX | 🟢 | vless | @kkkkkoabvbbvbvv | 9",
                 "🇩🇪 DE | 🟢 | vless | @kurdistan_vpn_perfectt | 3",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 4",
+                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 2",
                 "❔ XX | 🟢 | vless | @mtpv2ray | 7",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
@@ -145,7 +145,7 @@
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
-                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 7",
+                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 10",
                 "🇹🇷 TR | 🟢 | vless | @proxygodratmand | 10",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 4",
                 "❔ XX | 🟢 | vless | @proxysudo | 1",
@@ -172,6 +172,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayopen | 4",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 15",
                 "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇹🇷 TR | 🟢 | vless | @v2source | 16",
@@ -239,7 +240,7 @@
                 "❔ XX | 🟢 | vless | @kkkkkoabvbbvbvv | 9",
                 "🇩🇪 DE | 🟢 | vless | @kurdistan_vpn_perfectt | 3",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 4",
+                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 2",
                 "❔ XX | 🟢 | vless | @mtpv2ray | 7",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
@@ -247,7 +248,7 @@
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
-                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 7",
+                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 10",
                 "🇹🇷 TR | 🟢 | vless | @proxygodratmand | 10",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 4",
                 "❔ XX | 🟢 | vless | @proxysudo | 1",
@@ -274,6 +275,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayopen | 4",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 15",
                 "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇹🇷 TR | 🟢 | vless | @v2source | 16",
@@ -1286,7 +1288,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @mowjproxy | 4",
+            "tag": "🇩🇪 DE | 🟢 | vless | @mowjproxy | 2",
             "type": "vless",
             "server": "bmi.raheaiande.ir",
             "server_port": 1001,
@@ -1482,30 +1484,26 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 7",
+            "tag": "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 10",
             "type": "vless",
-            "server": "server1.fergalvpnmod.com",
-            "server_port": 28338,
-            "uuid": "0b9ee474-19f6-4d7f-9281-96f239e6cebc",
+            "server": "bmi.raheaiande.ir",
+            "server_port": 1001,
+            "uuid": "1bfb8c7d-a8f0-460d-f7a5-0e48df2beb30",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cloudflare.com",
+                "server_name": "ea.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "randomized"
+                    "fingerprint": "edge"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "MJwVQS7Qs5U_FYJn_osHZJSQ9ioxZRHC2HDPVwt7nmw",
-                    "short_id": "9ecc4615ce"
+                    "public_key": "wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM",
+                    "short_id": "c7bc4d"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@FergalVpnMod"
             }
         },
         {
@@ -2131,6 +2129,29 @@
                     "enabled": true,
                     "public_key": "bf0D8kLkfGVYP8NVpiOGKcm-wutxlcLXua3760tRgkI",
                     "short_id": "adf6b90c"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 15",
+            "type": "vless",
+            "server": "real-all3-2.sdcards.ir",
+            "server_port": 8501,
+            "uuid": "ac37eb9c-0db8-4056-8f61-e8db4e2da35e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI",
+                    "short_id": "e701a013553059ba"
                 }
             }
         },

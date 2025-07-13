@@ -99,8 +99,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧 GB | 🟢 | ss | @Fr33C0nfig | 55",
+                "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
-                "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 4",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "🇺🇸 US | 🟢 | ss | @outline_ir | 17",
@@ -118,8 +118,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧 GB | 🟢 | ss | @Fr33C0nfig | 55",
+                "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
-                "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 4",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "🇺🇸 US | 🟢 | ss | @outline_ir | 17",
@@ -156,20 +156,20 @@
             "password": "69MUii7VDwMqh7Hz"
         },
         {
+            "tag": "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
+            "type": "shadowsocks",
+            "server": "Peweza3.digipedia.shop",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg"
+        },
+        {
             "tag": "❔ XX | 🟢 | ss | @chestertm | 12",
             "type": "shadowsocks",
             "server": "freakconfig94.usecharge.ir",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "W74XFALLLuw6m5IA"
-        },
-        {
-            "tag": "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15",
-            "type": "shadowsocks",
-            "server": "azure-sto.edgeservers.org",
-            "server_port": 48172,
-            "method": "chacha20-ietf-poly1305",
-            "password": "51yloQC8D9w1Wae7FHtI65"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 4",
