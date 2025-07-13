@@ -129,7 +129,6 @@
                 "🇺🇸 US | 🔴 | vless | @nufilter | 15",
                 "🇺🇸 US | 🔴 | vless | @proxy_hiddfy | 2",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 4",
-                "🇬🇧 GB | 🟢 | vless | @prrofile_purple | 123",
                 "🇺🇸 US | 🔴 | vless | @serverii | 1",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 9",
@@ -142,7 +141,6 @@
                 "🇺🇸 US | 🔴 | vless | @v2rayngvpn_1 | 5",
                 "🇹🇷 TR | 🟢 | vless | @v2source | 16",
                 "🇺🇸 US | 🔴 | vless | @vipv2rayngnp | 19",
-                "🇺🇸 US | 🟢 | vless | @vmess_ir | 14",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
@@ -184,7 +182,6 @@
                 "🇺🇸 US | 🔴 | vless | @nufilter | 15",
                 "🇺🇸 US | 🔴 | vless | @proxy_hiddfy | 2",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 4",
-                "🇬🇧 GB | 🟢 | vless | @prrofile_purple | 123",
                 "🇺🇸 US | 🔴 | vless | @serverii | 1",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 9",
@@ -197,7 +194,6 @@
                 "🇺🇸 US | 🔴 | vless | @v2rayngvpn_1 | 5",
                 "🇹🇷 TR | 🟢 | vless | @v2source | 16",
                 "🇺🇸 US | 🔴 | vless | @vipv2rayngnp | 19",
-                "🇺🇸 US | 🟢 | vless | @vmess_ir | 14",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
@@ -550,29 +546,6 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | vless | @prrofile_purple | 123",
-            "type": "vless",
-            "server": "p2.3dfigures.ir",
-            "server_port": 80,
-            "uuid": "d7db3e29-c388-4312-91f1-0da96d624e5b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "V0yu6BQhNI5cO2600tllGbF2D5AJcT7o6Xq7AiBKxBE",
-                    "short_id": "4d"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @serverii | 1",
             "type": "vless",
             "server": "FASTSHOVPNTELEGRAM.fast.hosting-ip.com",
@@ -711,24 +684,6 @@
             "uuid": "f27c4a6f-feb0-463b-b515-b97de9899be3",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @vmess_ir | 14",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "4e0a435a-65d6-4e4e-a4ed-dfa8bdd732f5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ashil.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
