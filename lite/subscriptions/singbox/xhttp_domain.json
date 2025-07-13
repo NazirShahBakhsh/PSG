@@ -107,8 +107,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 5",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
-                "❔ XX | 🟢 | vless | @freakconfig2 | 7",
-                "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 16",
+                "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 14",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
@@ -128,8 +127,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 5",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
-                "❔ XX | 🟢 | vless | @freakconfig2 | 7",
-                "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 16",
+                "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 14",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
@@ -233,29 +231,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @freakconfig2 | 7",
+            "tag": "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 14",
             "type": "vless",
-            "server": "FreakConfig.plantgreen.ir",
-            "server_port": 443,
-            "uuid": "5a7d02b8-aace-4fe3-aa4a-9fa3771d51e5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "media.sanaiegh.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 16",
-            "type": "vless",
-            "server": "sjdsnsj.varzesh3.com.tr",
+            "server": "bot.nimeshab-nabod.info",
             "server_port": 80,
-            "uuid": "46ab7c89-afdc-4d7a-a19c-95a032c2c040",
+            "uuid": "itsproxy-1",
             "flow": "",
             "packet_encoding": "xudp"
         },

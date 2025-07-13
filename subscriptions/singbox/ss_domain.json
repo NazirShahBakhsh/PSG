@@ -103,7 +103,6 @@
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇬🇧 GB | 🟢 | ss | @club_profsor | 14",
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
-                "❔ XX | 🟢 | ss | @configfa | 13",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 2",
                 "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
@@ -119,9 +118,8 @@
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
-                "🇹🇷 TR | 🟢 | ss | @outline_ir | 16",
+                "🇹🇷 TR | 🟢 | ss | @outline_ir | 15",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
-                "🇬🇧 GB | 🟢 | ss | @proxy_mtproto_vpns_free | 16",
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @server_nekobox | 12",
@@ -149,7 +147,6 @@
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇬🇧 GB | 🟢 | ss | @club_profsor | 14",
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
-                "❔ XX | 🟢 | ss | @configfa | 13",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 2",
                 "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
@@ -165,9 +162,8 @@
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
-                "🇹🇷 TR | 🟢 | ss | @outline_ir | 16",
+                "🇹🇷 TR | 🟢 | ss | @outline_ir | 15",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
-                "🇬🇧 GB | 🟢 | ss | @proxy_mtproto_vpns_free | 16",
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @server_nekobox | 12",
@@ -240,14 +236,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "Bog0ELmMM9DSxDdQ"
-        },
-        {
-            "tag": "❔ XX | 🟢 | ss | @configfa | 13",
-            "type": "shadowsocks",
-            "server": "david2.lemoex.blog",
-            "server_port": 2083,
-            "method": "chacha20-ietf-poly1305",
-            "password": "FvyvUPQFDIlz+4Op+236QmDL1v76TsvpDSZgqjJ0gnw="
         },
         {
             "tag": "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
@@ -370,7 +358,7 @@
             "password": "WstuSnlu4ieA9M0L"
         },
         {
-            "tag": "🇹🇷 TR | 🟢 | ss | @outline_ir | 16",
+            "tag": "🇹🇷 TR | 🟢 | ss | @outline_ir | 15",
             "type": "shadowsocks",
             "server": "h110vpntr.outlinekeys.net",
             "server_port": 65262,
@@ -384,14 +372,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c"
-        },
-        {
-            "tag": "🇬🇧 GB | 🟢 | ss | @proxy_mtproto_vpns_free | 16",
-            "type": "shadowsocks",
-            "server": "series-a2.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA"
         },
         {
             "tag": "❔ XX | 🟢 | ss | @public504 | 7",
