@@ -98,14 +98,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷 FR | 🟢 | trojan | @NamiraNet | 65",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "🇺🇸 US | 🔴 | trojan | @confing_chanel | 15",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 39",
-                "🇨🇳 CN | 🔴 | trojan | @hope_net | 17",
+                "🇩🇪 DE | 🔴 | trojan | @hope_net | 15",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
                 "🇺🇸 US | 🔴 | trojan | @icv2ray | 2",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -121,7 +120,7 @@
                 "🇺🇸 US | 🔴 | trojan | @noviin_tel | 5",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇺🇸 US | 🔴 | trojan | @v2raych | 17",
+                "🇩🇪 DE | 🔴 | trojan | @v2raych | 16",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 5"
@@ -132,14 +131,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷 FR | 🟢 | trojan | @NamiraNet | 65",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "🇺🇸 US | 🔴 | trojan | @confing_chanel | 15",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 39",
-                "🇨🇳 CN | 🔴 | trojan | @hope_net | 17",
+                "🇩🇪 DE | 🔴 | trojan | @hope_net | 15",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
                 "🇺🇸 US | 🔴 | trojan | @icv2ray | 2",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -155,7 +153,7 @@
                 "🇺🇸 US | 🔴 | trojan | @noviin_tel | 5",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇺🇸 US | 🔴 | trojan | @v2raych | 17",
+                "🇩🇪 DE | 🔴 | trojan | @v2raych | 16",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 5"
@@ -176,22 +174,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @NamiraNet | 65",
-            "type": "trojan",
-            "server": "fr1.test3.net",
-            "server_port": 443,
-            "password": "8ce449a0-29cc-11f0-b43f-1239d0255272",
-            "tls": {
-                "enabled": true,
-                "server_name": "fr1.test3.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @armodchannel | 59",
@@ -300,11 +282,20 @@
             }
         },
         {
-            "tag": "🇨🇳 CN | 🔴 | trojan | @hope_net | 17",
+            "tag": "🇩🇪 DE | 🔴 | trojan | @hope_net | 15",
             "type": "trojan",
-            "server": "aexshbgp01.114837322.xyz",
-            "server_port": 14434,
-            "password": "6AC378EE-C9AE-9D3C-3DD9-8C034898BE44"
+            "server": "right-goldfish.goat627.mom",
+            "server_port": 443,
+            "password": "3763495894587285504",
+            "tls": {
+                "enabled": true,
+                "server_name": "right-goldfish.goat627.mom",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
@@ -572,14 +563,14 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | trojan | @v2raych | 17",
+            "tag": "🇩🇪 DE | 🔴 | trojan | @v2raych | 16",
             "type": "trojan",
-            "server": "lynn.ns.cloudflare.com",
+            "server": "choice-condor.treefrog761.one",
             "server_port": 443,
-            "password": "Aimer",
+            "password": "3763495894587285504",
             "tls": {
                 "enabled": true,
-                "server_name": "ngepx.ambercc.filegear-sg.me",
+                "server_name": "choice-condor.treefrog761.one",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
