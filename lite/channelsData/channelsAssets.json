@@ -12,8 +12,7 @@
         "types": [
             "ss",
             "trojan",
-            "vless",
-            "vmess"
+            "vless"
         ],
         "title": "‌NamiraNet / نامیرا نت",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraNet.jpg"
@@ -82,8 +81,8 @@
     },
     "argo_vpn1": {
         "types": [
-            "ss",
             "vless",
+            "ss",
             "vmess"
         ],
         "title": "𝐀𝐫𝐠𝐨_𝐕𝐏𝐍1 /پل فالکن /هیدیفای",
@@ -1092,9 +1091,9 @@
     },
     "hope_net": {
         "types": [
+            "trojan",
             "vless",
-            "ss",
-            "trojan"
+            "ss"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1171,10 +1170,10 @@
     },
     "ip_cf_config": {
         "types": [
+            "vless",
             "vmess",
             "trojan",
-            "ss",
-            "vless"
+            "ss"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1761,8 +1760,8 @@
     },
     "mowjproxy": {
         "types": [
-            "vless",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -2197,7 +2196,6 @@
     "proxy_mtproto_vpns_free": {
         "types": [
             "vless",
-            "vmess",
             "ss"
         ],
         "title": "VPNs Proxy Mtproto",
@@ -2690,8 +2688,11 @@
     },
     "v2ray_extractor": {
         "types": [
+            "ss",
             "vless",
-            "ss"
+            "hy2",
+            "vmess",
+            "trojan"
         ],
         "title": "V2ray Extractor",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_extractor.jpg"
@@ -2706,8 +2707,8 @@
     "v2ray_free_conf": {
         "types": [
             "vless",
-            "trojan",
             "vmess",
+            "trojan",
             "ss"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
@@ -2824,7 +2825,6 @@
     "v2rayfree": {
         "types": [
             "vless",
-            "vmess",
             "ss"
         ],
         "title": "VPNs Proxy Mtproto",
@@ -3110,8 +3110,8 @@
     "v2source": {
         "types": [
             "vless",
-            "trojan",
-            "ss"
+            "ss",
+            "trojan"
         ],
         "title": "Free V2ray",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2source.jpg"
