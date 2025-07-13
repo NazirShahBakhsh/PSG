@@ -118,10 +118,9 @@
                 "🇺🇸 US | 🔴 | vless | @komail315 | 1",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
-                "🇺🇸 US | 🔴 | vless | @mowjproxy | 4",
-                "🇺🇸 US | 🔴 | vless | @mowjproxy | 5",
+                "🇺🇸 US | 🔴 | vless | @mowjproxy | 0",
+                "🇺🇸 US | 🔴 | vless | @mowjproxy | 1",
                 "🇺🇸 US | 🔴 | vless | @noviin_tel | 0",
-                "🇮🇹 IT | 🔴 | vless | @proxy_mtproto_vpns_free | 5",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇳🇱 NL | 🟢 | vless | @trueproxy | 2",
@@ -165,10 +164,9 @@
                 "🇺🇸 US | 🔴 | vless | @komail315 | 1",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
-                "🇺🇸 US | 🔴 | vless | @mowjproxy | 4",
-                "🇺🇸 US | 🔴 | vless | @mowjproxy | 5",
+                "🇺🇸 US | 🔴 | vless | @mowjproxy | 0",
+                "🇺🇸 US | 🔴 | vless | @mowjproxy | 1",
                 "🇺🇸 US | 🔴 | vless | @noviin_tel | 0",
-                "🇮🇹 IT | 🔴 | vless | @proxy_mtproto_vpns_free | 5",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇳🇱 NL | 🟢 | vless | @trueproxy | 2",
@@ -421,7 +419,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @mowjproxy | 4",
+            "tag": "🇺🇸 US | 🔴 | vless | @mowjproxy | 0",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -430,7 +428,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @mowjproxy | 5",
+            "tag": "🇺🇸 US | 🔴 | vless | @mowjproxy | 1",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -444,15 +442,6 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "29091907-ea23-474b-a1ae-58b0a3996ed6",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇹 IT | 🔴 | vless | @proxy_mtproto_vpns_free | 5",
-            "type": "vless",
-            "server": "146.75.55.82",
-            "server_port": 80,
-            "uuid": "turboo-server",
             "flow": "",
             "packet_encoding": "xudp"
         },

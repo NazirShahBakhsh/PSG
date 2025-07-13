@@ -12,7 +12,8 @@
         "types": [
             "ss",
             "trojan",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "‌NamiraNet / نامیرا نت",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraNet.jpg"
@@ -1091,9 +1092,8 @@
     },
     "hope_net": {
         "types": [
-            "ss",
-            "vmess",
             "vless",
+            "ss",
             "trojan"
         ],
         "title": "🕊 Hope Net",
@@ -1171,9 +1171,9 @@
     },
     "ip_cf_config": {
         "types": [
-            "ss",
-            "trojan",
             "vmess",
+            "trojan",
+            "ss",
             "vless"
         ],
         "title": "IP_CF | V2ray Config Pool",
@@ -1761,8 +1761,8 @@
     },
     "mowjproxy": {
         "types": [
-            "vmess",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -2705,10 +2705,10 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "ss",
             "vless",
             "trojan",
-            "vmess"
+            "vmess",
+            "ss"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -2859,13 +2859,6 @@
         ],
         "title": "v2rayng 2",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayng_my2.jpg"
-    },
-    "v2rayng_v2_ray": {
-        "types": [
-            "vmess"
-        ],
-        "title": "V2RAYNG",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayng_v2_ray.jpg"
     },
     "v2rayngalpha": {
         "types": [

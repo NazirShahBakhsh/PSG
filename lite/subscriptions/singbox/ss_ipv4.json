@@ -98,12 +98,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧 GB | 🟢 | ss | @NamiraNet | 69",
-                "🇯🇵 JP | 🟢 | ss | @argo_vpn1 | 25",
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇺🇸 US | 🟢 | ss | @dnsforyou | 2",
                 "🇺🇸 US | 🟢 | ss | @free1_vpn | 10",
+                "🇸🇬 SG | 🟢 | ss | @free1ss | 16",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
                 "🇩🇪 DE | 🟢 | ss | @jiedianf | 9",
@@ -112,6 +111,7 @@
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
                 "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
+                "🇬🇧 GB | 🟢 | ss | @outlineopenkey | 10",
                 "🇦🇪 AE | 🟢 | ss | @proxy_net_meli | 9",
                 "🇬🇧 GB | 🟢 | ss | @proxycrone | 9",
                 "🇫🇮 FI | 🟢 | ss | @shadowsockskeys | 16",
@@ -119,6 +119,7 @@
                 "🇫🇮 FI | 🟢 | ss | @strongprotocol | 10",
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
                 "🇺🇸 US | 🟢 | ss | @v2pedia | 21",
+                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇱🇻 LV | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
@@ -131,12 +132,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧 GB | 🟢 | ss | @NamiraNet | 69",
-                "🇯🇵 JP | 🟢 | ss | @argo_vpn1 | 25",
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇺🇸 US | 🟢 | ss | @dnsforyou | 2",
                 "🇺🇸 US | 🟢 | ss | @free1_vpn | 10",
+                "🇸🇬 SG | 🟢 | ss | @free1ss | 16",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
                 "🇩🇪 DE | 🟢 | ss | @jiedianf | 9",
@@ -145,6 +145,7 @@
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
                 "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
+                "🇬🇧 GB | 🟢 | ss | @outlineopenkey | 10",
                 "🇦🇪 AE | 🟢 | ss | @proxy_net_meli | 9",
                 "🇬🇧 GB | 🟢 | ss | @proxycrone | 9",
                 "🇫🇮 FI | 🟢 | ss | @shadowsockskeys | 16",
@@ -152,6 +153,7 @@
                 "🇫🇮 FI | 🟢 | ss | @strongprotocol | 10",
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
                 "🇺🇸 US | 🟢 | ss | @v2pedia | 21",
+                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇱🇻 LV | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
@@ -174,22 +176,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇬🇧 GB | 🟢 | ss | @NamiraNet | 69",
-            "type": "shadowsocks",
-            "server": "89.185.84.185",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "JN7tG9Ikqo6MAmivZuJijz"
-        },
-        {
-            "tag": "🇯🇵 JP | 🟢 | ss | @argo_vpn1 | 25",
-            "type": "shadowsocks",
-            "server": "54.238.207.188",
-            "server_port": 8313,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ljqdalu13.."
         },
         {
             "tag": "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
@@ -222,6 +208,14 @@
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🇸🇬 SG | 🟢 | ss | @free1ss | 16",
+            "type": "shadowsocks",
+            "server": "167.172.89.195",
+            "server_port": 8575,
+            "method": "chacha20-ietf-poly1305",
+            "password": "uewxc4bF87Gb2hJWtbMyt1"
         },
         {
             "tag": "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
@@ -288,6 +282,14 @@
             "password": "Q1qlRknoN9PwGeExWVyTKg"
         },
         {
+            "tag": "🇬🇧 GB | 🟢 | ss | @outlineopenkey | 10",
+            "type": "shadowsocks",
+            "server": "89.185.84.185",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "JN7tG9Ikqo6MAmivZuJijz"
+        },
+        {
             "tag": "🇦🇪 AE | 🟢 | ss | @proxy_net_meli | 9",
             "type": "shadowsocks",
             "server": "217.138.193.10",
@@ -342,6 +344,14 @@
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 19",
+            "type": "shadowsocks",
+            "server": "45.87.175.199",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
         },
         {
             "tag": "🇱🇻 LV | 🟢 | ss | @v2rayngrit | 15",
