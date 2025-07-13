@@ -98,13 +98,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇭🇰 HK | 🟢 | trojan | @NamiraNet | 69",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
+                "🇭🇰 HK | 🔴 | trojan | @connect_sho | 1",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 17",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "🇺🇸 US | 🟢 | trojan | @free_serverir | 39",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
                 "🇺🇸 US | 🔴 | trojan | @icv2ray | 2",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -130,13 +131,14 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇭🇰 HK | 🟢 | trojan | @NamiraNet | 69",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
+                "🇭🇰 HK | 🔴 | trojan | @connect_sho | 1",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 17",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "🇺🇸 US | 🟢 | trojan | @free_serverir | 39",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
                 "🇺🇸 US | 🔴 | trojan | @icv2ray | 2",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -174,6 +176,22 @@
             "type": "dns"
         },
         {
+            "tag": "🇭🇰 HK | 🟢 | trojan | @NamiraNet | 69",
+            "type": "trojan",
+            "server": "pt.mjt000.com",
+            "server_port": 443,
+            "password": "84587c21-9938-42fc-a4b0-4f72dd72b7aa",
+            "tls": {
+                "enabled": true,
+                "server_name": "pt.mjt000.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | trojan | @armodchannel | 59",
             "type": "trojan",
             "server": "asia.artunnel57.host",
@@ -207,6 +225,22 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔴 | trojan | @connect_sho | 1",
+            "type": "trojan",
+            "server": "it.mjt000.com",
+            "server_port": 443,
+            "password": "84587c21-9938-42fc-a4b0-4f72dd72b7aa",
+            "tls": {
+                "enabled": true,
+                "server_name": "it.mjt000.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -292,29 +326,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @free_serverir | 39",
-            "type": "trojan",
-            "server": "top-azx.pages.dev",
-            "server_port": 8443,
-            "password": "123456",
-            "tls": {
-                "enabled": true,
-                "server_name": "top-azx.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Az1.vpn.33.TOP/?ed=2560",
-                "headers": {
-                    "Host": "top-azx.pages.dev"
                 }
             }
         },

@@ -107,7 +107,6 @@
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 5",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
@@ -116,10 +115,11 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 9",
+                "🇳🇱 NL | 🟢 | vless | @v2rayngvpn_1 | 9",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
-                "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12"
+                "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
+                "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 14"
             ],
             "interrupt_exist_connections": false
         },
@@ -136,7 +136,6 @@
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 5",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
@@ -145,10 +144,11 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 9",
+                "🇳🇱 NL | 🟢 | vless | @v2rayngvpn_1 | 9",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
-                "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12"
+                "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
+                "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 14"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -391,29 +391,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @mowjproxy | 5",
-            "type": "vless",
-            "server": "bmi.raheaiande.ir",
-            "server_port": 1001,
-            "uuid": "faa98229-a17c-4ea6-d6b5-1b040cb9fa26",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ea.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM",
-                    "short_id": "c7bc4d"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @mt_team_iran | 4",
             "type": "vless",
             "server": "mr.zayn2012.sbs",
@@ -614,7 +591,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 9",
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2rayngvpn_1 | 9",
             "type": "vless",
             "server": "poseidex.house0of1nyxora.top",
             "server_port": 2096,
@@ -703,6 +680,33 @@
                     "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
                     "short_id": "fd1dff03520d8f56"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 14",
+            "type": "vless",
+            "server": "server1.fergalvpnmod.com",
+            "server_port": 28338,
+            "uuid": "0b9ee474-19f6-4d7f-9281-96f239e6cebc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MJwVQS7Qs5U_FYJn_osHZJSQ9ioxZRHC2HDPVwt7nmw",
+                    "short_id": "9ecc4615ce"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@FergalVpnMod"
             }
         }
     ],

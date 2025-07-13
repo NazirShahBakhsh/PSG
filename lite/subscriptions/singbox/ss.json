@@ -100,6 +100,7 @@
                 "URL-TEST",
                 "🇬🇧 GB | 🟢 | ss | @Fr33C0nfig | 55",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
+                "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 4",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "🇺🇸 US | 🟢 | ss | @outline_ir | 17",
@@ -115,11 +116,9 @@
                 "🇳🇱 NL | 🟢 | ss | @free1ss | 17",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
-                "🇺🇸 US | 🟢 | ss | @ip_cf_config | 13",
                 "🇩🇪 DE | 🟢 | ss | @jiedianf | 9",
                 "🇫🇷 FR | 🟢 | ss | @key_outline | 19",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
-                "🇮🇩 ID | 🟢 | ss | @meli_proxyy | 21",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
                 "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
@@ -144,6 +143,7 @@
             "outbounds": [
                 "🇬🇧 GB | 🟢 | ss | @Fr33C0nfig | 55",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
+                "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 4",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "🇺🇸 US | 🟢 | ss | @outline_ir | 17",
@@ -159,11 +159,9 @@
                 "🇳🇱 NL | 🟢 | ss | @free1ss | 17",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
-                "🇺🇸 US | 🟢 | ss | @ip_cf_config | 13",
                 "🇩🇪 DE | 🟢 | ss | @jiedianf | 9",
                 "🇫🇷 FR | 🟢 | ss | @key_outline | 19",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
-                "🇮🇩 ID | 🟢 | ss | @meli_proxyy | 21",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
                 "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
@@ -212,6 +210,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "W74XFALLLuw6m5IA"
+        },
+        {
+            "tag": "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15",
+            "type": "shadowsocks",
+            "server": "azure-sto.edgeservers.org",
+            "server_port": 48172,
+            "method": "chacha20-ietf-poly1305",
+            "password": "51yloQC8D9w1Wae7FHtI65"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 4",
@@ -312,10 +318,10 @@
         {
             "tag": "🇳🇱 NL | 🟢 | ss | @free1ss | 17",
             "type": "shadowsocks",
-            "server": "178.208.78.170",
-            "server_port": 23822,
+            "server": "193.29.139.162",
+            "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "K4YqJREAOvqhc9Rk2gnvrg"
+            "password": "4a2rfixophdjffa8KVA4Aa"
         },
         {
             "tag": "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
@@ -332,14 +338,6 @@
             "server_port": 49499,
             "method": "chacha20-ietf-poly1305",
             "password": "kTjlLxrncKx4i2HIjxfA3M"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | ss | @ip_cf_config | 13",
-            "type": "shadowsocks",
-            "server": "45.87.175.164",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
         },
         {
             "tag": "🇩🇪 DE | 🟢 | ss | @jiedianf | 9",
@@ -364,14 +362,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "Bog0ELmMM9DSxDdQ"
-        },
-        {
-            "tag": "🇮🇩 ID | 🟢 | ss | @meli_proxyy | 21",
-            "type": "shadowsocks",
-            "server": "154.205.159.100",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",

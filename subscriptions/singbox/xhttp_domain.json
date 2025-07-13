@@ -105,6 +105,7 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
                 "🇮🇹 IT | 🔴 | vless | @club_profsor | 12",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 19",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
@@ -119,10 +120,10 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 5",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
-                "🇺🇸 US | 🔴 | vless | @free_serverir | 38",
                 "🇺🇸 US | 🔴 | vless | @g0dv2ray | 14",
                 "🇺🇸 US | 🔴 | vless | @game_file2020 | 1",
                 "🇩🇪 DE | 🟢 | vless | @game_file2020 | 2",
+                "🇺🇸 US | 🔴 | vless | @ghalagyann | 22",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 9",
                 "🇺🇸 US | 🔴 | vless | @grizzlyvpn | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 12",
@@ -158,6 +159,7 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
                 "🇮🇹 IT | 🔴 | vless | @club_profsor | 12",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 19",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
@@ -172,10 +174,10 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 5",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
-                "🇺🇸 US | 🔴 | vless | @free_serverir | 38",
                 "🇺🇸 US | 🔴 | vless | @g0dv2ray | 14",
                 "🇺🇸 US | 🔴 | vless | @game_file2020 | 1",
                 "🇩🇪 DE | 🟢 | vless | @game_file2020 | 2",
+                "🇺🇸 US | 🔴 | vless | @ghalagyann | 22",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 9",
                 "🇺🇸 US | 🔴 | vless | @grizzlyvpn | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 12",
@@ -275,6 +277,15 @@
             "server": "2sudo.winapp3.ir",
             "server_port": 80,
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @configshubplus | 19",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "d62494a5-4feb-4422-9547-1050a907afa8",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -419,15 +430,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @free_serverir | 38",
-            "type": "vless",
-            "server": "bot.nimeshab-nabod.info",
-            "server_port": 80,
-            "uuid": "itsproxy-1",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @g0dv2ray | 14",
             "type": "vless",
             "server": "speedtestcustom.com",
@@ -467,6 +469,15 @@
                     "short_id": "f8fcb589"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @ghalagyann | 22",
+            "type": "vless",
+            "server": "api.fast.iphone-shopp.ir",
+            "server_port": 80,
+            "uuid": "f994bb2c-6fef-43af-ac6b-6f317dc8a933",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 9",
