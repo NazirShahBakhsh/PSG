@@ -105,10 +105,8 @@
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇩🇪 DE | 🟢 | vless | @manzariyeh_rasht | 13",
-                "🇳🇱 NL | 🟢 | vless | @meli_proxyy | 44",
+                "🇩🇪 DE | 🟢 | vless | @manzariyeh_rasht | 12",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 17",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
@@ -135,10 +133,8 @@
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇩🇪 DE | 🟢 | vless | @manzariyeh_rasht | 13",
-                "🇳🇱 NL | 🟢 | vless | @meli_proxyy | 44",
+                "🇩🇪 DE | 🟢 | vless | @manzariyeh_rasht | 12",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 17",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
@@ -347,7 +343,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @manzariyeh_rasht | 13",
+            "tag": "🇩🇪 DE | 🟢 | vless | @manzariyeh_rasht | 12",
             "type": "vless",
             "server": "new.amoosias.site",
             "server_port": 58435,
@@ -371,29 +367,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "new.amoosias.site"
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @meli_proxyy | 44",
-            "type": "vless",
-            "server": "uhgk.vip-morteza.xyz",
-            "server_port": 433,
-            "uuid": "a5f75cdd-d1dd-4767-99c4-ffebbe0d613e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "eur-lex.europa.eu",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "safari"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "njS5Tdx6sQV0zCwFACf1uikWDSud9HqjS03WvH3_YAg",
-                    "short_id": "82df26bf775f55"
-                }
             }
         },
         {
@@ -421,29 +394,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @netmellianti | 17",
-            "type": "vless",
-            "server": "bmi.raheaiande.ir",
-            "server_port": 1001,
-            "uuid": "faa98229-a17c-4ea6-d6b5-1b040cb9fa26",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ea.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM",
-                    "short_id": "c7bc4d"
-                }
             }
         },
         {
