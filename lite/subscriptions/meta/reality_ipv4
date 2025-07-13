@@ -30,6 +30,7 @@ proxies:
   - {"name":"🇩🇪 DE | 🟢 | vless | @novavpn1984 | 0","type":"vless","server":"116.203.75.81","port":36313,"uuid":"010ddaac-7bac-4dcc-a353-215d01feb06e","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"khor.sarezh.click","reality-opts":{"public-key":"UKw4crSzH0M3eceNPmo4bNs4NyIfhaCUEMi52k6J5DI","short-id":"c74cb910"}}
   - {"name":"🇦🇺 AU | 🟢 | vless | @orange_vpns | 14","type":"vless","server":"45.80.229.254","port":58258,"uuid":"f73d8952-81f2-4bac-b6c4-d81348f282ef","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"t75QpaHSW2E2O2jzeAa7ELBlrDk4ttCKUJYzwsfvPzk","short-id":"a3"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @proxy_emperor | 6","type":"vless","server":"91.99.149.127","port":46650,"uuid":"589b8628-44e4-474c-9f16-4be7159b9800","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.debian.org","reality-opts":{"public-key":"4PpeKl3SfZISMkrtpJyVGKTZLIAsYcd9uGuWRi-pTE4","short-id":"d5379dac5626e5"}}
+  - {"name":"🇬🇧 GB | 🟢 | vless | @proxy_mtproto_vpns_free | 8","type":"vless","server":"159.65.20.188","port":54842,"uuid":"f6c76236-4a0c-476a-bb9e-915fbe131478","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"journalofbigdata.springeropen.com","grpc-opts":{"grpc-service-name":"Ahadhsksfhdg"},"reality-opts":{"public-key":"YHM42QLc0uBoE8Bh5u4G_NUCA5S9CXPf6cb80-S-bgA","short-id":"56e4a920d89b2912"}}
   - {"name":"🇺🇸 US | 🟢 | vless | @proxygrizzly | 0","type":"vless","server":"147.182.183.207","port":443,"uuid":"e7be1334-6a1d-47c0-8c9a-c7a5b8575499","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"z--KbBlQtkBgTcrtdBJeGeCymIrLdaUDwkb44pAp6nY","short-id":"4c"}}
   - {"name":"🇫🇮 FI | 🟢 | vless | @sezar_sec | 3","type":"vless","server":"92.60.78.221","port":443,"uuid":"6897c181-24b1-4880-8660-e6c5c7ee13c7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.tradingview.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY","short-id":"9917d2350096"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8","type":"vless","server":"168.119.184.138","port":25093,"uuid":"243418d0-bf94-4710-8311-7507778a4cc2","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"joinv_2rayngvpn.v2rayvpn2.sbs","grpc-opts":{"grpc-service-name":"@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn"},"reality-opts":{"public-key":"Y6NKkoTdEh7XQpLP0NrLTpwEWyEyL3E7PouAC4ShTXY","short-id":"48d69fd8"}}
@@ -83,6 +84,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @novavpn1984 | 0'
       - '🇦🇺 AU | 🟢 | vless | @orange_vpns | 14'
       - '🇩🇪 DE | 🟢 | vless | @proxy_emperor | 6'
+      - '🇬🇧 GB | 🟢 | vless | @proxy_mtproto_vpns_free | 8'
       - '🇺🇸 US | 🟢 | vless | @proxygrizzly | 0'
       - '🇫🇮 FI | 🟢 | vless | @sezar_sec | 3'
       - '🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8'
@@ -112,6 +114,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @novavpn1984 | 0'
       - '🇦🇺 AU | 🟢 | vless | @orange_vpns | 14'
       - '🇩🇪 DE | 🟢 | vless | @proxy_emperor | 6'
+      - '🇬🇧 GB | 🟢 | vless | @proxy_mtproto_vpns_free | 8'
       - '🇺🇸 US | 🟢 | vless | @proxygrizzly | 0'
       - '🇫🇮 FI | 🟢 | vless | @sezar_sec | 3'
       - '🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8'
@@ -139,6 +142,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @novavpn1984 | 0'
       - '🇦🇺 AU | 🟢 | vless | @orange_vpns | 14'
       - '🇩🇪 DE | 🟢 | vless | @proxy_emperor | 6'
+      - '🇬🇧 GB | 🟢 | vless | @proxy_mtproto_vpns_free | 8'
       - '🇺🇸 US | 🟢 | vless | @proxygrizzly | 0'
       - '🇫🇮 FI | 🟢 | vless | @sezar_sec | 3'
       - '🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8'

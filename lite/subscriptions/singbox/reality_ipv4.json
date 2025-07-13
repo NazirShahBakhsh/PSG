@@ -112,6 +112,7 @@
                 "🇬🇧 GB | 🟢 | vless | @meli_proxyy | 44",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇦🇺 AU | 🟢 | vless | @orange_vpns | 14",
+                "🇬🇧 GB | 🟢 | vless | @proxy_mtproto_vpns_free | 8",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇫🇮 FI | 🟢 | vless | @sezar_sec | 3",
                 "🇹🇷 TR | 🟢 | vless | @sinavm | 1",
@@ -145,6 +146,7 @@
                 "🇬🇧 GB | 🟢 | vless | @meli_proxyy | 44",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇦🇺 AU | 🟢 | vless | @orange_vpns | 14",
+                "🇬🇧 GB | 🟢 | vless | @proxy_mtproto_vpns_free | 8",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇫🇮 FI | 🟢 | vless | @sezar_sec | 3",
                 "🇹🇷 TR | 🟢 | vless | @sinavm | 1",
@@ -503,6 +505,33 @@
                     "public_key": "t75QpaHSW2E2O2jzeAa7ELBlrDk4ttCKUJYzwsfvPzk",
                     "short_id": "a3"
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🟢 | vless | @proxy_mtproto_vpns_free | 8",
+            "type": "vless",
+            "server": "159.65.20.188",
+            "server_port": 54842,
+            "uuid": "f6c76236-4a0c-476a-bb9e-915fbe131478",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YHM42QLc0uBoE8Bh5u4G_NUCA5S9CXPf6cb80-S-bgA",
+                    "short_id": "56e4a920d89b2912"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Ahadhsksfhdg"
             }
         },
         {
