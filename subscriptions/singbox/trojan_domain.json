@@ -100,11 +100,12 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇺🇸 US | 🔴 | trojan | @confing_chanel | 15",
+                "🇩🇪 DE | 🔴 | trojan | @connect_sho | 31",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 17",
+                "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 39",
-                "🇩🇪 DE | 🔴 | trojan | @hope_net | 15",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
                 "🇺🇸 US | 🔴 | trojan | @icv2ray | 2",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -120,7 +121,6 @@
                 "🇺🇸 US | 🔴 | trojan | @noviin_tel | 5",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇩🇪 DE | 🔴 | trojan | @v2raych | 16",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 5"
@@ -133,11 +133,12 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇺🇸 US | 🔴 | trojan | @confing_chanel | 15",
+                "🇩🇪 DE | 🔴 | trojan | @connect_sho | 31",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 17",
+                "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @free_serverir | 39",
-                "🇩🇪 DE | 🔴 | trojan | @hope_net | 15",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
                 "🇺🇸 US | 🔴 | trojan | @icv2ray | 2",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -153,7 +154,6 @@
                 "🇺🇸 US | 🔴 | trojan | @noviin_tel | 5",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇩🇪 DE | 🔴 | trojan | @v2raych | 16",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 5"
@@ -213,11 +213,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | trojan | @confing_chanel | 15",
+            "tag": "🇩🇪 DE | 🔴 | trojan | @connect_sho | 31",
             "type": "trojan",
-            "server": "www.chatgameone.ir",
-            "server_port": 36557,
-            "password": "K7N8flfyok"
+            "server": "pet-bulldog.goat627.mom",
+            "server_port": 443,
+            "password": "3763495894587285504",
+            "tls": {
+                "enabled": true,
+                "server_name": "pet-bulldog.goat627.mom",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
@@ -239,6 +248,52 @@
                 "path": "/",
                 "headers": {
                     "Host": "production.tj.ojan.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 17",
+            "type": "trojan",
+            "server": "russia.com",
+            "server_port": 443,
+            "password": "vip",
+            "tls": {
+                "enabled": true,
+                "server_name": "heihu880.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "heihu880.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
+            "type": "trojan",
+            "server": "www.whatismyip.com",
+            "server_port": 443,
+            "password": "vip",
+            "tls": {
+                "enabled": true,
+                "server_name": "heihu880.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "heihu880.pages.dev"
                 }
             }
         },
@@ -278,22 +333,6 @@
                 "path": "/Az1.vpn.33.TOP/?ed=2560",
                 "headers": {
                     "Host": "top-azx.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | trojan | @hope_net | 15",
-            "type": "trojan",
-            "server": "right-goldfish.goat627.mom",
-            "server_port": 443,
-            "password": "3763495894587285504",
-            "tls": {
-                "enabled": true,
-                "server_name": "right-goldfish.goat627.mom",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
@@ -555,22 +594,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | trojan | @v2raych | 16",
-            "type": "trojan",
-            "server": "choice-condor.treefrog761.one",
-            "server_port": 443,
-            "password": "3763495894587285504",
-            "tls": {
-                "enabled": true,
-                "server_name": "choice-condor.treefrog761.one",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
