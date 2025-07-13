@@ -1170,10 +1170,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vless",
             "vmess",
-            "trojan",
-            "ss"
+            "vless",
+            "ss",
+            "trojan"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -3526,14 +3526,6 @@
         ],
         "title": "vpn | V2ray |Nord | کانفیگ | کد تخفیف اسنپ",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpnvg.jpg"
-    },
-    "vpnwlf": {
-        "types": [
-            "vmess",
-            "vless"
-        ],
-        "title": "WLF VPN",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpnwlf.jpg"
     },
     "vpnzamin": {
         "types": [
