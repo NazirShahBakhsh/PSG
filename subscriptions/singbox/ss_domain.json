@@ -111,6 +111,7 @@
                 "🇬🇧 GB | 🟢 | ss | @freeconfigsplus | 16",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
+                "🇺🇸 US | 🟢 | ss | @ip_cf_config | 11",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -120,14 +121,14 @@
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @server_nekobox | 13",
                 "🇬🇧 GB | 🟢 | ss | @server_nekobox | 15",
-                "🇬🇧 GB | 🟢 | ss | @serverii | 0",
                 "🇫🇮 FI | 🟢 | ss | @shadowsockskeys | 12",
-                "🇮🇳 IN | 🟢 | ss | @v2ray_free_conf | 18",
+                "🇮🇳 IN | 🟢 | ss | @v2ray_free_conf | 15",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raying | 11",
                 "🇳🇱 NL | 🟢 | ss | @v2rayngrit | 12",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 26",
+                "🇬🇧 GB | 🟢 | ss | @vip_freevpn1 | 1",
                 "🇯🇵 JP | 🟢 | ss | @vpn451 | 7",
                 "❔ XX | 🟢 | ss | @vpn_meliii | 6"
             ],
@@ -150,6 +151,7 @@
                 "🇬🇧 GB | 🟢 | ss | @freeconfigsplus | 16",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
+                "🇺🇸 US | 🟢 | ss | @ip_cf_config | 11",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -159,14 +161,14 @@
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @server_nekobox | 13",
                 "🇬🇧 GB | 🟢 | ss | @server_nekobox | 15",
-                "🇬🇧 GB | 🟢 | ss | @serverii | 0",
                 "🇫🇮 FI | 🟢 | ss | @shadowsockskeys | 12",
-                "🇮🇳 IN | 🟢 | ss | @v2ray_free_conf | 18",
+                "🇮🇳 IN | 🟢 | ss | @v2ray_free_conf | 15",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raying | 11",
                 "🇳🇱 NL | 🟢 | ss | @v2rayngrit | 12",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 26",
+                "🇬🇧 GB | 🟢 | ss | @vip_freevpn1 | 1",
                 "🇯🇵 JP | 🟢 | ss | @vpn451 | 7",
                 "❔ XX | 🟢 | ss | @vpn_meliii | 6"
             ],
@@ -292,6 +294,14 @@
             "password": "AcGFEsMR6c07Txux"
         },
         {
+            "tag": "🇺🇸 US | 🟢 | ss | @ip_cf_config | 11",
+            "type": "shadowsocks",
+            "server": "beesyar.org",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
             "type": "shadowsocks",
             "server": "api.namasha.co",
@@ -364,14 +374,6 @@
             "password": "1xO2cqPazqjGfCfd"
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | ss | @serverii | 0",
-            "type": "shadowsocks",
-            "server": "series-a2-me.varzesh360.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ"
-        },
-        {
             "tag": "🇫🇮 FI | 🟢 | ss | @shadowsockskeys | 12",
             "type": "shadowsocks",
             "server": "backup.fleetfoxi.link",
@@ -380,7 +382,7 @@
             "password": "2DGq3jvVRg5n3CcxmysGK2kmrgJeSNof12A76cZvVxqPpetyC1XEciCFufq5xKvRWGGnKVembpThuUSQhbZ7GMsZY4UVxEBw"
         },
         {
-            "tag": "🇮🇳 IN | 🟢 | ss | @v2ray_free_conf | 18",
+            "tag": "🇮🇳 IN | 🟢 | ss | @v2ray_free_conf | 15",
             "type": "shadowsocks",
             "server": "id.vpnsparta.pro",
             "server_port": 57456,
@@ -426,6 +428,14 @@
             "server_port": 32448,
             "method": "chacha20-ietf-poly1305",
             "password": "WVU27LquAMOeXmYeStI897"
+        },
+        {
+            "tag": "🇬🇧 GB | 🟢 | ss | @vip_freevpn1 | 1",
+            "type": "shadowsocks",
+            "server": "series-a2-me.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ"
         },
         {
             "tag": "🇯🇵 JP | 🟢 | ss | @vpn451 | 7",
