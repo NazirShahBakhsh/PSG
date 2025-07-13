@@ -576,9 +576,8 @@
     },
     "erfanpaydartelegram": {
         "types": [
-            "vless",
-            "trojan",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "Erfan Paydar",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/erfanpaydartelegram.jpg"
@@ -690,16 +689,6 @@
         ],
         "title": "فیلتر شکن(v2rayNG)(NapsternetV)",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/filter5050.jpg"
-    },
-    "filter_breaker": {
-        "types": [
-            "vless",
-            "vmess",
-            "ss",
-            "trojan"
-        ],
-        "title": "Filter breaker - فیلترشکن",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/filter_breaker.jpg"
     },
     "filterk0sh": {
         "types": [
@@ -1072,10 +1061,10 @@
     },
     "hope_net": {
         "types": [
-            "ss",
-            "vless",
+            "vmess",
             "trojan",
-            "vmess"
+            "ss",
+            "vless"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1154,9 +1143,9 @@
     "ip_cf_config": {
         "types": [
             "trojan",
-            "vmess",
+            "vless",
             "ss",
-            "vless"
+            "vmess"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1742,8 +1731,8 @@
     },
     "mowjproxy": {
         "types": [
-            "vmess",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -1881,8 +1870,8 @@
     },
     "netmellianti": {
         "types": [
-            "vmess",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "VPN | V2rayNG | نت ملی",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/netmellianti.jpg"
@@ -2179,8 +2168,7 @@
     },
     "proxy_mtproto_vpns_free": {
         "types": [
-            "vless",
-            "vmess"
+            "vless"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/proxy_mtproto_vpns_free.jpg"
@@ -2690,9 +2678,9 @@
     "v2ray_free_conf": {
         "types": [
             "vmess",
-            "trojan",
             "ss",
-            "vless"
+            "vless",
+            "trojan"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -2807,8 +2795,7 @@
     },
     "v2rayfree": {
         "types": [
-            "vless",
-            "vmess"
+            "vless"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayfree.jpg"
@@ -2934,9 +2921,9 @@
     },
     "v2rayngrit": {
         "types": [
-            "vless",
             "vmess",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "𓄂ꪜ2𝘳ꪖꪗꪀᧁ𝘳𝓲𝓽𓆃",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayngrit.jpg"
@@ -3045,7 +3032,7 @@
     "v2rayweb": {
         "types": [
             "vless",
-            "vmess"
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -3301,7 +3288,8 @@
     },
     "vpn_ioss": {
         "types": [
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "کانفیگ سرور V2rayng🔐",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpn_ioss.jpg"
