@@ -124,12 +124,13 @@
                 "🇺🇸 US | 🔴 | vless | @g0dv2ray | 16",
                 "🇺🇸 US | 🔴 | vless | @game_file2020 | 1",
                 "🇩🇪 DE | 🟢 | vless | @game_file2020 | 2",
+                "🇬🇧 GB | 🟢 | vless | @getconfigir | 18",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 5",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 9",
                 "🇺🇸 US | 🔴 | vless | @grizzlyvpn | 2",
-                "🇺🇸 US | 🟢 | vless | @hack_androidapp1 | 1",
-                "🇳🇱 NL | 🟢 | vless | @manzariyeh_rasht | 13",
-                "🇺🇸 US | 🟢 | vless | @noforcedheaven | 12",
+                "🇨🇦 CA | 🟢 | vless | @hack_androidapp1 | 0",
+                "🇨🇦 CA | 🟢 | vless | @noforcedheaven | 12",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 12",
                 "🇺🇸 US | 🔴 | vless | @proxy_hiddfy | 4",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 7",
@@ -139,6 +140,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray03 | 4",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sos | 2",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
+                "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🔴 | vless | @v2rayngvpn_1 | 5",
                 "🇺🇸 US | 🔴 | vless | @v2reay | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 10",
@@ -182,12 +184,13 @@
                 "🇺🇸 US | 🔴 | vless | @g0dv2ray | 16",
                 "🇺🇸 US | 🔴 | vless | @game_file2020 | 1",
                 "🇩🇪 DE | 🟢 | vless | @game_file2020 | 2",
+                "🇬🇧 GB | 🟢 | vless | @getconfigir | 18",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 5",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 9",
                 "🇺🇸 US | 🔴 | vless | @grizzlyvpn | 2",
-                "🇺🇸 US | 🟢 | vless | @hack_androidapp1 | 1",
-                "🇳🇱 NL | 🟢 | vless | @manzariyeh_rasht | 13",
-                "🇺🇸 US | 🟢 | vless | @noforcedheaven | 12",
+                "🇨🇦 CA | 🟢 | vless | @hack_androidapp1 | 0",
+                "🇨🇦 CA | 🟢 | vless | @noforcedheaven | 12",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 12",
                 "🇺🇸 US | 🔴 | vless | @proxy_hiddfy | 4",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 7",
@@ -197,6 +200,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray03 | 4",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sos | 2",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
+                "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🔴 | vless | @v2rayngvpn_1 | 5",
                 "🇺🇸 US | 🔴 | vless | @v2reay | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 10",
@@ -497,6 +501,52 @@
             }
         },
         {
+            "tag": "🇬🇧 GB | 🟢 | vless | @getconfigir | 18",
+            "type": "vless",
+            "server": "p2.3dfigures.ir",
+            "server_port": 80,
+            "uuid": "d7db3e29-c388-4312-91f1-0da96d624e5b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "V0yu6BQhNI5cO2600tllGbF2D5AJcT7o6Xq7AiBKxBE",
+                    "short_id": "4d"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "p1.3dfigures.ir",
+            "server_port": 80,
+            "uuid": "d85090ca-3504-4a1e-8bb1-0c2ed3fc74b0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "c3skAokcLEgTyB4A2qEidFSBNvvlJB6AUSH1RAvUc2s",
+                    "short_id": "9fd097cb4d"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 5",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
@@ -524,7 +574,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @hack_androidapp1 | 1",
+            "tag": "🇨🇦 CA | 🟢 | vless | @hack_androidapp1 | 0",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -542,25 +592,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @manzariyeh_rasht | 13",
-            "type": "vless",
-            "server": "statue.lnmarketplace.net",
-            "server_port": 443,
-            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "statue.lnmarketplace.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @noforcedheaven | 12",
+            "tag": "🇨🇦 CA | 🟢 | vless | @noforcedheaven | 12",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -680,6 +712,24 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @v2rayngvpn_1 | 5",
