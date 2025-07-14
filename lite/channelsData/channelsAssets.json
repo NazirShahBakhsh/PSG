@@ -282,15 +282,6 @@
         "title": "VPN | Professor Club",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/club_profsor.jpg"
     },
-    "config_proxy_ir": {
-        "types": [
-            "vless",
-            "vmess",
-            "ss"
-        ],
-        "title": "کانفیگ و پروکسی رایگان",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/config_proxy_ir.jpg"
-    },
     "config_vip7": {
         "types": [
             "vless"
@@ -1047,10 +1038,10 @@
     },
     "hope_net": {
         "types": [
-            "vmess",
+            "trojan",
             "vless",
             "ss",
-            "trojan"
+            "vmess"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1128,9 +1119,9 @@
     },
     "ip_cf_config": {
         "types": [
-            "trojan",
             "vmess",
             "ss",
+            "trojan",
             "vless"
         ],
         "title": "IP_CF | V2ray Config Pool",
@@ -1841,8 +1832,8 @@
     },
     "netmellianti": {
         "types": [
-            "vmess",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "VPN | V2rayNG | نت ملی",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/netmellianti.jpg"
@@ -2127,7 +2118,7 @@
     "proxy_mtproto_vpns_free": {
         "types": [
             "vless",
-            "ss"
+            "vmess"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/proxy_mtproto_vpns_free.jpg"

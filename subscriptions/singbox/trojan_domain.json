@@ -100,13 +100,11 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇩🇪 DE | 🔴 | trojan | @configshubplus | 16",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 17",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
-                "🇺🇸 US | 🔴 | trojan | @icv2ray | 2",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 5",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 3",
@@ -131,13 +129,11 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇩🇪 DE | 🔴 | trojan | @configshubplus | 16",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 17",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
-                "🇺🇸 US | 🔴 | trojan | @icv2ray | 2",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 5",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 3",
@@ -205,22 +201,6 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | trojan | @configshubplus | 16",
-            "type": "trojan",
-            "server": "crisp-collie.treefrog761.one",
-            "server_port": 443,
-            "password": "3760559353321758720",
-            "tls": {
-                "enabled": true,
-                "server_name": "crisp-collie.treefrog761.one",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
@@ -324,13 +304,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | trojan | @icv2ray | 2",
-            "type": "trojan",
-            "server": "www.chatgameone.ir",
-            "server_port": 36557,
-            "password": "K7N8flfyok"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
