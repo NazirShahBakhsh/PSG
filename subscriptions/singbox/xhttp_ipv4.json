@@ -127,10 +127,10 @@
                 "🇩🇪 DE | 🟢 | vless | @v2ray_vmes | 13",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 5",
-                "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 14",
                 "🇺🇸 US | 🔴 | vless | @v2rayopen | 6",
                 "🇩🇪 DE | 🟢 | vless | @v2reay | 9",
                 "🇮🇹 IT | 🔴 | vless | @vaslvip | 15",
+                "🇺🇸 US | 🔴 | vless | @vmesskhodam | 17",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 8",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 9",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 11",
@@ -173,10 +173,10 @@
                 "🇩🇪 DE | 🟢 | vless | @v2ray_vmes | 13",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 5",
-                "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 14",
                 "🇺🇸 US | 🔴 | vless | @v2rayopen | 6",
                 "🇩🇪 DE | 🟢 | vless | @v2reay | 9",
                 "🇮🇹 IT | 🔴 | vless | @vaslvip | 15",
+                "🇺🇸 US | 🔴 | vless | @vmesskhodam | 17",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 8",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 9",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 11",
@@ -570,15 +570,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 14",
-            "type": "vless",
-            "server": "151.101.67.8",
-            "server_port": 80,
-            "uuid": "V2rayNGFreeeV2rayNGFreee",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @v2rayopen | 6",
             "type": "vless",
             "server": "151.101.67.8",
@@ -618,6 +609,24 @@
             "uuid": "c3cbc7f0-4775-4493-a15e-1c3e7dbe07d5",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @vmesskhodam | 17",
+            "type": "vless",
+            "server": "216.22.5.96",
+            "server_port": 443,
+            "uuid": "e7b626f8-ebcc-4a24-ac32-4efb1d92340a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "216.22.5.96",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @vpncostumer | 8",

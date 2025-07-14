@@ -159,7 +159,6 @@
                 "🇺🇸 US | 🟢 | vless | @hopev2ray | 5",
                 "❔ XX | 🔴 | vless | @imhdiyvp | 12",
                 "🇩🇪 DE | 🟢 | vless | @info_2it_channel | 14",
-                "❔ XX | 🟢 | vless | @ip_cf_config | 14",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @iranbaxvpn | 8",
                 "🇷🇺 RU | 🔴 | vless | @iranbfilter | 6",
@@ -262,7 +261,7 @@
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0",
-                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
+                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
             ],
             "interrupt_exist_connections": false
         },
@@ -331,7 +330,6 @@
                 "🇺🇸 US | 🟢 | vless | @hopev2ray | 5",
                 "❔ XX | 🔴 | vless | @imhdiyvp | 12",
                 "🇩🇪 DE | 🟢 | vless | @info_2it_channel | 14",
-                "❔ XX | 🟢 | vless | @ip_cf_config | 14",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @iranbaxvpn | 8",
                 "🇷🇺 RU | 🔴 | vless | @iranbfilter | 6",
@@ -434,7 +432,7 @@
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0",
-                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
+                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -1377,29 +1375,6 @@
                     "enabled": true,
                     "public_key": "GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ",
                     "short_id": "974a74bf"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @ip_cf_config | 14",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
                 }
             }
         },
@@ -3181,7 +3156,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @zvpnn | 7",
+            "tag": "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
             "type": "vless",
             "server": "power.dlmoviz.ir",
             "server_port": 2020,
