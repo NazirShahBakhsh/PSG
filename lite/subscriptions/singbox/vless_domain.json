@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
+                "🇨🇦 CA | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇺🇸 US | 🔴 | vless | @aryoovpn | 4",
                 "🇮🇷 IR | 🔴 | vless | @canfing_vpn | 19",
                 "❔ XX | 🔴 | vless | @castom_v2ray | 4",
@@ -120,7 +120,7 @@
                 "🇺🇸 US | 🟢 | vless | @free_vpn_for_all_of_us | 19",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇺🇸 US | 🔴 | vless | @goldenshiinevpn | 9",
+                "🇨🇦 CA | 🔴 | vless | @goldenshiinevpn | 9",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
                 "🇮🇷 IR | 🔴 | vless | @guard_revil | 3",
                 "🇩🇪 DE | 🟢 | vless | @info_2it_channel | 13",
@@ -177,6 +177,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
+                "🇷🇺 RU | 🔴 | vless | @v2rayweb | 15",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vaynora | 12",
@@ -207,7 +208,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
+                "🇨🇦 CA | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇺🇸 US | 🔴 | vless | @aryoovpn | 4",
                 "🇮🇷 IR | 🔴 | vless | @canfing_vpn | 19",
                 "❔ XX | 🔴 | vless | @castom_v2ray | 4",
@@ -229,7 +230,7 @@
                 "🇺🇸 US | 🟢 | vless | @free_vpn_for_all_of_us | 19",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇺🇸 US | 🔴 | vless | @goldenshiinevpn | 9",
+                "🇨🇦 CA | 🔴 | vless | @goldenshiinevpn | 9",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
                 "🇮🇷 IR | 🔴 | vless | @guard_revil | 3",
                 "🇩🇪 DE | 🟢 | vless | @info_2it_channel | 13",
@@ -286,6 +287,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
+                "🇷🇺 RU | 🔴 | vless | @v2rayweb | 15",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vaynora | 12",
@@ -328,7 +330,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
+            "tag": "🇨🇦 CA | 🔴 | vless | @artemis_vpn_free | 1",
             "type": "vless",
             "server": "Artemis.sbs",
             "server_port": 80,
@@ -672,7 +674,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @goldenshiinevpn | 9",
+            "tag": "🇨🇦 CA | 🔴 | vless | @goldenshiinevpn | 9",
             "type": "vless",
             "server": "cdnjs.com",
             "server_port": 8880,
@@ -1692,6 +1694,15 @@
             "server": "sw.mrchange.store",
             "server_port": 17081,
             "uuid": "43330370-6687-48c3-ee7e-56c96853e07b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇷🇺 RU | 🔴 | vless | @v2rayweb | 15",
+            "type": "vless",
+            "server": "gervip.midnight1.top",
+            "server_port": 300,
+            "uuid": "9b76e072-4c99-459a-ba9d-53479a665110",
             "flow": "",
             "packet_encoding": "xudp"
         },

@@ -18,11 +18,9 @@ dns:
 
 proxies:
   - {"name":"🇫🇷 FR | 🟢 | trojan | @directvpn | 16","type":"trojan","server":"15.237.8.193","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
-  - {"name":"🇫🇷 FR | 🟢 | trojan | @hope_net | 19","type":"trojan","server":"15.236.245.145","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":true}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @privatevpns | 16","type":"trojan","server":"15.237.8.193","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45","type":"trojan","server":"104.149.155.13","port":443,"password":"79c935c0-27dc-4383-b307-dcac1b8e5509","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14","type":"trojan","server":"15.237.8.193","port":22223,"password":"telegram-id-v2rayvpnchannel","skip-cert-verify":false}
-  - {"name":"🏳️  | 🟢 | trojan | @v2rayweb | 16","type":"trojan","server":"127.0.0.1","port":1080,"password":"caabacb-bcaa-baac-bdca-cccbabacbaba","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @webhube | 4","type":"trojan","server":"15.204.175.111","port":2083,"password":"t2WqbIW2JE","skip-cert-verify":false}
 
 rule-providers:
@@ -55,11 +53,9 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 16'
-      - '🇫🇷 FR | 🟢 | trojan | @hope_net | 19'
       - '🇫🇷 FR | 🟢 | trojan | @privatevpns | 16'
       - '🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14'
-      - '🏳️  | 🟢 | trojan | @v2rayweb | 16'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
 
   - name: 📉 Fallback
@@ -68,22 +64,18 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 16'
-      - '🇫🇷 FR | 🟢 | trojan | @hope_net | 19'
       - '🇫🇷 FR | 🟢 | trojan | @privatevpns | 16'
       - '🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14'
-      - '🏳️  | 🟢 | trojan | @v2rayweb | 16'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 16'
-      - '🇫🇷 FR | 🟢 | trojan | @hope_net | 19'
       - '🇫🇷 FR | 🟢 | trojan | @privatevpns | 16'
       - '🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14'
-      - '🏳️  | 🟢 | trojan | @v2rayweb | 16'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
 
 rules:

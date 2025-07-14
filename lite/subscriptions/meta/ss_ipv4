@@ -19,7 +19,6 @@ dns:
 proxies:
   - {"name":"🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 2","type":"ss","server":"175.41.157.91","port":8319,"password":"ljqdalu13..","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @bislullproxy | 18","type":"ss","server":"4.250.60.151","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧 GB | 🟢 | ss | @free1_vpn | 11","type":"ss","server":"4.250.233.247","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18","type":"ss","server":"216.173.70.187","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @megavpn_link | 14","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🟢 | ss | @mester_v2ray | 18","type":"ss","server":"45.87.175.192","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
@@ -33,6 +32,7 @@ proxies:
   - {"name":"🇺🇸 US | 🟢 | ss | @v2pedia | 21","type":"ss","server":"45.87.175.28","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇱🇻 LV | 🟢 | ss | @v2rayngrit | 15","type":"ss","server":"216.173.70.187","port":57456,"password":"a58fa62b4944ddbf","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27","type":"ss","server":"94.131.123.147","port":7383,"password":"eSHEdJz96rqNkOCAzd5Csv","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB | 🟢 | ss | @vaslvip | 17","type":"ss","server":"4.250.233.247","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱 PL | 🟢 | ss | @vipufovpn | 19","type":"ss","server":"54.36.174.181","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
 
 rule-providers:
@@ -66,7 +66,6 @@ proxy-groups:
     proxies:
       - '🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 2'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
-      - '🇬🇧 GB | 🟢 | ss | @free1_vpn | 11'
       - '🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
       - '🇺🇸 US | 🟢 | ss | @mester_v2ray | 18'
@@ -80,6 +79,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | ss | @v2pedia | 21'
       - '🇱🇻 LV | 🟢 | ss | @v2rayngrit | 15'
       - '🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27'
+      - '🇬🇧 GB | 🟢 | ss | @vaslvip | 17'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 19'
 
   - name: 📉 Fallback
@@ -89,7 +89,6 @@ proxy-groups:
     proxies:
       - '🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 2'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
-      - '🇬🇧 GB | 🟢 | ss | @free1_vpn | 11'
       - '🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
       - '🇺🇸 US | 🟢 | ss | @mester_v2ray | 18'
@@ -103,6 +102,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | ss | @v2pedia | 21'
       - '🇱🇻 LV | 🟢 | ss | @v2rayngrit | 15'
       - '🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27'
+      - '🇬🇧 GB | 🟢 | ss | @vaslvip | 17'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 19'
       
   - name: All-Proxies
@@ -110,7 +110,6 @@ proxy-groups:
     proxies:
       - '🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 2'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
-      - '🇬🇧 GB | 🟢 | ss | @free1_vpn | 11'
       - '🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
       - '🇺🇸 US | 🟢 | ss | @mester_v2ray | 18'
@@ -124,6 +123,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | ss | @v2pedia | 21'
       - '🇱🇻 LV | 🟢 | ss | @v2rayngrit | 15'
       - '🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27'
+      - '🇬🇧 GB | 🟢 | ss | @vaslvip | 17'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 19'
 
 rules:
