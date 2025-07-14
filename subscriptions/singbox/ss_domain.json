@@ -107,11 +107,11 @@
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 2",
                 "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
                 "🇬🇧 GB | 🟢 | ss | @fastvpnorummobile | 2",
-                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 12",
                 "🇬🇧 GB | 🟢 | ss | @freeconfigsplus | 16",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
                 "🇬🇧 GB | 🟢 | ss | @imhdiyvp | 11",
+                "🇳🇱 NL | 🟢 | ss | @ip_cf_config | 13",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -120,7 +120,7 @@
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
-                "🇬🇧 GB | 🟢 | ss | @server_nekobox | 13",
+                "🇬🇧 GB | 🟢 | ss | @server_nekobox | 12",
                 "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 5",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raying | 11",
@@ -147,11 +147,11 @@
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 2",
                 "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
                 "🇬🇧 GB | 🟢 | ss | @fastvpnorummobile | 2",
-                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 12",
                 "🇬🇧 GB | 🟢 | ss | @freeconfigsplus | 16",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
                 "🇬🇧 GB | 🟢 | ss | @imhdiyvp | 11",
+                "🇳🇱 NL | 🟢 | ss | @ip_cf_config | 13",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -160,7 +160,7 @@
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
-                "🇬🇧 GB | 🟢 | ss | @server_nekobox | 13",
+                "🇬🇧 GB | 🟢 | ss | @server_nekobox | 12",
                 "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 5",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raying | 11",
@@ -262,14 +262,6 @@
             "password": "mps3FwmDjLrWaOVg"
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 12",
-            "type": "shadowsocks",
-            "server": "sg.outlinekeys.net",
-            "server_port": 52252,
-            "method": "chacha20-ietf-poly1305",
-            "password": "0XTRjWuqrvL6lpeio9mf5D"
-        },
-        {
             "tag": "🇬🇧 GB | 🟢 | ss | @freeconfigsplus | 16",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
@@ -300,6 +292,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "mps3FwmDjLrWaOVg"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | ss | @ip_cf_config | 13",
+            "type": "shadowsocks",
+            "server": "beesyar.org",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
@@ -366,7 +366,7 @@
             "password": "4e9ufa1a2jeANAVebF0wqN"
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | ss | @server_nekobox | 13",
+            "tag": "🇬🇧 GB | 🟢 | ss | @server_nekobox | 12",
             "type": "shadowsocks",
             "server": "freakconfig13.felafel.org",
             "server_port": 443,
