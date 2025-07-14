@@ -107,9 +107,11 @@
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 5",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
+                "🇫🇮 FI | 🟢 | vless | @proxy_mtproto_vpns_free | 15",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
@@ -135,9 +137,11 @@
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 5",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
+                "🇫🇮 FI | 🟢 | vless | @proxy_mtproto_vpns_free | 15",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
@@ -389,6 +393,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @mowjproxy | 5",
+            "type": "vless",
+            "server": "oxg3.aivideosurfers.com",
+            "server_port": 7777,
+            "uuid": "4b7e41a7-0c05-442a-9c92-28c37afc3eab",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E",
+                    "short_id": "42c0b628ba6a42a9"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | vless | @mt_team_iran | 4",
             "type": "vless",
             "server": "mr.zayn2012.sbs",
@@ -467,6 +494,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPNCUSTOMIZE"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🟢 | vless | @proxy_mtproto_vpns_free | 15",
+            "type": "vless",
+            "server": "oxg8.aivideosurfers.com",
+            "server_port": 5555,
+            "uuid": "4b7e41a7-0c05-442a-9c92-28c37afc3eab",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E",
+                    "short_id": "42c0b628ba6a42a9"
+                }
             }
         },
         {

@@ -107,7 +107,6 @@
                 "🇳🇱 NL | 🟢 | vless | @canfing_vpn | 15",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 16",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
-                "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
                 "🇩🇪 DE | 🟢 | vless | @confing_chanel | 23",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
@@ -208,7 +207,6 @@
                 "🇳🇱 NL | 🟢 | vless | @canfing_vpn | 15",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 16",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
-                "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
                 "🇩🇪 DE | 🟢 | vless | @confing_chanel | 23",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
@@ -524,29 +522,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
-            "type": "vless",
-            "server": "bmi.raheaiande.ir",
-            "server_port": 1001,
-            "uuid": "1bfb8c7d-a8f0-460d-f7a5-0e48df2beb30",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ea.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM",
-                    "short_id": "c7bc4d"
-                }
             }
         },
         {

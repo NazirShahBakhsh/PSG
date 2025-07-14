@@ -479,13 +479,6 @@
         "title": "v2rayConfigs deli",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/deli_servers.jpg"
     },
-    "deragv2ray": {
-        "types": [
-            "vless"
-        ],
-        "title": "𝒅𝒆𝒓𝒂𝒈 𝒗2𝒓𝒂𝒚",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/deragv2ray.jpg"
-    },
     "dgkbza": {
         "types": [
             "vless"
@@ -1055,10 +1048,10 @@
     },
     "hope_net": {
         "types": [
+            "vless",
             "vmess",
-            "trojan",
             "ss",
-            "vless"
+            "trojan"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1137,9 +1130,9 @@
     "ip_cf_config": {
         "types": [
             "vmess",
+            "trojan",
             "ss",
-            "vless",
-            "trojan"
+            "vless"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1726,8 +1719,9 @@
     },
     "mowjproxy": {
         "types": [
+            "ss",
             "vmess",
-            "ss"
+            "vless"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -2999,9 +2993,8 @@
     },
     "v2rayweb": {
         "types": [
-            "vmess",
             "vless",
-            "trojan"
+            "vmess"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
