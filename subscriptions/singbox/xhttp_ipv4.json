@@ -102,13 +102,13 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 14",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 18",
                 "🇺🇸 US | 🔴 | vless | @configms | 15",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 14",
                 "🇺🇸 US | 🔴 | vless | @configx2ray | 12",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
-                "🇺🇸 US | 🔴 | vless | @falcunargo | 4",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 9",
                 "🇺🇸 US | 🔴 | vless | @free1_vpn | 8",
                 "🇹🇷 TR | 🟢 | vless | @getconfigir | 16",
-                "🇺🇸 US | 🔴 | vless | @ghalagyann | 19",
+                "🇺🇸 US | 🔴 | vless | @ghalagyann | 17",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 5",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 5",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 6",
@@ -148,13 +148,13 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 14",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 18",
                 "🇺🇸 US | 🔴 | vless | @configms | 15",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 14",
                 "🇺🇸 US | 🔴 | vless | @configx2ray | 12",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
-                "🇺🇸 US | 🔴 | vless | @falcunargo | 4",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 9",
                 "🇺🇸 US | 🔴 | vless | @free1_vpn | 8",
                 "🇹🇷 TR | 🟢 | vless | @getconfigir | 16",
-                "🇺🇸 US | 🔴 | vless | @ghalagyann | 19",
+                "🇺🇸 US | 🔴 | vless | @ghalagyann | 17",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 5",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 5",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 6",
@@ -238,6 +238,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @configshubplus | 14",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "e02a83a6-16c9-4eaf-d40e-1387028d93a0",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @configx2ray | 12",
             "type": "vless",
             "server": "151.101.3.8",
@@ -252,15 +261,6 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "Parsashonam-262",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @falcunargo | 4",
-            "type": "vless",
-            "server": "151.101.67.8",
-            "server_port": 80,
-            "uuid": "V2rayNGFreeeV2rayNGFreee",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -306,7 +306,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @ghalagyann | 19",
+            "tag": "🇺🇸 US | 🔴 | vless | @ghalagyann | 17",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
