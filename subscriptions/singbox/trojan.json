@@ -136,6 +136,7 @@
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 13",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
+                "🏳️  | 🟢 | trojan | @hope_net | 18",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 7",
                 "🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13",
                 "🇮🇷 IR | 🔴 | trojan | @mahanvpn | 0",
@@ -208,6 +209,7 @@
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 13",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
+                "🏳️  | 🟢 | trojan | @hope_net | 18",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 7",
                 "🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13",
                 "🇮🇷 IR | 🔴 | trojan | @mahanvpn | 0",
@@ -739,7 +741,7 @@
             "type": "trojan",
             "server": "62.60.176.240",
             "server_port": 36557,
-            "password": "one@bored_vpn@bored_vpn@bored_vpn@bored_vpn@bored_vpn@bored_vpn"
+            "password": "gDFMs8QUem"
         },
         {
             "tag": "🇺🇸 US | 🟢 | trojan | @connect_sho | 3",
@@ -899,6 +901,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "46.8.231.225",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🏳️  | 🟢 | trojan | @hope_net | 18",
+            "type": "trojan",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "password": "ccbabaa-acba-caab-cadb-ccababccaabb",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
