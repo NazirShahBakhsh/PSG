@@ -107,6 +107,7 @@
                 "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
                 "❔ XX | 🟢 | ss | @vpidiamond | 9",
                 "🇳🇱 NL | 🟢 | ss | @vpn451 | 10",
+                "🇳🇱 NL | 🟢 | ss | @NamiraNet | 59",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @free1_vpn | 11",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
@@ -116,11 +117,11 @@
                 "🇬🇧 GB | 🟢 | ss | @outlineopenkey | 7",
                 "🇺🇸 US | 🟢 | ss | @selinc | 7",
                 "🇷🇺 RU | 🟢 | ss | @shadowsockskeys | 16",
-                "🇳🇱 NL | 🟢 | ss | @sinavm | 1",
                 "🇫🇮 FI | 🟢 | ss | @strongprotocol | 10",
                 "🇳🇱 NL | 🟢 | ss | @tgvpn6 | 20",
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
                 "🇺🇸 US | 🟢 | ss | @v2pedia | 21",
+                "🇸🇪 SE | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇱🇻 LV | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
@@ -141,6 +142,7 @@
                 "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
                 "❔ XX | 🟢 | ss | @vpidiamond | 9",
                 "🇳🇱 NL | 🟢 | ss | @vpn451 | 10",
+                "🇳🇱 NL | 🟢 | ss | @NamiraNet | 59",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @free1_vpn | 11",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
@@ -150,11 +152,11 @@
                 "🇬🇧 GB | 🟢 | ss | @outlineopenkey | 7",
                 "🇺🇸 US | 🟢 | ss | @selinc | 7",
                 "🇷🇺 RU | 🟢 | ss | @shadowsockskeys | 16",
-                "🇳🇱 NL | 🟢 | ss | @sinavm | 1",
                 "🇫🇮 FI | 🟢 | ss | @strongprotocol | 10",
                 "🇳🇱 NL | 🟢 | ss | @tgvpn6 | 20",
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
                 "🇺🇸 US | 🟢 | ss | @v2pedia | 21",
+                "🇸🇪 SE | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇱🇻 LV | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
@@ -250,6 +252,14 @@
             "password": "rirgAJoGVPZBhFx9gNH3gj"
         },
         {
+            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraNet | 59",
+            "type": "shadowsocks",
+            "server": "146.103.98.85",
+            "server_port": 46303,
+            "method": "chacha20-ietf-poly1305",
+            "password": "VmtM6lUSMzc9lgO7gDzd49"
+        },
+        {
             "tag": "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
             "type": "shadowsocks",
             "server": "4.250.60.151",
@@ -322,14 +332,6 @@
             "password": "40bdc52dcffa6942"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @sinavm | 1",
-            "type": "shadowsocks",
-            "server": "146.103.98.85",
-            "server_port": 46303,
-            "method": "chacha20-ietf-poly1305",
-            "password": "VmtM6lUSMzc9lgO7gDzd49"
-        },
-        {
             "tag": "🇫🇮 FI | 🟢 | ss | @strongprotocol | 10",
             "type": "shadowsocks",
             "server": "45.12.135.36",
@@ -360,6 +362,14 @@
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🇸🇪 SE | 🟢 | ss | @v2ray_free_conf | 19",
+            "type": "shadowsocks",
+            "server": "4.223.106.151",
+            "server_port": 48172,
+            "method": "chacha20-ietf-poly1305",
+            "password": "51yloQC8D9w1Wae7FHtI65"
         },
         {
             "tag": "🇱🇻 LV | 🟢 | ss | @v2rayngrit | 15",

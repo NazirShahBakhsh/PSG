@@ -422,10 +422,10 @@
     },
     "configshubplus": {
         "types": [
+            "vless",
             "ss",
             "trojan",
-            "vmess",
-            "vless"
+            "vmess"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/configshubplus.jpg"
@@ -934,9 +934,10 @@
     },
     "freakconfig": {
         "types": [
-            "vmess",
             "vless",
-            "trojan"
+            "vmess",
+            "trojan",
+            "ss"
         ],
         "title": "سرور کانفیگ کانفینگ رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/freakconfig.jpg"
@@ -1335,8 +1336,8 @@
     },
     "hope_net": {
         "types": [
-            "vmess",
             "vless",
+            "vmess",
             "ss",
             "trojan"
         ],
@@ -1418,8 +1419,8 @@
         "types": [
             "ss",
             "trojan",
-            "vmess",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2036,8 +2037,8 @@
     },
     "mowjproxy": {
         "types": [
-            "vless",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -2259,13 +2260,6 @@
         "title": "HopeVpn",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/noforcedheaven.jpg"
     },
-    "novavpn1984": {
-        "types": [
-            "vless"
-        ],
-        "title": "NovaVPN",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/novavpn1984.jpg"
-    },
     "noviin_tel": {
         "types": [
             "ss"
@@ -2423,7 +2417,7 @@
         "types": [
             "vless"
         ],
-        "title": "Proxies | Irancell-Hamrah",
+        "title": "V2ray | Proxies",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/proxie.jpg"
     },
     "proxse11": {
@@ -2483,6 +2477,7 @@
     "proxy_mtproto_vpns_free": {
         "types": [
             "vless",
+            "ss",
             "vmess"
         ],
         "title": "VPNs Proxy Mtproto",
@@ -3157,10 +3152,10 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "trojan",
-            "ss",
             "vless",
-            "vmess"
+            "ss",
+            "vmess",
+            "trojan"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -3305,8 +3300,8 @@
         "types": [
             "vless",
             "trojan",
-            "ss",
-            "vmess"
+            "vmess",
+            "ss"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2raych.jpg"
@@ -3343,6 +3338,7 @@
     "v2rayfree": {
         "types": [
             "vless",
+            "ss",
             "vmess"
         ],
         "title": "VPNs Proxy Mtproto",
@@ -3817,8 +3813,8 @@
     },
     "vmess_ir": {
         "types": [
-            "vless",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "🚀سرور رایگان و اختصاصی vmess_ir🚀",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vmess_ir.jpg"
@@ -4123,8 +4119,8 @@
     },
     "vpnv2rayngv": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "vmess"
         ],
         "title": "کانفینگ پروکسی وی توری نت ملی اسکوئید گیم خرید سرورفیلترشکن بازی مرکب وی پی ان اسکویید گیم ایران vpn v2rayNG vmess vless proxy",
