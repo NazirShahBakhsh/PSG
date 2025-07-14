@@ -100,13 +100,13 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
+                "🇩🇪 DE | 🔴 | trojan | @configshubplus | 16",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 17",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
                 "🇺🇸 US | 🔴 | trojan | @icv2ray | 2",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 18",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 5",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 3",
@@ -117,7 +117,6 @@
                 "❔ XX | 🟢 | trojan | @mtpv2ray | 5",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇺🇸 US | 🔴 | trojan | @noviin_tel | 0",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
@@ -132,13 +131,13 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
+                "🇩🇪 DE | 🔴 | trojan | @configshubplus | 16",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 17",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
                 "🇺🇸 US | 🔴 | trojan | @icv2ray | 2",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 18",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 5",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 3",
@@ -149,7 +148,6 @@
                 "❔ XX | 🟢 | trojan | @mtpv2ray | 5",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇺🇸 US | 🔴 | trojan | @noviin_tel | 0",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
@@ -207,6 +205,22 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | trojan | @configshubplus | 16",
+            "type": "trojan",
+            "server": "crisp-collie.treefrog761.one",
+            "server_port": 443,
+            "password": "3760559353321758720",
+            "tls": {
+                "enabled": true,
+                "server_name": "crisp-collie.treefrog761.one",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -317,13 +331,6 @@
             "server": "www.chatgameone.ir",
             "server_port": 36557,
             "password": "K7N8flfyok"
-        },
-        {
-            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 18",
-            "type": "trojan",
-            "server": "13c2c931-swin40-swy6li-tni2.cu.plebai.net",
-            "server_port": 15229,
-            "password": "5e2f888c-68ef-11ef-96ca-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -520,13 +527,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | trojan | @noviin_tel | 0",
-            "type": "trojan",
-            "server": "www.chatgameone.ir",
-            "server_port": 36557,
-            "password": "K7N8flfyok"
         },
         {
             "tag": "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",

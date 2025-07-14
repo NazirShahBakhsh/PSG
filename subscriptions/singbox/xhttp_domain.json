@@ -103,7 +103,6 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 10",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 11",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
-                "🇺🇸 US | 🔴 | vless | @config_proxy | 76",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -137,12 +136,12 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 14",
+                "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 11",
                 "🇺🇸 US | 🔴 | vless | @v2rayngvpn_1 | 5",
                 "🇹🇷 TR | 🟢 | vless | @v2source | 16",
                 "🇺🇸 US | 🔴 | vless | @vaslvip | 16",
                 "🇺🇸 US | 🔴 | vless | @vistav2ray | 14",
-                "🇺🇸 US | 🟢 | vless | @vmess_ir | 14",
+                "🇺🇸 US | 🟢 | vless | @vmess_ir | 18",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
@@ -157,7 +156,6 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 10",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 11",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
-                "🇺🇸 US | 🔴 | vless | @config_proxy | 76",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -191,12 +189,12 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 14",
+                "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 11",
                 "🇺🇸 US | 🔴 | vless | @v2rayngvpn_1 | 5",
                 "🇹🇷 TR | 🟢 | vless | @v2source | 16",
                 "🇺🇸 US | 🔴 | vless | @vaslvip | 16",
                 "🇺🇸 US | 🔴 | vless | @vistav2ray | 14",
-                "🇺🇸 US | 🟢 | vless | @vmess_ir | 14",
+                "🇺🇸 US | 🟢 | vless | @vmess_ir | 18",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
@@ -259,15 +257,6 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "8db68448-6ebb-4361-bcbe-519a1f20fca1",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @config_proxy | 76",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "44f2c910-07a4-478e-861b-aed3d0750980",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -638,7 +627,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 14",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 11",
             "type": "vless",
             "server": "Speedtest.net",
             "server_port": 80,
@@ -697,7 +686,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @vmess_ir | 14",
+            "tag": "🇺🇸 US | 🟢 | vless | @vmess_ir | 18",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -706,7 +695,7 @@
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "shima.tas-bazi.com",
+                "server_name": "auto.tas-bazi.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
