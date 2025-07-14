@@ -10,8 +10,6 @@
     },
     "NamiraNet": {
         "types": [
-            "ss",
-            "trojan",
             "vless",
             "vmess"
         ],
@@ -897,9 +895,9 @@
     },
     "freevpnatm": {
         "types": [
-            "vmess",
             "trojan",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "科學上网 free configs",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/freevpnatm.jpg"
@@ -1057,10 +1055,10 @@
     },
     "hope_net": {
         "types": [
-            "trojan",
             "vmess",
-            "vless",
-            "ss"
+            "trojan",
+            "ss",
+            "vless"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1138,10 +1136,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vless",
             "vmess",
-            "trojan",
-            "ss"
+            "ss",
+            "vless",
+            "trojan"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1317,8 +1315,8 @@
     },
     "jiujied": {
         "types": [
-            "trojan",
             "vmess",
+            "trojan",
             "vless",
             "ss"
         ],
@@ -1729,7 +1727,7 @@
     "mowjproxy": {
         "types": [
             "vmess",
-            "vless"
+            "ss"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -3001,9 +2999,9 @@
     },
     "v2rayweb": {
         "types": [
+            "vmess",
             "vless",
-            "trojan",
-            "vmess"
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -3250,14 +3248,6 @@
         ],
         "title": "کانفیگ سرور V2rayng🔐",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpn_ioss.jpg"
-    },
-    "vpn_meliii": {
-        "types": [
-            "ss",
-            "vless"
-        ],
-        "title": "پروکسی کانفینگ ویتوری وی پی ان ملی اخبار جنگ فیلترشکن ایران | vpn proxy sstp cisco v2rayng vemss vless",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpn_meliii.jpg"
     },
     "vpn_ocean": {
         "types": [
