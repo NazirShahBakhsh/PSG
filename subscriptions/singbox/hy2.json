@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮 FI | 🟢 | hy2 | @noforcedheaven | 13"
+                "🇫🇮 FI | 🟢 | hy2 | @noforcedheaven | 12"
             ],
             "interrupt_exist_connections": false
         },
@@ -106,7 +106,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | hy2 | @noforcedheaven | 13"
+                "🇫🇮 FI | 🟢 | hy2 | @noforcedheaven | 12"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -126,7 +126,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | hy2 | @noforcedheaven | 13",
+            "tag": "🇫🇮 FI | 🟢 | hy2 | @noforcedheaven | 12",
             "type": "hysteria2",
             "server": "46.62.152.236",
             "server_port": 443,
