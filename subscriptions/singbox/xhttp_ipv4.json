@@ -102,7 +102,6 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 14",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 18",
                 "🇺🇸 US | 🔴 | vless | @configms | 15",
-                "🇹🇷 TR | 🔴 | vless | @configshubplus | 19",
                 "🇺🇸 US | 🔴 | vless | @configx2ray | 10",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @expressvpn_420 | 15",
@@ -110,6 +109,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 8",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 12",
                 "🇺🇸 US | 🔴 | vless | @flyv2ray | 10",
+                "🇹🇷 TR | 🔴 | vless | @freakconfig | 7",
                 "🇺🇸 US | 🔴 | vless | @free1_vpn | 8",
                 "🇹🇷 TR | 🟢 | vless | @getconfigir | 16",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann | 21",
@@ -150,7 +150,6 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 14",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 18",
                 "🇺🇸 US | 🔴 | vless | @configms | 15",
-                "🇹🇷 TR | 🔴 | vless | @configshubplus | 19",
                 "🇺🇸 US | 🔴 | vless | @configx2ray | 10",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @expressvpn_420 | 15",
@@ -158,6 +157,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 8",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 12",
                 "🇺🇸 US | 🔴 | vless | @flyv2ray | 10",
+                "🇹🇷 TR | 🔴 | vless | @freakconfig | 7",
                 "🇺🇸 US | 🔴 | vless | @free1_vpn | 8",
                 "🇹🇷 TR | 🟢 | vless | @getconfigir | 16",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann | 21",
@@ -238,15 +238,6 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇹🇷 TR | 🔴 | vless | @configshubplus | 19",
-            "type": "vless",
-            "server": "188.132.141.247",
-            "server_port": 6666,
-            "uuid": "a65a1148-03ca-4263-badb-0ee546986e11",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -333,6 +324,15 @@
             "server": "151.101.67.8",
             "server_port": 80,
             "uuid": "V2rayNGFreeeV2rayNGFreee",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇹🇷 TR | 🔴 | vless | @freakconfig | 7",
+            "type": "vless",
+            "server": "188.132.141.247",
+            "server_port": 6666,
+            "uuid": "a65a1148-03ca-4263-badb-0ee546986e11",
             "flow": "",
             "packet_encoding": "xudp"
         },
