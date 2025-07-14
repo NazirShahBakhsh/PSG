@@ -101,7 +101,6 @@
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 8",
                 "🇺🇸 US | 🔴 | vless | @lranonline_new | 2",
-                "🇺🇸 US | 🔴 | vless | @meli_proxyy | 18",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇺🇸 US | 🔴 | vless | @vistav2ray | 17"
             ],
@@ -114,7 +113,6 @@
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 8",
                 "🇺🇸 US | 🔴 | vless | @lranonline_new | 2",
-                "🇺🇸 US | 🔴 | vless | @meli_proxyy | 18",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇺🇸 US | 🔴 | vless | @vistav2ray | 17"
             ],
@@ -164,24 +162,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "216.22.5.96",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @meli_proxyy | 18",
-            "type": "vless",
-            "server": "45.63.92.206",
-            "server_port": 443,
-            "uuid": "7197f7d0-0fd2-40d4-83ad-d2755a4f91b3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "45.63.92.206",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
