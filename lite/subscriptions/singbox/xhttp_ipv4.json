@@ -102,7 +102,8 @@
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
+                "🇹🇷 TR | 🔴 | vless | @vistav2ray | 16"
             ],
             "interrupt_exist_connections": false
         },
@@ -114,7 +115,8 @@
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
+                "🇹🇷 TR | 🔴 | vless | @vistav2ray | 16"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -203,6 +205,15 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "qeshmserver",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇹🇷 TR | 🔴 | vless | @vistav2ray | 16",
+            "type": "vless",
+            "server": "188.132.141.247",
+            "server_port": 6666,
+            "uuid": "a65a1148-03ca-4263-badb-0ee546986e11",
             "flow": "",
             "packet_encoding": "xudp"
         }
