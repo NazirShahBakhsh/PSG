@@ -17,6 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇮🇷 IR | 🔴 | vless | @NamiraNet | 56","type":"vless","server":"185.243.51.67","port":21760,"uuid":"73e10f2a-bb9a-40c1-8e2c-ebfe0dac1dac","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🔴 | vless | @airdroplandcod | 5","type":"vless","server":"104.21.220.87","port":80,"uuid":"5a2f17fc-5b8e-4091-8754-6e5783f335c9","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"bia-to-channel4.unlimiteddev.shop"}}}
   - {"name":"🇬🇧 GB | 🔴 | vless | @aminaqafarzane | 16","type":"vless","server":"102.177.189.29","port":8880,"uuid":"fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"hk.laoyoutiao.link","ws-opts":{"path":"/TelegramU0001F1E8U0001F1F3kir","headers":{"Host":"hk.laoyoutiao.link"}}}
   - {"name":"🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 2","type":"vless","server":"82.25.101.123","port":34712,"uuid":"65cd9b4b-90a1-43f4-9682-3e33c8a29b0e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
@@ -81,6 +82,7 @@ proxies:
   - {"name":"🇺🇸 US | 🟢 | vless | @ntconfig | 3","type":"vless","server":"188.114.96.3","port":8443,"uuid":"88d05a33-ff36-415d-9d2c-7e1e8468e7e8","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"w325.pAges.Dev","ws-opts":{"path":"/Tel-@V2ray_Alpha/?ed=2560","headers":{"Host":"w325.pages.dev"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @orange_vpns | 16","type":"vless","server":"141.101.121.243","port":8080,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2048","headers":{"Host":"1750293123492.china.baidu.bilibili.china.aeko.cn"}}}
   - {"name":"🇮🇷 IR | 🔴 | vless | @orgempirenet | 1","type":"vless","server":"195.190.144.155","port":3012,"uuid":"4cd9af1f-7362-4a67-a0ac-d298ea1aa1c7","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @outline_ir | 17","type":"vless","server":"207.246.113.180","port":443,"uuid":"e8f25e87-f17f-4b38-9ba8-3d3ffd345186","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"}}
   - {"name":"🇺🇸 US | 🟢 | vless | @outlinev2rayng | 14","type":"vless","server":"104.17.147.22","port":2087,"uuid":"9e769ce1-34be-4e3f-b0a6-823f30eb8f69","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"smart.v2plusify.org","ws-opts":{"path":"/","headers":{"Host":"smart.v2plusify.org"}}}
   - {"name":"🇮🇷 IR | 🔴 | vless | @pistachiovpn | 1","type":"vless","server":"193.151.132.124","port":57209,"uuid":"c59695d1-b0d3-440e-a502-76e408805a1e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇩🇪 DE | 🟢 | vless | @proxy_emperor | 6","type":"vless","server":"91.99.149.127","port":46650,"uuid":"589b8628-44e4-474c-9f16-4be7159b9800","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.debian.org","reality-opts":{"public-key":"4PpeKl3SfZISMkrtpJyVGKTZLIAsYcd9uGuWRi-pTE4","short-id":"d5379dac5626e5"}}
@@ -164,6 +166,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇮🇷 IR | 🔴 | vless | @NamiraNet | 56'
       - '🇺🇸 US | 🔴 | vless | @airdroplandcod | 5'
       - '🇬🇧 GB | 🔴 | vless | @aminaqafarzane | 16'
       - '🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 2'
@@ -228,6 +231,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @ntconfig | 3'
       - '🇺🇸 US | 🔴 | vless | @orange_vpns | 16'
       - '🇮🇷 IR | 🔴 | vless | @orgempirenet | 1'
+      - '🇺🇸 US | 🟢 | vless | @outline_ir | 17'
       - '🇺🇸 US | 🟢 | vless | @outlinev2rayng | 14'
       - '🇮🇷 IR | 🔴 | vless | @pistachiovpn | 1'
       - '🇩🇪 DE | 🟢 | vless | @proxy_emperor | 6'
@@ -287,6 +291,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇮🇷 IR | 🔴 | vless | @NamiraNet | 56'
       - '🇺🇸 US | 🔴 | vless | @airdroplandcod | 5'
       - '🇬🇧 GB | 🔴 | vless | @aminaqafarzane | 16'
       - '🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 2'
@@ -351,6 +356,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @ntconfig | 3'
       - '🇺🇸 US | 🔴 | vless | @orange_vpns | 16'
       - '🇮🇷 IR | 🔴 | vless | @orgempirenet | 1'
+      - '🇺🇸 US | 🟢 | vless | @outline_ir | 17'
       - '🇺🇸 US | 🟢 | vless | @outlinev2rayng | 14'
       - '🇮🇷 IR | 🔴 | vless | @pistachiovpn | 1'
       - '🇩🇪 DE | 🟢 | vless | @proxy_emperor | 6'
@@ -408,6 +414,7 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
+      - '🇮🇷 IR | 🔴 | vless | @NamiraNet | 56'
       - '🇺🇸 US | 🔴 | vless | @airdroplandcod | 5'
       - '🇬🇧 GB | 🔴 | vless | @aminaqafarzane | 16'
       - '🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 2'
@@ -472,6 +479,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @ntconfig | 3'
       - '🇺🇸 US | 🔴 | vless | @orange_vpns | 16'
       - '🇮🇷 IR | 🔴 | vless | @orgempirenet | 1'
+      - '🇺🇸 US | 🟢 | vless | @outline_ir | 17'
       - '🇺🇸 US | 🟢 | vless | @outlinev2rayng | 14'
       - '🇮🇷 IR | 🔴 | vless | @pistachiovpn | 1'
       - '🇩🇪 DE | 🟢 | vless | @proxy_emperor | 6'

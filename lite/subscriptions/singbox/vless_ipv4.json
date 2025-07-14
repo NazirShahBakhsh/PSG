@@ -98,6 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇮🇷 IR | 🔴 | vless | @NamiraNet | 56",
                 "🇺🇸 US | 🔴 | vless | @airdroplandcod | 5",
                 "🇬🇧 GB | 🔴 | vless | @aminaqafarzane | 16",
                 "🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 2",
@@ -176,6 +177,7 @@
                 "🇺🇸 US | 🟢 | vless | @ntconfig | 3",
                 "🇺🇸 US | 🔴 | vless | @orange_vpns | 16",
                 "🇮🇷 IR | 🔴 | vless | @orgempirenet | 1",
+                "🇺🇸 US | 🟢 | vless | @outline_ir | 17",
                 "🇺🇸 US | 🟢 | vless | @outlinev2rayng | 14",
                 "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 1",
                 "🇺🇸 US | 🔴 | vless | @proxyandvpnofficial1 | 11",
@@ -217,6 +219,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇨🇿 CZ | 🟢 | vless | @vistav2ray | 17",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
+                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 18",
                 "🇳🇱 NL | 🟢 | vless | @vpn451 | 10",
                 "🇮🇷 IR | 🔴 | vless | @vpn_arta | 3",
                 "🇩🇪 DE | 🔴 | vless | @vpn_ioss | 18",
@@ -237,6 +240,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇮🇷 IR | 🔴 | vless | @NamiraNet | 56",
                 "🇺🇸 US | 🔴 | vless | @airdroplandcod | 5",
                 "🇬🇧 GB | 🔴 | vless | @aminaqafarzane | 16",
                 "🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 2",
@@ -315,6 +319,7 @@
                 "🇺🇸 US | 🟢 | vless | @ntconfig | 3",
                 "🇺🇸 US | 🔴 | vless | @orange_vpns | 16",
                 "🇮🇷 IR | 🔴 | vless | @orgempirenet | 1",
+                "🇺🇸 US | 🟢 | vless | @outline_ir | 17",
                 "🇺🇸 US | 🟢 | vless | @outlinev2rayng | 14",
                 "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 1",
                 "🇺🇸 US | 🔴 | vless | @proxyandvpnofficial1 | 11",
@@ -356,6 +361,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇨🇿 CZ | 🟢 | vless | @vistav2ray | 17",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
+                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 18",
                 "🇳🇱 NL | 🟢 | vless | @vpn451 | 10",
                 "🇮🇷 IR | 🔴 | vless | @vpn_arta | 3",
                 "🇩🇪 DE | 🔴 | vless | @vpn_ioss | 18",
@@ -386,6 +392,15 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraNet | 56",
+            "type": "vless",
+            "server": "185.243.51.67",
+            "server_port": 21760,
+            "uuid": "73e10f2a-bb9a-40c1-8e2c-ebfe0dac1dac",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @airdroplandcod | 5",
@@ -1702,6 +1717,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🟢 | vless | @outline_ir | 17",
+            "type": "vless",
+            "server": "207.246.113.180",
+            "server_port": 443,
+            "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "dog.21972f59-14b7-3eb3-be11-bf5691d6bf1d.googleapis.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @outlinev2rayng | 14",
             "type": "vless",
             "server": "104.17.147.22",
@@ -2432,6 +2470,33 @@
                 "headers": {
                     "Host": "trojan.burgerip.co.uk"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vmess_ir | 18",
+            "type": "vless",
+            "server": "88.99.87.227",
+            "server_port": 2090,
+            "uuid": "Telegram--SRCVPN--",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MqY81IaljluV2NXyLqPzt7PL12knwUuBiX0ru_KSLCM",
+                    "short_id": "aa0dd5ba"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "32135vless"
             }
         },
         {

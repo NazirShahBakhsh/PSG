@@ -113,6 +113,8 @@
                 "🇺🇸 US | 🔴 | vless | @free1_vpn | 7",
                 "🇹🇷 TR | 🟢 | vless | @getconfigir | 16",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann | 21",
+                "🇺🇸 US | 🔴 | vless | @ghalagyann | 22",
+                "🇺🇸 US | 🔴 | vless | @ghalagyann | 23",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 4",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 5",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 6",
@@ -136,8 +138,8 @@
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 9",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 11",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 14",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 19",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 22"
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 18",
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 21"
             ],
             "interrupt_exist_connections": false
         },
@@ -160,6 +162,8 @@
                 "🇺🇸 US | 🔴 | vless | @free1_vpn | 7",
                 "🇹🇷 TR | 🟢 | vless | @getconfigir | 16",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann | 21",
+                "🇺🇸 US | 🔴 | vless | @ghalagyann | 22",
+                "🇺🇸 US | 🔴 | vless | @ghalagyann | 23",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 4",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 5",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 6",
@@ -183,8 +187,8 @@
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 9",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 11",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 14",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 19",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 22"
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 18",
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 21"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -372,6 +376,24 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "53611ea1-a581-472c-8d94-4da0e1b4e178",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @ghalagyann | 22",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "9f9aaa95-3380-4d63-a3df-fa07e8aef582",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @ghalagyann | 23",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "4c107845-21a5-44dd-9e82-794c36724b2b",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -704,7 +726,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 19",
+            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 18",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
@@ -713,7 +735,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 22",
+            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 21",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,

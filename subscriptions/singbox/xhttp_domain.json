@@ -103,6 +103,7 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 10",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 11",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
+                "🇺🇸 US | 🔴 | vless | @config_proxy | 83",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "🇺🇸 US | 🔴 | vless | @configx2ray | 9",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -128,7 +129,8 @@
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 12",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇺🇸 US | 🔴 | vless | @proxyandvpnofficial1 | 8",
-                "🇩🇪 DE | 🟢 | vless | @proxystore11 | 8",
+                "🇩🇪 DE | 🟢 | vless | @proxystore11 | 7",
+                "🇩🇪 DE | 🟢 | vless | @proxystore11 | 9",
                 "🇺🇸 US | 🔴 | vless | @serverii | 0",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 9",
@@ -137,13 +139,11 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
-                "🇺🇸 US | 🔴 | vless | @v2raych | 19",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇺🇸 US | 🔴 | vless | @v2rayngvpn_1 | 5",
                 "🇹🇷 TR | 🟢 | vless | @v2source | 16",
                 "🇺🇸 US | 🔴 | vless | @vaslvip | 16",
                 "🇺🇸 US | 🔴 | vless | @vistav2ray | 14",
-                "🇺🇸 US | 🟢 | vless | @vmess_ir | 17",
+                "🇺🇸 US | 🟢 | vless | @vmess_ir | 16",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
@@ -158,6 +158,7 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 10",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 11",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
+                "🇺🇸 US | 🔴 | vless | @config_proxy | 83",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "🇺🇸 US | 🔴 | vless | @configx2ray | 9",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -183,7 +184,8 @@
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 12",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇺🇸 US | 🔴 | vless | @proxyandvpnofficial1 | 8",
-                "🇩🇪 DE | 🟢 | vless | @proxystore11 | 8",
+                "🇩🇪 DE | 🟢 | vless | @proxystore11 | 7",
+                "🇩🇪 DE | 🟢 | vless | @proxystore11 | 9",
                 "🇺🇸 US | 🔴 | vless | @serverii | 0",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 9",
@@ -192,13 +194,11 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
-                "🇺🇸 US | 🔴 | vless | @v2raych | 19",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇺🇸 US | 🔴 | vless | @v2rayngvpn_1 | 5",
                 "🇹🇷 TR | 🟢 | vless | @v2source | 16",
                 "🇺🇸 US | 🔴 | vless | @vaslvip | 16",
                 "🇺🇸 US | 🔴 | vless | @vistav2ray | 14",
-                "🇺🇸 US | 🟢 | vless | @vmess_ir | 17",
+                "🇺🇸 US | 🟢 | vless | @vmess_ir | 16",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
@@ -261,6 +261,15 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "8db68448-6ebb-4361-bcbe-519a1f20fca1",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @config_proxy | 83",
+            "type": "vless",
+            "server": "CONFiGLiNE.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "69268d69-4d1a-44fe-9e3a-e3238fe5fcb0",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -527,7 +536,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @proxystore11 | 8",
+            "tag": "🇩🇪 DE | 🟢 | vless | @proxystore11 | 7",
             "type": "vless",
             "server": "vip1.proxystore11.news",
             "server_port": 2052,
@@ -546,6 +555,29 @@
                     "enabled": true,
                     "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
                     "short_id": "f8fcb589"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @proxystore11 | 9",
+            "type": "vless",
+            "server": "vip1.proxystore11.news",
+            "server_port": 15110,
+            "uuid": "8f014932-b9c1-4b70-8d5e-37ed6251861b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "y7msPZW4eWBT4CJ5v_blgiXUd06HuKvTs3rhlpw9fnk",
+                    "short_id": "0570"
                 }
             }
         },
@@ -631,15 +663,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2raych | 19",
-            "type": "vless",
-            "server": "germany.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "d1a98cea-5826-4001-92a6-d2667aaf8b2f",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
             "type": "vless",
             "server": "statue.lnmarketplace.net",
@@ -656,15 +679,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayngvpn_1 | 5",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "5a11a94b-2f23-4c44-927d-c8167e2b0c60",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇹🇷 TR | 🟢 | vless | @v2source | 16",
@@ -708,7 +722,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @vmess_ir | 17",
+            "tag": "🇺🇸 US | 🟢 | vless | @vmess_ir | 16",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
