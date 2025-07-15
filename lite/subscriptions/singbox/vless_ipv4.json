@@ -116,6 +116,7 @@
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
+                "🇯🇵 JP | 🟢 | vless | @hope_net | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @icv2ray | 8",
                 "🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0",
@@ -160,7 +161,6 @@
                 "🇺🇸 US | 🟢 | vless | @v2ray_swhil | 43",
                 "🇺🇸 US | 🟢 | vless | @v2ray_vmess_free | 13",
                 "🇺🇸 US | 🔴 | vless | @v2ray_youtube | 12",
-                "🇨🇾 CY | 🟢 | vless | @v2raying | 14",
                 "🇺🇸 US | 🟢 | vless | @v2rayngconfiig | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayngn | 17",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
@@ -185,7 +185,6 @@
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇫🇮 FI | 🔴 | vless | @vpnod | 18",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
-                "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 18",
                 "🇩🇪 DE | 🟢 | vless | @vpnvg | 14",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1"
@@ -214,6 +213,7 @@
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
+                "🇯🇵 JP | 🟢 | vless | @hope_net | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @icv2ray | 8",
                 "🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0",
@@ -258,7 +258,6 @@
                 "🇺🇸 US | 🟢 | vless | @v2ray_swhil | 43",
                 "🇺🇸 US | 🟢 | vless | @v2ray_vmess_free | 13",
                 "🇺🇸 US | 🔴 | vless | @v2ray_youtube | 12",
-                "🇨🇾 CY | 🟢 | vless | @v2raying | 14",
                 "🇺🇸 US | 🟢 | vless | @v2rayngconfiig | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayngn | 17",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
@@ -283,7 +282,6 @@
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇫🇮 FI | 🔴 | vless | @vpnod | 18",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
-                "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 18",
                 "🇩🇪 DE | 🟢 | vless | @vpnvg | 14",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1"
@@ -638,6 +636,31 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🟢 | vless | @hope_net | 19",
+            "type": "vless",
+            "server": "176.97.73.82",
+            "server_port": 2053,
+            "uuid": "48eccebc-1e36-4c60-b088-55fb793f6688",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ngx.ambercc.filegear-sg.me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "ngx.ambercc.filegear-sg.me"
                 }
             }
         },
@@ -1375,31 +1398,6 @@
             }
         },
         {
-            "tag": "🇨🇾 CY | 🟢 | vless | @v2raying | 14",
-            "type": "vless",
-            "server": "154.92.9.46",
-            "server_port": 443,
-            "uuid": "ec8a65ad-aafc-4095-9b8c-ea10890ca629",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "simorgh.hpcode.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Javid-SHAH-KingRezaPahlavi/?ed=@vpnserverrr_vpnserverrr_vpnserverrr",
-                "headers": {
-                    "Host": "simorgh.hpcode.ir"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @v2rayngconfiig | 11",
             "type": "vless",
             "server": "198.62.62.4",
@@ -1845,15 +1843,6 @@
             "server": "37.152.173.139",
             "server_port": 8464,
             "uuid": "0f2e0501-5a4f-45b7-bd5e-209169cd34f9",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 18",
-            "type": "vless",
-            "server": "188.245.167.113",
-            "server_port": 465,
-            "uuid": "7fb1a822-bd72-4a27-b987-89a4dd398142",
             "flow": "",
             "packet_encoding": "xudp"
         },

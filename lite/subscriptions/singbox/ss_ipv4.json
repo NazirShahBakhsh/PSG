@@ -98,7 +98,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 2",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
@@ -123,7 +122,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 2",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
@@ -158,14 +156,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 2",
-            "type": "shadowsocks",
-            "server": "175.41.157.91",
-            "server_port": 8319,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ljqdalu13.."
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",

@@ -17,7 +17,6 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 2","type":"ss","server":"175.41.157.91","port":8319,"password":"ljqdalu13..","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @bislullproxy | 18","type":"ss","server":"4.250.60.151","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18","type":"ss","server":"216.173.70.187","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @megavpn_link | 14","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
@@ -65,7 +64,6 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 2'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
@@ -89,7 +87,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 2'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
@@ -111,7 +108,6 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 2'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
