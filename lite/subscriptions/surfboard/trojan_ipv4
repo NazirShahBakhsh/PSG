@@ -13,13 +13,12 @@ DIRECT = direct
 🇫🇷 FR | 🟢 | trojan | @privatevpns | 16 = trojan, 15.237.8.193, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45 = trojan, 104.149.155.13, 443, password = 79c935c0-27dc-4383-b307-dcac1b8e5509, skip-cert-verify = false
 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14 = trojan, 15.237.8.193, 22223, password = telegram-id-v2rayvpnchannel, skip-cert-verify = false
-v@104.21.43.168:443?path=/trTcwZRw8JC0TPp6d1?ed=#/TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=h3 h2 http/1.1&host=2.lINK-KoN.IR&fp=randomized&type=ws&sni=2.link-kon.ir#🇺🇸 US | 🟢 | trojan | @v2rayweb | 18 = trojan, 0RiSuJPsug, 0, password = , skip-cert-verify = false
 🇺🇸 US | 🟢 | trojan | @webhube | 4 = trojan, 15.204.175.111, 2083, password = t2WqbIW2JE, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | 🟢 | trojan | @directvpn | 16, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 16, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14, v@104.21.43.168:443?path=/trTcwZRw8JC0TPp6d1?ed=#/TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=h3 h2 http/1.1&host=2.lINK-KoN.IR&fp=randomized&type=ws&sni=2.link-kon.ir#🇺🇸 US | 🟢 | trojan | @v2rayweb | 18, 🇺🇸 US | 🟢 | trojan | @webhube | 4
-PSG-AUTO = url-test, 🇫🇷 FR | 🟢 | trojan | @directvpn | 16, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 16, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14, v@104.21.43.168:443?path=/trTcwZRw8JC0TPp6d1?ed=#/TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=h3 h2 http/1.1&host=2.lINK-KoN.IR&fp=randomized&type=ws&sni=2.link-kon.ir#🇺🇸 US | 🟢 | trojan | @v2rayweb | 18, 🇺🇸 US | 🟢 | trojan | @webhube | 4
-PSG-FALLBACK = fallback, 🇫🇷 FR | 🟢 | trojan | @directvpn | 16, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 16, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14, v@104.21.43.168:443?path=/trTcwZRw8JC0TPp6d1?ed=#/TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=h3 h2 http/1.1&host=2.lINK-KoN.IR&fp=randomized&type=ws&sni=2.link-kon.ir#🇺🇸 US | 🟢 | trojan | @v2rayweb | 18, 🇺🇸 US | 🟢 | trojan | @webhube | 4
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | 🟢 | trojan | @directvpn | 16, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 16, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14, 🇺🇸 US | 🟢 | trojan | @webhube | 4
+PSG-AUTO = url-test, 🇫🇷 FR | 🟢 | trojan | @directvpn | 16, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 16, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14, 🇺🇸 US | 🟢 | trojan | @webhube | 4
+PSG-FALLBACK = fallback, 🇫🇷 FR | 🟢 | trojan | @directvpn | 16, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 16, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14, 🇺🇸 US | 🟢 | trojan | @webhube | 4
 
 [Rule]
 GEOIP,IR,DIRECT
