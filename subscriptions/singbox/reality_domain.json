@@ -106,14 +106,13 @@
                 "🇳🇱 NL | 🟢 | vless | @canfing_vpn | 15",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 16",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
-                "🇳🇱 NL | 🟢 | vless | @config_proxy | 69",
-                "🇩🇪 DE | 🟢 | vless | @configfa | 11",
+                "🇩🇪 DE | 🟢 | vless | @configfa | 9",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 157",
                 "🇫🇮 FI | 🟢 | vless | @dailyv2ry | 160",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
                 "🇩🇪 DE | 🟢 | vless | @dnsforyou | 4",
-                "🇩🇪 DE | 🟢 | vless | @filter_breaker | 60",
+                "🇩🇪 DE | 🟢 | vless | @filter_breaker | 55",
                 "❔ XX | 🟢 | vless | @free_omega | 0",
                 "🇩🇪 DE | 🟢 | vless | @free_vpn02 | 11",
                 "🇩🇪 DE | 🟢 | vless | @free_vpn02 | 14",
@@ -175,10 +174,9 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "🇫🇮 FI | 🟢 | vless | @v2rayvpn2 | 2",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
                 "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
-                "🇫🇮 FI | 🟢 | vless | @v2reay | 12",
+                "🇫🇮 FI | 🟢 | vless | @v2reay | 10",
                 "🇹🇷 TR | 🟢 | vless | @v2source | 16",
                 "🇩🇪 DE | 🟢 | vless | @vaslvip | 13",
                 "🇳🇱 NL | 🟢 | vless | @vaslvip | 17",
@@ -213,14 +211,13 @@
                 "🇳🇱 NL | 🟢 | vless | @canfing_vpn | 15",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 16",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
-                "🇳🇱 NL | 🟢 | vless | @config_proxy | 69",
-                "🇩🇪 DE | 🟢 | vless | @configfa | 11",
+                "🇩🇪 DE | 🟢 | vless | @configfa | 9",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 157",
                 "🇫🇮 FI | 🟢 | vless | @dailyv2ry | 160",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
                 "🇩🇪 DE | 🟢 | vless | @dnsforyou | 4",
-                "🇩🇪 DE | 🟢 | vless | @filter_breaker | 60",
+                "🇩🇪 DE | 🟢 | vless | @filter_breaker | 55",
                 "❔ XX | 🟢 | vless | @free_omega | 0",
                 "🇩🇪 DE | 🟢 | vless | @free_vpn02 | 11",
                 "🇩🇪 DE | 🟢 | vless | @free_vpn02 | 14",
@@ -282,10 +279,9 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "🇫🇮 FI | 🟢 | vless | @v2rayvpn2 | 2",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
                 "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
-                "🇫🇮 FI | 🟢 | vless | @v2reay | 12",
+                "🇫🇮 FI | 🟢 | vless | @v2reay | 10",
                 "🇹🇷 TR | 🟢 | vless | @v2source | 16",
                 "🇩🇪 DE | 🟢 | vless | @vaslvip | 13",
                 "🇳🇱 NL | 🟢 | vless | @vaslvip | 17",
@@ -516,30 +512,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @config_proxy | 69",
-            "type": "vless",
-            "server": "turbooserver.sadafspace.com",
-            "server_port": 55990,
-            "uuid": "turboo-server",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "canva.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TbZDTzAIogOy-LWQjdqXElxPlUd6xdcwd9xxCqhbj04",
-                    "short_id": "eebcfab3"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @configfa | 11",
+            "tag": "🇩🇪 DE | 🟢 | vless | @configfa | 9",
             "type": "vless",
             "server": "www.zooboming.com",
             "server_port": 443,
@@ -689,7 +662,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @filter_breaker | 60",
+            "tag": "🇩🇪 DE | 🟢 | vless | @filter_breaker | 55",
             "type": "vless",
             "server": "all97-vip.f-sub.com",
             "server_port": 2434,
@@ -2222,29 +2195,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
-            "type": "vless",
-            "server": "upstream.lonup.org",
-            "server_port": 60600,
-            "uuid": "405fed0f-6cef-44a7-a848-685b350f07d7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jH08UU9id-Q8i17ltvHPO3sfGL6YTJIFveAJGgNjNl8",
-                    "short_id": "190d32b118caf07f"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
             "type": "vless",
             "server": "accpremium.outlineprivate.store",
@@ -2295,7 +2245,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @v2reay | 12",
+            "tag": "🇫🇮 FI | 🟢 | vless | @v2reay | 10",
             "type": "vless",
             "server": "toofan.zeroa.store",
             "server_port": 8681,
