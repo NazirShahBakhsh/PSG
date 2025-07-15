@@ -32,13 +32,6 @@
         "title": "• AnGuS VPN •",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/angus_vpn.jpg"
     },
-    "antifilterjadid": {
-        "types": [
-            "vless"
-        ],
-        "title": "🌍 Antifilterjadid 🌏 آنتی فیلتر جدید",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/antifilterjadid.jpg"
-    },
     "argo_vpn1": {
         "types": [
             "vless",
@@ -498,10 +491,10 @@
     },
     "hope_net": {
         "types": [
-            "trojan",
-            "vless",
             "ss",
-            "vmess"
+            "vmess",
+            "trojan",
+            "vless"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1360,6 +1353,7 @@
         "types": [
             "ss",
             "vless",
+            "vmess",
             "trojan"
         ],
         "title": "V2ray Extractor",
@@ -1374,8 +1368,8 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "ss",
             "vmess",
+            "ss",
             "vless",
             "trojan"
         ],
@@ -1707,6 +1701,7 @@
     "v2rayweb": {
         "types": [
             "vless",
+            "trojan",
             "vmess"
         ],
         "title": "V2ray | VPN",
@@ -1859,8 +1854,7 @@
     },
     "vistav2ray": {
         "types": [
-            "vless",
-            "ss"
+            "vless"
         ],
         "title": "Vista Pc (It _ja)",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vistav2ray.jpg"
@@ -1942,6 +1936,7 @@
     "vpn_ioss": {
         "types": [
             "vless",
+            "vmess",
             "ss"
         ],
         "title": "کانفیگ سرور V2rayng🔐",
