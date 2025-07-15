@@ -101,7 +101,6 @@
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
-                "🇫🇷 FR | 🟢 | ss | @meli_proxyy | 20",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
                 "🇪🇸 ES | 🟢 | ss | @outlineopenkey | 7",
@@ -110,6 +109,7 @@
                 "🇳🇱 NL | 🟢 | ss | @tgvpn6 | 20",
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
                 "🇺🇸 US | 🟢 | ss | @v2pedia | 21",
+                "🇸🇪 SE | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇱🇻 LV | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
@@ -133,7 +133,6 @@
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
-                "🇫🇷 FR | 🟢 | ss | @meli_proxyy | 20",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
                 "🇪🇸 ES | 🟢 | ss | @outlineopenkey | 7",
@@ -142,6 +141,7 @@
                 "🇳🇱 NL | 🟢 | ss | @tgvpn6 | 20",
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
                 "🇺🇸 US | 🟢 | ss | @v2pedia | 21",
+                "🇸🇪 SE | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇱🇻 LV | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
@@ -196,14 +196,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "Bog0ELmMM9DSxDdQ"
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | ss | @meli_proxyy | 20",
-            "type": "shadowsocks",
-            "server": "62.210.88.22",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "E7rra7VwlSx87SLEsqd0Gu"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
@@ -268,6 +260,14 @@
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🇸🇪 SE | 🟢 | ss | @v2ray_free_conf | 19",
+            "type": "shadowsocks",
+            "server": "20.91.252.21",
+            "server_port": 48172,
+            "method": "chacha20-ietf-poly1305",
+            "password": "51yloQC8D9w1Wae7FHtI65"
         },
         {
             "tag": "🇱🇻 LV | 🟢 | ss | @v2rayngrit | 15",
