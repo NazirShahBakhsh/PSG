@@ -110,6 +110,7 @@
                 "🇬🇧 GB | 🟢 | ss | @freeconfigsplus | 16",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
+                "🇨🇳 CN | 🟢 | ss | @hope_net | 18",
                 "🇬🇧 GB | 🟢 | ss | @imhdiyvp | 11",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
@@ -121,7 +122,6 @@
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 5",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
-                "🇨🇳 CN | 🟢 | ss | @v2raych | 17",
                 "🇬🇧 GB | 🟢 | ss | @v2raying | 10",
                 "🇳🇱 NL | 🟢 | ss | @v2rayngrit | 12",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
@@ -149,6 +149,7 @@
                 "🇬🇧 GB | 🟢 | ss | @freeconfigsplus | 16",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
+                "🇨🇳 CN | 🟢 | ss | @hope_net | 18",
                 "🇬🇧 GB | 🟢 | ss | @imhdiyvp | 11",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
@@ -160,7 +161,6 @@
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 5",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
-                "🇨🇳 CN | 🟢 | ss | @v2raych | 17",
                 "🇬🇧 GB | 🟢 | ss | @v2raying | 10",
                 "🇳🇱 NL | 🟢 | ss | @v2rayngrit | 12",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
@@ -284,6 +284,14 @@
             "password": "AcGFEsMR6c07Txux"
         },
         {
+            "tag": "🇨🇳 CN | 🟢 | ss | @hope_net | 18",
+            "type": "shadowsocks",
+            "server": "qh62onjn.slashdevslashnetslashtun.net",
+            "server_port": 18009,
+            "method": "aes-256-gcm",
+            "password": "62TRHAZ070VS0QX3"
+        },
+        {
             "tag": "🇬🇧 GB | 🟢 | ss | @imhdiyvp | 11",
             "type": "shadowsocks",
             "server": "series-a2.samanehha.co",
@@ -370,14 +378,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "W74XFALLLuw6m5IA"
-        },
-        {
-            "tag": "🇨🇳 CN | 🟢 | ss | @v2raych | 17",
-            "type": "shadowsocks",
-            "server": "qh62onjn.slashdevslashnetslashtun.net",
-            "server_port": 18003,
-            "method": "aes-256-gcm",
-            "password": "9OAJ48AFCGC9UHFK"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @v2raying | 10",

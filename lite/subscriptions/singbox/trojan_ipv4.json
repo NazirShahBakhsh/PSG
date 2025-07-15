@@ -99,7 +99,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
-                "🇦🇲 AM | 🔴 | trojan | @hope_net | 19",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
@@ -112,7 +111,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
-                "🇦🇲 AM | 🔴 | trojan | @hope_net | 19",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
@@ -150,13 +148,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇦🇲 AM | 🔴 | trojan | @hope_net | 19",
-            "type": "trojan",
-            "server": "188.164.159.25",
-            "server_port": 2053,
-            "password": "Aimer"
         },
         {
             "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",

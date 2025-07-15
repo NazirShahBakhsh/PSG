@@ -17,7 +17,6 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraNet | 68","type":"vless","server":"openai.com","port":443,"uuid":"101e6a7d-7d10-4859-a626-8a76daab4547","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"nkAnG2rEpLACE.airlineSHoma.Com","ws-opts":{"path":"/?ed=2560","headers":{"Host":"nkAnG2rEpLACE.airlineSHoma.Com"}}}
   - {"name":"🇮🇳 IN | 🟢 | vless | @argo_vpn1 | 3","type":"vless","server":"india.aparat-movies-download.ir","port":4450,"uuid":"ec129df4-ddfd-4d54-be9a-5029d6052fa9","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"zhaket.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic"}}
   - {"name":"🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1","type":"vless","server":"Artemis.sbs","port":80,"uuid":"6db4a91c-838d-419a-af83-bc5bd211ffc6","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@Artemis_vpn","headers":{"Host":"free-02.artemis-03.sbs"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @aryoovpn | 4","type":"vless","server":"www.gov.se","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2560","headers":{"Host":"aryoovpn.commen-esoteric-0q.workers.dev"}}}
@@ -138,7 +137,6 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraNet | 68'
       - '🇮🇳 IN | 🟢 | vless | @argo_vpn1 | 3'
       - '🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1'
       - '🇺🇸 US | 🔴 | vless | @aryoovpn | 4'
@@ -235,7 +233,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraNet | 68'
       - '🇮🇳 IN | 🟢 | vless | @argo_vpn1 | 3'
       - '🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1'
       - '🇺🇸 US | 🔴 | vless | @aryoovpn | 4'
@@ -330,7 +327,6 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraNet | 68'
       - '🇮🇳 IN | 🟢 | vless | @argo_vpn1 | 3'
       - '🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1'
       - '🇺🇸 US | 🔴 | vless | @aryoovpn | 4'
