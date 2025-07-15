@@ -99,7 +99,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
-                "🇨🇦 CA | 🟢 | ss | @deamnet_proxy | 19",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
@@ -121,7 +120,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
-                "🇨🇦 CA | 🟢 | ss | @deamnet_proxy | 19",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
@@ -160,14 +158,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "WstuSnlu4ieA9M0L"
-        },
-        {
-            "tag": "🇨🇦 CA | 🟢 | ss | @deamnet_proxy | 19",
-            "type": "shadowsocks",
-            "server": "64.74.163.130",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
         },
         {
             "tag": "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",

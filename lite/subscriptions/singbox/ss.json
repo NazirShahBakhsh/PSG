@@ -99,7 +99,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
-                "🇨🇦 CA | 🟢 | ss | @deamnet_proxy | 19",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
@@ -121,7 +120,7 @@
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
                 "❔ XX | 🟢 | ss | @vpidiamond | 9",
-                "🇳🇱 NL | 🟢 | ss | @vpn451 | 10",
+                "🇳🇱 NL | 🟢 | ss | @vpn451 | 11",
                 "❔ XX | 🟢 | ss | @free_omega | 4"
             ],
             "interrupt_exist_connections": false
@@ -131,7 +130,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
-                "🇨🇦 CA | 🟢 | ss | @deamnet_proxy | 19",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
@@ -153,7 +151,7 @@
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
                 "❔ XX | 🟢 | ss | @vpidiamond | 9",
-                "🇳🇱 NL | 🟢 | ss | @vpn451 | 10",
+                "🇳🇱 NL | 🟢 | ss | @vpn451 | 11",
                 "❔ XX | 🟢 | ss | @free_omega | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -180,14 +178,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "WstuSnlu4ieA9M0L"
-        },
-        {
-            "tag": "🇨🇦 CA | 🟢 | ss | @deamnet_proxy | 19",
-            "type": "shadowsocks",
-            "server": "64.74.163.130",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
         },
         {
             "tag": "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
@@ -358,12 +348,12 @@
             "password": "4cY4N/FWyfZ1r21mu4oj/L5E6WHN9b8VAeitl+Mk7CQ="
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @vpn451 | 10",
+            "tag": "🇳🇱 NL | 🟢 | ss | @vpn451 | 11",
             "type": "shadowsocks",
             "server": "macintosh.outlinekeys.net",
             "server_port": 19609,
             "method": "chacha20-ietf-poly1305",
-            "password": "rirgAJoGVPZBhFx9gNH3gj"
+            "password": "vmbNCUhVDMTb3WRKkSG0SD"
         },
         {
             "tag": "❔ XX | 🟢 | ss | @free_omega | 4",

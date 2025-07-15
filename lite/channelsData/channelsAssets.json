@@ -490,9 +490,8 @@
     "hope_net": {
         "types": [
             "vless",
-            "vmess",
-            "ss",
-            "trojan"
+            "trojan",
+            "ss"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -611,8 +610,7 @@
     },
     "kurdistan_vpn_perfectt": {
         "types": [
-            "vless",
-            "trojan"
+            "vless"
         ],
         "title": "Kurdistan_Vpn",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/kurdistan_vpn_perfectt.jpg"
@@ -1366,9 +1364,9 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vless",
             "ss",
             "trojan",
+            "vless",
             "vmess"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
@@ -1691,6 +1689,7 @@
     },
     "v2rayweb": {
         "types": [
+            "vmess",
             "vless",
             "trojan"
         ],
