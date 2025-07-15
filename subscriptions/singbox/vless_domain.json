@@ -151,6 +151,7 @@
                 "❔ XX | 🔴 | vless | @ch_a2l | 5",
                 "❔ XX | 🔴 | vless | @chanel_v2ray_2 | 2",
                 "🇩🇪 DE | 🔴 | vless | @codvpn | 2",
+                "🇨🇦 CA | 🔴 | vless | @config_proxy | 63",
                 "🇺🇸 US | 🟢 | vless | @config_proxy_ir | 14",
                 "🇺🇸 US | 🔴 | vless | @config_proxy_ir | 18",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
@@ -280,7 +281,7 @@
                 "❔ XX | 🟢 | vless | @frev2rayng | 15",
                 "🇺🇸 US | 🔴 | vless | @frev2rayng | 16",
                 "🇺🇸 US | 🔴 | vless | @frev2rayng | 17",
-                "🇩🇪 DE | 🔴 | vless | @frev2rayng | 18",
+                "🇺🇸 US | 🔴 | vless | @frev2rayng | 18",
                 "🇳🇱 NL | 🔴 | vless | @frev2rayng | 19",
                 "❔ XX | 🟢 | vless | @fsv2ray | 0",
                 "❔ XX | 🟢 | vless | @fsv2ray | 1",
@@ -316,7 +317,6 @@
                 "❔ XX | 🔴 | vless | @imhdiyvp | 12",
                 "🇩🇪 DE | 🟢 | vless | @info_2it_channel | 11",
                 "🇩🇪 DE | 🟢 | vless | @info_2it_channel | 13",
-                "❔ XX | 🟢 | vless | @ip_cf_config | 11",
                 "🇺🇸 US | 🟢 | vless | @iran_access | 9",
                 "🇺🇸 US | 🟢 | vless | @iran_access | 11",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
@@ -725,6 +725,7 @@
                 "🇺🇸 US | 🔴 | vless | @vpnv2rayonline | 7",
                 "🇺🇸 US | 🟢 | vless | @vpnv2rayonline | 9",
                 "🇩🇪 DE | 🔴 | vless | @vpnv2raytop | 9",
+                "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🔴 | vless | @vpnzamin | 2",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "❔ XX | 🟢 | vless | @webshecan | 9",
@@ -808,6 +809,7 @@
                 "❔ XX | 🔴 | vless | @ch_a2l | 5",
                 "❔ XX | 🔴 | vless | @chanel_v2ray_2 | 2",
                 "🇩🇪 DE | 🔴 | vless | @codvpn | 2",
+                "🇨🇦 CA | 🔴 | vless | @config_proxy | 63",
                 "🇺🇸 US | 🟢 | vless | @config_proxy_ir | 14",
                 "🇺🇸 US | 🔴 | vless | @config_proxy_ir | 18",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
@@ -937,7 +939,7 @@
                 "❔ XX | 🟢 | vless | @frev2rayng | 15",
                 "🇺🇸 US | 🔴 | vless | @frev2rayng | 16",
                 "🇺🇸 US | 🔴 | vless | @frev2rayng | 17",
-                "🇩🇪 DE | 🔴 | vless | @frev2rayng | 18",
+                "🇺🇸 US | 🔴 | vless | @frev2rayng | 18",
                 "🇳🇱 NL | 🔴 | vless | @frev2rayng | 19",
                 "❔ XX | 🟢 | vless | @fsv2ray | 0",
                 "❔ XX | 🟢 | vless | @fsv2ray | 1",
@@ -973,7 +975,6 @@
                 "❔ XX | 🔴 | vless | @imhdiyvp | 12",
                 "🇩🇪 DE | 🟢 | vless | @info_2it_channel | 11",
                 "🇩🇪 DE | 🟢 | vless | @info_2it_channel | 13",
-                "❔ XX | 🟢 | vless | @ip_cf_config | 11",
                 "🇺🇸 US | 🟢 | vless | @iran_access | 9",
                 "🇺🇸 US | 🟢 | vless | @iran_access | 11",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
@@ -1382,6 +1383,7 @@
                 "🇺🇸 US | 🔴 | vless | @vpnv2rayonline | 7",
                 "🇺🇸 US | 🟢 | vless | @vpnv2rayonline | 9",
                 "🇩🇪 DE | 🔴 | vless | @vpnv2raytop | 9",
+                "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🔴 | vless | @vpnzamin | 2",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "❔ XX | 🟢 | vless | @webshecan | 9",
@@ -2342,6 +2344,15 @@
             "server": "300232332.webnama.com.tr",
             "server_port": 1517,
             "uuid": "cedf689e-3658-46d0-85df-06b1279e631f",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇨🇦 CA | 🔴 | vless | @config_proxy | 63",
+            "type": "vless",
+            "server": "fahra-isbsus-iwbsha.haratipulan.ir",
+            "server_port": 45877,
+            "uuid": "81ed7265-be10-498b-c96f-46789e81ac88",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -4486,7 +4497,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @frev2rayng | 18",
+            "tag": "🇺🇸 US | 🔴 | vless | @frev2rayng | 18",
             "type": "vless",
             "server": "Parspack.com",
             "server_port": 80,
@@ -5067,29 +5078,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:@FergalVpnMod"
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @ip_cf_config | 11",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
-                }
             }
         },
         {
@@ -12423,6 +12411,29 @@
             "uuid": "feea904b-d443-43e1-beaa-621ef7a3de3f",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🟢 | vless | @vpnwlf | 10",
+            "type": "vless",
+            "server": "WLF-V-P-N-ID2.dnsfree.one",
+            "server_port": 443,
+            "uuid": "---WLFVPN---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
+                    "short_id": "6bb85179e30d4fc2"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔴 | vless | @vpnzamin | 2",
