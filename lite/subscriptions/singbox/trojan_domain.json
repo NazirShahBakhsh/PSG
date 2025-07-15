@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
+                "🇨🇦 CA | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
             ],
@@ -108,7 +108,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
+                "🇨🇦 CA | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
             ],
@@ -130,7 +130,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
+            "tag": "🇨🇦 CA | 🟢 | trojan | @deamnet_proxy | 19",
             "type": "trojan",
             "server": "www.whatismyip.com",
             "server_port": 443,
