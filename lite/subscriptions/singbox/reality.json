@@ -100,9 +100,7 @@
                 "URL-TEST",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
-                "🇨🇿 CZ | 🟢 | vless | @ghalagyann2 | 10",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
-                "🇬🇧 GB | 🟢 | vless | @hope_net | 19",
                 "🇨🇿 CZ | 🟢 | vless | @icv2ray | 9",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
@@ -138,9 +136,7 @@
             "outbounds": [
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
-                "🇨🇿 CZ | 🟢 | vless | @ghalagyann2 | 10",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
-                "🇬🇧 GB | 🟢 | vless | @hope_net | 19",
                 "🇨🇿 CZ | 🟢 | vless | @icv2ray | 9",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
@@ -236,33 +232,6 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🟢 | vless | @ghalagyann2 | 10",
-            "type": "vless",
-            "server": "194.182.79.117",
-            "server_port": 35306,
-            "uuid": "a879196c-d849-4416-9b87-464733270cc5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ttf6dx8tDfrlRTwPzXzHcFgB0DfViVZmUOxxbNqiMFY",
-                    "short_id": "bd02b342e15f61"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON"
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
             "type": "vless",
             "server": "55.55.55.55",
@@ -283,33 +252,6 @@
                     "public_key": "YqHW8a4iAc1SZYpTrFVoOQg1F3yAdX1tWXuROZUCsEU",
                     "short_id": "6ba85179e30d4fc2"
                 }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🟢 | vless | @hope_net | 19",
-            "type": "vless",
-            "server": "198.244.142.2",
-            "server_port": 2053,
-            "uuid": "1fb52030-a522-4665-8a35-09b6710b062d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "nr4qs7JSJShNXIpWKNGReZXaFw910k1X93NDevapa0E",
-                    "short_id": "5640288dca4f8519"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "2053vless"
             }
         },
         {

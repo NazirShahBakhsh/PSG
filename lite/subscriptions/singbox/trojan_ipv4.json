@@ -99,8 +99,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 16",
+                "🇮🇳 IN | 🔴 | trojan | @hope_net | 19",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 16",
                 "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19",
+                "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
@@ -112,8 +114,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 16",
+                "🇮🇳 IN | 🔴 | trojan | @hope_net | 19",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 16",
                 "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19",
+                "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
@@ -152,6 +156,13 @@
             }
         },
         {
+            "tag": "🇮🇳 IN | 🔴 | trojan | @hope_net | 19",
+            "type": "trojan",
+            "server": "108.165.152.55",
+            "server_port": 2096,
+            "password": "Aimer"
+        },
+        {
             "tag": "🇩🇪 DE | 🟢 | trojan | @privatevpns | 16",
             "type": "trojan",
             "server": "3.69.182.175",
@@ -173,6 +184,22 @@
             "server": "3.73.54.252",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
+            "type": "trojan",
+            "server": "3.73.54.252",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
