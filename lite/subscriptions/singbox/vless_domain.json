@@ -184,6 +184,7 @@
                 "🇮🇷 IR | 🔴 | vless | @vaynora | 12",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
+                "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇺🇸 US | 🔴 | vless | @vpn_bal0uch | 4",
@@ -294,6 +295,7 @@
                 "🇮🇷 IR | 🔴 | vless | @vaynora | 12",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
+                "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇺🇸 US | 🔴 | vless | @vpn_bal0uch | 4",
@@ -1794,6 +1796,15 @@
             "server": "free.miladiran1.shop",
             "server_port": 2002,
             "uuid": "563e4ed0-9473-4d66-aca8-e23c641042a6",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "d62494a5-4feb-4422-9547-1050a907afa8",
             "flow": "",
             "packet_encoding": "xudp"
         },

@@ -109,6 +109,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 14",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
+                "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
             ],
             "interrupt_exist_connections": false
@@ -128,6 +129,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 14",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
+                "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -254,6 +256,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "d62494a5-4feb-4422-9547-1050a907afa8",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @zedping | 0",

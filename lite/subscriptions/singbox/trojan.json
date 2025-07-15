@@ -101,11 +101,12 @@
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇩🇪 DE | 🟢 | trojan | @directvpn | 16",
-                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 16",
+                "🇩🇪 DE | 🟢 | trojan | @directvpn | 14",
+                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 14",
                 "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
+                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "v@104.21.43.168:443?path=/trTcwZRw8JC0TPp6d1?ed=2560&security=tls&alpn=h3,h2,http/1.1&host=2.lINK-KoN.IR&fp=randomized&type=ws&sni=2.link-kon.ir#🇺🇸 US | 🟢 | trojan | @v2rayweb | 19",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "interrupt_exist_connections": false
@@ -117,11 +118,12 @@
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇩🇪 DE | 🟢 | trojan | @directvpn | 16",
-                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 16",
+                "🇩🇪 DE | 🟢 | trojan | @directvpn | 14",
+                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 14",
                 "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
+                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "v@104.21.43.168:443?path=/trTcwZRw8JC0TPp6d1?ed=2560&security=tls&alpn=h3,h2,http/1.1&host=2.lINK-KoN.IR&fp=randomized&type=ws&sni=2.link-kon.ir#🇺🇸 US | 🟢 | trojan | @v2rayweb | 19",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -201,9 +203,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @directvpn | 16",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @directvpn | 14",
             "type": "trojan",
-            "server": "18.156.154.170",
+            "server": "18.157.66.125",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -217,9 +219,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @privatevpns | 16",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @privatevpns | 14",
             "type": "trojan",
-            "server": "18.156.154.170",
+            "server": "18.157.66.125",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -265,9 +267,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
             "type": "trojan",
-            "server": "18.156.154.170",
+            "server": "18.157.66.125",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
@@ -279,6 +281,13 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "v@104.21.43.168:443?path=/trTcwZRw8JC0TPp6d1?ed=2560&security=tls&alpn=h3,h2,http/1.1&host=2.lINK-KoN.IR&fp=randomized&type=ws&sni=2.link-kon.ir#🇺🇸 US | 🟢 | trojan | @v2rayweb | 19",
+            "type": "trojan",
+            "server": "0RiSuJPsug",
+            "server_port": 0,
+            "password": ""
         },
         {
             "tag": "🇺🇸 US | 🟢 | trojan | @webhube | 4",
