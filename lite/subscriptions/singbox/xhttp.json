@@ -109,10 +109,11 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 14",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 16",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 8",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
+                "🇺🇸 US | 🔴 | vless | @v2rayopen | 8",
                 "🇮🇹 IT | 🔴 | vless | @vaslvip | 17"
             ],
             "interrupt_exist_connections": false
@@ -132,10 +133,11 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 14",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 16",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 8",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
+                "🇺🇸 US | 🔴 | vless | @v2rayopen | 8",
                 "🇮🇹 IT | 🔴 | vless | @vaslvip | 17"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -264,7 +266,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
+            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 16",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
@@ -296,6 +298,15 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "qeshmserver",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayopen | 8",
+            "type": "vless",
+            "server": "151.101.67.8",
+            "server_port": 80,
+            "uuid": "ad5e7710-15f4-4cb8-c3bd-302bb5540263",
             "flow": "",
             "packet_encoding": "xudp"
         },

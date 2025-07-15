@@ -9,7 +9,6 @@
     },
     "NamiraNet": {
         "types": [
-            "trojan",
             "vless",
             "vmess"
         ],
@@ -490,10 +489,10 @@
     },
     "hope_net": {
         "types": [
-            "vless",
-            "vmess",
             "ss",
-            "trojan"
+            "vmess",
+            "trojan",
+            "vless"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -734,9 +733,9 @@
     },
     "meli_proxyy": {
         "types": [
-            "vless",
             "vmess",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "کانفیگ وی تو ری ویتوری نیم بها پروکسی فیلترشکن رایگان خرید سرور وی پی ان ترید سیسکو آیپی ثابت vpn v2rayng vless vmess l2tp cisco",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/meli_proxyy.jpg"
@@ -935,8 +934,8 @@
     },
     "orange_vpns": {
         "types": [
-            "vless",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "V2ray سرور و کانفیگ رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/orange_vpns.jpg"
@@ -1442,14 +1441,6 @@
         "title": "v2ray",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_vmes.jpg"
     },
-    "v2ray_vmess_free": {
-        "types": [
-            "vmess",
-            "vless"
-        ],
-        "title": "V2ray_Vmess",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_vmess_free.jpg"
-    },
     "v2ray_youtube": {
         "types": [
             "ss",
@@ -1866,8 +1857,8 @@
     },
     "vmess_ir": {
         "types": [
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "🚀سرور رایگان و اختصاصی vmess_ir🚀",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vmess_ir.jpg"
@@ -2165,14 +2156,6 @@
         ],
         "title": "وب شکن | WebShecan",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/webshecan.jpg"
-    },
-    "wedbazvpn": {
-        "types": [
-            "vless",
-            "ss"
-        ],
-        "title": "WedBaZ",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/wedbazvpn.jpg"
     },
     "womanlifefreedomvpn": {
         "types": [
