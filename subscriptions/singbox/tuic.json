@@ -98,10 +98,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮 FI | 🟢 | tuic | @goodbyefiltering | 5",
                 "🇳🇱 NL | 🟢 | tuic | @vipv2rey | 35",
-                "🇸🇪 SE | 🟢 | tuic | @vipv2rey | 36",
-                "❔ XX | 🟢 | tuic | @goodbyefiltering | 6"
+                "🇸🇪 SE | 🟢 | tuic | @vipv2rey | 36"
             ],
             "interrupt_exist_connections": false
         },
@@ -109,10 +107,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | tuic | @goodbyefiltering | 5",
                 "🇳🇱 NL | 🟢 | tuic | @vipv2rey | 35",
-                "🇸🇪 SE | 🟢 | tuic | @vipv2rey | 36",
-                "❔ XX | 🟢 | tuic | @goodbyefiltering | 6"
+                "🇸🇪 SE | 🟢 | tuic | @vipv2rey | 36"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -130,25 +126,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | tuic | @goodbyefiltering | 5",
-            "type": "tuic",
-            "server": "79.137.206.126",
-            "server_port": 443,
-            "uuid": "7f9a73a3-e455-4053-ae38-f07719753dff",
-            "password": "----Join-Telegram:@IP_CF----",
-            "congestion_control": "cubic",
-            "udp_relay_mode": "native",
-            "tls": {
-                "enabled": true,
-                "server_name": "79.137.206.126",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy/3.1"
-                ]
-            }
         },
         {
             "tag": "🇳🇱 NL | 🟢 | tuic | @vipv2rey | 35",
@@ -180,25 +157,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "www.apple.com",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy/3.1"
-                ]
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | tuic | @goodbyefiltering | 6",
-            "type": "tuic",
-            "server": "[2a12:5940:71f8::2]",
-            "server_port": 443,
-            "uuid": "7f9a73a3-e455-4053-ae38-f07719753dff",
-            "password": "----Join-Telegram:@IP_CF----",
-            "congestion_control": "cubic",
-            "udp_relay_mode": "native",
-            "tls": {
-                "enabled": true,
-                "server_name": "[2a12:5940:71f8::2]",
                 "insecure": true,
                 "alpn": [
                     "h3",

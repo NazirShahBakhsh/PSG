@@ -121,7 +121,7 @@
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 4",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
-                "🇺🇸 US | 🔴 | vless | @nufilter | 17",
+                "🇺🇸 US | 🔴 | vless | @nufilter | 16",
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
@@ -139,6 +139,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 11",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
+                "🇺🇸 US | 🔴 | vless | @v2rayn5 | 1",
                 "🇳🇱 NL | 🟢 | vless | @vaslvip | 11",
                 "🇺🇸 US | 🔴 | vless | @vmess_ir | 14",
                 "🇩🇪 DE | 🟢 | vless | @vmessorg | 7",
@@ -172,7 +173,6 @@
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 5",
                 "🇺🇸 US | 🔴 | vless | @v2rayng_channel_vpn | 7",
-                "🇳🇱 NL | 🟢 | vless | @v2rayweb | 14",
                 "🇮🇹 IT | 🔴 | vless | @vaslvip | 10",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 9",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 11",
@@ -209,7 +209,7 @@
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 4",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
-                "🇺🇸 US | 🔴 | vless | @nufilter | 17",
+                "🇺🇸 US | 🔴 | vless | @nufilter | 16",
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
@@ -227,6 +227,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 11",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
+                "🇺🇸 US | 🔴 | vless | @v2rayn5 | 1",
                 "🇳🇱 NL | 🟢 | vless | @vaslvip | 11",
                 "🇺🇸 US | 🔴 | vless | @vmess_ir | 14",
                 "🇩🇪 DE | 🟢 | vless | @vmessorg | 7",
@@ -260,7 +261,6 @@
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 5",
                 "🇺🇸 US | 🔴 | vless | @v2rayng_channel_vpn | 7",
-                "🇳🇱 NL | 🟢 | vless | @v2rayweb | 14",
                 "🇮🇹 IT | 🔴 | vless | @vaslvip | 10",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 9",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 11",
@@ -530,7 +530,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @nufilter | 17",
+            "tag": "🇺🇸 US | 🔴 | vless | @nufilter | 16",
             "type": "vless",
             "server": "test.fastly167.hosting-ip.com",
             "server_port": 80,
@@ -763,6 +763,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayn5 | 1",
+            "type": "vless",
+            "server": "cdn.dominicpv.shop",
+            "server_port": 80,
+            "uuid": "a97bf70e-d438-4d42-abfe-3f07a82d6796",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇳🇱 NL | 🟢 | vless | @vaslvip | 11",
@@ -1195,29 +1204,6 @@
             "uuid": "435fab40-a9fb-4b45-b7c4-0aed8b63a3c2",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @v2rayweb | 14",
-            "type": "vless",
-            "server": "159.223.212.67",
-            "server_port": 32930,
-            "uuid": "007f360b-dabb-450c-9161-39e6b85319a5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l7dXkTAD4x_lKTq84oFQvr_7Alm2TqlAGBrRvJe6YEs",
-                    "short_id": "71a309"
-                }
-            }
         },
         {
             "tag": "🇮🇹 IT | 🔴 | vless | @vaslvip | 10",

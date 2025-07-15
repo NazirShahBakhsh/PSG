@@ -100,7 +100,6 @@
                 "URL-TEST",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
-                "🇳🇱 NL | 🟢 | ss | @hope_net | 23",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
@@ -133,7 +132,6 @@
             "outbounds": [
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18",
-                "🇳🇱 NL | 🟢 | ss | @hope_net | 23",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
@@ -190,14 +188,6 @@
             "server_port": 57456,
             "method": "chacha20-ietf-poly1305",
             "password": "360e21d21977dc11"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | ss | @hope_net | 23",
-            "type": "shadowsocks",
-            "server": "109.104.154.146",
-            "server_port": 33333,
-            "method": "aes-256-gcm",
-            "password": "dongtaiwang.com"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",

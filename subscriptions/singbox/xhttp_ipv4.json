@@ -125,7 +125,6 @@
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 5",
                 "🇺🇸 US | 🔴 | vless | @v2rayng_channel_vpn | 7",
-                "🇳🇱 NL | 🟢 | vless | @v2rayweb | 14",
                 "🇮🇹 IT | 🔴 | vless | @vaslvip | 10",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 9",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 11",
@@ -166,7 +165,6 @@
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 5",
                 "🇺🇸 US | 🔴 | vless | @v2rayng_channel_vpn | 7",
-                "🇳🇱 NL | 🟢 | vless | @v2rayweb | 14",
                 "🇮🇹 IT | 🔴 | vless | @vaslvip | 10",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 9",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 11",
@@ -540,29 +538,6 @@
             "uuid": "435fab40-a9fb-4b45-b7c4-0aed8b63a3c2",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @v2rayweb | 14",
-            "type": "vless",
-            "server": "159.223.212.67",
-            "server_port": 32930,
-            "uuid": "007f360b-dabb-450c-9161-39e6b85319a5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l7dXkTAD4x_lKTq84oFQvr_7Alm2TqlAGBrRvJe6YEs",
-                    "short_id": "71a309"
-                }
-            }
         },
         {
             "tag": "🇮🇹 IT | 🔴 | vless | @vaslvip | 10",
