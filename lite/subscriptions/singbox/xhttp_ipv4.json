@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @irv2rey | 8",
+                "🇺🇸 US | 🔴 | vless | @irv2rey | 7",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
             ],
             "interrupt_exist_connections": false
@@ -107,7 +107,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @irv2rey | 8",
+                "🇺🇸 US | 🔴 | vless | @irv2rey | 7",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -128,11 +128,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @irv2rey | 8",
+            "tag": "🇺🇸 US | 🔴 | vless | @irv2rey | 7",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "53611ea1-a581-472c-8d94-4da0e1b4e178",
+            "uuid": "64eabf2c-f24a-492c-bdfa-b02a7ebda17c",
             "flow": "",
             "packet_encoding": "xudp"
         },
