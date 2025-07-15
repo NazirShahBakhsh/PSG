@@ -110,8 +110,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
-                "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
-                "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 18"
+                "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12"
             ],
             "interrupt_exist_connections": false
         },
@@ -131,8 +130,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
-                "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
-                "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 18"
+                "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -471,29 +469,6 @@
                     "enabled": true,
                     "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
                     "short_id": "fd1dff03520d8f56"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 18",
-            "type": "vless",
-            "server": "real-all3-2.sdcards.ir",
-            "server_port": 8501,
-            "uuid": "ac37eb9c-0db8-4056-8f61-e8db4e2da35e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI",
-                    "short_id": "e701a013553059ba"
                 }
             }
         }

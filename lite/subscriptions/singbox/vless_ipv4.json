@@ -116,7 +116,6 @@
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
-                "🇯🇵 JP | 🟢 | vless | @hope_net | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @icv2ray | 8",
                 "🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0",
@@ -213,7 +212,6 @@
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
-                "🇯🇵 JP | 🟢 | vless | @hope_net | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @icv2ray | 8",
                 "🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0",
@@ -636,31 +634,6 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵 JP | 🟢 | vless | @hope_net | 19",
-            "type": "vless",
-            "server": "176.97.73.82",
-            "server_port": 2053,
-            "uuid": "48eccebc-1e36-4c60-b088-55fb793f6688",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ngx.ambercc.filegear-sg.me",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "ngx.ambercc.filegear-sg.me"
                 }
             }
         },

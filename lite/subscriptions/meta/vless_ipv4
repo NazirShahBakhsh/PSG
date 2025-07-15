@@ -33,7 +33,6 @@ proxies:
   - {"name":"🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0","type":"vless","server":"78.141.233.176","port":8000,"uuid":"4188aee8-0117-445d-a51b-ec214b3318c3","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"refersion.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"GGlKs0cQDaQoDkiDlpeIWE-h0K3ohsHr7u9B3A9GODU","short-id":"17ce7de25d262bbe"}}
   - {"name":"🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9","type":"vless","server":"62.60.179.74","port":44792,"uuid":"269d2d4b-360b-421e-980e-9f9c0c63916c","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🔴 | vless | @hiddify_f | 1","type":"vless","server":"199.232.193.57","port":80,"uuid":"698e1d97-0594-481d-8d97-f5f6f46aa32d","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/ViraV2ray/?ed=2560","headers":{"Host":"virav2ray-alsjddhkasdasdkaslj.com"}}}
-  - {"name":"🇯🇵 JP | 🟢 | vless | @hope_net | 19","type":"vless","server":"176.97.73.82","port":2053,"uuid":"48eccebc-1e36-4c60-b088-55fb793f6688","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ngx.ambercc.filegear-sg.me","ws-opts":{"path":"/?ed=2560","headers":{"Host":"ngx.ambercc.filegear-sg.me"}}}
   - {"name":"🇮🇷 IR | 🔴 | vless | @hormozvpn | 3","type":"vless","server":"217.60.236.106","port":187,"uuid":"3b9ee86c-09fe-4b21-bb8c-eaaa0201e25b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🔴 | vless | @icv2ray | 8","type":"vless","server":"104.17.148.22","port":8080,"uuid":"94796c43-d46a-4ffa-abfc-d7d72963ad30","tls":false,"network":"httpupgrade","client-fingerprint":"chrome","udp":true}
   - {"name":"🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0","type":"vless","server":"45.77.62.215","port":2052,"uuid":"2df97e78-5a88-4186-bac6-9685b781becf","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
@@ -146,7 +145,6 @@ proxy-groups:
       - '🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0'
       - '🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9'
       - '🇺🇸 US | 🔴 | vless | @hiddify_f | 1'
-      - '🇯🇵 JP | 🟢 | vless | @hope_net | 19'
       - '🇮🇷 IR | 🔴 | vless | @hormozvpn | 3'
       - '🇺🇸 US | 🔴 | vless | @icv2ray | 8'
       - '🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0'
@@ -235,7 +233,6 @@ proxy-groups:
       - '🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0'
       - '🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9'
       - '🇺🇸 US | 🔴 | vless | @hiddify_f | 1'
-      - '🇯🇵 JP | 🟢 | vless | @hope_net | 19'
       - '🇮🇷 IR | 🔴 | vless | @hormozvpn | 3'
       - '🇺🇸 US | 🔴 | vless | @icv2ray | 8'
       - '🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0'
@@ -322,7 +319,6 @@ proxy-groups:
       - '🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0'
       - '🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9'
       - '🇺🇸 US | 🔴 | vless | @hiddify_f | 1'
-      - '🇯🇵 JP | 🟢 | vless | @hope_net | 19'
       - '🇮🇷 IR | 🔴 | vless | @hormozvpn | 3'
       - '🇺🇸 US | 🔴 | vless | @icv2ray | 8'
       - '🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0'

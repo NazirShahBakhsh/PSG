@@ -112,7 +112,6 @@
                 "🇩🇪 DE | 🟢 | vless | @confing_chanel | 22",
                 "🇩🇪 DE | 🟢 | vless | @confing_chanel | 23",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
-                "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 160",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
                 "🇩🇪 DE | 🟢 | vless | @dnsforyou | 4",
                 "🇩🇪 DE | 🟢 | vless | @filter_breaker | 60",
@@ -151,7 +150,7 @@
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
-                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 11",
+                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 10",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 8",
                 "❔ XX | 🟢 | vless | @proxysudo | 1",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
@@ -219,7 +218,6 @@
                 "🇩🇪 DE | 🟢 | vless | @confing_chanel | 22",
                 "🇩🇪 DE | 🟢 | vless | @confing_chanel | 23",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
-                "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 160",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
                 "🇩🇪 DE | 🟢 | vless | @dnsforyou | 4",
                 "🇩🇪 DE | 🟢 | vless | @filter_breaker | 60",
@@ -258,7 +256,7 @@
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
-                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 11",
+                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 10",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 8",
                 "❔ XX | 🟢 | vless | @proxysudo | 1",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
@@ -659,29 +657,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:"
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 160",
-            "type": "vless",
-            "server": "amazon-4.cristiano.name.ng",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
-                }
             }
         },
         {
@@ -1638,7 +1613,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 11",
+            "tag": "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 10",
             "type": "vless",
             "server": "real-all3-2.sdcards.ir",
             "server_port": 8501,
