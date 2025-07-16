@@ -116,7 +116,6 @@
                 "🇨🇿 CZ | 🟢 | vless | @ghalagyann2 | 14",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
-                "🇺🇸 US | 🔴 | vless | @hope_net | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @icv2ray | 9",
                 "🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0",
@@ -164,7 +163,6 @@
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
                 "🇫🇮 FI | 🔴 | vless | @v2rayprotocol | 12",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇮🇷 IR | 🔴 | vless | @v2source | 19",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
@@ -174,6 +172,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🔴 | vless | @vistav2ray | 15",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 16",
+                "🇺🇸 US | 🟢 | vless | @vmess_ir | 17",
                 "🇮🇷 IR | 🔴 | vless | @vpn_arta | 3",
                 "🇫🇮 FI | 🔴 | vless | @vpn_ioss | 18",
                 "🇺🇸 US | 🟢 | vless | @vpn_ocean | 1",
@@ -209,7 +208,6 @@
                 "🇨🇿 CZ | 🟢 | vless | @ghalagyann2 | 14",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
-                "🇺🇸 US | 🔴 | vless | @hope_net | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @icv2ray | 9",
                 "🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0",
@@ -257,7 +255,6 @@
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
                 "🇫🇮 FI | 🔴 | vless | @v2rayprotocol | 12",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇮🇷 IR | 🔴 | vless | @v2source | 19",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
@@ -267,6 +264,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🔴 | vless | @vistav2ray | 15",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 16",
+                "🇺🇸 US | 🟢 | vless | @vmess_ir | 17",
                 "🇮🇷 IR | 🔴 | vless | @vpn_arta | 3",
                 "🇫🇮 FI | 🔴 | vless | @vpn_ioss | 18",
                 "🇺🇸 US | 🟢 | vless | @vpn_ocean | 1",
@@ -635,22 +633,6 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @hope_net | 19",
-            "type": "vless",
-            "server": "172.67.117.204",
-            "server_port": 2086,
-            "uuid": "2737560d-1867-47fa-aa80-351c36d771c7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "172.67.117.204"
                 }
             }
         },
@@ -1468,33 +1450,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
-            "type": "vless",
-            "server": "88.198.200.124",
-            "server_port": 1014,
-            "uuid": "Telegram--TokaVpn--TokaVpn",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IsUUuSm6_lY4Z4w-gkEeFch-V_V84Ik5IWdlzSQ61Wk",
-                    "short_id": "52"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "23145vless"
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
             "type": "vless",
             "server": "91.107.153.239",
@@ -1650,6 +1605,31 @@
                 "path": "/telegram-channel-vlessconfig",
                 "headers": {
                     "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @vmess_ir | 17",
+            "type": "vless",
+            "server": "104.16.243.59",
+            "server_port": 443,
+            "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "NGINX.NSCl.IR",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assets",
+                "headers": {
+                    "Host": "NGINX.NSCl.IR"
                 }
             }
         },

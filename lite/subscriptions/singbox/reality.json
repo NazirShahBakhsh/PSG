@@ -109,7 +109,6 @@
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇺🇸 US | 🟢 | vless | @v2ray_sub | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🟢 | vless | @vip_vpn_2022 | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
@@ -123,7 +122,6 @@
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
-                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 16",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12"
             ],
@@ -144,7 +142,6 @@
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇺🇸 US | 🟢 | vless | @v2ray_sub | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🟢 | vless | @vip_vpn_2022 | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
@@ -158,7 +155,6 @@
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
-                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 16",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12"
             ],
@@ -457,33 +453,6 @@
                     "www.speedtest.net"
                 ],
                 "path": "/"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
-            "type": "vless",
-            "server": "88.198.200.124",
-            "server_port": 1014,
-            "uuid": "Telegram--TokaVpn--TokaVpn",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IsUUuSm6_lY4Z4w-gkEeFch-V_V84Ik5IWdlzSQ61Wk",
-                    "short_id": "52"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "23145vless"
             }
         },
         {
@@ -811,29 +780,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:@FergalVpnMod"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vmess_ir | 16",
-            "type": "vless",
-            "server": "micro.slumbo.com",
-            "server_port": 443,
-            "uuid": "60bc841c-cfbd-408f-889b-473f90bb4a26",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jH08UU9id-Q8i17ltvHPO3sfGL6YTJIFveAJGgNjNl8",
-                    "short_id": "190d32b118caf07f"
-                }
             }
         },
         {
