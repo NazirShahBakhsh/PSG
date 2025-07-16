@@ -105,6 +105,7 @@
                 "❔ XX | 🟢 | vless | @buffalo_vpn | 5",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 15",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
+                "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 0",
                 "🇩🇪 DE | 🟢 | vless | @dnsforyou | 3",
@@ -172,7 +173,7 @@
                 "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇳🇱 NL | 🟢 | vless | @vaslvip | 11",
-                "🇺🇸 US | 🟢 | vless | @vistav2ray | 11",
+                "🇩🇪 DE | 🟢 | vless | @vistav2ray | 11",
                 "🇩🇪 DE | 🟢 | vless | @vmess_ir | 16",
                 "🇩🇪 DE | 🟢 | vless | @vmessorg | 7",
                 "❔ XX | 🟢 | vless | @vp22ray | 6",
@@ -204,6 +205,7 @@
                 "❔ XX | 🟢 | vless | @buffalo_vpn | 5",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 15",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
+                "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 0",
                 "🇩🇪 DE | 🟢 | vless | @dnsforyou | 3",
@@ -271,7 +273,7 @@
                 "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇳🇱 NL | 🟢 | vless | @vaslvip | 11",
-                "🇺🇸 US | 🟢 | vless | @vistav2ray | 11",
+                "🇩🇪 DE | 🟢 | vless | @vistav2ray | 11",
                 "🇩🇪 DE | 🟢 | vless | @vmess_ir | 16",
                 "🇩🇪 DE | 🟢 | vless | @vmessorg | 7",
                 "❔ XX | 🟢 | vless | @vp22ray | 6",
@@ -474,6 +476,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
+            "type": "vless",
+            "server": "real-all3-2.sdcards.ir",
+            "server_port": 8501,
+            "uuid": "ac37eb9c-0db8-4056-8f61-e8db4e2da35e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI",
+                    "short_id": "e701a013553059ba"
+                }
             }
         },
         {
@@ -2133,7 +2158,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @vistav2ray | 11",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vistav2ray | 11",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

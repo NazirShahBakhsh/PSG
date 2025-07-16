@@ -98,11 +98,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 65",
-                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 66",
-                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 67",
-                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 68",
-                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
@@ -160,8 +155,8 @@
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 13",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 16",
-                "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 18"
+                "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 15",
+                "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 17"
             ],
             "interrupt_exist_connections": false
         },
@@ -169,11 +164,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 65",
-                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 66",
-                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 67",
-                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 68",
-                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
@@ -231,8 +221,8 @@
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 13",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 16",
-                "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 18"
+                "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 15",
+                "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 17"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -250,41 +240,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 65",
-            "type": "trojan",
-            "server": "ens.node1link.xyz",
-            "server_port": 14101,
-            "password": "6a60356a-0875-40d9-81f3-3ef82cede767"
-        },
-        {
-            "tag": "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 66",
-            "type": "trojan",
-            "server": "ss.usalink.xyz",
-            "server_port": 13206,
-            "password": "6a60356a-0875-40d9-81f3-3ef82cede767"
-        },
-        {
-            "tag": "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 67",
-            "type": "trojan",
-            "server": "ss.usalink.xyz",
-            "server_port": 13208,
-            "password": "6a60356a-0875-40d9-81f3-3ef82cede767"
-        },
-        {
-            "tag": "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 68",
-            "type": "trojan",
-            "server": "ss.usalink.xyz",
-            "server_port": 13202,
-            "password": "6a60356a-0875-40d9-81f3-3ef82cede767"
-        },
-        {
-            "tag": "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
-            "type": "trojan",
-            "server": "ss.usalink.xyz",
-            "server_port": 13205,
-            "password": "6a60356a-0875-40d9-81f3-3ef82cede767"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @armodchannel | 59",
@@ -1209,17 +1164,17 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | trojan | @v2rayweb | 16",
-            "type": "trojan",
-            "server": "54.176.205.20",
-            "server_port": 80,
-            "password": "Aimer"
-        },
-        {
-            "tag": "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 18",
+            "tag": "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 15",
             "type": "trojan",
             "server": "27.50.49.156",
             "server_port": 2096,
+            "password": "Aimer"
+        },
+        {
+            "tag": "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 17",
+            "type": "trojan",
+            "server": "27.50.48.126",
+            "server_port": 2083,
             "password": "Aimer"
         }
     ],

@@ -105,6 +105,7 @@
                 "❔ XX | 🟢 | vless | @buffalo_vpn | 5",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 15",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
+                "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 0",
                 "🇩🇪 DE | 🟢 | vless | @dnsforyou | 3",
@@ -172,7 +173,7 @@
                 "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇳🇱 NL | 🟢 | vless | @vaslvip | 11",
-                "🇺🇸 US | 🟢 | vless | @vistav2ray | 11",
+                "🇩🇪 DE | 🟢 | vless | @vistav2ray | 11",
                 "🇩🇪 DE | 🟢 | vless | @vmess_ir | 16",
                 "🇩🇪 DE | 🟢 | vless | @vmessorg | 7",
                 "❔ XX | 🟢 | vless | @vp22ray | 6",
@@ -198,9 +199,6 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇳🇱 NL | 🟢 | vless | @configfa | 10",
-                "🇺🇸 US | 🟢 | vless | @configshubplus | 15",
-                "🇺🇸 US | 🟢 | vless | @configshubplus | 16",
-                "🇺🇸 US | 🟢 | vless | @configshubplus | 18",
                 "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 137",
                 "🇨🇿 CZ | 🟢 | vless | @dailyv2ry | 138",
                 "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 140",
@@ -317,6 +315,7 @@
                 "❔ XX | 🟢 | vless | @buffalo_vpn | 5",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 15",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
+                "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇫🇮 FI | 🟢 | vless | @dnsforyou | 0",
                 "🇩🇪 DE | 🟢 | vless | @dnsforyou | 3",
@@ -384,7 +383,7 @@
                 "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇳🇱 NL | 🟢 | vless | @vaslvip | 11",
-                "🇺🇸 US | 🟢 | vless | @vistav2ray | 11",
+                "🇩🇪 DE | 🟢 | vless | @vistav2ray | 11",
                 "🇩🇪 DE | 🟢 | vless | @vmess_ir | 16",
                 "🇩🇪 DE | 🟢 | vless | @vmessorg | 7",
                 "❔ XX | 🟢 | vless | @vp22ray | 6",
@@ -410,9 +409,6 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇳🇱 NL | 🟢 | vless | @configfa | 10",
-                "🇺🇸 US | 🟢 | vless | @configshubplus | 15",
-                "🇺🇸 US | 🟢 | vless | @configshubplus | 16",
-                "🇺🇸 US | 🟢 | vless | @configshubplus | 18",
                 "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 137",
                 "🇨🇿 CZ | 🟢 | vless | @dailyv2ry | 138",
                 "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 140",
@@ -700,6 +696,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
+            "type": "vless",
+            "server": "real-all3-2.sdcards.ir",
+            "server_port": 8501,
+            "uuid": "ac37eb9c-0db8-4056-8f61-e8db4e2da35e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI",
+                    "short_id": "e701a013553059ba"
+                }
             }
         },
         {
@@ -2359,7 +2378,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @vistav2ray | 11",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vistav2ray | 11",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -2977,75 +2996,6 @@
                     "enabled": true,
                     "public_key": "eGk1Ry8mkkWQZc2QuGV_n123JIBFKsPtFcBSXDg33mk",
                     "short_id": "e9"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @configshubplus | 15",
-            "type": "vless",
-            "server": "35.90.74.219",
-            "server_port": 4433,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @configshubplus | 16",
-            "type": "vless",
-            "server": "35.86.0.193",
-            "server_port": 4433,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @configshubplus | 18",
-            "type": "vless",
-            "server": "34.213.143.10",
-            "server_port": 4433,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
                 }
             }
         },
