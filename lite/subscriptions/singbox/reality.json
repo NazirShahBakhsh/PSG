@@ -101,6 +101,7 @@
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
+                "🇺🇸 US | 🟢 | vless | @hope_net | 19",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -134,6 +135,7 @@
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
+                "🇺🇸 US | 🟢 | vless | @hope_net | 19",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -245,6 +247,29 @@
                     "enabled": true,
                     "public_key": "YqHW8a4iAc1SZYpTrFVoOQg1F3yAdX1tWXuROZUCsEU",
                     "short_id": "6ba85179e30d4fc2"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @hope_net | 19",
+            "type": "vless",
+            "server": "34.221.42.79",
+            "server_port": 443,
+            "uuid": "3c040157-b103-423e-89ac-23c768dea8a7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.openstreetmap.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HG9t2HhmBcU3u63xzmV227fg0O2ka5BLcKeYA74Lah4",
+                    "short_id": "a45eed54009e54de"
                 }
             }
         },

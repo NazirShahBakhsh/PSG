@@ -102,7 +102,7 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @configfa | 11",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
-                "🇺🇸 US | 🔴 | vless | @configshubplus | 18",
+                "🇺🇸 US | 🔴 | vless | @configx2ray | 6",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 135",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 136",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -121,6 +121,7 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @freakconfig | 5",
                 "🇩🇪 DE | 🟢 | vless | @game_file2020 | 2",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 15",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @manzariyeh_rasht | 14",
@@ -131,8 +132,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
-                "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 5",
-                "🇺🇸 US | 🔴 | vless | @proxygodratmand | 5",
+                "🇺🇸 US | 🔴 | vless | @proxygodratmand | 4",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 5",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 7",
                 "🇺🇸 US | 🔴 | vless | @server_nekobox | 11",
@@ -155,7 +155,7 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @configfa | 11",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
-                "🇺🇸 US | 🔴 | vless | @configshubplus | 18",
+                "🇺🇸 US | 🔴 | vless | @configx2ray | 6",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 135",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 136",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -174,6 +174,7 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @freakconfig | 5",
                 "🇩🇪 DE | 🟢 | vless | @game_file2020 | 2",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 15",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @manzariyeh_rasht | 14",
@@ -184,8 +185,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
-                "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 5",
-                "🇺🇸 US | 🔴 | vless | @proxygodratmand | 5",
+                "🇺🇸 US | 🔴 | vless | @proxygodratmand | 4",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 5",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 7",
                 "🇺🇸 US | 🔴 | vless | @server_nekobox | 11",
@@ -252,7 +252,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @configshubplus | 18",
+            "tag": "🇺🇸 US | 🔴 | vless | @configx2ray | 6",
             "type": "vless",
             "server": "CONFiGLiNE.fast.hosting-ip.com",
             "server_port": 80,
@@ -451,6 +451,15 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 15",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
             "type": "vless",
             "server": "ips.rainoteam.store",
@@ -595,16 +604,7 @@
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 5",
-            "type": "vless",
-            "server": "s4.1dnt.k-l.cloud",
-            "server_port": 80,
-            "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @proxygodratmand | 5",
+            "tag": "🇺🇸 US | 🔴 | vless | @proxygodratmand | 4",
             "type": "vless",
             "server": "sjdsnsj.varzesh3.com.tr",
             "server_port": 80,

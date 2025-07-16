@@ -471,10 +471,10 @@
     },
     "hope_net": {
         "types": [
-            "trojan",
-            "vless",
             "ss",
-            "vmess"
+            "vmess",
+            "trojan",
+            "vless"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -806,8 +806,8 @@
     },
     "mtproxy22_v2ray": {
         "types": [
-            "vless",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "پروکسی تلگرام| vpn v2ray",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mtproxy22_v2ray.jpg"
@@ -844,7 +844,6 @@
     },
     "nationalproxytelegram": {
         "types": [
-            "vless",
             "ss"
         ],
         "title": "گلچین پروکسی | بهترین پروکسی ها کانفینگ قوی کانفیگ سرعتی 🔘 پراکسی ملی فعال 🔘",
@@ -1297,8 +1296,8 @@
     },
     "v2pedia": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "trojan",
             "vmess"
         ],
@@ -1669,7 +1668,9 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vless",
+            "trojan",
+            "vmess"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -1708,15 +1709,6 @@
         "title": "V2RAYNGFREE",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ryngfree.jpg"
     },
-    "v2source": {
-        "types": [
-            "vless",
-            "ss",
-            "trojan"
-        ],
-        "title": "Free V2ray",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2source.jpg"
-    },
     "v2trayproxy": {
         "types": [
             "vless",
@@ -1749,7 +1741,6 @@
     },
     "vaslvip": {
         "types": [
-            "ss",
             "vless"
         ],
         "title": "دور زدن نت ملی/همیشه وصل بمون/کانفیک رایگان",
@@ -1815,7 +1806,7 @@
     "vistav2ray": {
         "types": [
             "vless",
-            "ss"
+            "vmess"
         ],
         "title": "Vista Pc (It _ja)",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vistav2ray.jpg"
@@ -2053,8 +2044,8 @@
     },
     "vpnv2rayngv": {
         "types": [
-            "ss",
             "vless",
+            "ss",
             "trojan"
         ],
         "title": "کانفینگ پروکسی وی توری نت ملی اسکوئید گیم خرید سرورفیلترشکن بازی مرکب وی پی ان اسکویید گیم ایران vpn v2rayNG vmess vless proxy",

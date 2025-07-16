@@ -102,7 +102,6 @@
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "🇸🇬 SG | 🔴 | trojan | @hope_net | 15",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 4",
@@ -111,13 +110,13 @@
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 7",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "❔ XX | 🟢 | trojan | @mtpv2ray | 5",
-                "🇫🇷 FR | 🟢 | trojan | @netmellianti | 13",
+                "🇫🇷 FR | 🟢 | trojan | @netmellianti | 12",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 13",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
-                "❔ XX | 🔴 | trojan | @v2trayproxy | 14",
+                "❔ XX | 🔴 | trojan | @v2trayproxy | 11",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 5"
             ],
@@ -131,7 +130,6 @@
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "🇸🇬 SG | 🔴 | trojan | @hope_net | 15",
                 "🇺🇸 US | 🟢 | trojan | @hopev2ray | 1",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 4",
@@ -140,13 +138,13 @@
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 7",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "❔ XX | 🟢 | trojan | @mtpv2ray | 5",
-                "🇫🇷 FR | 🟢 | trojan | @netmellianti | 13",
+                "🇫🇷 FR | 🟢 | trojan | @netmellianti | 12",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 13",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
-                "❔ XX | 🔴 | trojan | @v2trayproxy | 14",
+                "❔ XX | 🔴 | trojan | @v2trayproxy | 11",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 5"
             ],
@@ -236,22 +234,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "t3.teslacdn2.live",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔴 | trojan | @hope_net | 15",
-            "type": "trojan",
-            "server": "tw02.trojanyyds.xyz",
-            "server_port": 443,
-            "password": "243eab52-9ac1-405c-887c-eb112c0985b8",
-            "tls": {
-                "enabled": true,
-                "server_name": "tw02.trojanyyds.xyz",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -417,7 +399,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @netmellianti | 13",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @netmellianti | 12",
             "type": "trojan",
             "server": "x5-france-scaleway-v2.devefun.org",
             "server_port": 1935,
@@ -520,7 +502,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | trojan | @v2trayproxy | 14",
+            "tag": "❔ XX | 🔴 | trojan | @v2trayproxy | 11",
             "type": "trojan",
             "server": "0RiSuJPsug",
             "server_port": 0,
