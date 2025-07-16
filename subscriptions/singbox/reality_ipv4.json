@@ -180,6 +180,7 @@
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 4",
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 5",
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 6",
+                "🇳🇱 NL | 🟢 | vless | @v2ray_free_conf | 16",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_one1 | 12",
                 "🇫🇷 FR | 🟢 | vless | @v2ray_one1 | 13",
@@ -191,7 +192,6 @@
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngconfings | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
-                "🇬🇧 GB | 🟢 | vless | @v2rayweb | 13",
                 "🇩🇪 DE | 🟢 | vless | @vip_vpn_2022 | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpn451 | 7",
@@ -295,6 +295,7 @@
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 4",
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 5",
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 6",
+                "🇳🇱 NL | 🟢 | vless | @v2ray_free_conf | 16",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_one1 | 12",
                 "🇫🇷 FR | 🟢 | vless | @v2ray_one1 | 13",
@@ -306,7 +307,6 @@
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngconfings | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
-                "🇬🇧 GB | 🟢 | vless | @v2rayweb | 13",
                 "🇩🇪 DE | 🟢 | vless | @vip_vpn_2022 | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpn451 | 7",
@@ -2405,6 +2405,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2ray_free_conf | 16",
+            "type": "vless",
+            "server": "62.212.70.229",
+            "server_port": 80,
+            "uuid": "c256ce5f-9b2b-43a0-946a-cceeadf0d5b0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ea.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tGORZqRxnUHzC46UYNRlydnkDlbA06OlkhPFZrxeLCE",
+                    "short_id": "3df4"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
             "type": "vless",
             "server": "168.119.184.138",
@@ -2670,29 +2693,6 @@
                     "www.speedtest.net"
                 ],
                 "path": "/"
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🟢 | vless | @v2rayweb | 13",
-            "type": "vless",
-            "server": "109.120.128.109",
-            "server_port": 51337,
-            "uuid": "644fdf71-5d76-4f28-b3d6-b1c386172f32",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZWXfXGAelQor0PVvHSTmN4P6gjeEvnWdeEbB4jcauzY",
-                    "short_id": "5c21278a0b"
-                }
             }
         },
         {

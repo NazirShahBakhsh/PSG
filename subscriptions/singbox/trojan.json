@@ -133,11 +133,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
                 "🇩🇪 DE | 🟢 | trojan | @freakconfig | 3",
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
-                "🇭🇰 HK | 🔴 | trojan | @hope_net | 15",
-                "🇺🇸 US | 🔴 | trojan | @hope_net | 18",
-                "🇩🇪 DE | 🔴 | trojan | @hope_net | 19",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 7",
                 "🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
@@ -163,7 +159,7 @@
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 13",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "❔ XX | 🔴 | trojan | @freevpnatm | 14"
+                "❔ XX | 🔴 | trojan | @freevpnatm | 15"
             ],
             "interrupt_exist_connections": false
         },
@@ -206,11 +202,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
                 "🇩🇪 DE | 🟢 | trojan | @freakconfig | 3",
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
-                "🇭🇰 HK | 🔴 | trojan | @hope_net | 15",
-                "🇺🇸 US | 🔴 | trojan | @hope_net | 18",
-                "🇩🇪 DE | 🔴 | trojan | @hope_net | 19",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 7",
                 "🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
@@ -236,7 +228,7 @@
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 13",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "❔ XX | 🔴 | trojan | @freevpnatm | 14"
+                "❔ XX | 🔴 | trojan | @freevpnatm | 15"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -790,26 +782,6 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
-            "type": "trojan",
-            "server": "104.21.22.159",
-            "server_port": 443,
-            "password": "c03d1bce-e54c-4cc0-a0fa-d83e22f15620",
-            "tls": {
-                "enabled": true,
-                "server_name": "sSSsSd.11890604.Xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "mLdrBlaGdnFVVQvjIFm02G"
-            }
-        },
-        {
             "tag": "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
             "type": "trojan",
             "server": "46.8.231.225",
@@ -818,45 +790,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "46.8.231.225",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔴 | trojan | @hope_net | 15",
-            "type": "trojan",
-            "server": "27.50.48.204",
-            "server_port": 443,
-            "password": "Aimer",
-            "tls": {
-                "enabled": true,
-                "server_name": "acepo.ambercc.filegear-sg.me",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | trojan | @hope_net | 18",
-            "type": "trojan",
-            "server": "156.225.72.246",
-            "server_port": 2087,
-            "password": "Aimer"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | trojan | @hope_net | 19",
-            "type": "trojan",
-            "server": "165.22.74.230",
-            "server_port": 443,
-            "password": "4732adfa16c6450bbef87264e41332db",
-            "tls": {
-                "enabled": true,
-                "server_name": "nextstepcareer.online",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1252,14 +1185,14 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 14",
+            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 15",
             "type": "trojan",
-            "server": "[2606:4700:3031::ac43:b16d]",
+            "server": "[2606:4700:3030::6815:2001]",
             "server_port": 443,
-            "password": "2d068083-2cb0-4ae3-a44a-6fc82f3039cc",
+            "password": "f108e0e2-5f12-42b6-9e67-1b2f073ffb2b",
             "tls": {
                 "enabled": true,
-                "server_name": "[2606:4700:3031::ac43:b16d]",
+                "server_name": "[2606:4700:3030::6815:2001]",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1270,7 +1203,7 @@
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "[2606:4700:3031::ac43:b16d]"
+                    "Host": "[2606:4700:3030::6815:2001]"
                 }
             }
         }
