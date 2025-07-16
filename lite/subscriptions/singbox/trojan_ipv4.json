@@ -102,6 +102,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
+                "🇦🇲 AM | 🔴 | trojan | @v2rayweb | 18",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "interrupt_exist_connections": false
@@ -114,6 +115,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
+                "🇦🇲 AM | 🔴 | trojan | @v2rayweb | 18",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -196,6 +198,13 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇦🇲 AM | 🔴 | trojan | @v2rayweb | 18",
+            "type": "trojan",
+            "server": "188.164.159.185",
+            "server_port": 8443,
+            "password": "Aimer"
         },
         {
             "tag": "🇺🇸 US | 🟢 | trojan | @webhube | 4",

@@ -87,6 +87,7 @@ proxies:
   - {"name":"🇮🇷 IR | 🔴 | vless | @vpn_arta | 3","type":"vless","server":"2.189.85.177","port":53369,"uuid":"51909ba1-3a0c-4dff-a8f1-73ce64c4b10a","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇫🇮 FI | 🔴 | vless | @vpn_ioss | 18","type":"vless","server":"95.217.242.125","port":990,"uuid":"fc64a8a6-6ed0-4706-abe9-67c1cc11e142","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🟢 | vless | @vpn_ocean | 1","type":"vless","server":"104.16.190.41","port":443,"uuid":"102e5f34-1913-4dd3-a1f2-f831d891a490","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"cr7.traneh.dpdns.org","ws-opts":{"path":"/","headers":{"Host":"cr7.traneh.dpdns.org"}}}
+  - {"name":"🇨🇿 CZ | 🟢 | vless | @vpnaloo | 15","type":"vless","server":"194.182.79.72","port":32827,"uuid":"4ac9748e-ab31-499e-9221-3e75c314b503","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sourceforge.net","grpc-opts":{"grpc-service-name":"Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON"},"reality-opts":{"public-key":"Q-zmZ8W_ZN8ua7qt2xGR9EHG56TfC4LL39V7pNcM0gM","short-id":"e69d8702eba67ed7"}}
   - {"name":"🇺🇸 US | 🟢 | vless | @vpnfreeo | 33","type":"vless","server":"190.93.246.241","port":2087,"uuid":"1148c7b4-4a39-4e31-80a3-dd2dc91e34a5","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"cj.LsV2ray.top","grpc-opts":{"grpc-service-name":"@https_config_injector@https_config_injector@https_config_injector@https_config_injector@https_config_injector@https_config_injector@https_config_injector@https_config_injector@https_config_injector@https_config_injector@https_config_injector"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0","type":"vless","server":"91.99.148.251","port":3184,"uuid":"2e655095-7f4e-428d-9c7e-eb2278e153a8","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.chess.com","grpc-opts":{"grpc-service-name":"chessgame"},"reality-opts":{"public-key":"hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I"}}
   - {"name":"🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3","type":"vless","server":"37.152.173.139","port":8464,"uuid":"0f2e0501-5a4f-45b7-bd5e-209169cd34f9","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
@@ -192,6 +193,7 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @vpn_arta | 3'
       - '🇫🇮 FI | 🔴 | vless | @vpn_ioss | 18'
       - '🇺🇸 US | 🟢 | vless | @vpn_ocean | 1'
+      - '🇨🇿 CZ | 🟢 | vless | @vpnaloo | 15'
       - '🇺🇸 US | 🟢 | vless | @vpnfreeo | 33'
       - '🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0'
       - '🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3'
@@ -273,6 +275,7 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @vpn_arta | 3'
       - '🇫🇮 FI | 🔴 | vless | @vpn_ioss | 18'
       - '🇺🇸 US | 🟢 | vless | @vpn_ocean | 1'
+      - '🇨🇿 CZ | 🟢 | vless | @vpnaloo | 15'
       - '🇺🇸 US | 🟢 | vless | @vpnfreeo | 33'
       - '🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0'
       - '🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3'
@@ -352,6 +355,7 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @vpn_arta | 3'
       - '🇫🇮 FI | 🔴 | vless | @vpn_ioss | 18'
       - '🇺🇸 US | 🟢 | vless | @vpn_ocean | 1'
+      - '🇨🇿 CZ | 🟢 | vless | @vpnaloo | 15'
       - '🇺🇸 US | 🟢 | vless | @vpnfreeo | 33'
       - '🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0'
       - '🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3'

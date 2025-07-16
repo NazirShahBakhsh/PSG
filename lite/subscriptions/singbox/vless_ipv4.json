@@ -116,6 +116,7 @@
                 "🇨🇿 CZ | 🟢 | vless | @ghalagyann2 | 14",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
+                "🏳️  | 🟢 | vless | @hope_net | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @icv2ray | 9",
                 "🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0",
@@ -177,6 +178,7 @@
                 "🇫🇮 FI | 🔴 | vless | @vpn_ioss | 18",
                 "🇺🇸 US | 🟢 | vless | @vpn_ocean | 1",
                 "🇺🇸 US | 🔴 | vless | @vpn_zvpn | 13",
+                "🇨🇿 CZ | 🟢 | vless | @vpnaloo | 15",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
@@ -208,6 +210,7 @@
                 "🇨🇿 CZ | 🟢 | vless | @ghalagyann2 | 14",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
+                "🏳️  | 🟢 | vless | @hope_net | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @icv2ray | 9",
                 "🇫🇷 FR | 🔴 | vless | @iranmedicalvpn | 0",
@@ -269,6 +272,7 @@
                 "🇫🇮 FI | 🔴 | vless | @vpn_ioss | 18",
                 "🇺🇸 US | 🟢 | vless | @vpn_ocean | 1",
                 "🇺🇸 US | 🔴 | vless | @vpn_zvpn | 13",
+                "🇨🇿 CZ | 🟢 | vless | @vpnaloo | 15",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
@@ -633,6 +637,24 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
+                }
+            }
+        },
+        {
+            "tag": "🏳️  | 🟢 | vless | @hope_net | 19",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "acabacb-acab-acba-abcd-cbaaabbccacb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -1690,6 +1712,33 @@
                 "headers": {
                     "Host": "104.18.14.19"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇿 CZ | 🟢 | vless | @vpnaloo | 15",
+            "type": "vless",
+            "server": "194.182.79.72",
+            "server_port": 32827,
+            "uuid": "4ac9748e-ab31-499e-9221-3e75c314b503",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Q-zmZ8W_ZN8ua7qt2xGR9EHG56TfC4LL39V7pNcM0gM",
+                    "short_id": "e69d8702eba67ed7"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON"
             }
         },
         {

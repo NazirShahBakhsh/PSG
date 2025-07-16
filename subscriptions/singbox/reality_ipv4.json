@@ -106,7 +106,6 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇳🇱 NL | 🟢 | vless | @configfa | 10",
-                "🇺🇸 US | 🟢 | vless | @configshubplus | 13",
                 "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 143",
                 "🇬🇧 GB | 🟢 | vless | @dailyv2ry | 145",
                 "🇮🇷 IR | 🟢 | vless | @dargiiriis | 2",
@@ -197,6 +196,7 @@
                 "🇳🇱 NL | 🟢 | vless | @vpn451 | 8",
                 "🇳🇱 NL | 🟢 | vless | @vpn451 | 9",
                 "🇫🇮 FI | 🟢 | vless | @vpn_ocean | 0",
+                "🇨🇿 CZ | 🟢 | vless | @vpnaloo | 15",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇫🇷 FR | 🟢 | vless | @vpnpacket | 3",
                 "🇫🇷 FR | 🟢 | vless | @vpnpacket | 4",
@@ -220,7 +220,6 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇳🇱 NL | 🟢 | vless | @configfa | 10",
-                "🇺🇸 US | 🟢 | vless | @configshubplus | 13",
                 "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 143",
                 "🇬🇧 GB | 🟢 | vless | @dailyv2ry | 145",
                 "🇮🇷 IR | 🟢 | vless | @dargiiriis | 2",
@@ -311,6 +310,7 @@
                 "🇳🇱 NL | 🟢 | vless | @vpn451 | 8",
                 "🇳🇱 NL | 🟢 | vless | @vpn451 | 9",
                 "🇫🇮 FI | 🟢 | vless | @vpn_ocean | 0",
+                "🇨🇿 CZ | 🟢 | vless | @vpnaloo | 15",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇫🇷 FR | 🟢 | vless | @vpnpacket | 3",
                 "🇫🇷 FR | 🟢 | vless | @vpnpacket | 4",
@@ -534,29 +534,6 @@
                     "enabled": true,
                     "public_key": "eGk1Ry8mkkWQZc2QuGV_n123JIBFKsPtFcBSXDg33mk",
                     "short_id": "e9"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @configshubplus | 13",
-            "type": "vless",
-            "server": "54.244.106.19",
-            "server_port": 443,
-            "uuid": "3c040157-b103-423e-89ac-23c768dea8a7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.openstreetmap.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HG9t2HhmBcU3u63xzmV227fg0O2ka5BLcKeYA74Lah4",
-                    "short_id": "a45eed54009e54de"
                 }
             }
         },
@@ -2802,6 +2779,33 @@
                     "public_key": "RELg-Z1AXhG9945I_8hN884Z5Txd9ZxI92sl4jHzXWU",
                     "short_id": "ec01ceda"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇿 CZ | 🟢 | vless | @vpnaloo | 15",
+            "type": "vless",
+            "server": "194.182.79.72",
+            "server_port": 32827,
+            "uuid": "4ac9748e-ab31-499e-9221-3e75c314b503",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Q-zmZ8W_ZN8ua7qt2xGR9EHG56TfC4LL39V7pNcM0gM",
+                    "short_id": "e69d8702eba67ed7"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON"
             }
         },
         {
