@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🔴 | vless | @argo_vpn1 | 3",
+                "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 3",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇺🇸 US | 🔴 | vless | @aryoovpn | 4",
                 "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
@@ -202,7 +202,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vless | @argo_vpn1 | 3",
+                "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 3",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇺🇸 US | 🔴 | vless | @aryoovpn | 4",
                 "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
@@ -318,13 +318,20 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @argo_vpn1 | 3",
+            "tag": "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 3",
             "type": "vless",
-            "server": "tr.tun.badminisff.site",
-            "server_port": 5030,
-            "uuid": "3ebe7a7e-a61d-4c1a-8a47-06dc8f02d605",
+            "server": "www.speedtest.net.cdn.cloudflare.net",
+            "server_port": 8080,
+            "uuid": "813d7c7e-d2ea-460f-9bf7-e6fa6a073b67",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "www.speedtest.net.cdn.cloudflare.net"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",

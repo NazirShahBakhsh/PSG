@@ -101,7 +101,6 @@
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 49",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @aminaqafarzane | 12",
-                "🇮🇳 IN | 🟢 | vless | @argo_vpn1 | 0",
                 "❔ XX | 🟢 | vless | @buffalo_vpn | 5",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 15",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
@@ -155,7 +154,7 @@
                 "🇬🇧 GB | 🟢 | vless | @savagenet | 0",
                 "❔ XX | 🟢 | vless | @tc_v2ray | 1",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
-                "🇳🇱 NL | 🟢 | vless | @turboo_server | 6",
+                "🇳🇱 NL | 🟢 | vless | @turboo_server | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_extractor | 18",
                 "🇳🇱 NL | 🟢 | vless | @v2ray_sub | 5",
@@ -173,8 +172,7 @@
                 "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "❔ XX | 🟢 | vless | @vaslvip | 11",
-                "🇩🇪 DE | 🟢 | vless | @vistav2ray | 11",
-                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 16",
+                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 15",
                 "🇩🇪 DE | 🟢 | vless | @vmessorg | 7",
                 "❔ XX | 🟢 | vless | @vp22ray | 6",
                 "❔ XX | 🟢 | vless | @vp22ray | 7",
@@ -201,7 +199,6 @@
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 49",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 50",
                 "🇩🇪 DE | 🟢 | vless | @aminaqafarzane | 12",
-                "🇮🇳 IN | 🟢 | vless | @argo_vpn1 | 0",
                 "❔ XX | 🟢 | vless | @buffalo_vpn | 5",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 15",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
@@ -255,7 +252,7 @@
                 "🇬🇧 GB | 🟢 | vless | @savagenet | 0",
                 "❔ XX | 🟢 | vless | @tc_v2ray | 1",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
-                "🇳🇱 NL | 🟢 | vless | @turboo_server | 6",
+                "🇳🇱 NL | 🟢 | vless | @turboo_server | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_extractor | 18",
                 "🇳🇱 NL | 🟢 | vless | @v2ray_sub | 5",
@@ -273,8 +270,7 @@
                 "❔ XX | 🟢 | vless | @v2rayy_vpn13 | 8",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "❔ XX | 🟢 | vless | @vaslvip | 11",
-                "🇩🇪 DE | 🟢 | vless | @vistav2ray | 11",
-                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 16",
+                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 15",
                 "🇩🇪 DE | 🟢 | vless | @vmessorg | 7",
                 "❔ XX | 🟢 | vless | @vp22ray | 6",
                 "❔ XX | 🟢 | vless | @vp22ray | 7",
@@ -374,29 +370,6 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇳 IN | 🟢 | vless | @argo_vpn1 | 0",
-            "type": "vless",
-            "server": "india.aparat-movies-download.ir",
-            "server_port": 4450,
-            "uuid": "ec129df4-ddfd-4d54-be9a-5029d6052fa9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic",
                     "short_id": ""
                 }
             }
@@ -1716,7 +1689,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @turboo_server | 6",
+            "tag": "🇳🇱 NL | 🟢 | vless | @turboo_server | 5",
             "type": "vless",
             "server": "turbooserver.sadafspace.com",
             "server_port": 55990,
@@ -2154,30 +2127,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vistav2ray | 11",
-            "type": "vless",
-            "server": "amazon-4.cristiano.name.ng",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vmess_ir | 16",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vmess_ir | 15",
             "type": "vless",
             "server": "micro.slumbo.com",
             "server_port": 443,

@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇮🇷 IR | 🔴 | vless | @argo_vpn1 | 3","type":"vless","server":"tr.tun.badminisff.site","port":5030,"uuid":"3ebe7a7e-a61d-4c1a-8a47-06dc8f02d605","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔴 | vless | @argo_vpn1 | 3","type":"vless","server":"www.speedtest.net.cdn.cloudflare.net","port":8080,"uuid":"813d7c7e-d2ea-460f-9bf7-e6fa6a073b67","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2048","headers":{"Host":"TW.kKpopH4Zmc.ZUlaIr.orG"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1","type":"vless","server":"Artemis.sbs","port":80,"uuid":"6db4a91c-838d-419a-af83-bc5bd211ffc6","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@Artemis_vpn","headers":{"Host":"free-02.artemis-03.sbs"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @aryoovpn | 4","type":"vless","server":"www.gov.se","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2560","headers":{"Host":"aryoovpn.commen-esoteric-0q.workers.dev"}}}
   - {"name":"🇺🇸 US | 🟢 | vless | @canfing_vpn | 19","type":"vless","server":"www.speedtest.net","port":443,"uuid":"38046915-6d82-4d86-8510-b5bcc569d0ea","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"PaGes.deV","ws-opts":{"path":"/@Prime_Verse?ed=2560","headers":{"Host":"MydigiKala.pAges.dEv"}}}
@@ -132,7 +132,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇮🇷 IR | 🔴 | vless | @argo_vpn1 | 3'
+      - '🇺🇸 US | 🔴 | vless | @argo_vpn1 | 3'
       - '🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1'
       - '🇺🇸 US | 🔴 | vless | @aryoovpn | 4'
       - '🇺🇸 US | 🟢 | vless | @canfing_vpn | 19'
@@ -223,7 +223,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇮🇷 IR | 🔴 | vless | @argo_vpn1 | 3'
+      - '🇺🇸 US | 🔴 | vless | @argo_vpn1 | 3'
       - '🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1'
       - '🇺🇸 US | 🔴 | vless | @aryoovpn | 4'
       - '🇺🇸 US | 🟢 | vless | @canfing_vpn | 19'
@@ -312,7 +312,7 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇮🇷 IR | 🔴 | vless | @argo_vpn1 | 3'
+      - '🇺🇸 US | 🔴 | vless | @argo_vpn1 | 3'
       - '🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1'
       - '🇺🇸 US | 🔴 | vless | @aryoovpn | 4'
       - '🇺🇸 US | 🟢 | vless | @canfing_vpn | 19'

@@ -99,7 +99,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 7",
-                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
+                "🇩🇪 DE | 🟢 | vless | @vistav2ray | 14"
             ],
             "interrupt_exist_connections": false
         },
@@ -108,7 +109,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 7",
-                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
+                "🇩🇪 DE | 🟢 | vless | @vistav2ray | 14"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -144,6 +146,29 @@
             "uuid": "qeshmserver",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vistav2ray | 14",
+            "type": "vless",
+            "server": "185.127.94.27",
+            "server_port": 8443,
+            "uuid": "2d37cd89-d6e5-4d58-a688-8b0208a48e6e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "drive.google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BG0noERXu_3wOPcZOeu9vl35QIFilTAWFXMZx-nzpVY",
+                    "short_id": "58b2fc"
+                }
+            }
         }
     ],
     "route": {
