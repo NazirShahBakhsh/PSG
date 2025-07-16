@@ -117,7 +117,6 @@
                 "🇩🇪 DE | 🔴 | vmess | @sezar_sec | 2",
                 "🇺🇸 US | 🟢 | vmess | @shadowsocksservers | 12",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
-                "🇨🇭 CH | 🔴 | vmess | @summertimeus | 15",
                 "🇺🇸 US | 🔴 | vmess | @tawanaclub | 2",
                 "🇳🇱 NL | 🟢 | vmess | @tehranfreevpn | 7",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
@@ -129,7 +128,7 @@
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
-                "🇮🇳 IN | 🔴 | vmess | @vpnfail_v2ray | 15",
+                "🇩🇪 DE | 🔴 | vmess | @vpnfail_v2ray | 15",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3"
@@ -159,7 +158,6 @@
                 "🇩🇪 DE | 🔴 | vmess | @sezar_sec | 2",
                 "🇺🇸 US | 🟢 | vmess | @shadowsocksservers | 12",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
-                "🇨🇭 CH | 🔴 | vmess | @summertimeus | 15",
                 "🇺🇸 US | 🔴 | vmess | @tawanaclub | 2",
                 "🇳🇱 NL | 🟢 | vmess | @tehranfreevpn | 7",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
@@ -171,7 +169,7 @@
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
-                "🇮🇳 IN | 🔴 | vmess | @vpnfail_v2ray | 15",
+                "🇩🇪 DE | 🔴 | vmess | @vpnfail_v2ray | 15",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3"
@@ -468,15 +466,6 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇭 CH | 🔴 | vmess | @summertimeus | 15",
-            "type": "vmess",
-            "server": "186.190.215.193",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vmess | @tawanaclub | 2",
             "type": "vmess",
             "server": "173.245.59.168",
@@ -652,13 +641,29 @@
             "alter_id": 0
         },
         {
-            "tag": "🇮🇳 IN | 🔴 | vmess | @vpnfail_v2ray | 15",
+            "tag": "🇩🇪 DE | 🔴 | vmess | @vpnfail_v2ray | 15",
             "type": "vmess",
-            "server": "94.136.185.230",
-            "server_port": 10534,
-            "uuid": "b01c7ef9-33ec-41f6-bfbf-77ddc4d21649",
+            "server": "23.158.56.241",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",

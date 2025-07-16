@@ -99,8 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 7",
-                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 10"
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
             ],
             "interrupt_exist_connections": false
         },
@@ -109,8 +108,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 7",
-                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 10"
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -146,29 +144,6 @@
             "uuid": "qeshmserver",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 10",
-            "type": "vless",
-            "server": "104.248.194.230",
-            "server_port": 80,
-            "uuid": "b51aa057-c62e-4bd4-8ffe-f275714576f3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "marzijooon.adas.monster",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "z3dFjHp3NPxSRP51s-EJGLO0P--M4hCorPlvOQ9ksiE",
-                    "short_id": "2a70224f5466"
-                }
-            }
         }
     ],
     "route": {

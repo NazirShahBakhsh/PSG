@@ -98,15 +98,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 69",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 19",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 13",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 13",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
             ],
             "interrupt_exist_connections": false
         },
@@ -114,15 +112,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 69",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 19",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 13",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 13",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -142,75 +138,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 69",
-            "type": "trojan",
-            "server": "ap.liangyuandian.top",
-            "server_port": 443,
-            "password": "51c44c4e-f8c2-4419-a52b-b4b7bd915078",
-            "tls": {
-                "enabled": true,
-                "server_name": "ap.liangyuandian.top",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-            "type": "trojan",
-            "server": "maradona_vpn.history-paint.art",
-            "server_port": 443,
-            "password": "Maradona_vpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "teo.history-paint.art",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc20337"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-            "type": "trojan",
-            "server": "de1.test3.net",
-            "server_port": 443,
-            "password": "b8841c50-c3ad-11ee-9be0-1239d0255272",
-            "tls": {
-                "enabled": true,
-                "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 19",
-            "type": "trojan",
-            "server": "ni.mjt000.com",
-            "server_port": 443,
-            "password": "172b2279-f7f5-4542-ab6c-9e96ad7dd5be",
-            "tls": {
-                "enabled": true,
-                "server_name": "ni.mjt000.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 13",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
             "type": "trojan",
             "server": "13.38.215.131",
             "server_port": 22223,
@@ -226,7 +154,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 13",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
             "type": "trojan",
             "server": "13.38.215.131",
             "server_port": 22222,
@@ -293,6 +221,42 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "usa-vp-111.mETIkaPPs.cOm"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+            "type": "trojan",
+            "server": "maradona_vpn.history-paint.art",
+            "server_port": 443,
+            "password": "Maradona_vpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "teo.history-paint.art",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc20337"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+            "type": "trojan",
+            "server": "de1.test3.net",
+            "server_port": 443,
+            "password": "b8841c50-c3ad-11ee-9be0-1239d0255272",
+            "tls": {
+                "enabled": true,
+                "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
