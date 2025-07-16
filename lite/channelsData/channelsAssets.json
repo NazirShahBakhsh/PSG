@@ -473,9 +473,9 @@
     },
     "hope_net": {
         "types": [
-            "vless",
             "ss",
-            "vmess"
+            "vless",
+            "trojan"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -497,7 +497,8 @@
     },
     "info_2it_channel": {
         "types": [
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "2IT | اینترنت آزاد",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/info_2it_channel.jpg"
@@ -1344,8 +1345,8 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "ss",
             "vless",
+            "ss",
             "trojan",
             "vmess"
         ],
@@ -1669,7 +1670,9 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vmess",
+            "vless",
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
