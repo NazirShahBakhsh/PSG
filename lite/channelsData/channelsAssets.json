@@ -9,6 +9,8 @@
     },
     "NamiraNet": {
         "types": [
+            "ss",
+            "trojan",
             "vless",
             "vmess"
         ],
@@ -472,9 +474,8 @@
     "hope_net": {
         "types": [
             "vless",
-            "trojan",
-            "vmess",
-            "ss"
+            "ss",
+            "vmess"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1296,8 +1297,8 @@
     },
     "v2pedia": {
         "types": [
-            "ss",
             "vless",
+            "ss",
             "trojan",
             "vmess"
         ],
@@ -1819,7 +1820,8 @@
     "vmess_ir": {
         "types": [
             "vless",
-            "trojan"
+            "trojan",
+            "ss"
         ],
         "title": "🚀سرور رایگان و اختصاصی vmess_ir🚀",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vmess_ir.jpg"
