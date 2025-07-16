@@ -158,7 +158,6 @@
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
-                "🇩🇪 DE | 🟢 | vless | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
@@ -169,12 +168,11 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+                "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngvpn_1 | 8",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇺🇸 US | 🟢 | vless | @v2trayproxy | 12",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
@@ -265,7 +263,6 @@
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
-                "🇩🇪 DE | 🟢 | vless | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
@@ -276,12 +273,11 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+                "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngvpn_1 | 8",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇺🇸 US | 🟢 | vless | @v2trayproxy | 12",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
@@ -1278,29 +1274,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2ray_free_conf | 19",
-            "type": "vless",
-            "server": "vip1.proxystore11.news",
-            "server_port": 2052,
-            "uuid": "dabea505-7584-43ea-9d80-25be7d81a00d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vultr.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
-                    "short_id": "f8fcb589"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
             "type": "vless",
             "server": "discord.com",
@@ -1519,7 +1492,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -1599,22 +1572,6 @@
             "uuid": "43330370-6687-48c3-ee7e-56c96853e07b",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 11",
-            "type": "vless",
-            "server": "chat.deepseek.com",
-            "server_port": 8080,
-            "uuid": "c5a3011a-373f-4ee0-812b-f6a3d6ad2af9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/melo",
-                "headers": {
-                    "Host": "chat.deepseek.com"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
