@@ -100,11 +100,12 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇪🇪 EE | 🟢 | vless | @meli_proxyy | 19",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12"
             ],
@@ -116,11 +117,12 @@
             "outbounds": [
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇪🇪 EE | 🟢 | vless | @meli_proxyy | 19",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12"
             ],
@@ -193,6 +195,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Hossien"
+            }
+        },
+        {
+            "tag": "🇪🇪 EE | 🟢 | vless | @meli_proxyy | 19",
+            "type": "vless",
+            "server": "est01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "2a02cb25-0f58-4b19-a7a6-8c205fdb9042",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "86e999a2cdc2"
+                }
             }
         },
         {
@@ -296,7 +321,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

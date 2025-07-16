@@ -102,7 +102,6 @@
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇺🇸 US | 🟢 | vless | @meli_proxyy | 19",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 130",
                 "🇺🇸 US | 🟢 | vless | @selinc | 9",
@@ -119,11 +118,12 @@
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇪🇪 EE | 🟢 | vless | @meli_proxyy | 19",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12"
             ],
@@ -137,7 +137,6 @@
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇺🇸 US | 🟢 | vless | @meli_proxyy | 19",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 130",
                 "🇺🇸 US | 🟢 | vless | @selinc | 9",
@@ -154,11 +153,12 @@
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇪🇪 EE | 🟢 | vless | @meli_proxyy | 19",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12"
             ],
@@ -272,29 +272,6 @@
                     "enabled": true,
                     "public_key": "OItbKB3XzCXKysSNBIUZ7fDAfASACK_ucLrU6NAAFAU",
                     "short_id": "a98a22e2"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @meli_proxyy | 19",
-            "type": "vless",
-            "server": "54.167.27.87",
-            "server_port": 15434,
-            "uuid": "a45e0c2d-388e-4e66-8720-291da22cd7eb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "K47eUyJ8fZSVg8DtY50GPcpa8VmSwnH5N3e6SKth0VM",
-                    "short_id": ""
                 }
             }
         },
@@ -706,6 +683,29 @@
             }
         },
         {
+            "tag": "🇪🇪 EE | 🟢 | vless | @meli_proxyy | 19",
+            "type": "vless",
+            "server": "est01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "2a02cb25-0f58-4b19-a7a6-8c205fdb9042",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "86e999a2cdc2"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
             "type": "vless",
             "server": "Sadaf.Melorin.mehrdadsadaf.com",
@@ -806,7 +806,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

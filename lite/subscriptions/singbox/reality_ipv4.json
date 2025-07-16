@@ -102,7 +102,6 @@
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇺🇸 US | 🟢 | vless | @meli_proxyy | 19",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 130",
                 "🇺🇸 US | 🟢 | vless | @selinc | 9",
@@ -128,7 +127,6 @@
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇺🇸 US | 🟢 | vless | @meli_proxyy | 19",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 130",
                 "🇺🇸 US | 🟢 | vless | @selinc | 9",
@@ -254,29 +252,6 @@
                     "enabled": true,
                     "public_key": "OItbKB3XzCXKysSNBIUZ7fDAfASACK_ucLrU6NAAFAU",
                     "short_id": "a98a22e2"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @meli_proxyy | 19",
-            "type": "vless",
-            "server": "54.167.27.87",
-            "server_port": 15434,
-            "uuid": "a45e0c2d-388e-4e66-8720-291da22cd7eb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "K47eUyJ8fZSVg8DtY50GPcpa8VmSwnH5N3e6SKth0VM",
-                    "short_id": ""
                 }
             }
         },
