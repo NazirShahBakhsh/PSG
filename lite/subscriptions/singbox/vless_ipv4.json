@@ -164,6 +164,7 @@
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
                 "🇫🇮 FI | 🔴 | vless | @v2rayprotocol | 12",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇮🇷 IR | 🔴 | vless | @v2source | 19",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
@@ -180,7 +181,6 @@
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
-                "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 18",
                 "🇩🇪 DE | 🟢 | vless | @vpnvg | 14",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1"
@@ -257,6 +257,7 @@
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
                 "🇫🇮 FI | 🔴 | vless | @v2rayprotocol | 12",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇮🇷 IR | 🔴 | vless | @v2source | 19",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
@@ -273,7 +274,6 @@
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
-                "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 18",
                 "🇩🇪 DE | 🟢 | vless | @vpnvg | 14",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1"
@@ -641,16 +641,16 @@
         {
             "tag": "🇺🇸 US | 🔴 | vless | @hope_net | 19",
             "type": "vless",
-            "server": "172.67.155.146",
-            "server_port": 8880,
+            "server": "172.67.117.204",
+            "server_port": 2086,
             "uuid": "2737560d-1867-47fa-aa80-351c36d771c7",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/?ed=2560",
                 "headers": {
-                    "Host": "172.67.155.146"
+                    "Host": "172.67.117.204"
                 }
             }
         },
@@ -1468,6 +1468,33 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
+            "type": "vless",
+            "server": "88.198.200.124",
+            "server_port": 1014,
+            "uuid": "Telegram--TokaVpn--TokaVpn",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IsUUuSm6_lY4Z4w-gkEeFch-V_V84Ik5IWdlzSQ61Wk",
+                    "short_id": "52"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "23145vless"
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
             "type": "vless",
             "server": "91.107.153.239",
@@ -1742,31 +1769,6 @@
             "uuid": "0f2e0501-5a4f-45b7-bd5e-209169cd34f9",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 18",
-            "type": "vless",
-            "server": "3.69.182.175",
-            "server_port": 22224,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-channel-vlessconfig",
-                "headers": {
-                    "Host": "trojan.burgerip.co.uk"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @vpnvg | 14",
