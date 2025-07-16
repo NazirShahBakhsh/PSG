@@ -120,10 +120,12 @@
                 "🇩🇪 DE | 🟢 | vless | @outline_ir | 15",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
+                "🇺🇸 US | 🟢 | vless | @proxy_hiddfy | 21",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 10",
                 "🇺🇸 US | 🔴 | vless | @v2ray_one1 | 9",
+                "🇵🇱 PL | 🔴 | vless | @v2raych | 17",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 4",
@@ -162,10 +164,12 @@
                 "🇩🇪 DE | 🟢 | vless | @outline_ir | 15",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
+                "🇺🇸 US | 🟢 | vless | @proxy_hiddfy | 21",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 10",
                 "🇺🇸 US | 🔴 | vless | @v2ray_one1 | 9",
+                "🇵🇱 PL | 🔴 | vless | @v2raych | 17",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 4",
@@ -470,6 +474,24 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🟢 | vless | @proxy_hiddfy | 21",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "afc7fce1-e701-47fa-92e9-2dcb5af92f1f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Varda.Manwe.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
             "type": "vless",
             "server": "147.182.183.207",
@@ -530,6 +552,15 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "07af2138-82f3-44e2-8ee6-4b236468d1d8",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇵🇱 PL | 🔴 | vless | @v2raych | 17",
+            "type": "vless",
+            "server": "212.162.155.204",
+            "server_port": 80,
+            "uuid": "a703e3f8-0f60-4342-b27e-7c6c5ea8e2b6",
             "flow": "",
             "packet_encoding": "xudp"
         },

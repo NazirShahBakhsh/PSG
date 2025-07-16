@@ -98,9 +98,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 64",
+                "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 69",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 19"
             ],
             "interrupt_exist_connections": false
         },
@@ -108,9 +109,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 64",
+                "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 69",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 19"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -130,14 +132,14 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 64",
+            "tag": "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 69",
             "type": "trojan",
-            "server": "usa.liangyuandian.top",
+            "server": "ap.liangyuandian.top",
             "server_port": 443,
-            "password": "58dcd460-65df-47b1-b062-517df30bef29",
+            "password": "51c44c4e-f8c2-4419-a52b-b4b7bd915078",
             "tls": {
                 "enabled": true,
-                "server_name": "usa.liangyuandian.top",
+                "server_name": "ap.liangyuandian.top",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -174,6 +176,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 19",
+            "type": "trojan",
+            "server": "ni.mjt000.com",
+            "server_port": 443,
+            "password": "172b2279-f7f5-4542-ab6c-9e96ad7dd5be",
+            "tls": {
+                "enabled": true,
+                "server_name": "ni.mjt000.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
