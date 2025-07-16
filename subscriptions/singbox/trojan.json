@@ -131,6 +131,8 @@
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 14",
                 "🇩🇪 DE | 🟢 | trojan | @freakconfig | 3",
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
+                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 14",
+                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 17",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 6",
                 "🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13",
@@ -142,10 +144,10 @@
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 12",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 13",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 14",
-                "v@104.21.43.168:443?path=/trTcwZRw8JC0TPp6d1?ed=2560&security=tls&alpn=h3,h2,http/1.1&host=2.lINK-KoN.IR&fp=randomized&type=ws&sni=2.link-kon.ir#🇺🇸 US | 🟢 | trojan | @proxycrone | 6",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @server_nekobox | 10",
                 "🇩🇪 DE | 🟢 | trojan | @v2pedia | 16",
+                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 17",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayngconfig | 42",
                 "🇨🇦 CA | 🟢 | trojan | @v2rayngconfig | 43",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayngconfig | 44",
@@ -156,7 +158,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 10"
+                "🇳🇱 NL | 🔴 | trojan | @v2rayweb | 15"
             ],
             "interrupt_exist_connections": false
         },
@@ -197,6 +199,8 @@
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 14",
                 "🇩🇪 DE | 🟢 | trojan | @freakconfig | 3",
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
+                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 14",
+                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 17",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 6",
                 "🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13",
@@ -208,10 +212,10 @@
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 12",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 13",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 14",
-                "v@104.21.43.168:443?path=/trTcwZRw8JC0TPp6d1?ed=2560&security=tls&alpn=h3,h2,http/1.1&host=2.lINK-KoN.IR&fp=randomized&type=ws&sni=2.link-kon.ir#🇺🇸 US | 🟢 | trojan | @proxycrone | 6",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @server_nekobox | 10",
                 "🇩🇪 DE | 🟢 | trojan | @v2pedia | 16",
+                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 17",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayngconfig | 42",
                 "🇨🇦 CA | 🟢 | trojan | @v2rayngconfig | 43",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayngconfig | 44",
@@ -222,7 +226,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 10"
+                "🇳🇱 NL | 🔴 | trojan | @v2rayweb | 15"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -771,6 +775,46 @@
             "password": "ziIjOlyGbM"
         },
         {
+            "tag": "🇺🇸 US | 🟢 | trojan | @freevpnatm | 14",
+            "type": "trojan",
+            "server": "172.67.209.79",
+            "server_port": 443,
+            "password": "2d068083-2cb0-4ae3-a44a-6fc82f3039cc",
+            "tls": {
+                "enabled": true,
+                "server_name": "fffVvBNHJui8.999834.Xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "yBqYg1mv8ED4MTTdA9h4p"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @freevpnatm | 17",
+            "type": "trojan",
+            "server": "104.21.38.90",
+            "server_port": 443,
+            "password": "2d068083-2cb0-4ae3-a44a-6fc82f3039cc",
+            "tls": {
+                "enabled": true,
+                "server_name": "ddDCCcDVFG.222856.XYZ",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "yBqYg1mv8ED4MTTdA9h4p"
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
             "type": "trojan",
             "server": "46.8.231.225",
@@ -954,13 +998,6 @@
             }
         },
         {
-            "tag": "v@104.21.43.168:443?path=/trTcwZRw8JC0TPp6d1?ed=2560&security=tls&alpn=h3,h2,http/1.1&host=2.lINK-KoN.IR&fp=randomized&type=ws&sni=2.link-kon.ir#🇺🇸 US | 🟢 | trojan | @proxycrone | 6",
-            "type": "trojan",
-            "server": "0RiSuJPsug",
-            "server_port": 0,
-            "password": ""
-        },
-        {
             "tag": "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
             "type": "trojan",
             "server": "51.91.11.29",
@@ -1008,6 +1045,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "x1-germany-digitalocean-v2.devefun.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 17",
+            "type": "trojan",
+            "server": "13.37.140.67",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1167,11 +1220,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | trojan | @v2rayweb | 10",
+            "tag": "🇳🇱 NL | 🔴 | trojan | @v2rayweb | 15",
             "type": "trojan",
-            "server": "92.53.190.161",
-            "server_port": 2087,
-            "password": "Aimer"
+            "server": "45.155.121.169",
+            "server_port": 443,
+            "password": "Aimer",
+            "tls": {
+                "enabled": true,
+                "server_name": "amepo.ambercc.filegear-sg.me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {

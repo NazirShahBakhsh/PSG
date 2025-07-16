@@ -102,9 +102,10 @@
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇩🇪 DE | 🟢 | vless | @lranonline_new | 10",
+                "🇩🇪 DE | 🟢 | vless | @lranonline_new | 9",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
+                "🇩🇪 DE | 🟢 | vless | @summertimeus | 15",
                 "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 10",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇺🇸 US | 🟢 | vless | @v2ray_sub | 8",
@@ -122,7 +123,7 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+                "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12"
             ],
@@ -136,9 +137,10 @@
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇩🇪 DE | 🟢 | vless | @lranonline_new | 10",
+                "🇩🇪 DE | 🟢 | vless | @lranonline_new | 9",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
+                "🇩🇪 DE | 🟢 | vless | @summertimeus | 15",
                 "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 10",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇺🇸 US | 🟢 | vless | @v2ray_sub | 8",
@@ -156,7 +158,7 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+                "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12"
             ],
@@ -274,16 +276,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @lranonline_new | 10",
+            "tag": "🇩🇪 DE | 🟢 | vless | @lranonline_new | 9",
             "type": "vless",
-            "server": "88.99.87.227",
-            "server_port": 2090,
-            "uuid": "Telegram-SRCVPN--",
+            "server": "193.108.117.141",
+            "server_port": 32379,
+            "uuid": "83d44fab-c989-4510-a459-835c39df3bef",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
+                "server_name": "zhaket.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -291,13 +293,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "MqY81IaljluV2NXyLqPzt7PL12knwUuBiX0ru_KSLCM",
-                    "short_id": "aa0dd5ba"
+                    "public_key": "VFq1meciB_O8ayCOw0ZDGTNIRFbRW79nwIvjAk1v8BA",
+                    "short_id": "2b6778"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "32135vless"
             }
         },
         {
@@ -348,6 +346,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "32135vless"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @summertimeus | 15",
+            "type": "vless",
+            "server": "193.108.117.141",
+            "server_port": 32379,
+            "uuid": "83d44fab-c989-4510-a459-835c39df3bef",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "VFq1meciB_O8ayCOw0ZDGTNIRFbRW79nwIvjAk1v8BA",
+                    "short_id": "2b6778"
+                }
             }
         },
         {
@@ -781,7 +802,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

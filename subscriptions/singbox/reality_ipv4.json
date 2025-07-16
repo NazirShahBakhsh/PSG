@@ -106,9 +106,7 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇳🇱 NL | 🟢 | vless | @configfa | 10",
-                "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 143",
-                "🇬🇧 GB | 🟢 | vless | @dailyv2ry | 145",
-                "🇮🇷 IR | 🟢 | vless | @dargiiriis | 2",
+                "🇮🇷 IR | 🟢 | vless | @dargiiriis | 0",
                 "🇫🇷 FR | 🟢 | vless | @darkfiilter | 0",
                 "🇦🇪 AE | 🟢 | vless | @darkfiilter | 2",
                 "🇨🇿 CZ | 🟢 | vless | @dnsforyou | 4",
@@ -176,6 +174,7 @@
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 4",
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 5",
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 6",
+                "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 10",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_one1 | 12",
                 "🇫🇷 FR | 🟢 | vless | @v2ray_one1 | 13",
@@ -187,7 +186,6 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayng_fars | 18",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngconfings | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 8",
                 "🇨🇿 CZ | 🟢 | vless | @v2reay | 13",
                 "🇩🇪 DE | 🟢 | vless | @vip_vpn_2022 | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
@@ -220,9 +218,7 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇳🇱 NL | 🟢 | vless | @configfa | 10",
-                "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 143",
-                "🇬🇧 GB | 🟢 | vless | @dailyv2ry | 145",
-                "🇮🇷 IR | 🟢 | vless | @dargiiriis | 2",
+                "🇮🇷 IR | 🟢 | vless | @dargiiriis | 0",
                 "🇫🇷 FR | 🟢 | vless | @darkfiilter | 0",
                 "🇦🇪 AE | 🟢 | vless | @darkfiilter | 2",
                 "🇨🇿 CZ | 🟢 | vless | @dnsforyou | 4",
@@ -290,6 +286,7 @@
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 4",
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 5",
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 6",
+                "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 10",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_one1 | 12",
                 "🇫🇷 FR | 🟢 | vless | @v2ray_one1 | 13",
@@ -301,7 +298,6 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayng_fars | 18",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngconfings | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 8",
                 "🇨🇿 CZ | 🟢 | vless | @v2reay | 13",
                 "🇩🇪 DE | 🟢 | vless | @vip_vpn_2022 | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
@@ -538,53 +534,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 143",
-            "type": "vless",
-            "server": "47.128.81.11",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🟢 | vless | @dailyv2ry | 145",
-            "type": "vless",
-            "server": "18.171.236.114",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🟢 | vless | @dargiiriis | 2",
+            "tag": "🇮🇷 IR | 🟢 | vless | @dargiiriis | 0",
             "type": "vless",
             "server": "185.239.2.101",
             "server_port": 12002,
@@ -2303,6 +2253,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 10",
+            "type": "vless",
+            "server": "104.248.194.230",
+            "server_port": 80,
+            "uuid": "b51aa057-c62e-4bd4-8ffe-f275714576f3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "marzijooon.adas.monster",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "z3dFjHp3NPxSRP51s-EJGLO0P--M4hCorPlvOQ9ksiE",
+                    "short_id": "2a70224f5466"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
             "type": "vless",
             "server": "168.119.184.138",
@@ -2568,33 +2541,6 @@
                     "www.speedtest.net"
                 ],
                 "path": "/"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 8",
-            "type": "vless",
-            "server": "88.99.87.227",
-            "server_port": 2090,
-            "uuid": "Telegram-SRCVPN--",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MqY81IaljluV2NXyLqPzt7PL12knwUuBiX0ru_KSLCM",
-                    "short_id": "aa0dd5ba"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "32135vless"
             }
         },
         {
