@@ -103,12 +103,10 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 15",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configms | 15",
-                "🇺🇸 US | 🔴 | vless | @configshubplus | 12",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇹🇷 TR | 🔴 | vless | @freakconfig | 4",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 19",
-                "🇺🇸 US | 🟢 | vless | @hope_net | 19",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 3",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 4",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 5",
@@ -146,12 +144,10 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 15",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configms | 15",
-                "🇺🇸 US | 🔴 | vless | @configshubplus | 12",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇹🇷 TR | 🔴 | vless | @freakconfig | 4",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 19",
-                "🇺🇸 US | 🟢 | vless | @hope_net | 19",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 3",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 4",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 5",
@@ -241,15 +237,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @configshubplus | 12",
-            "type": "vless",
-            "server": "151.101.67.8",
-            "server_port": 80,
-            "uuid": "V2rayNGFreeeV2rayNGFreee",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
             "type": "vless",
             "server": "151.101.3.8",
@@ -293,24 +280,6 @@
             "uuid": "8088c605-e0c2-4774-9ee4-7fa7e47b6112",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @hope_net | 19",
-            "type": "vless",
-            "server": "104.17.165.1",
-            "server_port": 443,
-            "uuid": "e016b7d6-f779-4bd4-a28b-de599b01be70",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "z.softmeto.site",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @irv2rey | 3",

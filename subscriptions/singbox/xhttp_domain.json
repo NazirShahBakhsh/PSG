@@ -102,6 +102,7 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @configfa | 11",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
+                "🇺🇸 US | 🔴 | vless | @configx2ray | 6",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 135",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 136",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -122,15 +123,15 @@
                 "🇩🇪 DE | 🟢 | vless | @game_file2020 | 2",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-                "🇺🇸 US | 🟢 | vless | @manzariyeh_rasht | 17",
+                "🇺🇸 US | 🟢 | vless | @manzariyeh_rasht | 14",
+                "🇳🇱 NL | 🟢 | vless | @nofiltering2 | 22",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
+                "🇺🇸 US | 🔴 | vless | @nufilter | 12",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 14",
-                "🇺🇸 US | 🔴 | vless | @nufilter | 16",
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 5",
-                "🇳🇱 NL | 🟢 | vless | @proxy_mtproto_vpns_free | 10",
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 6",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 8",
@@ -154,6 +155,7 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @configfa | 11",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
+                "🇺🇸 US | 🔴 | vless | @configx2ray | 6",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 135",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 136",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -174,15 +176,15 @@
                 "🇩🇪 DE | 🟢 | vless | @game_file2020 | 2",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-                "🇺🇸 US | 🟢 | vless | @manzariyeh_rasht | 17",
+                "🇺🇸 US | 🟢 | vless | @manzariyeh_rasht | 14",
+                "🇳🇱 NL | 🟢 | vless | @nofiltering2 | 22",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
+                "🇺🇸 US | 🔴 | vless | @nufilter | 12",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 14",
-                "🇺🇸 US | 🔴 | vless | @nufilter | 16",
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 5",
-                "🇳🇱 NL | 🟢 | vless | @proxy_mtproto_vpns_free | 10",
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 6",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 8",
@@ -246,6 +248,15 @@
             "server": "2sudo.winapp3.ir",
             "server_port": 80,
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @configx2ray | 6",
+            "type": "vless",
+            "server": "CONFiGLiNE.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "69268d69-4d1a-44fe-9e3a-e3238fe5fcb0",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -458,7 +469,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @manzariyeh_rasht | 17",
+            "tag": "🇺🇸 US | 🟢 | vless | @manzariyeh_rasht | 14",
             "type": "vless",
             "server": "Aule.Manwe.ir",
             "server_port": 443,
@@ -468,6 +479,24 @@
             "tls": {
                 "enabled": true,
                 "server_name": "Varda.Manwe.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @nofiltering2 | 22",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -494,7 +523,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @nufilter | 14",
+            "tag": "🇺🇸 US | 🔴 | vless | @nufilter | 12",
             "type": "vless",
             "server": "test.fastly167.hosting-ip.com",
             "server_port": 80,
@@ -503,7 +532,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @nufilter | 16",
+            "tag": "🇺🇸 US | 🔴 | vless | @nufilter | 14",
             "type": "vless",
             "server": "CONFiGLiNE.fast.hosting-ip.com",
             "server_port": 80,
@@ -575,24 +604,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @proxy_mtproto_vpns_free | 10",
-            "type": "vless",
-            "server": "statue.lnmarketplace.net",
-            "server_port": 443,
-            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "statue.lnmarketplace.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @proxygodratmand | 6",
             "type": "vless",
             "server": "sjdsnsj.varzesh3.com.tr",
@@ -606,7 +617,7 @@
             "type": "vless",
             "server": "vip1.proxystore11.news",
             "server_port": 2052,
-            "uuid": "a3aef958-6961-464c-b1a9-b09b0f9cd1f7",
+            "uuid": "dabea505-7584-43ea-9d80-25be7d81a00d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -628,13 +639,13 @@
             "tag": "🇩🇪 DE | 🟢 | vless | @proxystore11 | 8",
             "type": "vless",
             "server": "vip1.proxystore11.news",
-            "server_port": 2052,
-            "uuid": "dabea505-7584-43ea-9d80-25be7d81a00d",
+            "server_port": 15110,
+            "uuid": "8f014932-b9c1-4b70-8d5e-37ed6251861b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "vultr.com",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -642,8 +653,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
-                    "short_id": "f8fcb589"
+                    "public_key": "y7msPZW4eWBT4CJ5v_blgiXUd06HuKvTs3rhlpw9fnk",
+                    "short_id": "0570"
                 }
             }
         },

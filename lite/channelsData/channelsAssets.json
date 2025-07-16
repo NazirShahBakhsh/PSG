@@ -32,7 +32,6 @@
     },
     "argo_vpn1": {
         "types": [
-            "vmess",
             "vless",
             "ss"
         ],
@@ -472,7 +471,8 @@
     },
     "hope_net": {
         "types": [
-            "vless"
+            "vless",
+            "trojan"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1341,10 +1341,10 @@
     },
     "v2ray_free_conf": {
         "types": [
+            "vless",
             "vmess",
             "ss",
-            "trojan",
-            "vless"
+            "trojan"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -1451,8 +1451,8 @@
     },
     "v2raying": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "vmess"
         ],
         "title": "v2rayNG_VPN",
@@ -1917,7 +1917,8 @@
     "vpnaloo": {
         "types": [
             "vless",
-            "ss"
+            "ss",
+            "trojan"
         ],
         "title": "رفع فیلتر | پروکسی",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpnaloo.jpg"
