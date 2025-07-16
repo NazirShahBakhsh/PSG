@@ -103,7 +103,6 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 15",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configms | 15",
-                "🇩🇪 DE | 🟢 | vless | @configshubplus | 18",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇹🇷 TR | 🔴 | vless | @freakconfig | 4",
@@ -145,7 +144,6 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 15",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configms | 15",
-                "🇩🇪 DE | 🟢 | vless | @configshubplus | 18",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇹🇷 TR | 🔴 | vless | @freakconfig | 4",
@@ -237,29 +235,6 @@
             "uuid": "526984f4-f84e-4933-acc7-efa38b92c552",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @configshubplus | 18",
-            "type": "vless",
-            "server": "128.140.95.85",
-            "server_port": 57740,
-            "uuid": "22b2c850-750e-456a-b916-c94f8638588b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uF5gsacUUmi8DyV8YZENFpnMtcYFShVh-WF6n11MhDU",
-                    "short_id": "0f"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
