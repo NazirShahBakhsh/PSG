@@ -103,15 +103,15 @@
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
-                "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 130",
+                "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 125",
                 "🇺🇸 US | 🟢 | vless | @selinc | 9",
-                "🇬🇧 GB | 🟢 | vless | @sinavm | 1",
+                "🇩🇪 DE | 🟢 | vless | @sinavm | 2",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇨🇿 CZ | 🟢 | vless | @v2pedia | 20",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇺🇸 US | 🟢 | vless | @v2ray_sub | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
-                "🇪🇸 ES | 🟢 | vless | @v2rayweb | 11",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
@@ -124,7 +124,7 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12"
             ],
@@ -139,15 +139,15 @@
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
-                "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 130",
+                "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 125",
                 "🇺🇸 US | 🟢 | vless | @selinc | 9",
-                "🇬🇧 GB | 🟢 | vless | @sinavm | 1",
+                "🇩🇪 DE | 🟢 | vless | @sinavm | 2",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇨🇿 CZ | 🟢 | vless | @v2pedia | 20",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇺🇸 US | 🟢 | vless | @v2ray_sub | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
-                "🇪🇸 ES | 🟢 | vless | @v2rayweb | 11",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
@@ -160,7 +160,7 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12"
             ],
@@ -301,7 +301,7 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 130",
+            "tag": "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 125",
             "type": "vless",
             "server": "194.182.79.64",
             "server_port": 14073,
@@ -351,25 +351,25 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | vless | @sinavm | 1",
+            "tag": "🇩🇪 DE | 🟢 | vless | @sinavm | 2",
             "type": "vless",
-            "server": "51.195.218.231",
-            "server_port": 443,
-            "uuid": "15c620a8-6852-ac9e-5285-f91ba0a8bdfb",
+            "server": "91.107.133.59",
+            "server_port": 48883,
+            "uuid": "52f9a9c0-ae3e-400c-a5f2-0360025db51d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.frontiersin.org",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "laDETVOcOKzz_vtU8iuGEE-Sv-TxRj1yFuAvfnpclig",
-                    "short_id": "1466b1508caf242e"
+                    "public_key": "smZYwv5E-y4d4u5ovxQ8BYcfNE8gy3mkANAQzoWyBmI",
+                    "short_id": "3518ea8cbd9317"
                 }
             }
         },
@@ -508,16 +508,16 @@
             }
         },
         {
-            "tag": "🇪🇸 ES | 🟢 | vless | @v2rayweb | 11",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
             "type": "vless",
-            "server": "45.12.150.145",
-            "server_port": 15470,
-            "uuid": "ecc97810-557a-44ef-9957-ba078d0ac414",
+            "server": "91.99.184.35",
+            "server_port": 3060,
+            "uuid": "Telegram-TokaVpn-TokaVpn-",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "journalofbigdata.springeropen.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -525,9 +525,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Io59wtB0RP01ty3SWv8Hn-z84vrckaEPVJi6SRBqFXY",
-                    "short_id": "e08a28"
+                    "public_key": "mruN_C8EQxa11ez_NVmtFqf8oLEatFn6OIVtnJPZ_TI",
+                    "short_id": "87"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "23145vless"
             }
         },
         {
@@ -831,7 +835,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

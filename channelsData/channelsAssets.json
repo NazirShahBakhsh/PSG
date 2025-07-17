@@ -385,8 +385,8 @@
     },
     "configshubplus": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "trojan"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
@@ -1024,9 +1024,9 @@
     },
     "freevpnatm": {
         "types": [
-            "trojan",
             "vless",
-            "vmess"
+            "vmess",
+            "trojan"
         ],
         "title": "科學上网 free configs",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/freevpnatm.jpg"
@@ -1224,9 +1224,9 @@
     },
     "hope_net": {
         "types": [
-            "ss",
             "vless",
-            "trojan"
+            "trojan",
+            "vmess"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -2039,7 +2039,8 @@
     "netmellianti": {
         "types": [
             "vless",
-            "trojan"
+            "trojan",
+            "vmess"
         ],
         "title": "VPN | V2rayNG | نت ملی",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/netmellianti.jpg"
@@ -2312,8 +2313,8 @@
     },
     "proxy_mtproto_vpns_free": {
         "types": [
-            "ss",
             "vless",
+            "ss",
             "vmess"
         ],
         "title": "VPNs Proxy Mtproto",
@@ -2916,10 +2917,10 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vless",
             "ss",
             "trojan",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -3013,7 +3014,7 @@
         "types": [
             "vless",
             "trojan",
-            "ss"
+            "vmess"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2raych.jpg"
@@ -3049,8 +3050,8 @@
     },
     "v2rayfree": {
         "types": [
-            "ss",
             "vless",
+            "ss",
             "vmess"
         ],
         "title": "VPNs Proxy Mtproto",
@@ -3106,8 +3107,7 @@
     },
     "v2rayng_fars": {
         "types": [
-            "vless",
-            "ss"
+            "vless"
         ],
         "title": "v2rayng fars",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayng_fars.jpg"
@@ -3294,9 +3294,7 @@
     },
     "v2rayweb": {
         "types": [
-            "trojan",
-            "vless",
-            "vmess"
+            "vless"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"

@@ -103,6 +103,7 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 15",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configms | 15",
+                "🇳🇱 NL | 🟢 | vless | @configshubplus | 9",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇹🇷 TR | 🔴 | vless | @freakconfig | 4",
@@ -145,6 +146,7 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 15",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configms | 15",
+                "🇳🇱 NL | 🟢 | vless | @configshubplus | 9",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇹🇷 TR | 🔴 | vless | @freakconfig | 4",
@@ -237,6 +239,29 @@
             "uuid": "526984f4-f84e-4933-acc7-efa38b92c552",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @configshubplus | 9",
+            "type": "vless",
+            "server": "77.110.103.21",
+            "server_port": 50810,
+            "uuid": "04ccc438-e67a-422e-b776-b18c98a6228f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MCx8u0S8L-ugMhcNC-u2WteqvI_oaM9_0-5jP6atIx4",
+                    "short_id": "19dc3c81"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
