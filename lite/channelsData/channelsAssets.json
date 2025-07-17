@@ -11,7 +11,8 @@
         "types": [
             "ss",
             "trojan",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "‌NamiraNet / نامیرا نت",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraNet.jpg"
@@ -464,10 +465,10 @@
     },
     "hope_net": {
         "types": [
-            "vless",
-            "trojan",
             "vmess",
-            "ss"
+            "ss",
+            "trojan",
+            "vless"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -585,7 +586,9 @@
     },
     "kurdistan_vpn_perfectt": {
         "types": [
-            "vless"
+            "vless",
+            "ss",
+            "trojan"
         ],
         "title": "Kurdistan_Vpn",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/kurdistan_vpn_perfectt.jpg"
@@ -1337,10 +1340,10 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vless",
             "ss",
+            "trojan",
             "vmess",
-            "trojan"
+            "vless"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -1654,8 +1657,9 @@
     },
     "v2rayweb": {
         "types": [
+            "vmess",
             "vless",
-            "vmess"
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
