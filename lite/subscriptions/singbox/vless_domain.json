@@ -98,6 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇺🇸 US | 🔴 | vless | @aryoovpn | 4",
                 "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
@@ -111,8 +112,8 @@
                 "❔ XX | 🟢 | vless | @eleutheriavpn | 1",
                 "🇺🇸 US | 🔴 | vless | @elfv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
-                "🇺🇸 US | 🔴 | vless | @evay_vpn | 21",
-                "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
+                "🇺🇸 US | 🔴 | vless | @evay_vpn | 18",
+                "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
                 "❔ XX | 🟢 | vless | @flash_proxies | 0",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @freakconfig1 | 2",
@@ -171,7 +172,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
-                "🇮🇷 IR | 🔴 | vless | @v2rayngvpn_1 | 8",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
@@ -189,7 +189,6 @@
                 "🇬🇧 GB | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
-                "🇪🇪 EE | 🟢 | vless | @vpnv2rayngv | 19",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -204,6 +203,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇺🇸 US | 🔴 | vless | @aryoovpn | 4",
                 "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
@@ -217,8 +217,8 @@
                 "❔ XX | 🟢 | vless | @eleutheriavpn | 1",
                 "🇺🇸 US | 🔴 | vless | @elfv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
-                "🇺🇸 US | 🔴 | vless | @evay_vpn | 21",
-                "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
+                "🇺🇸 US | 🔴 | vless | @evay_vpn | 18",
+                "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
                 "❔ XX | 🟢 | vless | @flash_proxies | 0",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @freakconfig1 | 2",
@@ -277,7 +277,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
-                "🇮🇷 IR | 🔴 | vless | @v2rayngvpn_1 | 8",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
@@ -295,7 +294,6 @@
                 "🇬🇧 GB | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
-                "🇪🇪 EE | 🟢 | vless | @vpnv2rayngv | 19",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -320,6 +318,22 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 68",
+            "type": "vless",
+            "server": "kafshu.ir",
+            "server_port": 8080,
+            "uuid": "00347fa5-5b04-420a-844e-6689ff27abff",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "headers": {
+                    "Host": "kafshu.ir"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -526,16 +540,16 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @evay_vpn | 21",
+            "tag": "🇺🇸 US | 🔴 | vless | @evay_vpn | 18",
             "type": "vless",
-            "server": "Evay.fast.hosting-ip.com",
+            "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "e02a83a6-16c9-4eaf-d40e-1387028d93a0",
+            "uuid": "f37de868-a167-46ea-b16a-798d3800d50e",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
+            "tag": "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
             "type": "vless",
             "server": "server2.ultra-irancell.com",
             "server_port": 80,
@@ -1549,15 +1563,6 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @v2rayngvpn_1 | 8",
-            "type": "vless",
-            "server": "ir.holy3buy.website",
-            "server_port": 17774,
-            "uuid": "f175d79f-9489-4dd4-aba6-0c2e355a2cc0",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
             "type": "vless",
             "server": "www.gov.se",
@@ -1823,29 +1828,6 @@
             "uuid": "0eab9ab8-d0f0-4823-8af9-d1f95db842e8",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇪🇪 EE | 🟢 | vless | @vpnv2rayngv | 19",
-            "type": "vless",
-            "server": "est01-vlr01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "2a02cb25-0f58-4b19-a7a6-8c205fdb9042",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "86e999a2cdc2"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
