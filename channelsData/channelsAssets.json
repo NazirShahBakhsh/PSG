@@ -312,9 +312,8 @@
     "config_proxy": {
         "types": [
             "vless",
-            "vmess",
             "ss",
-            "trojan"
+            "vmess"
         ],
         "title": "Proxy | V2ray | Config | Vpn | Hiddify | Nekobox | Segaro | پروکسی | فیلترشکن | ایرانسل | همراه اول | رایتل | سامانتل | مخابرات|",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/config_proxy.jpg"
@@ -385,9 +384,10 @@
     },
     "configshubplus": {
         "types": [
-            "ss",
             "vless",
-            "trojan"
+            "trojan",
+            "vmess",
+            "ss"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/configshubplus.jpg"
@@ -425,8 +425,8 @@
     },
     "configx2ray": {
         "types": [
-            "vless",
-            "trojan"
+            "trojan",
+            "vless"
         ],
         "title": "خبر های کوتاه و کانفیگ های مفید رایگان ConFig V2rayNG",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/configx2ray.jpg"
@@ -1024,9 +1024,9 @@
     },
     "freevpnatm": {
         "types": [
-            "vless",
             "vmess",
-            "trojan"
+            "trojan",
+            "vless"
         ],
         "title": "科學上网 free configs",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/freevpnatm.jpg"
@@ -1224,9 +1224,10 @@
     },
     "hope_net": {
         "types": [
-            "vless",
             "trojan",
-            "vmess"
+            "vmess",
+            "vless",
+            "ss"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1795,8 +1796,8 @@
     },
     "meli_proxyy": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "trojan"
         ],
         "title": "کانفیگ وی تو ری ویتوری نیم بها پروکسی فیلترشکن رایگان خرید سرور وی پی ان ترید سیسکو آیپی ثابت vpn v2rayng vless vmess l2tp cisco",
@@ -1884,8 +1885,8 @@
     },
     "mowjproxy": {
         "types": [
-            "vmess",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -2290,7 +2291,6 @@
     },
     "proxy_hiddfy": {
         "types": [
-            "ss",
             "vless",
             "vmess"
         ],
@@ -2917,10 +2917,10 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "ss",
-            "trojan",
             "vmess",
-            "vless"
+            "ss",
+            "vless",
+            "trojan"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -3041,13 +3041,6 @@
         "title": "V2RayExpress",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayexpress.jpg"
     },
-    "v2rayfast_7": {
-        "types": [
-            "vless"
-        ],
-        "title": "𝘃𝟮𝗿𝗮𝘆𝗳𝗮𝘀𝘁_𝟳 | کانفیگ فیلترشکن",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayfast_7.jpg"
-    },
     "v2rayfree": {
         "types": [
             "vless",
@@ -3107,6 +3100,7 @@
     },
     "v2rayng_fars": {
         "types": [
+            "ss",
             "vless"
         ],
         "title": "v2rayng fars",
@@ -3294,7 +3288,9 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vmess",
+            "vless",
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -3322,8 +3318,9 @@
     },
     "v2ry_proxy": {
         "types": [
+            "ss",
             "vless",
-            "ss"
+            "vmess"
         ],
         "title": "V2ry | Proxy | رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ry_proxy.jpg"
@@ -3382,9 +3379,8 @@
     },
     "vaynora": {
         "types": [
-            "vmess",
-            "vless",
-            "trojan"
+            "trojan",
+            "vless"
         ],
         "title": "VayNora",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vaynora.jpg"

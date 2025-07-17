@@ -101,7 +101,7 @@
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @configx2ray | 3",
+                "🇺🇸 US | 🔴 | vless | @configx2ray | 2",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 31",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 139",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -127,8 +127,7 @@
                 "🇺🇸 US | 🔴 | vless | @nufilter | 9",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
-                "🇺🇸 US | 🟢 | vless | @proxie | 13",
-                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
+                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 9",
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 2",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 5",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 7",
@@ -138,6 +137,7 @@
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 2",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 7",
+                "🇺🇸 US | 🟢 | vless | @v2raych | 16",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
@@ -150,7 +150,7 @@
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @configx2ray | 3",
+                "🇺🇸 US | 🔴 | vless | @configx2ray | 2",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 31",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 139",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -176,8 +176,7 @@
                 "🇺🇸 US | 🔴 | vless | @nufilter | 9",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
-                "🇺🇸 US | 🟢 | vless | @proxie | 13",
-                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
+                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 9",
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 2",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 5",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 7",
@@ -187,6 +186,7 @@
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 2",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 7",
+                "🇺🇸 US | 🟢 | vless | @v2raych | 16",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
@@ -235,7 +235,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @configx2ray | 3",
+            "tag": "🇺🇸 US | 🔴 | vless | @configx2ray | 2",
             "type": "vless",
             "server": "CONFiGLiNE.fast.hosting-ip.com",
             "server_port": 80,
@@ -487,7 +487,7 @@
             "type": "vless",
             "server": "Aule.Manwe.ir",
             "server_port": 443,
-            "uuid": "180544fa-fe95-4f71-92da-9af1d05ce86d",
+            "uuid": "a5a14e7d-4267-4fea-895e-82def329d1d4",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
@@ -505,24 +505,6 @@
             "type": "vless",
             "server": "Aule.Manwe.ir",
             "server_port": 443,
-            "uuid": "a5a14e7d-4267-4fea-895e-82def329d1d4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Varda.Manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 13",
-            "type": "vless",
-            "server": "Aule.Manwe.ir",
-            "server_port": 443,
             "uuid": "bdf79d37-877b-4727-b45a-5ba235a01a24",
             "flow": "",
             "packet_encoding": "xudp",
@@ -537,7 +519,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
+            "tag": "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 9",
             "type": "vless",
             "server": "specxtech.ticketdatabase.info",
             "server_port": 15416,
@@ -676,6 +658,24 @@
             "uuid": "bb57d265-b716-4092-bd0a-68f3988db63c",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @v2raych | 16",
+            "type": "vless",
+            "server": "vioVPN.viocompany.site",
+            "server_port": 443,
+            "uuid": "2d37cd89-d6e5-4d58-a688-8b0208a48e6e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "viowpn.viocompany.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
