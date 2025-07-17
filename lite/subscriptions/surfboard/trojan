@@ -9,7 +9,6 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇰🇷 KR | 🟢 | trojan | @NamiraNet | 64 = trojan, 203.210.16.78, 8443, password = 96983eb4-c8f1-316e-ab00-500014ed3d8b, skip-cert-verify = true
 🇫🇷 FR | 🟢 | trojan | @directvpn | 15 = trojan, 13.38.215.131, 22223, password = telegram-id-directvpn, skip-cert-verify = false
 🇫🇷 FR | 🟢 | trojan | @privatevpns | 15 = trojan, 13.38.215.131, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
 🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19 = trojan, 3.68.174.66, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
@@ -20,9 +19,9 @@ DIRECT = direct
 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6 = trojan, de1.test3.net, 443, password = b8841c50-c3ad-11ee-9be0-1239d0255272, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇰🇷 KR | 🟢 | trojan | @NamiraNet | 64, 🇫🇷 FR | 🟢 | trojan | @directvpn | 15, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 15, 🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15, 🇺🇸 US | 🟢 | trojan | @webhube | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6
-PSG-AUTO = url-test, 🇰🇷 KR | 🟢 | trojan | @NamiraNet | 64, 🇫🇷 FR | 🟢 | trojan | @directvpn | 15, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 15, 🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15, 🇺🇸 US | 🟢 | trojan | @webhube | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6
-PSG-FALLBACK = fallback, 🇰🇷 KR | 🟢 | trojan | @NamiraNet | 64, 🇫🇷 FR | 🟢 | trojan | @directvpn | 15, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 15, 🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15, 🇺🇸 US | 🟢 | trojan | @webhube | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | 🟢 | trojan | @directvpn | 15, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 15, 🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15, 🇺🇸 US | 🟢 | trojan | @webhube | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6
+PSG-AUTO = url-test, 🇫🇷 FR | 🟢 | trojan | @directvpn | 15, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 15, 🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15, 🇺🇸 US | 🟢 | trojan | @webhube | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6
+PSG-FALLBACK = fallback, 🇫🇷 FR | 🟢 | trojan | @directvpn | 15, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 15, 🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15, 🇺🇸 US | 🟢 | trojan | @webhube | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6
 
 [Rule]
 GEOIP,IR,DIRECT

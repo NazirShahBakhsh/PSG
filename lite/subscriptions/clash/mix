@@ -17,7 +17,6 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇰🇷 KR | 🟢 | trojan | @NamiraNet | 64","type":"trojan","server":"203.210.16.78","port":8443,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
   - {"name":"🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3","type":"vmess","server":"tu.shoptx.sbs","port":15400,"cipher":"auto","uuid":"cc660614-1172-4988-9647-3846502d0e4f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 7","type":"ss","server":"220.124.31.130","port":19378,"password":"NiznLvoIuy","cipher":"aes-256-gcm"}
   - {"name":"❔ XX | 🔴 | vmess | @armodchannel | 62","type":"vmess","server":"asia.artunnel57.host","port":80,"cipher":"auto","uuid":"65e44501-defd-4609-a4e3-7028dc417b50","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess-ntls","headers":{"Host":"asia.artunnel57.host"}}}
@@ -31,6 +30,7 @@ proxies:
   - {"name":"❔ XX | 🟢 | ss | @free_omega | 4","type":"ss","server":"[2a01:4f8:c012:42dc::1]","port":2060,"password":"DU7nmmEPs5eGoqrt_SwBEQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🔴 | vmess | @freev2rays | 19","type":"vmess","server":"cloudgetservice.mcloudservice.site","port":443,"cipher":"auto","uuid":"5428dcc2-9950-4404-b8a5-9dac82acb210","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"Host":"maXNEtVIP-usA-VP3.nETKH3.SiTE"}}}
   - {"name":"🇩🇪 DE | 🔴 | vmess | @freevmess | 4","type":"vmess","server":"167.235.204.122","port":80,"cipher":"auto","uuid":"2aac77de-b3e4-4017-845c-ca1380f2e8d0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/telegram-id-@privatevpns","headers":{"Host":""}}}
+  - {"name":"🇨🇦 CA | 🔴 | vmess | @hope_net | 19","type":"vmess","server":"141.195.112.167","port":27681,"cipher":"auto","uuid":"1cc59a3a-9625-40f7-b0e6-e233286ae82d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
   - {"name":"🇬🇧 GB | 🟢 | ss | @info_2it_channel | 13","type":"ss","server":"46.17.63.178","port":8443,"password":"8RpzvJTy8kMerS471rXR3N","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13","type":"vmess","server":"89.116.38.184","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧 GB | 🔴 | vmess | @khoneproxy | 14","type":"vmess","server":"144.126.224.206","port":9020,"cipher":"auto","uuid":"5f45e8d6-62a9-441d-89bc-fc5eeaf3e56b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -110,7 +110,6 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇰🇷 KR | 🟢 | trojan | @NamiraNet | 64'
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
       - '🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 7'
       - '❔ XX | 🔴 | vmess | @armodchannel | 62'
@@ -124,6 +123,7 @@ proxy-groups:
       - '❔ XX | 🟢 | ss | @free_omega | 4'
       - '🇺🇸 US | 🔴 | vmess | @freev2rays | 19'
       - '🇩🇪 DE | 🔴 | vmess | @freevmess | 4'
+      - '🇨🇦 CA | 🔴 | vmess | @hope_net | 19'
       - '🇬🇧 GB | 🟢 | ss | @info_2it_channel | 13'
       - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13'
       - '🇬🇧 GB | 🔴 | vmess | @khoneproxy | 14'
@@ -179,7 +179,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇰🇷 KR | 🟢 | trojan | @NamiraNet | 64'
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
       - '🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 7'
       - '❔ XX | 🔴 | vmess | @armodchannel | 62'
@@ -193,6 +192,7 @@ proxy-groups:
       - '❔ XX | 🟢 | ss | @free_omega | 4'
       - '🇺🇸 US | 🔴 | vmess | @freev2rays | 19'
       - '🇩🇪 DE | 🔴 | vmess | @freevmess | 4'
+      - '🇨🇦 CA | 🔴 | vmess | @hope_net | 19'
       - '🇬🇧 GB | 🟢 | ss | @info_2it_channel | 13'
       - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13'
       - '🇬🇧 GB | 🔴 | vmess | @khoneproxy | 14'
@@ -246,7 +246,6 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇰🇷 KR | 🟢 | trojan | @NamiraNet | 64'
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
       - '🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 7'
       - '❔ XX | 🔴 | vmess | @armodchannel | 62'
@@ -260,6 +259,7 @@ proxy-groups:
       - '❔ XX | 🟢 | ss | @free_omega | 4'
       - '🇺🇸 US | 🔴 | vmess | @freev2rays | 19'
       - '🇩🇪 DE | 🔴 | vmess | @freevmess | 4'
+      - '🇨🇦 CA | 🔴 | vmess | @hope_net | 19'
       - '🇬🇧 GB | 🟢 | ss | @info_2it_channel | 13'
       - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13'
       - '🇬🇧 GB | 🔴 | vmess | @khoneproxy | 14'

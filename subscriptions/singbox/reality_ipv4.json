@@ -106,9 +106,7 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 2",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
-                "🇫🇷 FR | 🟢 | vless | @configshubplus | 15",
                 "🇨🇿 CZ | 🟢 | vless | @configx2ray | 4",
-                "🇬🇧 GB | 🟢 | vless | @dailyv2ry | 136",
                 "🇮🇷 IR | 🟢 | vless | @dargiiriis | 0",
                 "🇨🇿 CZ | 🟢 | vless | @dnsforyou | 4",
                 "🇳🇱 NL | 🟢 | vless | @dnsforyou | 5",
@@ -200,7 +198,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇫🇷 FR | 🟢 | vless | @vpnpacket | 3",
                 "🇫🇷 FR | 🟢 | vless | @vpnpacket | 4",
-                "🇹🇼 TW | 🟢 | vless | @vpnplusee_free | 18",
+                "🇹🇼 TW | 🟢 | vless | @vpnplusee_free | 17",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
                 "🇳🇴 NO | 🟢 | vless | @vpnv2rayonline | 8",
                 "🇫🇮 FI | 🟢 | vless | @x4azadi | 11",
@@ -221,9 +219,7 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 2",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
-                "🇫🇷 FR | 🟢 | vless | @configshubplus | 15",
                 "🇨🇿 CZ | 🟢 | vless | @configx2ray | 4",
-                "🇬🇧 GB | 🟢 | vless | @dailyv2ry | 136",
                 "🇮🇷 IR | 🟢 | vless | @dargiiriis | 0",
                 "🇨🇿 CZ | 🟢 | vless | @dnsforyou | 4",
                 "🇳🇱 NL | 🟢 | vless | @dnsforyou | 5",
@@ -315,7 +311,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇫🇷 FR | 🟢 | vless | @vpnpacket | 3",
                 "🇫🇷 FR | 🟢 | vless | @vpnpacket | 4",
-                "🇹🇼 TW | 🟢 | vless | @vpnplusee_free | 18",
+                "🇹🇼 TW | 🟢 | vless | @vpnplusee_free | 17",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
                 "🇳🇴 NO | 🟢 | vless | @vpnv2rayonline | 8",
                 "🇫🇮 FI | 🟢 | vless | @x4azadi | 11",
@@ -540,29 +536,6 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @configshubplus | 15",
-            "type": "vless",
-            "server": "150.241.91.193",
-            "server_port": 8443,
-            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bunny.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
-                    "short_id": "f8d8d12585198cb5"
-                }
-            }
-        },
-        {
             "tag": "🇨🇿 CZ | 🟢 | vless | @configx2ray | 4",
             "type": "vless",
             "server": "194.182.79.117",
@@ -587,29 +560,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON"
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🟢 | vless | @dailyv2ry | 136",
-            "type": "vless",
-            "server": "18.170.59.120",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
-                }
             }
         },
         {
@@ -2896,7 +2846,7 @@
             }
         },
         {
-            "tag": "🇹🇼 TW | 🟢 | vless | @vpnplusee_free | 18",
+            "tag": "🇹🇼 TW | 🟢 | vless | @vpnplusee_free | 17",
             "type": "vless",
             "server": "103.236.227.21",
             "server_port": 25558,
