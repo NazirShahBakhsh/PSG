@@ -33,7 +33,6 @@
     },
     "argo_vpn1": {
         "types": [
-            "vless",
             "ss"
         ],
         "title": "𝐀𝐫𝐠𝐨_𝐕𝐏𝐍1 /پل فالکن/هیدیفای",
@@ -465,9 +464,9 @@
     },
     "hope_net": {
         "types": [
+            "ss",
             "vless",
-            "trojan",
-            "ss"
+            "trojan"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1189,9 +1188,9 @@
     },
     "tgvpn6": {
         "types": [
+            "ss",
             "vmess",
             "trojan",
-            "ss",
             "vless"
         ],
         "title": "VPN 节点 回国IP tg直连",
@@ -1662,7 +1661,8 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vless",
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"

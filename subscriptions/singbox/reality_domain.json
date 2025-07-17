@@ -139,7 +139,7 @@
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
-                "🇸🇪 SE | 🟢 | vless | @proxy_mtproto_vpns_free | 13",
+                "🇸🇪 SE | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 5",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 7",
                 "❔ XX | 🟢 | vless | @proxysudo | 1",
@@ -154,11 +154,12 @@
                 "🇳🇱 NL | 🟢 | vless | @turboo_server | 3",
                 "🇳🇱 NL | 🟢 | vless | @v2ray_sub | 5",
                 "❔ XX | 🟢 | vless | @v2rayang201 | 3",
+                "🇩🇪 DE | 🟢 | vless | @v2raych | 18",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "🇳🇱 NL | 🟢 | vless | @v2rayng_fars | 14",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngvpn_1 | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
@@ -224,7 +225,7 @@
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
-                "🇸🇪 SE | 🟢 | vless | @proxy_mtproto_vpns_free | 13",
+                "🇸🇪 SE | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 5",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 7",
                 "❔ XX | 🟢 | vless | @proxysudo | 1",
@@ -239,11 +240,12 @@
                 "🇳🇱 NL | 🟢 | vless | @turboo_server | 3",
                 "🇳🇱 NL | 🟢 | vless | @v2ray_sub | 5",
                 "❔ XX | 🟢 | vless | @v2rayang201 | 3",
+                "🇩🇪 DE | 🟢 | vless | @v2raych | 18",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "🇳🇱 NL | 🟢 | vless | @v2rayng_fars | 14",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngvpn_1 | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
@@ -1306,7 +1308,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🟢 | vless | @proxy_mtproto_vpns_free | 13",
+            "tag": "🇸🇪 SE | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
             "type": "vless",
             "server": "se.panelmarzban.com",
             "server_port": 3039,
@@ -1655,6 +1657,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2raych | 18",
+            "type": "vless",
+            "server": "cellone.learn-new.ir",
+            "server_port": 443,
+            "uuid": "70a33284-4cab-4c43-8e84-56f188b0abff",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "khanacademy.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ikTKkSZZZ18NraMIwbLCP8ln6NmsD77VTSKWTESIOAk",
+                    "short_id": "6acf3ba5790e4324"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
             "type": "vless",
             "server": "pub2.legendaryking.link",
@@ -1759,7 +1784,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
