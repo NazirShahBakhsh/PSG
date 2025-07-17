@@ -100,7 +100,9 @@
                 "URL-TEST",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
+                "🇸🇪 SE | 🟢 | vless | @icv2ray | 10",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
+                "🇩🇪 DE | 🟢 | vless | @lranonline_new | 9",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 125",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -116,7 +118,7 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "❔ XX | 🟢 | vless | @vp22ray | 10"
             ],
             "interrupt_exist_connections": false
@@ -127,7 +129,9 @@
             "outbounds": [
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
+                "🇸🇪 SE | 🟢 | vless | @icv2ray | 10",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
+                "🇩🇪 DE | 🟢 | vless | @lranonline_new | 9",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 125",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -143,7 +147,7 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "❔ XX | 🟢 | vless | @vp22ray | 10"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -214,6 +218,29 @@
             }
         },
         {
+            "tag": "🇸🇪 SE | 🟢 | vless | @icv2ray | 10",
+            "type": "vless",
+            "server": "192.109.200.254",
+            "server_port": 443,
+            "uuid": "86f90371-59d6-44e2-ab00-94c5ab16d2bc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "torah.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NPYS2vq3gQlU2h9EzaL-_93PIEpHLEHDSo8eYWCjw3o",
+                    "short_id": "8f64b0695b3b46de"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
             "type": "vless",
             "server": "157.230.28.73",
@@ -234,6 +261,33 @@
                     "public_key": "OItbKB3XzCXKysSNBIUZ7fDAfASACK_ucLrU6NAAFAU",
                     "short_id": "a98a22e2"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @lranonline_new | 9",
+            "type": "vless",
+            "server": "88.99.87.227",
+            "server_port": 2090,
+            "uuid": "idTel--SRCVPN--",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MqY81IaljluV2NXyLqPzt7PL12knwUuBiX0ru_KSLCM",
+                    "short_id": "aa0dd5ba"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "32135vless"
             }
         },
         {
@@ -618,7 +672,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

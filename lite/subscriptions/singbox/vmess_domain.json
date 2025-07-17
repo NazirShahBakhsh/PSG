@@ -100,7 +100,7 @@
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
                 "❔ XX | 🔴 | vmess | @configforvpn01 | 9",
-                "🇷🇺 RU | 🟢 | vmess | @configsstore | 7",
+                "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
                 "🇨🇦 CA | 🔴 | vmess | @free4allvpn | 14",
                 "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
@@ -114,7 +114,6 @@
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
                 "🇺🇸 US | 🔴 | vmess | @tawanaclub | 2",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
-                "🇫🇷 FR | 🔴 | vmess | @v2raying | 15",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
@@ -132,7 +131,7 @@
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
                 "❔ XX | 🔴 | vmess | @configforvpn01 | 9",
-                "🇷🇺 RU | 🟢 | vmess | @configsstore | 7",
+                "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
                 "🇨🇦 CA | 🔴 | vmess | @free4allvpn | 14",
                 "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
@@ -146,7 +145,6 @@
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
                 "🇺🇸 US | 🔴 | vmess | @tawanaclub | 2",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
-                "🇫🇷 FR | 🔴 | vmess | @v2raying | 15",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
@@ -199,7 +197,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vmess | @configsstore | 7",
+            "tag": "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
             "type": "vmess",
             "server": "193.187.175.111",
             "server_port": 8080,
@@ -413,15 +411,6 @@
             "server": "91.107.160.240",
             "server_port": 15795,
             "uuid": "7ca6c13a-e450-49fa-9b9c-b49a6eda5b79",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇫🇷 FR | 🔴 | vmess | @v2raying | 15",
-            "type": "vmess",
-            "server": "nl.dnszone.top",
-            "server_port": 45500,
-            "uuid": "51d7505a-daf2-4b71-a7be-e8c3817cd447",
             "security": "auto",
             "alter_id": 0
         },

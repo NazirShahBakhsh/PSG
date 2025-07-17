@@ -17,9 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 8","type":"ss","server":"83.147.216.70","port":64519,"password":"YXgS8ComTam7qoesPlzlMo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9","type":"ss","server":"104.167.197.25","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @bislullproxy | 18","type":"ss","server":"4.250.60.151","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @megavpn_link | 14","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @meli_proxyy | 19","type":"ss","server":"45.87.175.22","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @novinology | 16","type":"ss","server":"13.87.74.71","port":14564,"password":"Q1qlRknoN9PwGeExWVyTKg","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱 PL | 🟢 | ss | @outlineopenkey | 7","type":"ss","server":"77.83.246.74","port":443,"password":"dk8G7tVWcES6L248cLiyWF","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮 FI | 🟢 | ss | @strongprotocol | 10","type":"ss","server":"45.12.135.36","port":47076,"password":"WrNAsbtcuoeEEQdoSOcPgO","cipher":"chacha20-ietf-poly1305"}
@@ -58,9 +59,10 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 8'
+      - '🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
+      - '🇺🇸 US | 🟢 | ss | @meli_proxyy | 19'
       - '🇬🇧 GB | 🟢 | ss | @novinology | 16'
       - '🇵🇱 PL | 🟢 | ss | @outlineopenkey | 7'
       - '🇫🇮 FI | 🟢 | ss | @strongprotocol | 10'
@@ -75,9 +77,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 8'
+      - '🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
+      - '🇺🇸 US | 🟢 | ss | @meli_proxyy | 19'
       - '🇬🇧 GB | 🟢 | ss | @novinology | 16'
       - '🇵🇱 PL | 🟢 | ss | @outlineopenkey | 7'
       - '🇫🇮 FI | 🟢 | ss | @strongprotocol | 10'
@@ -90,9 +93,10 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 8'
+      - '🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
+      - '🇺🇸 US | 🟢 | ss | @meli_proxyy | 19'
       - '🇬🇧 GB | 🟢 | ss | @novinology | 16'
       - '🇵🇱 PL | 🟢 | ss | @outlineopenkey | 7'
       - '🇫🇮 FI | 🟢 | ss | @strongprotocol | 10'

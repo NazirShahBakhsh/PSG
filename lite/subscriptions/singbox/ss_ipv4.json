@@ -98,9 +98,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 8",
+                "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
+                "🇺🇸 US | 🟢 | ss | @meli_proxyy | 19",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
                 "🇵🇱 PL | 🟢 | ss | @outlineopenkey | 7",
                 "🇫🇮 FI | 🟢 | ss | @strongprotocol | 10",
@@ -116,9 +117,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 8",
+                "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
+                "🇺🇸 US | 🟢 | ss | @meli_proxyy | 19",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
                 "🇵🇱 PL | 🟢 | ss | @outlineopenkey | 7",
                 "🇫🇮 FI | 🟢 | ss | @strongprotocol | 10",
@@ -146,12 +148,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 8",
+            "tag": "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9",
             "type": "shadowsocks",
-            "server": "83.147.216.70",
-            "server_port": 64519,
+            "server": "104.167.197.25",
+            "server_port": 57456,
             "method": "chacha20-ietf-poly1305",
-            "password": "YXgS8ComTam7qoesPlzlMo"
+            "password": "360e21d21977dc11"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
@@ -168,6 +170,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "Bog0ELmMM9DSxDdQ"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | ss | @meli_proxyy | 19",
+            "type": "shadowsocks",
+            "server": "45.87.175.22",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @novinology | 16",
