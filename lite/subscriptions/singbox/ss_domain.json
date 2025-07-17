@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10",
+                "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 10",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
@@ -113,7 +113,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10",
+                "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 10",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
@@ -140,7 +140,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10",
+            "tag": "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 10",
             "type": "shadowsocks",
             "server": "fin.outlinebot1.ru",
             "server_port": 5904,

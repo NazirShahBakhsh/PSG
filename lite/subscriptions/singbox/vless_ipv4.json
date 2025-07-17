@@ -142,6 +142,7 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 16",
                 "🇫🇮 FI | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 14",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -208,6 +209,7 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 16",
                 "🇫🇮 FI | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 14",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -1030,6 +1032,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "116.202.177.190"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 14",
+            "type": "vless",
+            "server": "104.16.85.3",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net",
+                "headers": {
+                    "Host": "104.16.85.3"
                 }
             }
         },

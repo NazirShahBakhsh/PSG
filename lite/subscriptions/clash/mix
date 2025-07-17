@@ -18,7 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3","type":"vmess","server":"tu.shoptx.sbs","port":15400,"cipher":"auto","uuid":"cc660614-1172-4988-9647-3846502d0e4f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10","type":"ss","server":"fin.outlinebot1.ru","port":5904,"password":"5TZnwPb23pQS39lIucspJw","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 10","type":"ss","server":"fin.outlinebot1.ru","port":5904,"password":"5TZnwPb23pQS39lIucspJw","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @bislullproxy | 18","type":"ss","server":"4.250.60.151","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🟢 | ss | @chestertm | 12","type":"ss","server":"freakconfig94.usecharge.ir","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @club_profsor | 15","type":"ss","server":"85.210.36.164","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
@@ -93,7 +93,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
-      - '🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10'
+      - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 10'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '❔ XX | 🟢 | ss | @chestertm | 12'
       - '🇬🇧 GB | 🟢 | ss | @club_profsor | 15'
@@ -144,7 +144,7 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
-      - '🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10'
+      - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 10'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '❔ XX | 🟢 | ss | @chestertm | 12'
       - '🇬🇧 GB | 🟢 | ss | @club_profsor | 15'
@@ -193,7 +193,7 @@ proxy-groups:
     type: select
     proxies:
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
-      - '🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10'
+      - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 10'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '❔ XX | 🟢 | ss | @chestertm | 12'
       - '🇬🇧 GB | 🟢 | ss | @club_profsor | 15'
