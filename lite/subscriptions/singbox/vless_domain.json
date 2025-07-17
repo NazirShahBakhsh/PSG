@@ -160,7 +160,6 @@
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
-                "🇺🇸 US | 🟢 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
@@ -171,7 +170,7 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngvpn_1 | 8",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
@@ -268,7 +267,6 @@
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
-                "🇺🇸 US | 🟢 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
@@ -279,7 +277,7 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngvpn_1 | 8",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
@@ -1319,31 +1317,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2ray_extractor | 19",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 2096,
-            "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "VpNwS2iJkA.vPbEtHoRvP002.iNfO",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "VpNwS2iJkA.vPbEtHoRvP002.iNfO"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
             "type": "vless",
             "server": "discord.com",
@@ -1562,7 +1535,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

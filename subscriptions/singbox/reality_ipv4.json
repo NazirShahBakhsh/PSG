@@ -103,8 +103,6 @@
                 "🇮🇪 IE | 🟢 | vless | @appsooner | 10",
                 "🇨🇿 CZ | 🟢 | vless | @bored_vpn | 6",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 14",
-                "🇺🇸 US | 🟢 | vless | @config_proxy | 83",
-                "🇺🇸 US | 🟢 | vless | @config_proxy | 85",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 2",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
@@ -184,6 +182,8 @@
                 "🇩🇪 DE | 🟢 | vless | @v2ray_one1 | 12",
                 "🇫🇷 FR | 🟢 | vless | @v2ray_one1 | 13",
                 "🇺🇸 US | 🟢 | vless | @v2ray_sub | 8",
+                "🇳🇱 NL | 🟢 | vless | @v2raych | 15",
+                "🇨🇦 CA | 🟢 | vless | @v2raych | 19",
                 "🇸🇬 SG | 🟢 | vless | @v2rayexpress | 6",
                 "🇩🇪 DE | 🟢 | vless | @v2rayexpress | 7",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
@@ -218,8 +218,6 @@
                 "🇮🇪 IE | 🟢 | vless | @appsooner | 10",
                 "🇨🇿 CZ | 🟢 | vless | @bored_vpn | 6",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 14",
-                "🇺🇸 US | 🟢 | vless | @config_proxy | 83",
-                "🇺🇸 US | 🟢 | vless | @config_proxy | 85",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 2",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
@@ -299,6 +297,8 @@
                 "🇩🇪 DE | 🟢 | vless | @v2ray_one1 | 12",
                 "🇫🇷 FR | 🟢 | vless | @v2ray_one1 | 13",
                 "🇺🇸 US | 🟢 | vless | @v2ray_sub | 8",
+                "🇳🇱 NL | 🟢 | vless | @v2raych | 15",
+                "🇨🇦 CA | 🟢 | vless | @v2raych | 19",
                 "🇸🇬 SG | 🟢 | vless | @v2rayexpress | 6",
                 "🇩🇪 DE | 🟢 | vless | @v2rayexpress | 7",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
@@ -460,52 +460,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram : @PouRia_Cheat"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @config_proxy | 83",
-            "type": "vless",
-            "server": "52.89.126.157",
-            "server_port": 4433,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @config_proxy | 85",
-            "type": "vless",
-            "server": "54.148.162.213",
-            "server_port": 4433,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
-                }
             }
         },
         {
@@ -2489,6 +2443,56 @@
                     "enabled": true,
                     "public_key": "aWooxptTQgQjHO1JDxB8axAo8jzLWJdOSE6322B7wWY",
                     "short_id": "a0209e22"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2raych | 15",
+            "type": "vless",
+            "server": "45.14.50.90",
+            "server_port": 8443,
+            "uuid": "69959a80-dfac-492a-929a-7b90e99e586f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PcuYTFb8OI0uf1tTf2MFbmGVvkM0yQCJQ82mz6EYWDI",
+                    "short_id": "00adae3cabf8"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "JoinBadeChannel@antimeli"
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🟢 | vless | @v2raych | 19",
+            "type": "vless",
+            "server": "178.128.236.252",
+            "server_port": 443,
+            "uuid": "1c8ea5a2-e986-42d6-9039-867aed7ca528",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "isna.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MM2ZuhIbjaM6h7NOhWQZM8R8hkSE7Qc0uaEwzZ9YuQ0",
+                    "short_id": "15bf9cd93a696bc5"
                 }
             }
         },
