@@ -98,11 +98,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇪🇪 EE | 🟢 | ss | @NamiraNet | 69",
                 "🇦🇹 AT | 🟢 | ss | @argo_vpn1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇺🇸 US | 🟢 | ss | @customvpnserver | 27",
                 "🇨🇾 CY | 🟢 | ss | @kingofilter | 7",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
+                "🇫🇮 FI | 🟢 | ss | @meli_proxyy | 21",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
                 "🇵🇱 PL | 🟢 | ss | @outlineopenkey | 8",
@@ -129,11 +131,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇪🇪 EE | 🟢 | ss | @NamiraNet | 69",
                 "🇦🇹 AT | 🟢 | ss | @argo_vpn1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇺🇸 US | 🟢 | ss | @customvpnserver | 27",
                 "🇨🇾 CY | 🟢 | ss | @kingofilter | 7",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
+                "🇫🇮 FI | 🟢 | ss | @meli_proxyy | 21",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
                 "🇵🇱 PL | 🟢 | ss | @outlineopenkey | 8",
@@ -170,6 +174,14 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇪🇪 EE | 🟢 | ss | @NamiraNet | 69",
+            "type": "shadowsocks",
+            "server": "188.214.36.155",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
         },
         {
             "tag": "🇦🇹 AT | 🟢 | ss | @argo_vpn1 | 7",
@@ -210,6 +222,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "Bog0ELmMM9DSxDdQ"
+        },
+        {
+            "tag": "🇫🇮 FI | 🟢 | ss | @meli_proxyy | 21",
+            "type": "shadowsocks",
+            "server": "64.137.109.212",
+            "server_port": 44884,
+            "method": "chacha20-ietf-poly1305",
+            "password": "2DGq3jvVRg5n3CcxmysGK2kmrgJeSNof12A76cZvVxqPpetyC1XEciCFufq5xKvRWGGnKVembpThuUSQhbZ7GMsZY4UVxEBw"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
