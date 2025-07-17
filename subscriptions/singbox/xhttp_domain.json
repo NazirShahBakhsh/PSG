@@ -98,10 +98,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦 CA | 🔴 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
+                "🇺🇸 US | 🔴 | vless | @config_proxy | 64",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @configx2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 29",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -114,7 +115,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 2",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
-                "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
+                "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @freakconfig | 5",
                 "🇺🇸 US | 🔴 | vless | @free_serverir | 66",
@@ -144,10 +145,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦 CA | 🔴 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
+                "🇺🇸 US | 🔴 | vless | @config_proxy | 64",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @configx2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 29",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -160,7 +162,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 2",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
-                "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
+                "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @freakconfig | 5",
                 "🇺🇸 US | 🔴 | vless | @free_serverir | 66",
@@ -202,6 +204,15 @@
             "type": "dns"
         },
         {
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraNet | 68",
+            "type": "vless",
+            "server": "bos.lebasnoo.ir",
+            "server_port": 80,
+            "uuid": "9c2e1da7-8e50-4899-ad69-ad0b52de696c",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @appsooner | 8",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
@@ -220,20 +231,20 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @config_proxy | 64",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
             "type": "vless",
             "server": "2sudo.winapp3.ir",
             "server_port": 80,
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @configx2ray | 5",
-            "type": "vless",
-            "server": "bos.lebasnoo.ir",
-            "server_port": 80,
-            "uuid": "9c2e1da7-8e50-4899-ad69-ad0b52de696c",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -346,7 +357,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
+            "tag": "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
             "type": "vless",
             "server": "server2.ultra-irancell.com",
             "server_port": 80,
