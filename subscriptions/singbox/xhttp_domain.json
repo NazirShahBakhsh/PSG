@@ -100,7 +100,6 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
-                "🇺🇸 US | 🟢 | vless | @config_proxy | 66",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @configx2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 29",
@@ -128,6 +127,7 @@
                 "🇺🇸 US | 🟢 | vless | @outline_ir | 17",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
+                "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 13",
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 2",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇺🇸 US | 🔴 | vless | @server_nekobox | 11",
@@ -147,7 +147,6 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
-                "🇺🇸 US | 🟢 | vless | @config_proxy | 66",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @configx2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 29",
@@ -175,6 +174,7 @@
                 "🇺🇸 US | 🟢 | vless | @outline_ir | 17",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
+                "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 13",
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 2",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇺🇸 US | 🔴 | vless | @server_nekobox | 11",
@@ -220,24 +220,6 @@
             "uuid": "8db68448-6ebb-4361-bcbe-519a1f20fca1",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @config_proxy | 66",
-            "type": "vless",
-            "server": "vioVPN.viocompany.site",
-            "server_port": 443,
-            "uuid": "2d37cd89-d6e5-4d58-a688-8b0208a48e6e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "viowpn.viocompany.site",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -554,6 +536,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 13",
+            "type": "vless",
+            "server": "hibbb.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "492a4865-6617-4cec-ad21-294316edeb09",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @proxygodratmand | 2",
