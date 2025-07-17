@@ -108,10 +108,10 @@
                 "🇩🇪 DE | 🟢 | ss | @freakconfig | 8",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
-                "🇬🇧 GB | 🟢 | ss | @ip_cf_config | 8",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
+                "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 1",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "🇬🇧 GB | 🟢 | ss | @outline_vpn | 18",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
@@ -119,7 +119,7 @@
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇵🇹 PT | 🟢 | ss | @shadowsockskeys | 15",
-                "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 4",
+                "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 3",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "🇳🇱 NL | 🟢 | ss | @v2rayngrit | 11",
@@ -146,10 +146,10 @@
                 "🇩🇪 DE | 🟢 | ss | @freakconfig | 8",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
-                "🇬🇧 GB | 🟢 | ss | @ip_cf_config | 8",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
+                "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 1",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "🇬🇧 GB | 🟢 | ss | @outline_vpn | 18",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
@@ -157,7 +157,7 @@
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇵🇹 PT | 🟢 | ss | @shadowsockskeys | 15",
-                "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 4",
+                "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 3",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "🇳🇱 NL | 🟢 | ss | @v2rayngrit | 11",
@@ -266,14 +266,6 @@
             "password": "AcGFEsMR6c07Txux"
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | ss | @ip_cf_config | 8",
-            "type": "shadowsocks",
-            "server": "series-a2.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg"
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
             "type": "shadowsocks",
             "server": "api.namasha.co",
@@ -296,6 +288,14 @@
             "server_port": 40934,
             "method": "chacha20-ietf-poly1305",
             "password": "jxfYgVB87GkSQR4U7Ce6rNBkP5URFYJfH1bFNo84pr5fWXMYCkcPAUYBCrAz7NBkpixeHgdzYYYW7jVyo9LpwSakvQ7nuKj1"
+        },
+        {
+            "tag": "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 1",
+            "type": "shadowsocks",
+            "server": "series-a2.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
@@ -354,7 +354,7 @@
             "password": "tunnel-rtr6i7o8o8o7"
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 4",
+            "tag": "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 3",
             "type": "shadowsocks",
             "server": "admin.c1.webramz.co",
             "server_port": 443,
