@@ -17,7 +17,6 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇪🇪 EE | 🟢 | ss | @NamiraNet | 69","type":"ss","server":"185.193.49.175","port":8443,"password":"F5uqW0l4ECxf4cKStww6AZ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 8","type":"ss","server":"83.147.216.70","port":64519,"password":"YXgS8ComTam7qoesPlzlMo","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @bislullproxy | 18","type":"ss","server":"4.250.60.151","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @megavpn_link | 14","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
@@ -67,7 +66,6 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇪🇪 EE | 🟢 | ss | @NamiraNet | 69'
       - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 8'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
@@ -93,7 +91,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇪🇪 EE | 🟢 | ss | @NamiraNet | 69'
       - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 8'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
@@ -117,7 +114,6 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇪🇪 EE | 🟢 | ss | @NamiraNet | 69'
       - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 8'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'

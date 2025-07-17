@@ -117,7 +117,6 @@
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 5",
                 "🇯🇵 JP | 🟢 | trojan | @awlix_ir | 9",
-                "🇸🇬 SG | 🔴 | trojan | @configshubplus | 18",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 11",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 12",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 13",
@@ -145,7 +144,8 @@
                 "🇺🇸 US | 🟢 | trojan | @server_nekobox | 10",
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 17",
                 "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19",
-                "🇺🇸 US | 🟢 | trojan | @v2rayng_fars | 18",
+                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 18",
+                "🇺🇸 US | 🟢 | trojan | @v2rayng_fars | 17",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayngconfig | 42",
                 "🇨🇦 CA | 🟢 | trojan | @v2rayngconfig | 43",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayngconfig | 44",
@@ -156,7 +156,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "🇫🇷 FR | 🟢 | trojan | @vpnaloo | 13"
+                "🇫🇷 FR | 🟢 | trojan | @vpnaloo | 12"
             ],
             "interrupt_exist_connections": false
         },
@@ -183,7 +183,6 @@
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 5",
                 "🇯🇵 JP | 🟢 | trojan | @awlix_ir | 9",
-                "🇸🇬 SG | 🔴 | trojan | @configshubplus | 18",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 11",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 12",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 13",
@@ -211,7 +210,8 @@
                 "🇺🇸 US | 🟢 | trojan | @server_nekobox | 10",
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 17",
                 "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19",
-                "🇺🇸 US | 🟢 | trojan | @v2rayng_fars | 18",
+                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 18",
+                "🇺🇸 US | 🟢 | trojan | @v2rayng_fars | 17",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayngconfig | 42",
                 "🇨🇦 CA | 🟢 | trojan | @v2rayngconfig | 43",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayngconfig | 44",
@@ -222,7 +222,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "🇫🇷 FR | 🟢 | trojan | @vpnaloo | 13"
+                "🇫🇷 FR | 🟢 | trojan | @vpnaloo | 12"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -593,22 +593,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "broker.superpokemon.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔴 | trojan | @configshubplus | 18",
-            "type": "trojan",
-            "server": "95.111.198.77",
-            "server_port": 443,
-            "password": "3723507166611775488",
-            "tls": {
-                "enabled": true,
-                "server_name": "ace-mayfly.boa152.lol",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1093,7 +1077,23 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayng_fars | 18",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 18",
+            "type": "trojan",
+            "server": "13.38.215.131",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayng_fars | 17",
             "type": "trojan",
             "server": "172.67.181.173",
             "server_port": 443,
@@ -1267,7 +1267,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @vpnaloo | 13",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @vpnaloo | 12",
             "type": "trojan",
             "server": "51.44.89.249",
             "server_port": 22223,

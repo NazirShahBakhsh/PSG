@@ -98,7 +98,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇪🇪 EE | 🟢 | ss | @NamiraNet | 69",
                 "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 8",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
@@ -125,7 +124,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇪🇪 EE | 🟢 | ss | @NamiraNet | 69",
                 "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 8",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
@@ -162,14 +160,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇪🇪 EE | 🟢 | ss | @NamiraNet | 69",
-            "type": "shadowsocks",
-            "server": "185.193.49.175",
-            "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "F5uqW0l4ECxf4cKStww6AZ"
         },
         {
             "tag": "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 8",

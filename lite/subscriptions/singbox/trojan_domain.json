@@ -98,7 +98,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
             ],
             "interrupt_exist_connections": false
         },
@@ -106,7 +107,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -143,6 +145,22 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "grpc20337"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+            "type": "trojan",
+            "server": "de1.test3.net",
+            "server_port": 443,
+            "password": "b8841c50-c3ad-11ee-9be0-1239d0255272",
+            "tls": {
+                "enabled": true,
+                "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         }
     ],
