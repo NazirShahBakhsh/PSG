@@ -112,10 +112,10 @@
                 "🇳🇱 NL | 🟢 | ss | @summertimeus | 14",
                 "🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21",
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
+                "🇱🇹 LT | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
-                "🇦🇲 AM | 🟢 | ss | @vpnod | 18",
-                "🇵🇱 PL | 🟢 | ss | @vpnv2rayngv | 19"
+                "🇦🇲 AM | 🟢 | ss | @vpnod | 18"
             ],
             "interrupt_exist_connections": false
         },
@@ -137,10 +137,10 @@
                 "🇳🇱 NL | 🟢 | ss | @summertimeus | 14",
                 "🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21",
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
+                "🇱🇹 LT | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
-                "🇦🇲 AM | 🟢 | ss | @vpnod | 18",
-                "🇵🇱 PL | 🟢 | ss | @vpnv2rayngv | 19"
+                "🇦🇲 AM | 🟢 | ss | @vpnod | 18"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -272,6 +272,14 @@
             "password": "427395387a9379ca"
         },
         {
+            "tag": "🇱🇹 LT | 🟢 | ss | @v2ray_free_conf | 19",
+            "type": "shadowsocks",
+            "server": "192.36.61.59",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
+        },
+        {
             "tag": "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
             "type": "shadowsocks",
             "server": "94.131.123.147",
@@ -294,14 +302,6 @@
             "server_port": 8443,
             "method": "chacha20-ietf-poly1305",
             "password": "UKK5XUvjIlOkeTbBA0nfYh"
-        },
-        {
-            "tag": "🇵🇱 PL | 🟢 | ss | @vpnv2rayngv | 19",
-            "type": "shadowsocks",
-            "server": "77.83.246.74",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "fhh4RB19PMgTlacghXfo3S"
         }
     ],
     "route": {

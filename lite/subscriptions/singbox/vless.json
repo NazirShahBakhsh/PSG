@@ -99,7 +99,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 65",
                 "🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 2",
                 "🇺🇸 US | 🟢 | vless | @azarbayjab1 | 8",
                 "🇺🇸 US | 🟢 | vless | @buffalo_vpn | 7",
@@ -256,7 +255,7 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngvpn_1 | 8",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
@@ -296,7 +295,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 65",
                 "🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 2",
                 "🇺🇸 US | 🟢 | vless | @azarbayjab1 | 8",
                 "🇺🇸 US | 🟢 | vless | @buffalo_vpn | 7",
@@ -453,7 +451,7 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngvpn_1 | 8",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
@@ -511,22 +509,6 @@
             "uuid": "a804bb53-7504-4f06-96d8-ff56fb71539d",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 65",
-            "type": "vless",
-            "server": "188.114.98.94",
-            "server_port": 8880,
-            "uuid": "89780139-39db-4ae9-adc5-00d9da4bb8b3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "188.114.98.94"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 2",
@@ -3242,7 +3224,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

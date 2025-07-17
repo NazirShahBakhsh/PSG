@@ -98,6 +98,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇬🇧 GB | 🟢 | ss | @NamiraNet | 63",
+                "🇨🇦 CA | 🟢 | ss | @NamiraNet | 64",
                 "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
                 "🇬🇧 GB | 🟢 | ss | @argo_vpn1 | 6",
                 "🇺🇸 US | 🟢 | ss | @chestertm | 10",
@@ -108,10 +110,10 @@
                 "🇩🇪 DE | 🟢 | ss | @freakconfig | 8",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
+                "🇬🇧 GB | 🟢 | ss | @ip_cf_config | 10",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
-                "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 1",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
                 "🇹🇷 TR | 🟢 | ss | @proxy_mtproto_vpns_free | 12",
@@ -138,6 +140,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇬🇧 GB | 🟢 | ss | @NamiraNet | 63",
+                "🇨🇦 CA | 🟢 | ss | @NamiraNet | 64",
                 "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
                 "🇬🇧 GB | 🟢 | ss | @argo_vpn1 | 6",
                 "🇺🇸 US | 🟢 | ss | @chestertm | 10",
@@ -148,10 +152,10 @@
                 "🇩🇪 DE | 🟢 | ss | @freakconfig | 8",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
+                "🇬🇧 GB | 🟢 | ss | @ip_cf_config | 10",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
-                "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 1",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
                 "🇹🇷 TR | 🟢 | ss | @proxy_mtproto_vpns_free | 12",
@@ -188,6 +192,22 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇬🇧 GB | 🟢 | ss | @NamiraNet | 63",
+            "type": "shadowsocks",
+            "server": "uk.opensocks.site",
+            "server_port": 1443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "YTQ0Z"
+        },
+        {
+            "tag": "🇨🇦 CA | 🟢 | ss | @NamiraNet | 64",
+            "type": "shadowsocks",
+            "server": "ca.opensocks.site",
+            "server_port": 1443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "OGU5Z"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
@@ -270,6 +290,14 @@
             "password": "AcGFEsMR6c07Txux"
         },
         {
+            "tag": "🇬🇧 GB | 🟢 | ss | @ip_cf_config | 10",
+            "type": "shadowsocks",
+            "server": "series-a2.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg"
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
             "type": "shadowsocks",
             "server": "api.namasha.co",
@@ -292,14 +320,6 @@
             "server_port": 40934,
             "method": "chacha20-ietf-poly1305",
             "password": "jxfYgVB87GkSQR4U7Ce6rNBkP5URFYJfH1bFNo84pr5fWXMYCkcPAUYBCrAz7NBkpixeHgdzYYYW7jVyo9LpwSakvQ7nuKj1"
-        },
-        {
-            "tag": "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 1",
-            "type": "shadowsocks",
-            "server": "series-a2.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
