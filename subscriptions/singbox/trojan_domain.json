@@ -114,6 +114,7 @@
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
+                "🇸🇬 SG | 🔴 | trojan | @v2rayweb | 13",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 5"
             ],
@@ -139,6 +140,7 @@
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
+                "🇸🇬 SG | 🔴 | trojan | @v2rayweb | 13",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 5"
             ],
@@ -456,6 +458,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "170-187-134-190.ipv4.rush.ml",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔴 | trojan | @v2rayweb | 13",
+            "type": "trojan",
+            "server": "jp.lydurlclub.top",
+            "server_port": 443,
+            "password": "c4843eba-b070-403f-b43f-ef1ef7db571e",
+            "tls": {
+                "enabled": true,
+                "server_name": "jp.lydurlclub.top",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

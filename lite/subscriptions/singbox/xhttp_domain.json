@@ -100,7 +100,8 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
-                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16"
+                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 19"
             ],
             "interrupt_exist_connections": false
         },
@@ -110,7 +111,8 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
-                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16"
+                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 19"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -155,6 +157,29 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 19",
+            "type": "vless",
+            "server": "de6rt.samsungmarketshop.ir",
+            "server_port": 2083,
+            "uuid": "bf989dce-7af7-423b-a499-71da71cdcef1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk",
+                    "short_id": "aeba"
+                }
+            }
         }
     ],
     "route": {

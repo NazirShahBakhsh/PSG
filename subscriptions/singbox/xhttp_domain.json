@@ -100,6 +100,7 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
+                "🇺🇸 US | 🟢 | vless | @config_proxy | 56",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @configx2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 29",
@@ -117,18 +118,18 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @free_serverir | 66",
-                "🇩🇪 DE | 🟢 | vless | @game_file2020 | 2",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇩🇪 DE | 🟢 | vless | @manzariyeh_rasht | 21",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 17",
+                "🇩🇪 DE | 🟢 | vless | @netmellianti | 15",
                 "🇳🇱 NL | 🟢 | vless | @nofiltering2 | 18",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🟢 | vless | @outline_ir | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
-                "🇺🇸 US | 🔴 | vless | @proxygodratmand | 2",
+                "🇺🇸 US | 🔴 | vless | @proxygodratmand | 1",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
+                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 132",
                 "🇺🇸 US | 🔴 | vless | @server_nekobox | 11",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 2",
@@ -145,6 +146,7 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
+                "🇺🇸 US | 🟢 | vless | @config_proxy | 56",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @configx2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 29",
@@ -162,18 +164,18 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @free_serverir | 66",
-                "🇩🇪 DE | 🟢 | vless | @game_file2020 | 2",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇩🇪 DE | 🟢 | vless | @manzariyeh_rasht | 21",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 17",
+                "🇩🇪 DE | 🟢 | vless | @netmellianti | 15",
                 "🇳🇱 NL | 🟢 | vless | @nofiltering2 | 18",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🟢 | vless | @outline_ir | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
-                "🇺🇸 US | 🔴 | vless | @proxygodratmand | 2",
+                "🇺🇸 US | 🔴 | vless | @proxygodratmand | 1",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
+                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 132",
                 "🇺🇸 US | 🔴 | vless | @server_nekobox | 11",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 2",
@@ -216,6 +218,24 @@
             "uuid": "8db68448-6ebb-4361-bcbe-519a1f20fca1",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @config_proxy | 56",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "2369b350-f250-4263-bf8e-1f18363c62b7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pars.stepson.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -371,29 +391,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @game_file2020 | 2",
-            "type": "vless",
-            "server": "vip1.proxystore11.news",
-            "server_port": 2052,
-            "uuid": "22477fe4-249e-4c18-8986-74b0f1f0657e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vultr.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
-                    "short_id": "f8fcb589"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
             "type": "vless",
             "server": "ips.rainoteam.store",
@@ -435,7 +432,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @netmellianti | 17",
+            "tag": "🇩🇪 DE | 🟢 | vless | @netmellianti | 15",
             "type": "vless",
             "server": "specxtech.ticketdatabase.info",
             "server_port": 53055,
@@ -548,7 +545,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @proxygodratmand | 2",
+            "tag": "🇺🇸 US | 🔴 | vless | @proxygodratmand | 1",
             "type": "vless",
             "server": "sjdsnsj.varzesh3.com.tr",
             "server_port": 80,
@@ -578,6 +575,15 @@
                     "short_id": "0570"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @prrofile_purple | 132",
+            "type": "vless",
+            "server": "FASTSHOVPNTELEGRAM.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "bb691001-faf8-4b4e-af2e-bfb27780f689",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @server_nekobox | 11",
