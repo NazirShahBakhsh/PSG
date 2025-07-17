@@ -98,12 +98,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇭🇰 HK | 🟢 | trojan | @NamiraNet | 59",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇸🇬 SG | 🔴 | trojan | @configshubplus | 16",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "🇸🇬 SG | 🔴 | trojan | @hope_net | 15",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 4",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -125,12 +124,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇭🇰 HK | 🟢 | trojan | @NamiraNet | 59",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇸🇬 SG | 🔴 | trojan | @configshubplus | 16",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "🇸🇬 SG | 🔴 | trojan | @hope_net | 15",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 4",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -162,6 +160,22 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇭🇰 HK | 🟢 | trojan | @NamiraNet | 59",
+            "type": "trojan",
+            "server": "ni.mjt000.com",
+            "server_port": 443,
+            "password": "172b2279-f7f5-4542-ab6c-9e96ad7dd5be",
+            "tls": {
+                "enabled": true,
+                "server_name": "ni.mjt000.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @armodchannel | 59",
@@ -201,22 +215,6 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔴 | trojan | @configshubplus | 16",
-            "type": "trojan",
-            "server": "usa.lydurlclub.top",
-            "server_port": 443,
-            "password": "c4843eba-b070-403f-b43f-ef1ef7db571e",
-            "tls": {
-                "enabled": true,
-                "server_name": "usa.lydurlclub.top",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
             "type": "trojan",
             "server": "production.tj.ojan.workers.dev",
@@ -248,22 +246,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "t3.teslacdn2.live",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔴 | trojan | @hope_net | 15",
-            "type": "trojan",
-            "server": "jp.lydurlclub.top",
-            "server_port": 443,
-            "password": "c4843eba-b070-403f-b43f-ef1ef7db571e",
-            "tls": {
-                "enabled": true,
-                "server_name": "jp.lydurlclub.top",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

@@ -119,7 +119,7 @@
                 "🇩🇪 DE | 🟢 | vless | @outline_ir | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
-                "🇺🇸 US | 🟢 | vless | @proxy_hiddfy | 20",
+                "🇺🇸 US | 🟢 | vless | @proxy_hiddfy | 18",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 9",
@@ -131,8 +131,8 @@
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 9",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 11",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 19",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 22"
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 21",
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 24"
             ],
             "interrupt_exist_connections": false
         },
@@ -161,7 +161,7 @@
                 "🇩🇪 DE | 🟢 | vless | @outline_ir | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
-                "🇺🇸 US | 🟢 | vless | @proxy_hiddfy | 20",
+                "🇺🇸 US | 🟢 | vless | @proxy_hiddfy | 18",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 9",
@@ -173,8 +173,8 @@
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 9",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 11",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 19",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 22"
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 21",
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 24"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -452,7 +452,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxy_hiddfy | 20",
+            "tag": "🇺🇸 US | 🟢 | vless | @proxy_hiddfy | 18",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -639,20 +639,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 19",
-            "type": "vless",
-            "server": "151.101.67.8",
-            "server_port": 80,
-            "uuid": "ad5e7710-15f4-4cb8-c3bd-302bb5540263",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 22",
+            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 21",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
             "uuid": "1728ca7e-9267-4c44-adfc-23939aefa964",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 24",
+            "type": "vless",
+            "server": "151.101.67.8",
+            "server_port": 80,
+            "uuid": "124b3799-aa8e-4d7a-ad7e-a474ecf4b159",
             "flow": "",
             "packet_encoding": "xudp"
         }

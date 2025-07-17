@@ -100,7 +100,6 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | vless | @deli_servers | 1",
                 "❔ XX | 🟢 | vless | @fire_vpn_channel | 0",
-                "❔ XX | 🟢 | vless | @freevpnatm | 13",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 6",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 9",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 10",
@@ -123,7 +122,6 @@
             "outbounds": [
                 "❔ XX | 🟢 | vless | @deli_servers | 1",
                 "❔ XX | 🟢 | vless | @fire_vpn_channel | 0",
-                "❔ XX | 🟢 | vless | @freevpnatm | 13",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 6",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 9",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 10",
@@ -203,28 +201,6 @@
                     "public_key": "Uu4tcBEWuNn0SKnDk2Jy_o5Te2VA76M68hMlVYj9kiQ",
                     "short_id": "6412"
                 }
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @freevpnatm | 13",
-            "type": "vless",
-            "server": "[2606:4700:3036::6815:265a]",
-            "server_port": 443,
-            "uuid": "2d068083-2cb0-4ae3-a44a-6fc82f3039cc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "laTDC7FYNlE4MTTdA9h4p"
             }
         },
         {
