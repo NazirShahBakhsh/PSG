@@ -106,6 +106,7 @@
                 "🇫🇷 FR | 🔴 | vless | @club_profsor | 15",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+                "🇮🇷 IR | 🔴 | vless | @configtrapi | 28",
                 "🇺🇸 US | 🔴 | vless | @connectshu | 14",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
@@ -159,11 +160,10 @@
                 "🇱🇹 LT | 🔴 | vless | @u7kll | 0",
                 "🇷🇺 RU | 🔴 | vless | @v2aryng_vpn | 10",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
-                "❔ XX | 🔴 | vless | @v2raxx | 9",
+                "❔ XX | 🔴 | vless | @v2raxx | 8",
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
-                "🇺🇸 US | 🟢 | vless | @v2raying | 15",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayngalpha | 6",
@@ -211,6 +211,7 @@
                 "🇫🇷 FR | 🔴 | vless | @club_profsor | 15",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+                "🇮🇷 IR | 🔴 | vless | @configtrapi | 28",
                 "🇺🇸 US | 🔴 | vless | @connectshu | 14",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
@@ -264,11 +265,10 @@
                 "🇱🇹 LT | 🔴 | vless | @u7kll | 0",
                 "🇷🇺 RU | 🔴 | vless | @v2aryng_vpn | 10",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
-                "❔ XX | 🔴 | vless | @v2raxx | 9",
+                "❔ XX | 🔴 | vless | @v2raxx | 8",
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
-                "🇺🇸 US | 🟢 | vless | @v2raying | 15",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayngalpha | 6",
@@ -447,6 +447,22 @@
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vless | @configtrapi | 28",
+            "type": "vless",
+            "server": "asia4.novahomedesigntips.com",
+            "server_port": 48820,
+            "uuid": "d2a46b5c-8840-4589-885a-0f28036b558c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "asia4.novahomedesigntips.com"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @connectshu | 14",
@@ -1302,7 +1318,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @v2raxx | 9",
+            "tag": "❔ XX | 🔴 | vless | @v2raxx | 8",
             "type": "vless",
             "server": "V2RAXX-channel.cataba.ir",
             "server_port": 6666,
@@ -1370,31 +1386,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "ShhProxyFreViP.xn--85-pv2cl2k5x3fipr.org."
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2raying | 15",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "bdbea579-18d4-415d-8ae2-2ff86c380ff1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.sarzamindownload.dynv6.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice?ed=2560",
-                "headers": {
-                    "Host": "www.sarzamindownload.dynv6.net"
                 }
             }
         },

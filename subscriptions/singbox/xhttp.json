@@ -98,11 +98,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦 CA | 🔴 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
-                "🇺🇸 US | 🔴 | vless | @config_proxy | 64",
+                "🇺🇸 US | 🟢 | vless | @config_proxy | 66",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+                "🇺🇸 US | 🔴 | vless | @configx2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 29",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -143,6 +143,8 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 15",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configms | 15",
+                "🇸🇪 SE | 🟢 | vless | @configshubplus | 13",
+                "🇺🇸 US | 🔴 | vless | @dailyv2ry | 133",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
@@ -171,7 +173,7 @@
                 "🇹🇷 TR | 🟢 | vless | @vaslvip | 11",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 9",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 11",
-                "🇳🇱 NL | 🟢 | vless | @vpnplusee_free | 16",
+                "🇳🇱 NL | 🟢 | vless | @vpnplusee_free | 15",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 21",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 24"
@@ -182,11 +184,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦 CA | 🔴 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
-                "🇺🇸 US | 🔴 | vless | @config_proxy | 64",
+                "🇺🇸 US | 🟢 | vless | @config_proxy | 66",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+                "🇺🇸 US | 🔴 | vless | @configx2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 29",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -227,6 +229,8 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 15",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configms | 15",
+                "🇸🇪 SE | 🟢 | vless | @configshubplus | 13",
+                "🇺🇸 US | 🔴 | vless | @dailyv2ry | 133",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
@@ -255,7 +259,7 @@
                 "🇹🇷 TR | 🟢 | vless | @vaslvip | 11",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 9",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 11",
-                "🇳🇱 NL | 🟢 | vless | @vpnplusee_free | 16",
+                "🇳🇱 NL | 🟢 | vless | @vpnplusee_free | 15",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 21",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 24"
@@ -278,15 +282,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraNet | 68",
-            "type": "vless",
-            "server": "bos.lebasnoo.ir",
-            "server_port": 80,
-            "uuid": "9c2e1da7-8e50-4899-ad69-ad0b52de696c",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @appsooner | 8",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
@@ -305,13 +300,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @config_proxy | 64",
+            "tag": "🇺🇸 US | 🟢 | vless | @config_proxy | 66",
             "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
+            "server": "vioVPN.viocompany.site",
+            "server_port": 443,
+            "uuid": "2d37cd89-d6e5-4d58-a688-8b0208a48e6e",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "viowpn.viocompany.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -319,6 +323,15 @@
             "server": "2sudo.winapp3.ir",
             "server_port": 80,
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @configx2ray | 5",
+            "type": "vless",
+            "server": "bos.lebasnoo.ir",
+            "server_port": 80,
+            "uuid": "9c2e1da7-8e50-4899-ad69-ad0b52de696c",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -779,6 +792,42 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇸🇪 SE | 🟢 | vless | @configshubplus | 13",
+            "type": "vless",
+            "server": "185.146.173.39",
+            "server_port": 443,
+            "uuid": "7411ab59-5fac-41bf-947a-0163ea82d568",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chde.black-melo.store",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @dailyv2ry | 133",
+            "type": "vless",
+            "server": "172.237.147.79",
+            "server_port": 443,
+            "uuid": "a409d129-70fe-4bc4-906b-73985847e6ab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "172.237.147.79",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
             "type": "vless",
             "server": "151.101.3.8",
@@ -1221,7 +1270,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @vpnplusee_free | 16",
+            "tag": "🇳🇱 NL | 🟢 | vless | @vpnplusee_free | 15",
             "type": "vless",
             "server": "104.248.194.230",
             "server_port": 80,
