@@ -17,6 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇬🇷 GR | 🟢 | ss | @NamiraNet | 68","type":"ss","server":"192.71.166.102","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3","type":"vmess","server":"tu.shoptx.sbs","port":15400,"cipher":"auto","uuid":"cc660614-1172-4988-9647-3846502d0e4f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 7","type":"ss","server":"220.124.31.130","port":19378,"password":"NiznLvoIuy","cipher":"aes-256-gcm"}
   - {"name":"❔ XX | 🔴 | vmess | @armodchannel | 62","type":"vmess","server":"asia.artunnel57.host","port":80,"cipher":"auto","uuid":"65e44501-defd-4609-a4e3-7028dc417b50","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess-ntls","headers":{"Host":"asia.artunnel57.host"}}}
@@ -61,6 +62,7 @@ proxies:
   - {"name":"🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7","type":"ss","server":"51.103.32.8","port":666,"password":"427395387a9379ca","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7","type":"vmess","server":"91.107.160.240","port":15795,"cipher":"auto","uuid":"7ca6c13a-e450-49fa-9b9c-b49a6eda5b79","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19","type":"trojan","server":"3.68.174.66","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
+  - {"name":"🇸🇮 SI | 🟢 | ss | @v2ray_free_conf | 19","type":"ss","server":"192.71.244.150","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🔴 | vmess | @v2ray_n | 19","type":"vmess","server":"tr1.iranz.me","port":443,"cipher":"auto","uuid":"1145b8f1-72b9-4e3c-aede-1b884f56537d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"tr1.iranz.me"}}}
   - {"name":"🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @v2raybe | 6","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
@@ -109,6 +111,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇬🇷 GR | 🟢 | ss | @NamiraNet | 68'
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
       - '🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 7'
       - '❔ XX | 🔴 | vmess | @armodchannel | 62'
@@ -153,6 +156,7 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7'
       - '🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7'
       - '🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19'
+      - '🇸🇮 SI | 🟢 | ss | @v2ray_free_conf | 19'
       - '❔ XX | 🔴 | vmess | @v2ray_n | 19'
       - '🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7'
       - '🇬🇧 GB | 🟢 | ss | @v2raybe | 6'
@@ -177,6 +181,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇬🇷 GR | 🟢 | ss | @NamiraNet | 68'
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
       - '🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 7'
       - '❔ XX | 🔴 | vmess | @armodchannel | 62'
@@ -221,6 +226,7 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7'
       - '🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7'
       - '🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19'
+      - '🇸🇮 SI | 🟢 | ss | @v2ray_free_conf | 19'
       - '❔ XX | 🔴 | vmess | @v2ray_n | 19'
       - '🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7'
       - '🇬🇧 GB | 🟢 | ss | @v2raybe | 6'
@@ -243,6 +249,7 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
+      - '🇬🇷 GR | 🟢 | ss | @NamiraNet | 68'
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
       - '🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 7'
       - '❔ XX | 🔴 | vmess | @armodchannel | 62'
@@ -287,6 +294,7 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7'
       - '🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7'
       - '🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19'
+      - '🇸🇮 SI | 🟢 | ss | @v2ray_free_conf | 19'
       - '❔ XX | 🔴 | vmess | @v2ray_n | 19'
       - '🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7'
       - '🇬🇧 GB | 🟢 | ss | @v2raybe | 6'
