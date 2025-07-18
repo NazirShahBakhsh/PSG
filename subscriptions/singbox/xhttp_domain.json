@@ -102,7 +102,7 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 12",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @confing_chanel | 24",
+                "🇺🇸 US | 🔴 | vless | @confing_chanel | 22",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @ehsawn8 | 1",
@@ -123,13 +123,14 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 1",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 8",
-                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
                 "🇺🇸 US | 🔴 | vless | @server_nekobox | 6",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
+                "🇺🇸 US | 🔴 | vless | @vipv2rayngnp | 13",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
+                "🇺🇸 US | 🔴 | vless | @vpntrt | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
             "interrupt_exist_connections": false
@@ -142,7 +143,7 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 12",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @confing_chanel | 24",
+                "🇺🇸 US | 🔴 | vless | @confing_chanel | 22",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @ehsawn8 | 1",
@@ -163,13 +164,14 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 1",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 8",
-                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
                 "🇺🇸 US | 🔴 | vless | @server_nekobox | 6",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
+                "🇺🇸 US | 🔴 | vless | @vipv2rayngnp | 13",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
+                "🇺🇸 US | 🔴 | vless | @vpntrt | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -240,7 +242,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @confing_chanel | 24",
+            "tag": "🇺🇸 US | 🔴 | vless | @confing_chanel | 22",
             "type": "vless",
             "server": "hibbb.fast.hosting-ip.com",
             "server_port": 80,
@@ -470,15 +472,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
-            "type": "vless",
-            "server": "FASTSHOVPNTELEGRAM.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "bb691001-faf8-4b4e-af2e-bfb27780f689",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @server_nekobox | 6",
             "type": "vless",
             "server": "CONFiGLiNE.fast.hosting-ip.com",
@@ -533,11 +526,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @vipv2rayngnp | 13",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "b0ea73c1-2a12-45c1-b9a4-1432c8244a3e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
             "type": "vless",
             "server": "netmeli.noytads.ir",
             "server_port": 80,
             "uuid": "e018bfab-0902-47a0-abfc-7efbd017ec73",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @vpntrt | 2",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "b0ea73c1-2a12-45c1-b9a4-1432c8244a3e",
             "flow": "",
             "packet_encoding": "xudp"
         },

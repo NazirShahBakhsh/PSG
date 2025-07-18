@@ -98,7 +98,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇭 CH | 🟢 | ss | @NamiraNet | 67",
                 "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
                 "🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 8",
                 "🇺🇸 US | 🟢 | ss | @chestertm | 10",
@@ -115,15 +114,15 @@
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 0",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 1",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
-                "🇬🇧 GB | 🟢 | ss | @outline_vpn | 17",
+                "🇬🇧 GB | 🟢 | ss | @outline_vpn | 18",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
                 "🇬🇧 GB | 🟢 | ss | @prroxyng | 2",
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇵🇹 PT | 🟢 | ss | @shadowsockskeys | 14",
                 "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 2",
-                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 18",
-                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 19",
+                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 16",
+                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 17",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "🇳🇱 NL | 🟢 | ss | @v2rayngrit | 11",
@@ -141,7 +140,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇭 CH | 🟢 | ss | @NamiraNet | 67",
                 "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
                 "🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 8",
                 "🇺🇸 US | 🟢 | ss | @chestertm | 10",
@@ -158,15 +156,15 @@
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 0",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 1",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
-                "🇬🇧 GB | 🟢 | ss | @outline_vpn | 17",
+                "🇬🇧 GB | 🟢 | ss | @outline_vpn | 18",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
                 "🇬🇧 GB | 🟢 | ss | @prroxyng | 2",
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇵🇹 PT | 🟢 | ss | @shadowsockskeys | 14",
                 "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 2",
-                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 18",
-                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 19",
+                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 16",
+                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 17",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "🇳🇱 NL | 🟢 | ss | @v2rayngrit | 11",
@@ -194,14 +192,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇭 CH | 🟢 | ss | @NamiraNet | 67",
-            "type": "shadowsocks",
-            "server": "h110vpnch.outlinekeys.net",
-            "server_port": 4248,
-            "method": "chacha20-ietf-poly1305",
-            "password": "jw0DMgt0Q38j8aXiPuVIFS"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
@@ -332,7 +322,7 @@
             "password": "WstuSnlu4ieA9M0L"
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | ss | @outline_vpn | 17",
+            "tag": "🇬🇧 GB | 🟢 | ss | @outline_vpn | 18",
             "type": "shadowsocks",
             "server": "series-a2-me.varzesh360.co",
             "server_port": 443,
@@ -388,7 +378,7 @@
             "password": "1xO2cqPazqjGfCfd"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 18",
+            "tag": "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 16",
             "type": "shadowsocks",
             "server": "ltnl11.saint.ydns.eu",
             "server_port": 8080,
@@ -396,7 +386,7 @@
             "password": "cvII85TrW6n0OGyfpHVS1u"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 19",
+            "tag": "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 17",
             "type": "shadowsocks",
             "server": "beesyar.org",
             "server_port": 8080,

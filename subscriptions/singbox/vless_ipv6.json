@@ -111,7 +111,6 @@
                 "❔ XX | 🔴 | vless | @parsashonam | 29",
                 "❔ XX | 🔴 | vless | @parsashonam | 31",
                 "❔ XX | 🔴 | vless | @parsashonam | 33",
-                "❔ XX | 🟢 | vless | @v2raytg | 73",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 6",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 8",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -136,7 +135,6 @@
                 "❔ XX | 🔴 | vless | @parsashonam | 29",
                 "❔ XX | 🔴 | vless | @parsashonam | 31",
                 "❔ XX | 🔴 | vless | @parsashonam | 33",
-                "❔ XX | 🟢 | vless | @v2raytg | 73",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 6",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 8",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -376,31 +374,6 @@
             "uuid": "Parsashonam-286",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @v2raytg | 73",
-            "type": "vless",
-            "server": "[2a06:98c1:3120::1]",
-            "server_port": 443,
-            "uuid": "4d91916f-a7fd-419b-8b90-640bb8d1b9f9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "MypHOtomoments.iR",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/PSZPkYG71g6bn84o/MTQxLjE0OC4yMDMuNg==?ed=2560",
-                "headers": {
-                    "Host": "MypHOtomoments.iR"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🔴 | vless | @v2ryngfree | 6",
