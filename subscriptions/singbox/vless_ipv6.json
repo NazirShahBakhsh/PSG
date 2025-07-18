@@ -100,13 +100,10 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | vless | @deli_servers | 1",
                 "❔ XX | 🟢 | vless | @fire_vpn_channel | 0",
-                "❔ XX | 🔴 | vless | @freevpnatm | 11",
-                "❔ XX | 🔴 | vless | @freevpnatm | 12",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 6",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 9",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 10",
                 "❔ XX | 🟢 | vless | @ghalagyann | 19",
-                "❔ XX | 🔴 | vless | @hope_net | 20",
                 "❔ XX | 🔴 | vless | @internet_nor | 0",
                 "❔ XX | 🔴 | vless | @internet_nor | 1",
                 "❔ XX | 🔴 | vless | @internet_nor | 2",
@@ -127,13 +124,10 @@
             "outbounds": [
                 "❔ XX | 🟢 | vless | @deli_servers | 1",
                 "❔ XX | 🟢 | vless | @fire_vpn_channel | 0",
-                "❔ XX | 🔴 | vless | @freevpnatm | 11",
-                "❔ XX | 🔴 | vless | @freevpnatm | 12",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 6",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 9",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 10",
                 "❔ XX | 🟢 | vless | @ghalagyann | 19",
-                "❔ XX | 🔴 | vless | @hope_net | 20",
                 "❔ XX | 🔴 | vless | @internet_nor | 0",
                 "❔ XX | 🔴 | vless | @internet_nor | 1",
                 "❔ XX | 🔴 | vless | @internet_nor | 2",
@@ -214,56 +208,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @freevpnatm | 11",
-            "type": "vless",
-            "server": "[2606:4700:3035::6815:5bb4]",
-            "server_port": 443,
-            "uuid": "2d068083-2cb0-4ae3-a44a-6fc82f3039cc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "[2606:4700:3035::6815:5bb4]",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "[2606:4700:3035::6815:5bb4]"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔴 | vless | @freevpnatm | 12",
-            "type": "vless",
-            "server": "[2606:4700:3034::ac43:d14f]",
-            "server_port": 443,
-            "uuid": "2d068083-2cb0-4ae3-a44a-6fc82f3039cc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "[2606:4700:3034::ac43:d14f]",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "[2606:4700:3034::ac43:d14f]"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔴 | vless | @freevv2rayng | 6",
             "type": "vless",
             "server": "[2a12:5940:1527::2]",
@@ -337,15 +281,6 @@
                     "short_id": "149517c9"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔴 | vless | @hope_net | 20",
-            "type": "vless",
-            "server": "[2a01:4f8:c013:95f7::1]",
-            "server_port": 50081,
-            "uuid": "65821e17-c2bc-4641-8a15-fc59e7a6f60f",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔴 | vless | @internet_nor | 0",

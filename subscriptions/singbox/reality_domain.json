@@ -104,7 +104,7 @@
                 "❔ XX | 🟢 | vless | @buffalo_vpn | 5",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
-                "🇩🇪 DE | 🟢 | vless | @configshubplus | 2",
+                "🇳🇱 NL | 🟢 | vless | @config_proxy | 56",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 8",
                 "🇩🇪 DE | 🟢 | vless | @filter_breaker | 55",
@@ -184,7 +184,7 @@
                 "❔ XX | 🟢 | vless | @buffalo_vpn | 5",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
-                "🇩🇪 DE | 🟢 | vless | @configshubplus | 2",
+                "🇳🇱 NL | 🟢 | vless | @config_proxy | 56",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 8",
                 "🇩🇪 DE | 🟢 | vless | @filter_breaker | 55",
@@ -416,11 +416,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @configshubplus | 2",
+            "tag": "🇳🇱 NL | 🟢 | vless | @config_proxy | 56",
             "type": "vless",
-            "server": "real-all3-2.sdcards.ir",
-            "server_port": 8501,
-            "uuid": "ac37eb9c-0db8-4056-8f61-e8db4e2da35e",
+            "server": "direct2.yasharteam.com",
+            "server_port": 443,
+            "uuid": "8fe1979b-437c-41fc-abe8-e15419b37059",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -433,8 +433,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI",
-                    "short_id": "e701a013553059ba"
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "e54b5ad736ae4c38"
                 }
             }
         },

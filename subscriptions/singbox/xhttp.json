@@ -117,16 +117,16 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @free_serverir | 66",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 17",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇩🇪 DE | 🟢 | vless | @netmellianti | 10",
                 "🇳🇱 NL | 🟢 | vless | @nofiltering2 | 18",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
-                "🇺🇸 US | 🟢 | vless | @proxie | 12",
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 1",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
-                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 120",
+                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
                 "🇺🇸 US | 🔴 | vless | @server_nekobox | 9",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 1",
@@ -151,6 +151,7 @@
                 "🇳🇱 NL | 🔴 | vless | @manzariyeh_rasht | 22",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
+                "🇺🇸 US | 🟢 | vless | @proxie | 12",
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
@@ -196,16 +197,16 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @free_serverir | 66",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 17",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇩🇪 DE | 🟢 | vless | @netmellianti | 10",
                 "🇳🇱 NL | 🟢 | vless | @nofiltering2 | 18",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
-                "🇺🇸 US | 🟢 | vless | @proxie | 12",
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 1",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
-                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 120",
+                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
                 "🇺🇸 US | 🔴 | vless | @server_nekobox | 9",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 1",
@@ -230,6 +231,7 @@
                 "🇳🇱 NL | 🔴 | vless | @manzariyeh_rasht | 22",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
+                "🇺🇸 US | 🟢 | vless | @proxie | 12",
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
@@ -453,6 +455,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 17",
+            "type": "vless",
+            "server": "hibbb.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "fcb53fa5-93e7-4599-ad2b-0da49a3b8857",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
             "type": "vless",
             "server": "ips.rainoteam.store",
@@ -534,24 +545,6 @@
             "type": "vless",
             "server": "Aule.Manwe.ir",
             "server_port": 443,
-            "uuid": "a5a14e7d-4267-4fea-895e-82def329d1d4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Varda.Manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 12",
-            "type": "vless",
-            "server": "Aule.Manwe.ir",
-            "server_port": 443,
             "uuid": "bdf79d37-877b-4727-b45a-5ba235a01a24",
             "flow": "",
             "packet_encoding": "xudp",
@@ -598,7 +591,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @prrofile_purple | 120",
+            "tag": "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
             "type": "vless",
             "server": "FASTSHOVPNTELEGRAM.fast.hosting-ip.com",
             "server_port": 80,
@@ -883,7 +876,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 13",
+            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 12",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -901,7 +894,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 14",
+            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 13",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -919,11 +912,29 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 15",
+            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 14",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
             "uuid": "8ef62fcb-038a-40ec-ae4b-bf40fc6305a0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Varda.Manwe.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 15",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "c53e7b0c-bd46-4b36-ad14-14d1bf895bce",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {

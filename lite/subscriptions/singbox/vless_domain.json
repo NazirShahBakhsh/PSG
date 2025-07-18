@@ -126,8 +126,7 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
-                "🇺🇸 US | 🟢 | vless | @prrofile_purple | 122",
-                "🇸🇪 SE | 🔴 | vless | @selinc | 10",
+                "🇺🇸 US | 🟢 | vless | @prrofile_purple | 128",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -161,7 +160,7 @@
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "interrupt_exist_connections": false
         },
@@ -197,8 +196,7 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
-                "🇺🇸 US | 🟢 | vless | @prrofile_purple | 122",
-                "🇸🇪 SE | 🔴 | vless | @selinc | 10",
+                "🇺🇸 US | 🟢 | vless | @prrofile_purple | 128",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -232,7 +230,7 @@
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -767,7 +765,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @prrofile_purple | 122",
+            "tag": "🇺🇸 US | 🟢 | vless | @prrofile_purple | 128",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -790,15 +788,6 @@
                     "Host": "PaGes.deV"
                 }
             }
-        },
-        {
-            "tag": "🇸🇪 SE | 🔴 | vless | @selinc | 10",
-            "type": "vless",
-            "server": "sweden.a1mshop.com",
-            "server_port": 14703,
-            "uuid": "5908ce55-7289-4671-9d3f-b509f78091ed",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
@@ -1384,7 +1373,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
+            "tag": "🇫🇷 FR | 🔴 | vless | @zvpnn | 7",
             "type": "vless",
             "server": "power.dlmoviz.ir",
             "server_port": 2020,
