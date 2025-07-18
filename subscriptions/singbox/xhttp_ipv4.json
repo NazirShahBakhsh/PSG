@@ -104,7 +104,6 @@
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 16",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
-                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 3",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 4",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 5",
@@ -121,13 +120,12 @@
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
-                "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 9",
+                "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_one1 | 9",
-                "🇹🇷 TR | 🔴 | vless | @v2raych | 15",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 4",
-                "🇺🇸 US | 🔴 | vless | @vpnaloo | 15",
+                "🇺🇸 US | 🔴 | vless | @vpnaloo | 14",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 10",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 12",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
@@ -147,7 +145,6 @@
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 16",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
-                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 3",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 4",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 5",
@@ -164,13 +161,12 @@
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
-                "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 9",
+                "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_one1 | 9",
-                "🇹🇷 TR | 🔴 | vless | @v2raych | 15",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 4",
-                "🇺🇸 US | 🔴 | vless | @vpnaloo | 15",
+                "🇺🇸 US | 🔴 | vless | @vpnaloo | 14",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 10",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 12",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
@@ -257,15 +253,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
-            "type": "vless",
-            "server": "151.101.67.8",
-            "server_port": 80,
-            "uuid": "8088c605-e0c2-4774-9ee4-7fa7e47b6112",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @irv2rey | 3",
@@ -504,7 +491,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 9",
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 8",
             "type": "vless",
             "server": "104.248.194.230",
             "server_port": 80,
@@ -532,15 +519,6 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "07af2138-82f3-44e2-8ee6-4b236468d1d8",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇹🇷 TR | 🔴 | vless | @v2raych | 15",
-            "type": "vless",
-            "server": "46.31.76.99",
-            "server_port": 31465,
-            "uuid": "d08244b0-2180-43be-b4ec-0a6cd90867cb",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -600,7 +578,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @vpnaloo | 15",
+            "tag": "🇺🇸 US | 🔴 | vless | @vpnaloo | 14",
             "type": "vless",
             "server": "172.237.147.79",
             "server_port": 443,

@@ -124,12 +124,11 @@
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 1",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 8",
                 "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
-                "🇺🇸 US | 🔴 | vless | @server_nekobox | 9",
+                "🇺🇸 US | 🔴 | vless | @server_nekobox | 6",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
-                "❔ XX | 🟢 | vless | @v2rayweb | 6",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
@@ -165,12 +164,11 @@
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 1",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 8",
                 "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
-                "🇺🇸 US | 🔴 | vless | @server_nekobox | 9",
+                "🇺🇸 US | 🔴 | vless | @server_nekobox | 6",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
-                "❔ XX | 🟢 | vless | @v2rayweb | 6",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
@@ -481,7 +479,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @server_nekobox | 9",
+            "tag": "🇺🇸 US | 🔴 | vless | @server_nekobox | 6",
             "type": "vless",
             "server": "CONFiGLiNE.fast.hosting-ip.com",
             "server_port": 80,
@@ -533,29 +531,6 @@
             "uuid": "bb57d265-b716-4092-bd0a-68f3988db63c",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @v2rayweb | 6",
-            "type": "vless",
-            "server": "tell-mehffa.plusonecod.ir",
-            "server_port": 8443,
-            "uuid": "f93c117e-ebf6-4bcc-b47f-e45a9ae185c3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tTtwg8FF1NsLhDn6u3h_mD4-B_buwX-OqoWVZbE2_Ss",
-                    "short_id": "0c559031f0"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
