@@ -146,7 +146,6 @@
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
-                "🇺🇸 US | 🔴 | vless | @vistav2ray | 13",
                 "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
                 "/TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=h3&encryption=none&host=nginx.nscl.ir&type=ws&sni=NGINX.NSCl.IR#🇺🇸 US | 🟢 | vless | @vmess_ir | 18",
                 "🇺🇸 US | 🟢 | vless | @vpn_ioss | 16",
@@ -212,7 +211,6 @@
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
-                "🇺🇸 US | 🔴 | vless | @vistav2ray | 13",
                 "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
                 "/TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=h3&encryption=none&host=nginx.nscl.ir&type=ws&sni=NGINX.NSCl.IR#🇺🇸 US | 🟢 | vless | @vmess_ir | 18",
                 "🇺🇸 US | 🟢 | vless | @vpn_ioss | 16",
@@ -1096,22 +1094,6 @@
                     "enabled": true,
                     "public_key": "Qdg7LVP5VmLr7xzv556ry5RNc3QaeAj4TwOUxndA23M",
                     "short_id": "e3f89b63"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vistav2ray | 13",
-            "type": "vless",
-            "server": "172.67.65.158",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Etb1L6YUdZFZuTOr?ed=2560",
-                "headers": {
-                    "Host": "172.67.65.158"
                 }
             }
         },

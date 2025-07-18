@@ -106,8 +106,6 @@
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
                 "🇺🇸 US | 🟢 | trojan | @dnsforyou | 8",
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 13",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 14",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 5",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 7",
@@ -121,10 +119,9 @@
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 12",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 13",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇺🇸 US | 🟢 | trojan | @server_nekobox | 9",
+                "🇺🇸 US | 🟢 | trojan | @server_nekobox | 8",
                 "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 15",
-                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 15",
-                "🇺🇸 US | 🟢 | trojan | @v2rayng_fars | 15",
+                "🇬🇧 GB | 🟢 | trojan | @v2raych | 15",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayngconfig | 42",
                 "🇨🇦 CA | 🟢 | trojan | @v2rayngconfig | 43",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayngconfig | 44",
@@ -151,8 +148,6 @@
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
                 "🇺🇸 US | 🟢 | trojan | @dnsforyou | 8",
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 13",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 14",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 5",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 7",
@@ -166,10 +161,9 @@
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 12",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 13",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇺🇸 US | 🟢 | trojan | @server_nekobox | 9",
+                "🇺🇸 US | 🟢 | trojan | @server_nekobox | 8",
                 "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 15",
-                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 15",
-                "🇺🇸 US | 🟢 | trojan | @v2rayng_fars | 15",
+                "🇬🇧 GB | 🟢 | trojan | @v2raych | 15",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayngconfig | 42",
                 "🇨🇦 CA | 🟢 | trojan | @v2rayngconfig | 43",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayngconfig | 44",
@@ -324,52 +318,6 @@
             "server": "91.107.141.0",
             "server_port": 23825,
             "password": "ziIjOlyGbM"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @freevpnatm | 13",
-            "type": "trojan",
-            "server": "104.21.6.179",
-            "server_port": 443,
-            "password": "6757b7d6-fa32-4708-b5d1-30e3cf928b51",
-            "tls": {
-                "enabled": true,
-                "server_name": "8888888.890601.xYZ",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/l96MZ8se5Kl2p8BiMhP42l",
-                "headers": {
-                    "Host": "8888888.890601.xYZ"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @freevpnatm | 14",
-            "type": "trojan",
-            "server": "104.21.6.179",
-            "server_port": 443,
-            "password": "6757b7d6-fa32-4708-b5d1-30e3cf928b51",
-            "tls": {
-                "enabled": true,
-                "server_name": "mmmMM.890601.XYZ",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/l96MZ8se5Kl2p8BiMhP42l",
-                "headers": {
-                    "Host": "mmmMM.890601.XYZ"
-                }
-            }
         },
         {
             "tag": "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
@@ -594,7 +542,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @server_nekobox | 9",
+            "tag": "🇺🇸 US | 🟢 | trojan | @server_nekobox | 8",
             "type": "trojan",
             "server": "172.67.181.173",
             "server_port": 443,
@@ -633,11 +581,11 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 15",
+            "tag": "🇬🇧 GB | 🟢 | trojan | @v2raych | 15",
             "type": "trojan",
-            "server": "52.47.136.181",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
+            "server": "51.24.5.11",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
@@ -645,29 +593,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayng_fars | 15",
-            "type": "trojan",
-            "server": "172.67.181.173",
-            "server_port": 443,
-            "password": "f282b878-8711-45a1-8c69-5564172123c1",
-            "tls": {
-                "enabled": true,
-                "server_name": "vpn.stupidworld.web.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Tel-V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS",
-                "headers": {
-                    "Host": "vpn.stupidworld.web.id"
                 }
             }
         },

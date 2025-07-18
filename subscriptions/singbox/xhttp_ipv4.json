@@ -101,11 +101,12 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 12",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 15",
-                "🇺🇸 US | 🔴 | vless | @canfing_vpn | 17",
+                "🇺🇸 US | 🔴 | vless | @canfing_vpn | 16",
                 "🇺🇸 US | 🔴 | vless | @configms | 15",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 138",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
+                "🇳🇱 NL | 🟢 | vless | @getconfigir | 19",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 19",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann | 14",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann | 15",
@@ -147,11 +148,12 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 12",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 15",
-                "🇺🇸 US | 🔴 | vless | @canfing_vpn | 17",
+                "🇺🇸 US | 🔴 | vless | @canfing_vpn | 16",
                 "🇺🇸 US | 🔴 | vless | @configms | 15",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 138",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
+                "🇳🇱 NL | 🟢 | vless | @getconfigir | 19",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 19",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann | 14",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann | 15",
@@ -229,7 +231,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @canfing_vpn | 17",
+            "tag": "🇺🇸 US | 🔴 | vless | @canfing_vpn | 16",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -288,6 +290,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "77.110.103.21",
+            "server_port": 50810,
+            "uuid": "72059c29-a302-4bbd-a67a-ed0119fb754e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MCx8u0S8L-ugMhcNC-u2WteqvI_oaM9_0-5jP6atIx4",
+                    "short_id": "19dc3c81"
                 }
             }
         },
