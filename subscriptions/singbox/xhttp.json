@@ -101,7 +101,7 @@
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @confing_chanel | 29",
+                "🇺🇸 US | 🔴 | vless | @confing_chanel | 25",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @ehsawn8 | 1",
@@ -117,11 +117,11 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @free_serverir | 66",
+                "🇳🇱 NL | 🟢 | vless | @getconfigir | 18",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇩🇪 DE | 🟢 | vless | @manzariyeh_rasht | 15",
                 "🇩🇪 DE | 🟢 | vless | @netmellianti | 15",
-                "🇳🇱 NL | 🟢 | vless | @nofiltering2 | 18",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🟢 | vless | @outline_ir | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
@@ -186,7 +186,7 @@
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @confing_chanel | 29",
+                "🇺🇸 US | 🔴 | vless | @confing_chanel | 25",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @ehsawn8 | 1",
@@ -202,11 +202,11 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @free_serverir | 66",
+                "🇳🇱 NL | 🟢 | vless | @getconfigir | 18",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇩🇪 DE | 🟢 | vless | @manzariyeh_rasht | 15",
                 "🇩🇪 DE | 🟢 | vless | @netmellianti | 15",
-                "🇳🇱 NL | 🟢 | vless | @nofiltering2 | 18",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🟢 | vless | @outline_ir | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
@@ -307,7 +307,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @confing_chanel | 29",
+            "tag": "🇺🇸 US | 🔴 | vless | @confing_chanel | 25",
             "type": "vless",
             "server": "hibbb.fast.hosting-ip.com",
             "server_port": 80,
@@ -451,6 +451,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇳🇱 NL | 🟢 | vless | @getconfigir | 18",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
             "type": "vless",
             "server": "ips.rainoteam.store",
@@ -511,24 +529,6 @@
                     "enabled": true,
                     "public_key": "kUfdhVe33Uv2-_kjmI97xkOCo_mWJlSigF3NCNJyGRk",
                     "short_id": "15a19f76"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @nofiltering2 | 18",
-            "type": "vless",
-            "server": "statue.lnmarketplace.net",
-            "server_port": 443,
-            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "statue.lnmarketplace.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },

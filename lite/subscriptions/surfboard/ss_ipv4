@@ -14,7 +14,7 @@ DIRECT = direct
 🇬🇧 GB | 🟢 | ss | @megavpn_link | 14 = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 🇬🇧 GB | 🟢 | ss | @novinology | 16 = ss, 13.87.74.71, 14564, encrypt-method = chacha20-ietf-poly1305, password = Q1qlRknoN9PwGeExWVyTKg
 🇳🇱 NL | 🟢 | ss | @orange_vpns | 18 = ss, 193.29.139.202, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🇪🇸 ES | 🟢 | ss | @outlineopenkey | 7 = ss, 194.87.45.189, 443, encrypt-method = chacha20-ietf-poly1305, password = 0Rb5hEiYFWFVW5eWxABAnn
+🇵🇱 PL | 🟢 | ss | @outlineopenkey | 8 = ss, 77.83.246.74, 443, encrypt-method = chacha20-ietf-poly1305, password = xACbFD7SWmbV7oKX0djMrZ
 🇫🇮 FI | 🟢 | ss | @strongprotocol | 10 = ss, 45.12.135.36, 47076, encrypt-method = chacha20-ietf-poly1305, password = WrNAsbtcuoeEEQdoSOcPgO
 🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21 = ss, 194.87.216.121, 443, encrypt-method = chacha20-ietf-poly1305, password = piv97XS1Cval86vfwHPD5j
 🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7 = ss, 51.103.32.8, 666, encrypt-method = chacha20-ietf-poly1305, password = 427395387a9379ca
@@ -23,9 +23,9 @@ DIRECT = direct
 🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 17 = ss, 64.137.109.212, 44884, encrypt-method = chacha20-ietf-poly1305, password = 2DGq3jvVRg5n3CcxmysGK2kmrgJeSNof12A76cZvVxqPpetyC1XEciCFufq5xKvRWGGnKVembpThuUSQhbZ7GMsZY4UVxEBw
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇬🇧 GB | 🟢 | ss | @club_profsor | 15, 🇬🇧 GB | 🟢 | ss | @megavpn_link | 14, 🇬🇧 GB | 🟢 | ss | @novinology | 16, 🇳🇱 NL | 🟢 | ss | @orange_vpns | 18, 🇪🇸 ES | 🟢 | ss | @outlineopenkey | 7, 🇫🇮 FI | 🟢 | ss | @strongprotocol | 10, 🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21, 🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7, 🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27, 🇵🇱 PL | 🟢 | ss | @vipufovpn | 19, 🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 17
-PSG-AUTO = url-test, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇬🇧 GB | 🟢 | ss | @club_profsor | 15, 🇬🇧 GB | 🟢 | ss | @megavpn_link | 14, 🇬🇧 GB | 🟢 | ss | @novinology | 16, 🇳🇱 NL | 🟢 | ss | @orange_vpns | 18, 🇪🇸 ES | 🟢 | ss | @outlineopenkey | 7, 🇫🇮 FI | 🟢 | ss | @strongprotocol | 10, 🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21, 🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7, 🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27, 🇵🇱 PL | 🟢 | ss | @vipufovpn | 19, 🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 17
-PSG-FALLBACK = fallback, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇬🇧 GB | 🟢 | ss | @club_profsor | 15, 🇬🇧 GB | 🟢 | ss | @megavpn_link | 14, 🇬🇧 GB | 🟢 | ss | @novinology | 16, 🇳🇱 NL | 🟢 | ss | @orange_vpns | 18, 🇪🇸 ES | 🟢 | ss | @outlineopenkey | 7, 🇫🇮 FI | 🟢 | ss | @strongprotocol | 10, 🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21, 🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7, 🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27, 🇵🇱 PL | 🟢 | ss | @vipufovpn | 19, 🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 17
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇬🇧 GB | 🟢 | ss | @club_profsor | 15, 🇬🇧 GB | 🟢 | ss | @megavpn_link | 14, 🇬🇧 GB | 🟢 | ss | @novinology | 16, 🇳🇱 NL | 🟢 | ss | @orange_vpns | 18, 🇵🇱 PL | 🟢 | ss | @outlineopenkey | 8, 🇫🇮 FI | 🟢 | ss | @strongprotocol | 10, 🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21, 🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7, 🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27, 🇵🇱 PL | 🟢 | ss | @vipufovpn | 19, 🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 17
+PSG-AUTO = url-test, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇬🇧 GB | 🟢 | ss | @club_profsor | 15, 🇬🇧 GB | 🟢 | ss | @megavpn_link | 14, 🇬🇧 GB | 🟢 | ss | @novinology | 16, 🇳🇱 NL | 🟢 | ss | @orange_vpns | 18, 🇵🇱 PL | 🟢 | ss | @outlineopenkey | 8, 🇫🇮 FI | 🟢 | ss | @strongprotocol | 10, 🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21, 🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7, 🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27, 🇵🇱 PL | 🟢 | ss | @vipufovpn | 19, 🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 17
+PSG-FALLBACK = fallback, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇬🇧 GB | 🟢 | ss | @club_profsor | 15, 🇬🇧 GB | 🟢 | ss | @megavpn_link | 14, 🇬🇧 GB | 🟢 | ss | @novinology | 16, 🇳🇱 NL | 🟢 | ss | @orange_vpns | 18, 🇵🇱 PL | 🟢 | ss | @outlineopenkey | 8, 🇫🇮 FI | 🟢 | ss | @strongprotocol | 10, 🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21, 🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7, 🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27, 🇵🇱 PL | 🟢 | ss | @vipufovpn | 19, 🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 17
 
 [Rule]
 GEOIP,IR,DIRECT
