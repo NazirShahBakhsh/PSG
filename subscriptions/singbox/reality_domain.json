@@ -154,12 +154,11 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇮🇪 IE | 🟢 | vless | @v2rayngrit | 15",
+                "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 8",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
-                "🇫🇷 FR | 🟢 | vless | @vpn_bal0uch | 0",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🟢 | vless | @webshecan | 9",
                 "❔ XX | 🟢 | vless | @webshecan | 10",
@@ -232,12 +231,11 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇮🇪 IE | 🟢 | vless | @v2rayngrit | 15",
+                "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 8",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
-                "🇫🇷 FR | 🟢 | vless | @vpn_bal0uch | 0",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🟢 | vless | @webshecan | 9",
                 "❔ XX | 🟢 | vless | @webshecan | 10",
@@ -1645,7 +1643,7 @@
             }
         },
         {
-            "tag": "🇮🇪 IE | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇫🇷 FR | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -1757,33 +1755,6 @@
                     "public_key": "COh8PaOebru8HlshEfNEN3_6pXREyUPQvyLWfX0zT3Y",
                     "short_id": "5e"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | vless | @vpn_bal0uch | 0",
-            "type": "vless",
-            "server": "Netherlanddddd.mehrdadsadaf.com",
-            "server_port": 7594,
-            "uuid": "2a219df1-a04b-4424-bfd2-cb37aeb10b2c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "dash.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AZSptdvlWvvmKWEDTY56UsIcnTP8nGCafvPEQOozrxw",
-                    "short_id": "765e8e700426816c"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "7594vless"
             }
         },
         {
