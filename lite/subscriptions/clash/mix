@@ -18,7 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3","type":"vmess","server":"tu.shoptx.sbs","port":15400,"cipher":"auto","uuid":"cc660614-1172-4988-9647-3846502d0e4f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 10","type":"ss","server":"fin.outlinebot1.ru","port":5904,"password":"5TZnwPb23pQS39lIucspJw","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10","type":"ss","server":"fin.outlinebot1.ru","port":5904,"password":"5TZnwPb23pQS39lIucspJw","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @bislullproxy | 18","type":"ss","server":"4.250.60.151","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🟢 | ss | @chestertm | 12","type":"ss","server":"freakconfig94.usecharge.ir","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @club_profsor | 15","type":"ss","server":"85.210.36.164","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
@@ -48,7 +48,6 @@ proxies:
   - {"name":"🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21","type":"ss","server":"194.87.216.121","port":443,"password":"piv97XS1Cval86vfwHPD5j","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7","type":"ss","server":"51.103.32.8","port":666,"password":"427395387a9379ca","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7","type":"vmess","server":"91.107.160.240","port":15795,"cipher":"auto","uuid":"7ca6c13a-e450-49fa-9b9c-b49a6eda5b79","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19","type":"trojan","server":"3.68.174.66","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
   - {"name":"🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @v2raybe | 6","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6","type":"vmess","server":"5.180.30.85","port":18598,"cipher":"auto","uuid":"bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -93,7 +92,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
-      - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 10'
+      - '🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '❔ XX | 🟢 | ss | @chestertm | 12'
       - '🇬🇧 GB | 🟢 | ss | @club_profsor | 15'
@@ -123,7 +122,6 @@ proxy-groups:
       - '🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21'
       - '🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7'
       - '🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7'
-      - '🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19'
       - '🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7'
       - '🇬🇧 GB | 🟢 | ss | @v2raybe | 6'
       - '🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6'
@@ -144,7 +142,7 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
-      - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 10'
+      - '🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '❔ XX | 🟢 | ss | @chestertm | 12'
       - '🇬🇧 GB | 🟢 | ss | @club_profsor | 15'
@@ -174,7 +172,6 @@ proxy-groups:
       - '🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21'
       - '🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7'
       - '🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7'
-      - '🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19'
       - '🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7'
       - '🇬🇧 GB | 🟢 | ss | @v2raybe | 6'
       - '🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6'
@@ -193,7 +190,7 @@ proxy-groups:
     type: select
     proxies:
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
-      - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 10'
+      - '🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '❔ XX | 🟢 | ss | @chestertm | 12'
       - '🇬🇧 GB | 🟢 | ss | @club_profsor | 15'
@@ -223,7 +220,6 @@ proxy-groups:
       - '🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21'
       - '🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7'
       - '🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7'
-      - '🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19'
       - '🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7'
       - '🇬🇧 GB | 🟢 | ss | @v2raybe | 6'
       - '🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6'
