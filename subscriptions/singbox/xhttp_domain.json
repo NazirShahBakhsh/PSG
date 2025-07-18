@@ -116,10 +116,12 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @free_serverir | 66",
+                "🇩🇪 DE | 🟢 | vless | @getconfigir | 16",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇩🇪 DE | 🟢 | vless | @manzariyeh_rasht | 15",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 15",
+                "🇺🇸 US | 🔴 | vless | @mowjproxy | 5",
+                "🇩🇪 DE | 🟢 | vless | @netmellianti | 14",
                 "🇳🇱 NL | 🟢 | vless | @nofiltering2 | 18",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🟢 | vless | @outline_ir | 13",
@@ -127,8 +129,8 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 1",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
-                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 132",
-                "🇺🇸 US | 🔴 | vless | @server_nekobox | 11",
+                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
+                "🇺🇸 US | 🔴 | vless | @server_nekobox | 10",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
@@ -160,10 +162,12 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸 US | 🔴 | vless | @free_serverir | 66",
+                "🇩🇪 DE | 🟢 | vless | @getconfigir | 16",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇩🇪 DE | 🟢 | vless | @manzariyeh_rasht | 15",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 15",
+                "🇺🇸 US | 🔴 | vless | @mowjproxy | 5",
+                "🇩🇪 DE | 🟢 | vless | @netmellianti | 14",
                 "🇳🇱 NL | 🟢 | vless | @nofiltering2 | 18",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🟢 | vless | @outline_ir | 13",
@@ -171,8 +175,8 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 1",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
-                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 132",
-                "🇺🇸 US | 🔴 | vless | @server_nekobox | 11",
+                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
+                "🇺🇸 US | 🔴 | vless | @server_nekobox | 10",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
@@ -360,6 +364,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @getconfigir | 16",
+            "type": "vless",
+            "server": "de6rt.samsungmarketshop.ir",
+            "server_port": 2083,
+            "uuid": "bf989dce-7af7-423b-a499-71da71cdcef1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk",
+                    "short_id": "aeba"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
             "type": "vless",
             "server": "ips.rainoteam.store",
@@ -401,7 +428,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @netmellianti | 15",
+            "tag": "🇺🇸 US | 🔴 | vless | @mowjproxy | 5",
+            "type": "vless",
+            "server": "spain.yoozcard.site",
+            "server_port": 80,
+            "uuid": "e5731c5e-2a87-4c30-bee6-80a992af08f3",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @netmellianti | 14",
             "type": "vless",
             "server": "specxtech.ticketdatabase.info",
             "server_port": 53055,
@@ -546,7 +582,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @prrofile_purple | 132",
+            "tag": "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
             "type": "vless",
             "server": "FASTSHOVPNTELEGRAM.fast.hosting-ip.com",
             "server_port": 80,
@@ -555,7 +591,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @server_nekobox | 11",
+            "tag": "🇺🇸 US | 🔴 | vless | @server_nekobox | 10",
             "type": "vless",
             "server": "CONFiGLiNE.fast.hosting-ip.com",
             "server_port": 80,

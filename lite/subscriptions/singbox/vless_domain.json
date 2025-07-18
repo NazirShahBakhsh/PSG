@@ -111,6 +111,7 @@
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
+                "🇺🇸 US | 🔴 | vless | @info_2it_channel | 10",
                 "❔ XX | 🟢 | vless | @iraniv2ray | 6",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
@@ -141,7 +142,7 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
@@ -179,6 +180,7 @@
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
+                "🇺🇸 US | 🔴 | vless | @info_2it_channel | 10",
                 "❔ XX | 🟢 | vless | @iraniv2ray | 6",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
@@ -209,7 +211,7 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
@@ -477,6 +479,22 @@
                 "path": "/http",
                 "headers": {
                     "Host": "s16.leader21.top"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @info_2it_channel | 10",
+            "type": "vless",
+            "server": "COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK",
+            "server_port": 80,
+            "uuid": "9926ee97-4398-48dd-b263-2863c62f5c41",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560",
+                "headers": {
+                    "Host": "COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK"
                 }
             }
         },
@@ -1017,7 +1035,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
