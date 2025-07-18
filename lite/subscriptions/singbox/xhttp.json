@@ -102,7 +102,6 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
-                "🇳🇱 NL | 🟢 | vless | @lranonline_new | 12",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
             ],
             "interrupt_exist_connections": false
@@ -115,7 +114,6 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
-                "🇳🇱 NL | 🟢 | vless | @lranonline_new | 12",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -184,29 +182,6 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @lranonline_new | 12",
-            "type": "vless",
-            "server": "212.107.12.77",
-            "server_port": 11676,
-            "uuid": "4945bf8a-bde4-4d25-9004-ac8d947b951b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com:443",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LRRHR_xkAaA1sfRggwMUtiE4KcZKBaUnS_SGSSTTERA",
-                    "short_id": "a92c028967"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",

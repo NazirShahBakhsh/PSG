@@ -110,8 +110,7 @@
                 "🇳🇱 NL | 🟢 | ss | @v2aryng_vpn | 11",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
-                "🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7",
-                "🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 18"
+                "🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7"
             ],
             "interrupt_exist_connections": false
         },
@@ -131,8 +130,7 @@
                 "🇳🇱 NL | 🟢 | ss | @v2aryng_vpn | 11",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
-                "🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7",
-                "🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 18"
+                "🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -254,14 +252,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "R2UGad61FGO5"
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 18",
-            "type": "shadowsocks",
-            "server": "83.147.216.70",
-            "server_port": 64519,
-            "method": "chacha20-ietf-poly1305",
-            "password": "YXgS8ComTam7qoesPlzlMo"
         }
     ],
     "route": {

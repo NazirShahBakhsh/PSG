@@ -30,7 +30,6 @@ proxies:
   - {"name":"🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27","type":"ss","server":"94.131.123.147","port":7383,"password":"eSHEdJz96rqNkOCAzd5Csv","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱 PL | 🟢 | ss | @vipufovpn | 19","type":"ss","server":"54.36.174.181","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7","type":"ss","server":"194.87.31.68","port":443,"password":"R2UGad61FGO5","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 18","type":"ss","server":"83.147.216.70","port":64519,"password":"YXgS8ComTam7qoesPlzlMo","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -74,7 +73,6 @@ proxy-groups:
       - '🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 19'
       - '🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7'
-      - '🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 18'
 
   - name: 📉 Fallback
     type: fallback
@@ -94,7 +92,6 @@ proxy-groups:
       - '🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 19'
       - '🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7'
-      - '🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 18'
       
   - name: All-Proxies
     type: select
@@ -112,7 +109,6 @@ proxy-groups:
       - '🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 19'
       - '🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7'
-      - '🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 18'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
