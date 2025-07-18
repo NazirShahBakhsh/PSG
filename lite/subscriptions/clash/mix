@@ -21,7 +21,6 @@ proxies:
   - {"name":"🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10","type":"ss","server":"fin.outlinebot1.ru","port":5904,"password":"5TZnwPb23pQS39lIucspJw","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @bislullproxy | 18","type":"ss","server":"4.250.60.151","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🟢 | ss | @chestertm | 12","type":"ss","server":"freakconfig94.usecharge.ir","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧 GB | 🟢 | ss | @club_profsor | 15","type":"ss","server":"85.210.36.164","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🔴 | vmess | @configforvpn01 | 9","type":"vmess","server":"shahinnet-freenetcdn.melodyshopone2.ir","port":8080,"cipher":"auto","uuid":"96588912-3bcb-491c-8ce3-7a965bbec07f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sog.shahinnet.shop"}}}
   - {"name":"🇫🇷 FR | 🟢 | vmess | @configsstore | 7","type":"vmess","server":"193.187.175.111","port":8080,"cipher":"auto","uuid":"d874fd01-76ec-4aec-bc2e-c7d0f6a104e6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"google.com"}}}
   - {"name":"🇺🇸 US | 🟢 | ss | @free1_vpn | 11","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
@@ -96,7 +95,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '❔ XX | 🟢 | ss | @chestertm | 12'
-      - '🇬🇧 GB | 🟢 | ss | @club_profsor | 15'
       - '❔ XX | 🔴 | vmess | @configforvpn01 | 9'
       - '🇫🇷 FR | 🟢 | vmess | @configsstore | 7'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 11'
@@ -147,7 +145,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '❔ XX | 🟢 | ss | @chestertm | 12'
-      - '🇬🇧 GB | 🟢 | ss | @club_profsor | 15'
       - '❔ XX | 🔴 | vmess | @configforvpn01 | 9'
       - '🇫🇷 FR | 🟢 | vmess | @configsstore | 7'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 11'
@@ -196,7 +193,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 10'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '❔ XX | 🟢 | ss | @chestertm | 12'
-      - '🇬🇧 GB | 🟢 | ss | @club_profsor | 15'
       - '❔ XX | 🔴 | vmess | @configforvpn01 | 9'
       - '🇫🇷 FR | 🟢 | vmess | @configsstore | 7'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 11'
