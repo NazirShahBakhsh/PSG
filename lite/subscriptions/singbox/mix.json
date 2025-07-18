@@ -223,14 +223,14 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 16",
-                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇫🇮 FI | 🔴 | vless | @v2rayprotocol | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 16",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -406,14 +406,14 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 16",
-                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇫🇮 FI | 🔴 | vless | @v2rayprotocol | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 16",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -2489,7 +2489,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -2602,20 +2602,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 16",
             "type": "vless",
-            "server": "104.26.15.16",
-            "server_port": 2087,
-            "uuid": "785eaf35-ecb1-4d5f-8e0e-0a8363fae8af",
+            "server": "172.67.65.158",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bEAt.MIRaclETaxbiTS.Top.",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "/config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free?ed=2560",
+                "headers": {
+                    "Host": "172.67.65.158"
                 }
             }
         },

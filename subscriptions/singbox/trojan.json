@@ -117,10 +117,10 @@
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 5",
                 "🇯🇵 JP | 🟢 | trojan | @awlix_ir | 9",
+                "🇫🇷 FR | 🟢 | trojan | @configshubplus | 14",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 11",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 12",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
                 "🇺🇸 US | 🟢 | trojan | @dnsforyou | 8",
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
@@ -182,10 +182,10 @@
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 5",
                 "🇯🇵 JP | 🟢 | trojan | @awlix_ir | 9",
+                "🇫🇷 FR | 🟢 | trojan | @configshubplus | 14",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 11",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 12",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
                 "🇺🇸 US | 🟢 | trojan | @dnsforyou | 8",
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
@@ -599,6 +599,22 @@
             }
         },
         {
+            "tag": "🇫🇷 FR | 🟢 | trojan | @configshubplus | 14",
+            "type": "trojan",
+            "server": "52.47.64.164",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 11",
             "type": "trojan",
             "server": "52.47.166.182",
@@ -634,22 +650,6 @@
             "tag": "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
             "type": "trojan",
             "server": "63.180.0.166",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
-            "type": "trojan",
-            "server": "52.47.64.164",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
