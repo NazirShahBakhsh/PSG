@@ -99,11 +99,13 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇮🇷 IR | 🔴 | vless | @NamiraNet | 65",
                 "🇺🇸 US | 🟢 | vless | @azarbayjab1 | 8",
                 "🇺🇸 US | 🟢 | vless | @drvpn_net | 1",
                 "🇹🇷 TR | 🟢 | vless | @f_nirevil | 2",
                 "🇮🇷 IR | 🔴 | vless | @fasst_vpn | 0",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
+                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 11",
                 "🇸🇪 SE | 🔴 | vless | @free_vip3 | 6",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
@@ -138,7 +140,6 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -161,11 +162,13 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇮🇷 IR | 🔴 | vless | @NamiraNet | 65",
                 "🇺🇸 US | 🟢 | vless | @azarbayjab1 | 8",
                 "🇺🇸 US | 🟢 | vless | @drvpn_net | 1",
                 "🇹🇷 TR | 🟢 | vless | @f_nirevil | 2",
                 "🇮🇷 IR | 🔴 | vless | @fasst_vpn | 0",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
+                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 11",
                 "🇸🇪 SE | 🔴 | vless | @free_vip3 | 6",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
@@ -200,7 +203,6 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -239,6 +241,15 @@
             "server": "81.12.32.135",
             "server_port": 32990,
             "uuid": "a804bb53-7504-4f06-96d8-ff56fb71539d",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraNet | 65",
+            "type": "vless",
+            "server": "193.162.129.71",
+            "server_port": 28819,
+            "uuid": "e7b1b989-83db-4420-aa6a-fb9a6a3b24e9",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -351,6 +362,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "chessgame"
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🟢 | vless | @free1_vpn | 11",
+            "type": "vless",
+            "server": "213.183.41.63",
+            "server_port": 443,
+            "uuid": "3c631fef-c28c-4dfe-aacc-9e67ace7d5b3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "skyroom.online",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9tNnOU3bIHtyZfWaPv1J1ns78jDfzCdh6dRLjhQGlX8",
+                    "short_id": "1f"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "free"
             }
         },
         {
@@ -941,22 +979,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "116.202.177.190"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
-            "type": "vless",
-            "server": "104.16.85.3",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/6TvG8D6HimXKgdp2?ed=2560",
-                "headers": {
-                    "Host": "104.16.85.3"
                 }
             }
         },

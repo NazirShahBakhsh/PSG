@@ -99,6 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
+                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 11",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
@@ -116,6 +117,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
+                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 11",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
@@ -168,6 +170,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "chessgame"
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🟢 | vless | @free1_vpn | 11",
+            "type": "vless",
+            "server": "213.183.41.63",
+            "server_port": 443,
+            "uuid": "3c631fef-c28c-4dfe-aacc-9e67ace7d5b3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "skyroom.online",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9tNnOU3bIHtyZfWaPv1J1ns78jDfzCdh6dRLjhQGlX8",
+                    "short_id": "1f"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "free"
             }
         },
         {

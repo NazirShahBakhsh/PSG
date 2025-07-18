@@ -18,6 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14","type":"trojan","server":"13.37.64.205","port":22223,"password":"telegram-id-v2rayvpnchannel","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🟢 | trojan | @v2rayweb | 18","type":"trojan","server":"3.220.236.149","port":22222,"password":"telegram-id-directvpn","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @webhube | 4","type":"trojan","server":"15.204.175.111","port":2083,"password":"t2WqbIW2JE","skip-cert-verify":false}
 
 rule-providers:
@@ -50,6 +51,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14'
+      - '🇺🇸 US | 🟢 | trojan | @v2rayweb | 18'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
 
   - name: 📉 Fallback
@@ -58,12 +60,14 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14'
+      - '🇺🇸 US | 🟢 | trojan | @v2rayweb | 18'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14'
+      - '🇺🇸 US | 🟢 | trojan | @v2rayweb | 18'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
 
 rules:
