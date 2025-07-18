@@ -106,7 +106,7 @@
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
-                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 12",
+                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 11",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
@@ -122,8 +122,10 @@
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇵🇹 PT | 🟢 | ss | @shadowsockskeys | 14",
                 "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 2",
+                "🇷🇺 RU | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
+                "🇭🇰 HK | 🟢 | ss | @v2raych | 15",
                 "🇳🇱 NL | 🟢 | ss | @v2rayngrit | 11",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 26",
@@ -147,7 +149,7 @@
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
-                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 12",
+                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 11",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
@@ -163,8 +165,10 @@
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇵🇹 PT | 🟢 | ss | @shadowsockskeys | 14",
                 "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 2",
+                "🇷🇺 RU | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
+                "🇭🇰 HK | 🟢 | ss | @v2raych | 15",
                 "🇳🇱 NL | 🟢 | ss | @v2rayngrit | 11",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 26",
@@ -256,7 +260,7 @@
             "password": "7ivrGEHY88sQk3DP"
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 12",
+            "tag": "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 11",
             "type": "shadowsocks",
             "server": "sg.outlinekeys.net",
             "server_port": 52252,
@@ -384,6 +388,14 @@
             "password": "1xO2cqPazqjGfCfd"
         },
         {
+            "tag": "🇷🇺 RU | 🟢 | ss | @v2ray_free_conf | 19",
+            "type": "shadowsocks",
+            "server": "ct.uigame.space",
+            "server_port": 2024,
+            "method": "chacha20-ietf-poly1305",
+            "password": "33LpoU8X/xHnCD+cbNe+7p0pK/JngDLM+5+RILrxyfVFRW/niKz5Eu0rWyVcDho="
+        },
+        {
             "tag": "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
             "type": "shadowsocks",
             "server": "series-a1.samanehha.co",
@@ -398,6 +410,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c"
+        },
+        {
+            "tag": "🇭🇰 HK | 🟢 | ss | @v2raych | 15",
+            "type": "shadowsocks",
+            "server": "db59a98b.b8z9y9a5g9-fb-hk18.6pzfwf.com",
+            "server_port": 56018,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ZpeGa4"
         },
         {
             "tag": "🇳🇱 NL | 🟢 | ss | @v2rayngrit | 11",
