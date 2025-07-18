@@ -102,10 +102,9 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 14",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 16",
-                "🇺🇸 US | 🟢 | vless | @configx2ray | 11",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
-                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 18",
+                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 3",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 4",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 5",
@@ -113,7 +112,6 @@
                 "🇳🇱 NL | 🟢 | vless | @irv2rey | 7",
                 "🇺🇸 US | 🔴 | vless | @komail315 | 1",
                 "🇺🇸 US | 🔴 | vless | @lexernet | 7",
-                "🇳🇱 NL | 🔴 | vless | @manzariyeh_rasht | 22",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
@@ -125,6 +123,7 @@
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
                 "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 9",
                 "🇺🇸 US | 🔴 | vless | @v2ray_one1 | 9",
+                "🇹🇷 TR | 🔴 | vless | @v2raych | 15",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 4",
@@ -146,10 +145,9 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 14",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 16",
-                "🇺🇸 US | 🟢 | vless | @configx2ray | 11",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
-                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 18",
+                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 3",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 4",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 5",
@@ -157,7 +155,6 @@
                 "🇳🇱 NL | 🟢 | vless | @irv2rey | 7",
                 "🇺🇸 US | 🔴 | vless | @komail315 | 1",
                 "🇺🇸 US | 🔴 | vless | @lexernet | 7",
-                "🇳🇱 NL | 🔴 | vless | @manzariyeh_rasht | 22",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🟢 | vless | @proxie | 12",
@@ -169,6 +166,7 @@
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
                 "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 9",
                 "🇺🇸 US | 🔴 | vless | @v2ray_one1 | 9",
+                "🇹🇷 TR | 🔴 | vless | @v2raych | 15",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 4",
@@ -234,24 +232,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @configx2ray | 11",
-            "type": "vless",
-            "server": "104.21.48.1",
-            "server_port": 2083,
-            "uuid": "c4e6a6ef-d782-4a12-a38a-906a61ee5bc1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cho.chonon.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
             "type": "vless",
             "server": "151.101.3.8",
@@ -279,7 +259,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 18",
+            "tag": "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
@@ -361,15 +341,6 @@
             "server": "151.101.67.8",
             "server_port": 80,
             "uuid": "turboo-server",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔴 | vless | @manzariyeh_rasht | 22",
-            "type": "vless",
-            "server": "77.110.103.21",
-            "server_port": 50810,
-            "uuid": "72059c29-a302-4bbd-a67a-ed0119fb754e",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -561,6 +532,15 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "07af2138-82f3-44e2-8ee6-4b236468d1d8",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇹🇷 TR | 🔴 | vless | @v2raych | 15",
+            "type": "vless",
+            "server": "46.31.76.99",
+            "server_port": 31465,
+            "uuid": "d08244b0-2180-43be-b4ec-0a6cd90867cb",
             "flow": "",
             "packet_encoding": "xudp"
         },

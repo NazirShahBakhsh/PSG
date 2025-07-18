@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇷 FR | 🟢 | ss | @argo_vpn1 | 11","type":"ss","server":"77.105.166.12","port":8594,"password":"mSQiuT5jR17nyWgcXOPrTW","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @argo_vpn1 | 12","type":"ss","server":"92.112.126.90","port":443,"password":"9tqhMdIrTkgQ46PvhyAtMH","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @bislullproxy | 18","type":"ss","server":"4.250.60.151","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🟢 | ss | @free1_vpn | 10","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @megavpn_link | 14","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
@@ -60,7 +60,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇷 FR | 🟢 | ss | @argo_vpn1 | 11'
+      - '🇳🇱 NL | 🟢 | ss | @argo_vpn1 | 12'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 10'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
@@ -79,7 +79,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇷 FR | 🟢 | ss | @argo_vpn1 | 11'
+      - '🇳🇱 NL | 🟢 | ss | @argo_vpn1 | 12'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 10'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
@@ -96,7 +96,7 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇷 FR | 🟢 | ss | @argo_vpn1 | 11'
+      - '🇳🇱 NL | 🟢 | ss | @argo_vpn1 | 12'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 10'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
