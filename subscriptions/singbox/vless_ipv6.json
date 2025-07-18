@@ -112,7 +112,6 @@
                 "❔ XX | 🟢 | vless | @kesslervpn | 1",
                 "❔ XX | 🔴 | vless | @parsashonam | 29",
                 "❔ XX | 🔴 | vless | @parsashonam | 31",
-                "❔ XX | 🔴 | vless | @v2raych | 16",
                 "❔ XX | 🟢 | vless | @v2raytg | 73",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 6",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 8",
@@ -139,7 +138,6 @@
                 "❔ XX | 🟢 | vless | @kesslervpn | 1",
                 "❔ XX | 🔴 | vless | @parsashonam | 29",
                 "❔ XX | 🔴 | vless | @parsashonam | 31",
-                "❔ XX | 🔴 | vless | @v2raych | 16",
                 "❔ XX | 🟢 | vless | @v2raytg | 73",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 6",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 8",
@@ -421,19 +419,6 @@
             "uuid": "Parsashonam-285",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔴 | vless | @v2raych | 16",
-            "type": "vless",
-            "server": "[0:0:0:0:0:ffff:2d59:37bc]",
-            "server_port": 8880,
-            "uuid": "20b8144c-3c72-58b5-b46e-735082b9210a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "vless-grpc"
-            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @v2raytg | 73",

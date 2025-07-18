@@ -20,7 +20,6 @@ proxies:
   - {"name":"🇬🇧 GB | 🟢 | ss | @bislullproxy | 18","type":"ss","server":"4.250.60.151","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🟢 | ss | @free1_vpn | 10","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @megavpn_link | 14","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇮 FI | 🟢 | ss | @meli_proxyy | 23","type":"ss","server":"83.147.216.70","port":64519,"password":"YXgS8ComTam7qoesPlzlMo","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @novinology | 16","type":"ss","server":"13.87.74.71","port":14564,"password":"Q1qlRknoN9PwGeExWVyTKg","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🟢 | ss | @orange_vpns | 17","type":"ss","server":"193.29.139.202","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇪🇸 ES | 🟢 | ss | @outlineopenkey | 8","type":"ss","server":"194.87.45.189","port":443,"password":"qsqlug7Gt3pO33M475rsGt","cipher":"chacha20-ietf-poly1305"}
@@ -30,6 +29,8 @@ proxies:
   - {"name":"🇳🇱 NL | 🟢 | ss | @v2aryng_vpn | 11","type":"ss","server":"213.109.147.242","port":62685,"password":"VpKABcOpNNA0l5G2AVOmw8","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27","type":"ss","server":"94.131.123.147","port":7383,"password":"eSHEdJz96rqNkOCAzd5Csv","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱 PL | 🟢 | ss | @vipufovpn | 19","type":"ss","server":"54.36.174.181","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7","type":"ss","server":"194.87.31.68","port":443,"password":"R2UGad61FGO5","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 18","type":"ss","server":"83.147.216.70","port":64519,"password":"YXgS8ComTam7qoesPlzlMo","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -63,7 +64,6 @@ proxy-groups:
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 10'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
-      - '🇫🇮 FI | 🟢 | ss | @meli_proxyy | 23'
       - '🇬🇧 GB | 🟢 | ss | @novinology | 16'
       - '🇳🇱 NL | 🟢 | ss | @orange_vpns | 17'
       - '🇪🇸 ES | 🟢 | ss | @outlineopenkey | 8'
@@ -73,6 +73,8 @@ proxy-groups:
       - '🇳🇱 NL | 🟢 | ss | @v2aryng_vpn | 11'
       - '🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 19'
+      - '🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7'
+      - '🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 18'
 
   - name: 📉 Fallback
     type: fallback
@@ -82,7 +84,6 @@ proxy-groups:
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 10'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
-      - '🇫🇮 FI | 🟢 | ss | @meli_proxyy | 23'
       - '🇬🇧 GB | 🟢 | ss | @novinology | 16'
       - '🇳🇱 NL | 🟢 | ss | @orange_vpns | 17'
       - '🇪🇸 ES | 🟢 | ss | @outlineopenkey | 8'
@@ -92,6 +93,8 @@ proxy-groups:
       - '🇳🇱 NL | 🟢 | ss | @v2aryng_vpn | 11'
       - '🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 19'
+      - '🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7'
+      - '🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 18'
       
   - name: All-Proxies
     type: select
@@ -99,7 +102,6 @@ proxy-groups:
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 10'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
-      - '🇫🇮 FI | 🟢 | ss | @meli_proxyy | 23'
       - '🇬🇧 GB | 🟢 | ss | @novinology | 16'
       - '🇳🇱 NL | 🟢 | ss | @orange_vpns | 17'
       - '🇪🇸 ES | 🟢 | ss | @outlineopenkey | 8'
@@ -109,6 +111,8 @@ proxy-groups:
       - '🇳🇱 NL | 🟢 | ss | @v2aryng_vpn | 11'
       - '🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 19'
+      - '🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7'
+      - '🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 18'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

@@ -109,7 +109,6 @@
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇺🇸 US | 🟢 | ss | @free1_vpn | 10",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
-                "🇫🇮 FI | 🟢 | ss | @meli_proxyy | 23",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
                 "🇳🇱 NL | 🟢 | ss | @orange_vpns | 17",
                 "🇪🇸 ES | 🟢 | ss | @outlineopenkey | 8",
@@ -119,6 +118,8 @@
                 "🇳🇱 NL | 🟢 | ss | @v2aryng_vpn | 11",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
+                "🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7",
+                "🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 18",
                 "❔ XX | 🟢 | ss | @free_omega | 4"
             ],
             "interrupt_exist_connections": false
@@ -138,7 +139,6 @@
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇺🇸 US | 🟢 | ss | @free1_vpn | 10",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
-                "🇫🇮 FI | 🟢 | ss | @meli_proxyy | 23",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
                 "🇳🇱 NL | 🟢 | ss | @orange_vpns | 17",
                 "🇪🇸 ES | 🟢 | ss | @outlineopenkey | 8",
@@ -148,6 +148,8 @@
                 "🇳🇱 NL | 🟢 | ss | @v2aryng_vpn | 11",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
+                "🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7",
+                "🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 18",
                 "❔ XX | 🟢 | ss | @free_omega | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -256,14 +258,6 @@
             "password": "Bog0ELmMM9DSxDdQ"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | ss | @meli_proxyy | 23",
-            "type": "shadowsocks",
-            "server": "83.147.216.70",
-            "server_port": 64519,
-            "method": "chacha20-ietf-poly1305",
-            "password": "YXgS8ComTam7qoesPlzlMo"
-        },
-        {
             "tag": "🇬🇧 GB | 🟢 | ss | @novinology | 16",
             "type": "shadowsocks",
             "server": "13.87.74.71",
@@ -334,6 +328,22 @@
             "server_port": 5601,
             "method": "aes-256-gcm",
             "password": "Y6R9pAtvxxzmGC"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7",
+            "type": "shadowsocks",
+            "server": "194.87.31.68",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "R2UGad61FGO5"
+        },
+        {
+            "tag": "🇫🇮 FI | 🟢 | ss | @vpnv2rayngv | 18",
+            "type": "shadowsocks",
+            "server": "83.147.216.70",
+            "server_port": 64519,
+            "method": "chacha20-ietf-poly1305",
+            "password": "YXgS8ComTam7qoesPlzlMo"
         },
         {
             "tag": "❔ XX | 🟢 | ss | @free_omega | 4",
