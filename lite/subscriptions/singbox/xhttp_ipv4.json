@@ -98,6 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇳🇱 NL | 🟢 | vless | @lranonline_new | 12",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
             ],
             "interrupt_exist_connections": false
@@ -106,6 +107,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇳🇱 NL | 🟢 | vless | @lranonline_new | 12",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -124,6 +126,29 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @lranonline_new | 12",
+            "type": "vless",
+            "server": "212.107.12.77",
+            "server_port": 11676,
+            "uuid": "4945bf8a-bde4-4d25-9004-ac8d947b951b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com:443",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LRRHR_xkAaA1sfRggwMUtiE4KcZKBaUnS_SGSSTTERA",
+                    "short_id": "a92c028967"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
