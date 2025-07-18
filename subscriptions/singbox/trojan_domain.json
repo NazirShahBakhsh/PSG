@@ -100,8 +100,6 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇺🇸 US | 🔴 | trojan | @configshubplus | 14",
-                "🇺🇸 US | 🔴 | trojan | @configshubplus | 15",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -127,8 +125,6 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇺🇸 US | 🔴 | trojan | @configshubplus | 14",
-                "🇺🇸 US | 🔴 | trojan | @configshubplus | 15",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -197,38 +193,6 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | trojan | @configshubplus | 14",
-            "type": "trojan",
-            "server": "jobscareerfortoday.com",
-            "server_port": 443,
-            "password": "f0eb8c92ce8946aaba856569cff1a16b",
-            "tls": {
-                "enabled": true,
-                "server_name": "jobscareerfortoday.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | trojan | @configshubplus | 15",
-            "type": "trojan",
-            "server": "jobscareertoday.com",
-            "server_port": 443,
-            "password": "669d0ac7b5b64ebbb1abb75d5d540a5c",
-            "tls": {
-                "enabled": true,
-                "server_name": "jobscareertoday.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
