@@ -113,8 +113,8 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇫🇷 FR | 🟢 | trojan | @v2raych | 17",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
-                "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 17",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 5"
             ],
@@ -139,8 +139,8 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇫🇷 FR | 🟢 | trojan | @v2raych | 17",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
-                "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 17",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 5"
             ],
@@ -450,6 +450,17 @@
             }
         },
         {
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2raych | 17",
+            "type": "trojan",
+            "server": "join-dailyconfigs.resurrection-time.sbs",
+            "server_port": 56807,
+            "password": "rhSacvSrrW",
+            "transport": {
+                "type": "grpc",
+                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2060"
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
             "type": "trojan",
             "server": "170-187-134-190.ipv4.rush.ml",
@@ -458,22 +469,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "170-187-134-190.ipv4.rush.ml",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 17",
-            "type": "trojan",
-            "server": "pt.mjt000.com",
-            "server_port": 443,
-            "password": "84587c21-9938-42fc-a4b0-4f72dd72b7aa",
-            "tls": {
-                "enabled": true,
-                "server_name": "pt.mjt000.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

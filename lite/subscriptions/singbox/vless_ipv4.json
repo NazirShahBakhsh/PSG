@@ -120,7 +120,7 @@
                 "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 3",
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 12",
+                "🇺🇸 US | 🟢 | vless | @satellitenewspersian | 12",
                 "🇺🇸 US | 🔴 | vless | @selinc | 8",
                 "🇺🇸 US | 🟢 | vless | @sobi_vpn | 9",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -138,6 +138,7 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -181,7 +182,7 @@
                 "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 3",
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 12",
+                "🇺🇸 US | 🟢 | vless | @satellitenewspersian | 12",
                 "🇺🇸 US | 🔴 | vless | @selinc | 8",
                 "🇺🇸 US | 🟢 | vless | @sobi_vpn | 9",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -199,6 +200,7 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -623,18 +625,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 12",
+            "tag": "🇺🇸 US | 🟢 | vless | @satellitenewspersian | 12",
             "type": "vless",
-            "server": "141.101.121.108",
-            "server_port": 8080,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "server": "172.66.47.61",
+            "server_port": 8443,
+            "uuid": "a396b860-11b7-4af3-9950-146caf79735e",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "gghdfa.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/?ed=2048",
+                "path": "/8WuhXm4QjK0L68Uf?ed=2560",
                 "headers": {
-                    "Host": "141.101.121.108"
+                    "Host": "gghdfa.pages.dev"
                 }
             }
         },
@@ -930,6 +941,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "116.202.177.190"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
+            "type": "vless",
+            "server": "104.16.85.3",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/6TvG8D6HimXKgdp2?ed=2560",
+                "headers": {
+                    "Host": "104.16.85.3"
                 }
             }
         },

@@ -105,9 +105,9 @@
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
-                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 10",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
+                "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 12",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -145,9 +145,9 @@
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
-                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 10",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
+                "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 12",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -246,14 +246,6 @@
             "password": "7ivrGEHY88sQk3DP"
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 10",
-            "type": "shadowsocks",
-            "server": "sg.outlinekeys.net",
-            "server_port": 52252,
-            "method": "chacha20-ietf-poly1305",
-            "password": "AL1OcAYWo7T0PfhcnJgAbu"
-        },
-        {
             "tag": "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
@@ -268,6 +260,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "AcGFEsMR6c07Txux"
+        },
+        {
+            "tag": "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 12",
+            "type": "shadowsocks",
+            "server": "azure-sto.edgeservers.org",
+            "server_port": 48172,
+            "method": "chacha20-ietf-poly1305",
+            "password": "51yloQC8D9w1Wae7FHtI65"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
