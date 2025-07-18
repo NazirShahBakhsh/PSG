@@ -100,8 +100,8 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | vless | @deli_servers | 1",
                 "❔ XX | 🟢 | vless | @fire_vpn_channel | 0",
+                "❔ XX | 🔴 | vless | @freevpnatm | 11",
                 "❔ XX | 🔴 | vless | @freevpnatm | 12",
-                "❔ XX | 🔴 | vless | @freevpnatm | 13",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 6",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 9",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 10",
@@ -126,8 +126,8 @@
             "outbounds": [
                 "❔ XX | 🟢 | vless | @deli_servers | 1",
                 "❔ XX | 🟢 | vless | @fire_vpn_channel | 0",
+                "❔ XX | 🔴 | vless | @freevpnatm | 11",
                 "❔ XX | 🔴 | vless | @freevpnatm | 12",
-                "❔ XX | 🔴 | vless | @freevpnatm | 13",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 6",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 9",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 10",
@@ -212,7 +212,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @freevpnatm | 12",
+            "tag": "❔ XX | 🔴 | vless | @freevpnatm | 11",
             "type": "vless",
             "server": "[2606:4700:3035::6815:5bb4]",
             "server_port": 443,
@@ -237,7 +237,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @freevpnatm | 13",
+            "tag": "❔ XX | 🔴 | vless | @freevpnatm | 12",
             "type": "vless",
             "server": "[2606:4700:3034::ac43:d14f]",
             "server_port": 443,

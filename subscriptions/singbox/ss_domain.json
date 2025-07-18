@@ -109,6 +109,7 @@
                 "🇬🇧 GB | 🟢 | ss | @fastvpnorummobile | 0",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
+                "❔ XX | 🟢 | ss | @hope_net | 18",
                 "🇬🇧 GB | 🟢 | ss | @ip_cf_config | 4",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
@@ -149,6 +150,7 @@
                 "🇬🇧 GB | 🟢 | ss | @fastvpnorummobile | 0",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @hacknashid | 0",
+                "❔ XX | 🟢 | ss | @hope_net | 18",
                 "🇬🇧 GB | 🟢 | ss | @ip_cf_config | 4",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
@@ -276,6 +278,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "AcGFEsMR6c07Txux"
+        },
+        {
+            "tag": "❔ XX | 🟢 | ss | @hope_net | 18",
+            "type": "shadowsocks",
+            "server": "gdgs.tarioblink.me",
+            "server_port": 30002,
+            "method": "chacha20-ietf-poly1305",
+            "password": "5b3f0c6a-7b91-4437-bf4b-008c86e512ed"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @ip_cf_config | 4",
