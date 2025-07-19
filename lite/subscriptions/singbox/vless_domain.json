@@ -98,6 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸 US | 🟢 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
@@ -144,6 +145,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 16",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -153,7 +155,6 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
-                "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 19",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -167,6 +168,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸 US | 🟢 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
@@ -213,6 +215,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 16",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -222,7 +225,6 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
-                "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 19",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -246,6 +248,31 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraNet | 69",
+            "type": "vless",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 443,
+            "uuid": "80128acc-ff7f-41fe-af34-62f4108635ca",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "638880231667527799.madrid-prx-dnraaao.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/jzkedews",
+                "headers": {
+                    "Host": "638880231667527799.madrid-prx-dnraaao.info"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -1097,6 +1124,22 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 16",
+            "type": "vless",
+            "server": "join.vizzpn.telegram.for.more.freevpn.vizzfrag.ir",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Etb1L6YUdZFZuTOr?ed=2560",
+                "headers": {
+                    "Host": "join.vizzpn.telegram.for.more.freevpn.vizzfrag.ir"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
             "type": "vless",
             "server": "www.parsvds.ir",
@@ -1240,15 +1283,6 @@
                     "Host": "fishlab.ucdavis.edu"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 19",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "Telegram-MsV2ray",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @wbrovers | 0",

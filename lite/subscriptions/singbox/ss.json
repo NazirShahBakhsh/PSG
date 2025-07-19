@@ -98,11 +98,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇪🇸 ES | 🟢 | ss | @argo_vpn1 | 11",
+                "🇪🇸 ES | 🟢 | ss | @argo_vpn1 | 10",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
-                "🇩🇪 DE | 🟢 | ss | @outlineopenkey | 9",
+                "🇬🇧 GB | 🟢 | ss | @outlineopenkey | 10",
                 "🇫🇮 FI | 🟢 | ss | @strongprotocol | 10",
                 "🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21",
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
@@ -124,11 +124,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇪🇸 ES | 🟢 | ss | @argo_vpn1 | 11",
+                "🇪🇸 ES | 🟢 | ss | @argo_vpn1 | 10",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
-                "🇩🇪 DE | 🟢 | ss | @outlineopenkey | 9",
+                "🇬🇧 GB | 🟢 | ss | @outlineopenkey | 10",
                 "🇫🇮 FI | 🟢 | ss | @strongprotocol | 10",
                 "🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21",
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
@@ -162,7 +162,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇪🇸 ES | 🟢 | ss | @argo_vpn1 | 11",
+            "tag": "🇪🇸 ES | 🟢 | ss | @argo_vpn1 | 10",
             "type": "shadowsocks",
             "server": "194.87.45.189",
             "server_port": 443,
@@ -194,12 +194,12 @@
             "password": "Q1qlRknoN9PwGeExWVyTKg"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | ss | @outlineopenkey | 9",
+            "tag": "🇬🇧 GB | 🟢 | ss | @outlineopenkey | 10",
             "type": "shadowsocks",
-            "server": "81.19.141.45",
+            "server": "89.185.84.185",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "3GFx9Fh0eWZtEnJoRsOQvy"
+            "password": "d4GSHcTfCYNIpz7d6EyTQy"
         },
         {
             "tag": "🇫🇮 FI | 🟢 | ss | @strongprotocol | 10",
