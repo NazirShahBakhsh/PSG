@@ -128,6 +128,7 @@
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
                 "🇱🇹 LT | 🔴 | vless | @u7kll | 0",
+                "🇺🇸 US | 🟢 | vless | @uvpn_org | 3",
                 "🇷🇺 RU | 🔴 | vless | @v2aryng_vpn | 11",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "🇺🇸 US | 🔴 | vless | @v2pedia | 15",
@@ -150,7 +151,6 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
-                "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 17",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -194,6 +194,7 @@
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
                 "🇱🇹 LT | 🔴 | vless | @u7kll | 0",
+                "🇺🇸 US | 🟢 | vless | @uvpn_org | 3",
                 "🇷🇺 RU | 🔴 | vless | @v2aryng_vpn | 11",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "🇺🇸 US | 🔴 | vless | @v2pedia | 15",
@@ -216,7 +217,6 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
-                "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 17",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -773,6 +773,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🟢 | vless | @uvpn_org | 3",
+            "type": "vless",
+            "server": "tunclud.speedx3net.ir",
+            "server_port": 443,
+            "uuid": "02068791-ce3d-40ab-8d3c-cbd4a7d1d9cd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tunclud.speedx3net.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇷🇺 RU | 🔴 | vless | @v2aryng_vpn | 11",
             "type": "vless",
             "server": "gervip.midnight1.top",
@@ -1173,22 +1191,6 @@
                 "path": "/@VPNCUSTOMIZE-----@VPNCUSTOMIZE-----@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE?ed=2560",
                 "headers": {
                     "Host": "fishlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 17",
-            "type": "vless",
-            "server": "chat.deepseek.com",
-            "server_port": 80,
-            "uuid": "cec135d5-fcce-4c9e-c5f4-d94744055291",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/olem/ws?ed=1024",
-                "headers": {
-                    "Host": "chat.deepseek.com"
                 }
             }
         },

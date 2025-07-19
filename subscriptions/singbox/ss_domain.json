@@ -105,7 +105,6 @@
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
-                "🇩🇪 DE | 🟢 | ss | @ip_cf_config | 11",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -119,7 +118,7 @@
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇵🇹 PT | 🟢 | ss | @shadowsockskeys | 14",
                 "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 2",
-                "🇩🇪 DE | 🟢 | ss | @v2ray_free_conf | 19",
+                "🇩🇪 DE | 🟢 | ss | @v2ray_free_conf | 15",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
@@ -143,7 +142,6 @@
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
-                "🇩🇪 DE | 🟢 | ss | @ip_cf_config | 11",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -157,7 +155,7 @@
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇵🇹 PT | 🟢 | ss | @shadowsockskeys | 14",
                 "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 2",
-                "🇩🇪 DE | 🟢 | ss | @v2ray_free_conf | 19",
+                "🇩🇪 DE | 🟢 | ss | @v2ray_free_conf | 15",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
@@ -240,14 +238,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | ss | @ip_cf_config | 11",
-            "type": "shadowsocks",
-            "server": "fin.outlinebot1.ru",
-            "server_port": 5904,
-            "method": "chacha20-ietf-poly1305",
-            "password": "5TZnwPb23pQS39lIucspJw"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
@@ -354,7 +344,7 @@
             "password": "1xO2cqPazqjGfCfd"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | ss | @v2ray_free_conf | 19",
+            "tag": "🇩🇪 DE | 🟢 | ss | @v2ray_free_conf | 15",
             "type": "shadowsocks",
             "server": "de.vpnsparta.pro",
             "server_port": 57456,

@@ -45,6 +45,7 @@ proxies:
   - {"name":"🇺🇸 US | 🔴 | vless | @shahedtec | 4","type":"vless","server":"shahed2.novintecc.org","port":8080,"uuid":"a04be978-3b21-42cf-a80c-4832894d26f0","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shahed2.novintecc.org"}}}
   - {"name":"🇮🇷 IR | 🔴 | vless | @tobevasl | 16","type":"vless","server":"1conf.top","port":3333,"uuid":"7d283c1a-3a5b-4b2a-a924-0bd256e89726","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇱🇹 LT | 🔴 | vless | @u7kll | 0","type":"vless","server":"speed.erfanraki.shop","port":27970,"uuid":"e378f6d0-ad2c-47e2-9c0a-e49eddd1687a","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @uvpn_org | 3","type":"vless","server":"tunclud.speedx3net.ir","port":443,"uuid":"02068791-ce3d-40ab-8d3c-cbd4a7d1d9cd","tls":true,"network":"httpupgrade","client-fingerprint":"chrome","udp":true}
   - {"name":"🇷🇺 RU | 🔴 | vless | @v2aryng_vpn | 11","type":"vless","server":"gervip.midnight1.top","port":300,"uuid":"9b76e072-4c99-459a-ba9d-53479a665110","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🔴 | vless | @v2pedia | 15","type":"vless","server":"www.speedtest.net","port":80,"uuid":"28ec01eb-1683-4e4e-a766-4d6123350942","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/ali","headers":{"Host":"www.speedtest.net.b.1.speedtest2029.com.v2logy.ir."}}}
   - {"name":"❔ XX | 🔴 | vless | @v2ray03 | 4","type":"vless","server":"irtest.xiliservice.lol","port":80,"uuid":"d10fae09-dd50-4067-90cf-f3e09eb9c206","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
@@ -129,6 +130,7 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vless | @shahedtec | 4'
       - '🇮🇷 IR | 🔴 | vless | @tobevasl | 16'
       - '🇱🇹 LT | 🔴 | vless | @u7kll | 0'
+      - '🇺🇸 US | 🟢 | vless | @uvpn_org | 3'
       - '🇷🇺 RU | 🔴 | vless | @v2aryng_vpn | 11'
       - '🇺🇸 US | 🔴 | vless | @v2pedia | 15'
       - '❔ XX | 🔴 | vless | @v2ray03 | 4'
@@ -189,6 +191,7 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vless | @shahedtec | 4'
       - '🇮🇷 IR | 🔴 | vless | @tobevasl | 16'
       - '🇱🇹 LT | 🔴 | vless | @u7kll | 0'
+      - '🇺🇸 US | 🟢 | vless | @uvpn_org | 3'
       - '🇷🇺 RU | 🔴 | vless | @v2aryng_vpn | 11'
       - '🇺🇸 US | 🔴 | vless | @v2pedia | 15'
       - '❔ XX | 🔴 | vless | @v2ray03 | 4'
@@ -247,6 +250,7 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vless | @shahedtec | 4'
       - '🇮🇷 IR | 🔴 | vless | @tobevasl | 16'
       - '🇱🇹 LT | 🔴 | vless | @u7kll | 0'
+      - '🇺🇸 US | 🟢 | vless | @uvpn_org | 3'
       - '🇷🇺 RU | 🔴 | vless | @v2aryng_vpn | 11'
       - '🇺🇸 US | 🔴 | vless | @v2pedia | 15'
       - '❔ XX | 🔴 | vless | @v2ray03 | 4'

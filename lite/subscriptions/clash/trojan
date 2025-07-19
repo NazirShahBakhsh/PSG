@@ -17,11 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🔴 | trojan | @NamiraNet | 69","type":"trojan","server":"jobsfortheworldtoday.com","port":443,"password":"71409d3e488548e8bb076d229778f008","skip-cert-verify":true}
   - {"name":"❔ XX | 🟢 | trojan | @maradona_vpn | 8","type":"trojan","server":"maradona_vpn.history-paint.art","port":443,"password":"Maradona_vpn","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6","type":"trojan","server":"de1.test3.net","port":443,"password":"b8841c50-c3ad-11ee-9be0-1239d0255272","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19","type":"trojan","server":"35.181.156.239","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
-  - {"name":"🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 13","type":"trojan","server":"3.65.111.43","port":22223,"password":"telegram-id-v2rayvpnchannel","skip-cert-verify":false}
+  - {"name":"🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13","type":"trojan","server":"13.36.29.76","port":22223,"password":"telegram-id-v2rayvpnchannel","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @webhube | 4","type":"trojan","server":"15.204.175.111","port":2083,"password":"t2WqbIW2JE","skip-cert-verify":false}
 
 rule-providers:
@@ -53,11 +52,10 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🔴 | trojan | @NamiraNet | 69'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       - '🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6'
       - '🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19'
-      - '🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 13'
+      - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
 
   - name: 📉 Fallback
@@ -65,21 +63,19 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🔴 | trojan | @NamiraNet | 69'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       - '🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6'
       - '🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19'
-      - '🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 13'
+      - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🔴 | trojan | @NamiraNet | 69'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       - '🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6'
       - '🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19'
-      - '🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 13'
+      - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
 
 rules:
