@@ -101,7 +101,6 @@
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 18",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "interrupt_exist_connections": false
@@ -113,7 +112,6 @@
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 18",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -175,22 +173,6 @@
             "server": "13.37.64.205",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayweb | 18",
-            "type": "trojan",
-            "server": "3.220.236.149",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",

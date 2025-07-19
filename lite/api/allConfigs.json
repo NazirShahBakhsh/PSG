@@ -406,15 +406,6 @@
     },
     {
         "channel": {
-            "username": "kingofilter",
-            "title": "خدمات کینگو فیلتر | فیلترشکن رایگان",
-            "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/kingofilter.jpg"
-        },
-        "type": "vless",
-        "config": "vless://31cebb90-917e-4bf4-9f2c-8ec4e35b286d@5.223.68.198:80?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40kingofilter%20%7C%205"
-    },
-    {
-        "channel": {
             "username": "kurdistan_vpn_perfectt",
             "title": "Kurdistan_Vpn",
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/kurdistan_vpn_perfectt.jpg"
@@ -1158,7 +1149,7 @@
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayngrit.jpg"
         },
         "type": "reality",
-        "config": "vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@amazon-4.cristiano.name.ng:443?security=reality&encryption=none&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=store.steampowered.com&sid=f5#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%F0%9F%9F%A2%20%7C%20vless%20%7C%20%40v2rayngrit%20%7C%2015"
+        "config": "vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@amazon-4.cristiano.name.ng:443?security=reality&encryption=none&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=store.steampowered.com&sid=f5#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%F0%9F%9F%A2%20%7C%20vless%20%7C%20%40v2rayngrit%20%7C%2015"
     },
     {
         "channel": {
@@ -1220,8 +1211,8 @@
             "title": "V2ray | VPN",
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
         },
-        "type": "trojan",
-        "config": "trojan://telegram-id-directvpn@3.220.236.149:22222?security=tls&sni=trojan.burgerip.co.uk&type=tcp&alpn=http%2F1.1#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%F0%9F%9F%A2%20%7C%20trojan%20%7C%20%40v2rayweb%20%7C%2018"
+        "type": "reality",
+        "config": "vless://0ee990e4-d854-483f-ac4b-d920d0909601@cellone.learn-new.ir:443?security=reality&alpn=http%2F1.1&encryption=none&pbk=ikTKkSZZZ18NraMIwbLCP8ln6NmsD77VTSKWTESIOAk&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=khanacademy.org&sid=6acf3ba5790e4324#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%9F%A2%20%7C%20vless%20%7C%20%40v2rayweb%20%7C%2018"
     },
     {
         "channel": {
@@ -1617,6 +1608,6 @@
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/zvpnn.jpg"
         },
         "type": "vless",
-        "config": "vless://e7cc66ec-4b16-42c9-bbc8-20283e67d656@power.dlmoviz.ir:2020?security=none&encryption=none&host=Soft98.ir&headerType=http&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40zvpnn%20%7C%207"
+        "config": "vless://e7cc66ec-4b16-42c9-bbc8-20283e67d656@power.dlmoviz.ir:2020?security=none&encryption=none&host=Soft98.ir&headerType=http&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40zvpnn%20%7C%207"
     }
 ]

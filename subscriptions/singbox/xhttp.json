@@ -115,11 +115,11 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
-                "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
-                "PSGndvgrnfjep",
+                "🇺🇸 US | 🔴 | vless | @fnet00 | 8",
+                "PSGjagwpmpqxl",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 5",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 1",
@@ -142,7 +142,6 @@
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇩🇪 DE | 🟢 | vless | @free_serverir | 68",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 19",
-                "🇸🇪 SE | 🟢 | vless | @hope_net | 17",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 1",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 2",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 3",
@@ -195,11 +194,11 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
-                "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
-                "PSGndvgrnfjep",
+                "🇺🇸 US | 🔴 | vless | @fnet00 | 8",
+                "PSGjagwpmpqxl",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 5",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇺🇸 US | 🔴 | vless | @proxygodratmand | 1",
@@ -222,7 +221,6 @@
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇩🇪 DE | 🟢 | vless | @free_serverir | 68",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 19",
-                "🇸🇪 SE | 🟢 | vless | @hope_net | 17",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 1",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 2",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 3",
@@ -437,7 +435,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
+            "tag": "🇺🇸 US | 🔴 | vless | @fnet00 | 8",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -446,7 +444,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "PSGndvgrnfjep",
+            "tag": "PSGjagwpmpqxl",
             "type": "vless",
             "server": "hibbb.fast.hosting-ip.com",
             "server_port": 80,
@@ -473,7 +471,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 5",
+            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
             "type": "vless",
             "server": "statue.lnmarketplace.net",
             "server_port": 443,
@@ -760,29 +758,6 @@
             "uuid": "8088c605-e0c2-4774-9ee4-7fa7e47b6112",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇸🇪 SE | 🟢 | vless | @hope_net | 17",
-            "type": "vless",
-            "server": "13.48.26.123",
-            "server_port": 2083,
-            "uuid": "c55b5357-0f55-4ff2-87bb-b66d28bccee1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "aws.amazon.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hVwkAMSU7XuJV_RWrZA4cgp9Ca82-MOmD0bGZSRH-2w",
-                    "short_id": "b4f4"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @irv2rey | 1",
