@@ -98,7 +98,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔ XX | 🔴 | vless | @configshubplus | 16",
                 "❔ XX | 🟢 | vless | @deli_servers | 1",
                 "❔ XX | 🟢 | vless | @fire_vpn_channel | 0",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 6",
@@ -123,7 +122,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔ XX | 🔴 | vless | @configshubplus | 16",
                 "❔ XX | 🟢 | vless | @deli_servers | 1",
                 "❔ XX | 🟢 | vless | @fire_vpn_channel | 0",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 6",
@@ -158,15 +156,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "❔ XX | 🔴 | vless | @configshubplus | 16",
-            "type": "vless",
-            "server": "[2a01:4f8:1c1a:dc2b::1]",
-            "server_port": 8888,
-            "uuid": "Parsashonam-286",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🟢 | vless | @deli_servers | 1",

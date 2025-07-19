@@ -98,9 +98,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇭🇰 HK | 🟢 | trojan | @NamiraNet | 60",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayweb | 17"
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
             ],
             "interrupt_exist_connections": false
         },
@@ -108,9 +108,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇭🇰 HK | 🟢 | trojan | @NamiraNet | 60",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayweb | 17"
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -128,6 +128,22 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇭🇰 HK | 🟢 | trojan | @NamiraNet | 60",
+            "type": "trojan",
+            "server": "ni.mjt000.com",
+            "server_port": 443,
+            "password": "172b2279-f7f5-4542-ab6c-9e96ad7dd5be",
+            "tls": {
+                "enabled": true,
+                "server_name": "ni.mjt000.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
@@ -163,17 +179,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayweb | 17",
-            "type": "trojan",
-            "server": "join-dailyconfigs.resurrection-time.sbs",
-            "server_port": 56807,
-            "password": "rhSacvSrrW",
-            "transport": {
-                "type": "grpc",
-                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2060"
             }
         }
     ],

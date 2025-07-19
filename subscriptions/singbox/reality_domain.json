@@ -159,12 +159,10 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
-                "🇫🇷 FR | 🟢 | vless | @v2rayweb | 13",
-                "🇫🇷 FR | 🟢 | vless | @v2rayweb | 14",
-                "🇫🇷 FR | 🟢 | vless | @v2rayweb | 15",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇳🇱 NL | 🟢 | vless | @v2reay | 11",
                 "🇫🇷 FR | 🟢 | vless | @vpn_bal0uch | 0",
+                "🇪🇪 EE | 🟢 | vless | @vpnplusee_free | 14",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🟢 | vless | @webshecan | 9",
                 "❔ XX | 🟢 | vless | @webshecan | 10",
@@ -239,12 +237,10 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
-                "🇫🇷 FR | 🟢 | vless | @v2rayweb | 13",
-                "🇫🇷 FR | 🟢 | vless | @v2rayweb | 14",
-                "🇫🇷 FR | 🟢 | vless | @v2rayweb | 15",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇳🇱 NL | 🟢 | vless | @v2reay | 11",
                 "🇫🇷 FR | 🟢 | vless | @vpn_bal0uch | 0",
+                "🇪🇪 EE | 🟢 | vless | @vpnplusee_free | 14",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🟢 | vless | @webshecan | 9",
                 "❔ XX | 🟢 | vless | @webshecan | 10",
@@ -1768,87 +1764,6 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @v2rayweb | 13",
-            "type": "vless",
-            "server": "join-dailyconfigs.resurrection-time.sbs",
-            "server_port": 35673,
-            "uuid": "eb6eaa3a-acec-466a-83b6-2579c9dfcd53",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "slack.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "X0Qh1nKfoT6KDIvVnHsGU8lYKHsW2fmn0Tm1QNsFRg8",
-                    "short_id": "752105e2e443eece"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2060"
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | vless | @v2rayweb | 14",
-            "type": "vless",
-            "server": "join-dailyconfigs.resurrection-time.sbs",
-            "server_port": 20223,
-            "uuid": "56da2541-465c-4e66-a4b8-fdcff2cc1ffd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "github.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ctBMudbuPNp96pmVEuLdNJJ8TXqJ3KR9kAoAvCdrrQM",
-                    "short_id": "3b28"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2060"
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | vless | @v2rayweb | 15",
-            "type": "vless",
-            "server": "join-dailyconfigs.resurrection-time.sbs",
-            "server_port": 39840,
-            "uuid": "3fae1c0a-1f61-4661-a11e-5bacf28af17e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "openai.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cBtMVPDxwtgUBpOn0gz59eJsjG_Mu8WenSbSdZ6M1kw",
-                    "short_id": "63f2"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2060"
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @v2rayza | 18",
             "type": "vless",
             "server": "ec20.kiava.fun",
@@ -1923,6 +1838,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "7594vless"
+            }
+        },
+        {
+            "tag": "🇪🇪 EE | 🟢 | vless | @vpnplusee_free | 14",
+            "type": "vless",
+            "server": "est01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "2a02cb25-0f58-4b19-a7a6-8c205fdb9042",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "86e999a2cdc2"
+                }
             }
         },
         {
