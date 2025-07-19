@@ -134,10 +134,12 @@
                 "❔ XX | 🟢 | vless | @mtpv2ray | 7",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
+                "🇬🇧 GB | 🟢 | vless | @outline_ir | 13",
+                "🇺🇸 US | 🟢 | vless | @outline_ir | 15",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
-                "🇩🇪 DE | 🟢 | vless | @proxycrone | 5",
+                "🇩🇪 DE | 🟢 | vless | @proxycrone | 4",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 8",
                 "❔ XX | 🟢 | vless | @proxysudo | 1",
@@ -154,10 +156,10 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 12",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇳🇱 NL | 🟢 | vless | @v2reay | 11",
                 "🇫🇷 FR | 🟢 | vless | @vpn_bal0uch | 0",
@@ -210,10 +212,12 @@
                 "❔ XX | 🟢 | vless | @mtpv2ray | 7",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
+                "🇬🇧 GB | 🟢 | vless | @outline_ir | 13",
+                "🇺🇸 US | 🟢 | vless | @outline_ir | 15",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
-                "🇩🇪 DE | 🟢 | vless | @proxycrone | 5",
+                "🇩🇪 DE | 🟢 | vless | @proxycrone | 4",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 8",
                 "❔ XX | 🟢 | vless | @proxysudo | 1",
@@ -230,10 +234,10 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 12",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇳🇱 NL | 🟢 | vless | @v2reay | 11",
                 "🇫🇷 FR | 🟢 | vless | @vpn_bal0uch | 0",
@@ -1173,6 +1177,52 @@
             }
         },
         {
+            "tag": "🇬🇧 GB | 🟢 | vless | @outline_ir | 13",
+            "type": "vless",
+            "server": "v16.vxlimir.com",
+            "server_port": 1370,
+            "uuid": "878879e6-4f80-4e85-a415-85533b536d13",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw",
+                    "short_id": "e1afb93bfe75a34b"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @outline_ir | 15",
+            "type": "vless",
+            "server": "amazon-4.cristiano.name.ng",
+            "server_port": 443,
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
             "type": "vless",
             "server": "persian85.iran86.persianmemberiranmember.shop",
@@ -1246,7 +1296,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @proxycrone | 5",
+            "tag": "🇩🇪 DE | 🟢 | vless | @proxycrone | 4",
             "type": "vless",
             "server": "specxtech.ticketdatabase.info",
             "server_port": 56658,
@@ -1649,29 +1699,6 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
-            "type": "vless",
-            "server": "amazon-4.cristiano.name.ng",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
             "type": "vless",
             "server": "de.gy-nt.shop",
@@ -1737,6 +1764,29 @@
                     "enabled": true,
                     "public_key": "bf0D8kLkfGVYP8NVpiOGKcm-wutxlcLXua3760tRgkI",
                     "short_id": "adf6b90c"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 12",
+            "type": "vless",
+            "server": "cellone.learn-new.ir",
+            "server_port": 443,
+            "uuid": "fe6a9a28-9eea-41f2-bded-828296e91ee3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "khanacademy.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ikTKkSZZZ18NraMIwbLCP8ln6NmsD77VTSKWTESIOAk",
+                    "short_id": "6acf3ba5790e4324"
                 }
             }
         },

@@ -105,6 +105,7 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 12",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇷🇺 RU | 🟢 | vless | @free1_vpn | 10",
@@ -113,7 +114,6 @@
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
-                "🇰🇿 KZ | 🟢 | vless | @v2rayweb | 11",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
@@ -132,6 +132,7 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 12",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇷🇺 RU | 🟢 | vless | @free1_vpn | 10",
@@ -140,7 +141,6 @@
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
-                "🇰🇿 KZ | 🟢 | vless | @v2rayweb | 11",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
@@ -341,6 +341,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 12",
+            "type": "vless",
+            "server": "cellone.learn-new.ir",
+            "server_port": 443,
+            "uuid": "fe6a9a28-9eea-41f2-bded-828296e91ee3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "khanacademy.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ikTKkSZZZ18NraMIwbLCP8ln6NmsD77VTSKWTESIOAk",
+                    "short_id": "6acf3ba5790e4324"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | vless | @vp22ray | 10",
             "type": "vless",
             "server": "German.vp22ray.site",
@@ -538,29 +561,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn"
-            }
-        },
-        {
-            "tag": "🇰🇿 KZ | 🟢 | vless | @v2rayweb | 11",
-            "type": "vless",
-            "server": "77.73.232.61",
-            "server_port": 19747,
-            "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM",
-                    "short_id": "2001"
-                }
             }
         },
         {
