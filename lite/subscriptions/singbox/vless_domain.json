@@ -98,6 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
@@ -139,7 +140,6 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
@@ -164,6 +164,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
@@ -205,7 +206,6 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
@@ -240,6 +240,22 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
+            "type": "vless",
+            "server": "moody-lock.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "82cdcdf0-e772-4d9a-b0a2-d6b605572ac1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "moody-lock.seotoolsforyou.co.uk"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -988,29 +1004,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@LIGHTNING6"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
-            "type": "vless",
-            "server": "amazon-4.cristiano.name.ng",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
-                }
             }
         },
         {

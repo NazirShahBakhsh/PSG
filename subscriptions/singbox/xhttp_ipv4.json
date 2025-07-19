@@ -128,6 +128,7 @@
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 4",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 10",
                 "🇺🇸 US | 🟢 | vless | @v2reay | 13",
                 "🇺🇸 US | 🟢 | vless | @vistav2ray | 11",
                 "🇺🇸 US | 🔴 | vless | @vpnaloo | 14",
@@ -174,6 +175,7 @@
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 4",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 10",
                 "🇺🇸 US | 🟢 | vless | @v2reay | 13",
                 "🇺🇸 US | 🟢 | vless | @vistav2ray | 11",
                 "🇺🇸 US | 🔴 | vless | @vpnaloo | 14",
@@ -659,6 +661,29 @@
             "uuid": "c8b98685-35a8-413d-8184-d844322ecc4a",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 10",
+            "type": "vless",
+            "server": "5.161.151.225",
+            "server_port": 6009,
+            "uuid": "bd33dca5-e673-4c02-a629-f7fa368e2333",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "adtarget.com.tr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
+                    "short_id": "dc5db021ae2038a9"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @v2reay | 13",
