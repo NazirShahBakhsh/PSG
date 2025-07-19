@@ -98,7 +98,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔ XX | 🔴 | trojan | @freevpnatm | 10"
+                "❔ XX | 🟢 | trojan | @freevpnatm | 13",
+                "❔ XX | 🔴 | trojan | @freevpnatm | 14"
             ],
             "interrupt_exist_connections": false
         },
@@ -106,7 +107,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔ XX | 🔴 | trojan | @freevpnatm | 10"
+                "❔ XX | 🟢 | trojan | @freevpnatm | 13",
+                "❔ XX | 🔴 | trojan | @freevpnatm | 14"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -126,14 +128,34 @@
             "type": "dns"
         },
         {
-            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 10",
+            "tag": "❔ XX | 🟢 | trojan | @freevpnatm | 13",
             "type": "trojan",
-            "server": "[2606:4700:3030::6815:4001]",
+            "server": "[2606:4700:3033::ac43:a181]",
             "server_port": 443,
-            "password": "2d068083-2cb0-4ae3-a44a-6fc82f3039cc",
+            "password": "662e38ba-8427-4955-94aa-76f5347a0ce8",
             "tls": {
                 "enabled": true,
-                "server_name": "[2606:4700:3030::6815:4001]",
+                "server_name": "cDvFGt.666470.Xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "hCbtKwyNTRDjosltnP1Q0J66"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 14",
+            "type": "trojan",
+            "server": "[2606:4700:3030::6815:429d]",
+            "server_port": 443,
+            "password": "662e38ba-8427-4955-94aa-76f5347a0ce8",
+            "tls": {
+                "enabled": true,
+                "server_name": "[2606:4700:3030::6815:429d]",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -144,7 +166,7 @@
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "[2606:4700:3030::6815:4001]"
+                    "Host": "[2606:4700:3030::6815:429d]"
                 }
             }
         }
