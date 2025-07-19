@@ -104,7 +104,6 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-                "🇱🇹 LT | 🟢 | vless | @config_proxy | 67",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -136,7 +135,7 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "🇬🇧 GB | 🟢 | vless | @outline_ir | 13",
-                "🇨🇦 CA | 🟢 | vless | @outline_ir | 15",
+                "🇬🇧 GB | 🟢 | vless | @outline_ir | 15",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
@@ -180,7 +179,6 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-                "🇱🇹 LT | 🟢 | vless | @config_proxy | 67",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -212,7 +210,7 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "🇬🇧 GB | 🟢 | vless | @outline_ir | 13",
-                "🇨🇦 CA | 🟢 | vless | @outline_ir | 15",
+                "🇬🇧 GB | 🟢 | vless | @outline_ir | 15",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
@@ -404,29 +402,6 @@
                     "enabled": true,
                     "public_key": "wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM",
                     "short_id": "c7bc4d"
-                }
-            }
-        },
-        {
-            "tag": "🇱🇹 LT | 🟢 | vless | @config_proxy | 67",
-            "type": "vless",
-            "server": "hield.ru",
-            "server_port": 443,
-            "uuid": "a4afbfac-c1e5-4f7c-a3b1-2146ff4332e5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JPm5aPILktbakyQ21Q3p4ABm3NHBIVMmaumDveRBGws",
-                    "short_id": "06c6eb7423f24de5"
                 }
             }
         },
@@ -1219,7 +1194,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @outline_ir | 15",
+            "tag": "🇬🇧 GB | 🟢 | vless | @outline_ir | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

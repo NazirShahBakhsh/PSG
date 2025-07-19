@@ -103,10 +103,10 @@
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
+                "🇺🇸 US | 🟢 | ss | @configshubplus | 12",
                 "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
-                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 17",
+                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 16",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
-                "🇳🇱 NL | 🟢 | ss | @ip_cf_config | 13",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -125,9 +125,9 @@
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 26",
                 "🇳🇱 NL | 🟢 | ss | @vpn451 | 7",
-                "🇳🇱 NL | 🟢 | ss | @vpn451 | 8",
+                "🇺🇸 US | 🟢 | ss | @vpn451 | 8",
                 "🇺🇸 US | 🟢 | ss | @vpn451 | 9",
-                "🇺🇸 US | 🟢 | ss | @vpn451 | 10",
+                "🇺🇸 US | 🟢 | ss | @vpn451 | 11",
                 "❔ XX | 🟢 | ss | @vpn_meliii | 4"
             ],
             "interrupt_exist_connections": false
@@ -141,10 +141,10 @@
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
+                "🇺🇸 US | 🟢 | ss | @configshubplus | 12",
                 "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
-                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 17",
+                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 16",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
-                "🇳🇱 NL | 🟢 | ss | @ip_cf_config | 13",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -163,9 +163,9 @@
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 26",
                 "🇳🇱 NL | 🟢 | ss | @vpn451 | 7",
-                "🇳🇱 NL | 🟢 | ss | @vpn451 | 8",
+                "🇺🇸 US | 🟢 | ss | @vpn451 | 8",
                 "🇺🇸 US | 🟢 | ss | @vpn451 | 9",
-                "🇺🇸 US | 🟢 | ss | @vpn451 | 10",
+                "🇺🇸 US | 🟢 | ss | @vpn451 | 11",
                 "❔ XX | 🟢 | ss | @vpn_meliii | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -226,6 +226,14 @@
             "password": "M2E4ZGY2ZjI5MzU2ODAxMjEwYzgyNzQ0MGM5NGUy"
         },
         {
+            "tag": "🇺🇸 US | 🟢 | ss | @configshubplus | 12",
+            "type": "shadowsocks",
+            "server": "beta.mattenadene.org",
+            "server_port": 54075,
+            "method": "chacha20-ietf-poly1305",
+            "password": "o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3"
+        },
+        {
             "tag": "🇬🇧 GB | 🟢 | ss | @custom_v2ray | 1",
             "type": "shadowsocks",
             "server": "account-mec.emofid.co",
@@ -234,7 +242,7 @@
             "password": "7ivrGEHY88sQk3DP"
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 17",
+            "tag": "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 16",
             "type": "shadowsocks",
             "server": "sg.outlinekeys.net",
             "server_port": 52252,
@@ -248,14 +256,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | ss | @ip_cf_config | 13",
-            "type": "shadowsocks",
-            "server": "beesyar.org",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
@@ -399,18 +399,10 @@
             "server": "macintosh.outlinekeys.net",
             "server_port": 19609,
             "method": "chacha20-ietf-poly1305",
-            "password": "rirgAJoGVPZBhFx9gNH3gj"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | ss | @vpn451 | 8",
-            "type": "shadowsocks",
-            "server": "macintosh.outlinekeys.net",
-            "server_port": 19609,
-            "method": "chacha20-ietf-poly1305",
             "password": "vmbNCUhVDMTb3WRKkSG0SD"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @vpn451 | 9",
+            "tag": "🇺🇸 US | 🟢 | ss | @vpn451 | 8",
             "type": "shadowsocks",
             "server": "fox-usa.outlinekeys.net",
             "server_port": 34868,
@@ -418,12 +410,20 @@
             "password": "Nae7luN0UvHzTOpafOYr98"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @vpn451 | 10",
+            "tag": "🇺🇸 US | 🟢 | ss | @vpn451 | 9",
             "type": "shadowsocks",
             "server": "fox-usa.outlinekeys.net",
             "server_port": 34868,
             "method": "chacha20-ietf-poly1305",
             "password": "w5r3VHLtrPuYo3evoViKwi"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | ss | @vpn451 | 11",
+            "type": "shadowsocks",
+            "server": "fox-usa.outlinekeys.net",
+            "server_port": 34868,
+            "method": "chacha20-ietf-poly1305",
+            "password": "hKz1zPVzgdJ2mFXEqLuQnD"
         },
         {
             "tag": "❔ XX | 🟢 | ss | @vpn_meliii | 4",

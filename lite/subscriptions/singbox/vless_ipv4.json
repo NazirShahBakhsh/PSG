@@ -104,7 +104,7 @@
                 "🇹🇷 TR | 🟢 | vless | @f_nirevil | 2",
                 "🇮🇷 IR | 🔴 | vless | @fasst_vpn | 0",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
-                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
+                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 8",
                 "🇸🇪 SE | 🔴 | vless | @free_vip3 | 6",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
@@ -143,10 +143,8 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 16",
-                "🇩🇪 DE | 🔴 | vless | @vmess_ir | 19",
+                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 14",
                 "🇺🇸 US | 🟢 | vless | @vpn_ioss | 18",
-                "🇺🇸 US | 🟢 | vless | @vpnaloo | 16",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
@@ -167,7 +165,7 @@
                 "🇹🇷 TR | 🟢 | vless | @f_nirevil | 2",
                 "🇮🇷 IR | 🔴 | vless | @fasst_vpn | 0",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
-                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
+                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 8",
                 "🇸🇪 SE | 🔴 | vless | @free_vip3 | 6",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
@@ -206,10 +204,8 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 16",
-                "🇩🇪 DE | 🔴 | vless | @vmess_ir | 19",
+                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 14",
                 "🇺🇸 US | 🟢 | vless | @vpn_ioss | 18",
-                "🇺🇸 US | 🟢 | vless | @vpnaloo | 16",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
@@ -347,7 +343,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
+            "tag": "🇷🇺 RU | 🟢 | vless | @free1_vpn | 8",
             "type": "vless",
             "server": "213.183.41.63",
             "server_port": 443,
@@ -1061,9 +1057,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 16",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vlessconfig | 14",
             "type": "vless",
-            "server": "13.39.238.208",
+            "server": "18.194.118.31",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1084,15 +1080,6 @@
                     "Host": "trojan.burgerip.co.uk"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @vmess_ir | 19",
-            "type": "vless",
-            "server": "5.75.202.170",
-            "server_port": 2052,
-            "uuid": "0f2a843c-bbfb-4a94-bc6a-9110ddc7e947",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @vpn_ioss | 18",
@@ -1116,24 +1103,6 @@
                 "path": "/?ed=2560",
                 "headers": {
                     "Host": "kawaiifreevpn-7ds.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @vpnaloo | 16",
-            "type": "vless",
-            "server": "104.21.48.1",
-            "server_port": 2083,
-            "uuid": "c4e6a6ef-d782-4a12-a38a-906a61ee5bc1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cho.chonon.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
