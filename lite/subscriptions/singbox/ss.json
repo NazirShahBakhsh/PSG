@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇪🇸 ES | 🟢 | ss | @argo_vpn1 | 10",
+                "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
@@ -124,7 +124,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇪🇸 ES | 🟢 | ss | @argo_vpn1 | 10",
+                "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
@@ -162,12 +162,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇪🇸 ES | 🟢 | ss | @argo_vpn1 | 10",
+            "tag": "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9",
             "type": "shadowsocks",
-            "server": "194.87.45.189",
-            "server_port": 443,
+            "server": "104.167.197.25",
+            "server_port": 57456,
             "method": "chacha20-ietf-poly1305",
-            "password": "K2WzmAQJL9La9pZgTV1cur"
+            "password": "360e21d21977dc11"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",

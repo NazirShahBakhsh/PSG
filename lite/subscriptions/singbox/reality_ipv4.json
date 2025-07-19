@@ -99,7 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
-                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 8",
+                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
@@ -109,7 +109,6 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
-                "🇨🇿 CZ | 🟢 | vless | @vpnv2rayngv | 19",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1"
             ],
             "interrupt_exist_connections": false
@@ -119,7 +118,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
-                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 8",
+                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
@@ -129,7 +128,6 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
-                "🇨🇿 CZ | 🟢 | vless | @vpnv2rayngv | 19",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -177,7 +175,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vless | @free1_vpn | 8",
+            "tag": "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
             "type": "vless",
             "server": "213.183.41.63",
             "server_port": 443,
@@ -420,33 +418,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "chessgame"
-            }
-        },
-        {
-            "tag": "🇨🇿 CZ | 🟢 | vless | @vpnv2rayngv | 19",
-            "type": "vless",
-            "server": "194.182.79.250",
-            "server_port": 52612,
-            "uuid": "83dc5c38-92fb-4d92-adb2-038575a12d49",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tVPnI0CG8zT6VlwpceDzo2WqrNwBSUMbYk0_08ybxhs",
-                    "short_id": "78a48e1e"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
             }
         },
         {

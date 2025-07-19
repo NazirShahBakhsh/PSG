@@ -101,6 +101,7 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 12",
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 16",
+                "🇺🇸 US | 🟢 | vless | @configshubplus | 13",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 177",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
@@ -108,7 +109,7 @@
                 "🇺🇸 US | 🟢 | vless | @flyv2ray | 4",
                 "🇩🇪 DE | 🟢 | vless | @free_serverir | 68",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
-                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 19",
+                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 8",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 1",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 2",
@@ -148,6 +149,7 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 12",
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 16",
+                "🇺🇸 US | 🟢 | vless | @configshubplus | 13",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 177",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
@@ -155,7 +157,7 @@
                 "🇺🇸 US | 🟢 | vless | @flyv2ray | 4",
                 "🇩🇪 DE | 🟢 | vless | @free_serverir | 68",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
-                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 19",
+                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 8",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 1",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 2",
@@ -229,6 +231,24 @@
             "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @configshubplus | 13",
+            "type": "vless",
+            "server": "104.21.48.1",
+            "server_port": 2083,
+            "uuid": "c4e6a6ef-d782-4a12-a38a-906a61ee5bc1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @dailyv2ry | 177",
@@ -358,7 +378,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 19",
+            "tag": "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
