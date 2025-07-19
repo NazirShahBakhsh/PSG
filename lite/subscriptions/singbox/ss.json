@@ -99,6 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9",
+                "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
@@ -109,12 +110,12 @@
                 "🇺🇸 US | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
-                "🇳🇱 NL | 🟢 | ss | @vmess_ir | 18",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
+                "🇬🇧 GB | 🟢 | ss | @vmess_ir | 18",
                 "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
                 "❔ XX | 🟢 | ss | @vpidiamond | 9",
                 "❔ XX | 🟢 | ss | @free_omega | 4"
@@ -126,6 +127,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9",
+                "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
@@ -136,12 +138,12 @@
                 "🇺🇸 US | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
-                "🇳🇱 NL | 🟢 | ss | @vmess_ir | 18",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
+                "🇬🇧 GB | 🟢 | ss | @vmess_ir | 18",
                 "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
                 "❔ XX | 🟢 | ss | @vpidiamond | 9",
                 "❔ XX | 🟢 | ss | @free_omega | 4"
@@ -170,6 +172,14 @@
             "server_port": 57456,
             "method": "chacha20-ietf-poly1305",
             "password": "360e21d21977dc11"
+        },
+        {
+            "tag": "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
+            "type": "shadowsocks",
+            "server": "4.223.106.151",
+            "server_port": 48172,
+            "method": "chacha20-ietf-poly1305",
+            "password": "51yloQC8D9w1Wae7FHtI65"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
@@ -252,14 +262,6 @@
             "password": "Y6R9pAtvxxzmGC"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @vmess_ir | 18",
-            "type": "shadowsocks",
-            "server": "213.109.147.242",
-            "server_port": 62685,
-            "method": "chacha20-ietf-poly1305",
-            "password": "VpKABcOpNNA0l5G2AVOmw8"
-        },
-        {
             "tag": "❔ XX | 🟢 | ss | @chestertm | 12",
             "type": "shadowsocks",
             "server": "freakconfig94.usecharge.ir",
@@ -298,6 +300,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c"
+        },
+        {
+            "tag": "🇬🇧 GB | 🟢 | ss | @vmess_ir | 18",
+            "type": "shadowsocks",
+            "server": "freakconfig13.felafel.org",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1xO2cqPazqjGfCfd"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",

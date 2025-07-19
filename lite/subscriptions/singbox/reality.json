@@ -98,14 +98,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇹🇷 TR | 🟢 | vless | @v2rayweb | 17",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇷🇺 RU | 🟢 | vless | @free1_vpn | 8",
@@ -126,14 +124,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇹🇷 TR | 🟢 | vless | @v2rayweb | 17",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇷🇺 RU | 🟢 | vless | @free1_vpn | 8",
@@ -164,29 +160,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
-            "type": "vless",
-            "server": "de6rt.samsungmarketshop.ir",
-            "server_port": 2083,
-            "uuid": "bf989dce-7af7-423b-a499-71da71cdcef1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk",
-                    "short_id": "aeba"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
@@ -340,29 +313,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@LIGHTNING6"
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🟢 | vless | @v2rayweb | 17",
-            "type": "vless",
-            "server": "path.mashti.my",
-            "server_port": 7893,
-            "uuid": "25fff2dd-728f-45f7-9741-8fec20de619f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4wQM_RBIjAR27D6Vou1QZfa1mF2gw8SDEDiwoEd3Cxo",
-                    "short_id": ""
-                }
             }
         },
         {

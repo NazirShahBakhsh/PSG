@@ -99,8 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
-                "🇺🇸 US | 🔴 | vless | @argooo_vpn | 11",
-                "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
+                "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -113,8 +112,9 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
-                "🇺🇸 US | 🔴 | vless | @fnet00 | 8",
-                "PSGgimckrudhz",
+                "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
+                "PSGdhqbvmxcqu",
+                "🇨🇭 CH | 🔴 | vless | @getconfigir | 17",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
@@ -137,8 +137,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
-                "🇺🇸 US | 🔴 | vless | @argooo_vpn | 11",
-                "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
+                "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -151,8 +150,9 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
-                "🇺🇸 US | 🔴 | vless | @fnet00 | 8",
-                "PSGgimckrudhz",
+                "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
+                "PSGdhqbvmxcqu",
+                "🇨🇭 CH | 🔴 | vless | @getconfigir | 17",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
@@ -195,16 +195,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @argooo_vpn | 11",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "8db68448-6ebb-4361-bcbe-519a1f20fca1",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
+            "tag": "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
             "type": "vless",
             "server": "de6rt.samsungmarketshop.ir",
             "server_port": 2083,
@@ -335,7 +326,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @fnet00 | 8",
+            "tag": "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -344,11 +335,20 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "PSGgimckrudhz",
+            "tag": "PSGdhqbvmxcqu",
             "type": "vless",
             "server": "hibbb.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "0af87088-87c9-403b-9369-70186cb711c3",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇨🇭 CH | 🔴 | vless | @getconfigir | 17",
+            "type": "vless",
+            "server": "s2.1dnt.k-l.cloud",
+            "server_port": 80,
+            "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
             "flow": "",
             "packet_encoding": "xudp"
         },
