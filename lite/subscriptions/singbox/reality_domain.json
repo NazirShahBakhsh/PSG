@@ -105,6 +105,7 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
+                "🇺🇦 UA | 🟢 | vless | @v2rayweb | 17",
                 "❔ XX | 🟢 | vless | @vp22ray | 10"
             ],
             "interrupt_exist_connections": false
@@ -120,6 +121,7 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
+                "🇺🇦 UA | 🟢 | vless | @v2rayweb | 17",
                 "❔ XX | 🟢 | vless | @vp22ray | 10"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -314,6 +316,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@LIGHTNING6"
+            }
+        },
+        {
+            "tag": "🇺🇦 UA | 🟢 | vless | @v2rayweb | 17",
+            "type": "vless",
+            "server": "flower.mahi-yar.com",
+            "server_port": 7893,
+            "uuid": "25fff2dd-728f-45f7-9741-8fec20de619f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4wQM_RBIjAR27D6Vou1QZfa1mF2gw8SDEDiwoEd3Cxo",
+                    "short_id": ""
+                }
             }
         },
         {

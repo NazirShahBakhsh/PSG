@@ -28,6 +28,7 @@ proxies:
   - {"name":"🇺🇸 US | 🟢 | ss | @v2rayngrit | 15","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27","type":"ss","server":"94.131.123.147","port":7383,"password":"eSHEdJz96rqNkOCAzd5Csv","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱 PL | 🟢 | ss | @vipufovpn | 19","type":"ss","server":"54.36.174.181","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @vmess_ir | 18","type":"ss","server":"213.109.147.242","port":62685,"password":"VpKABcOpNNA0l5G2AVOmw8","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -69,6 +70,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | ss | @v2rayngrit | 15'
       - '🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 19'
+      - '🇳🇱 NL | 🟢 | ss | @vmess_ir | 18'
 
   - name: 📉 Fallback
     type: fallback
@@ -86,6 +88,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | ss | @v2rayngrit | 15'
       - '🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 19'
+      - '🇳🇱 NL | 🟢 | ss | @vmess_ir | 18'
       
   - name: All-Proxies
     type: select
@@ -101,6 +104,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | ss | @v2rayngrit | 15'
       - '🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 19'
+      - '🇳🇱 NL | 🟢 | ss | @vmess_ir | 18'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

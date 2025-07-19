@@ -114,7 +114,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 8",
-                "PSGhdfjzxoeli",
+                "PSGfodyxrdlye",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
@@ -128,12 +128,10 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
                 "🇺🇸 US | 🔴 | vless | @vipv2rayngnp | 13",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
-                "🇺🇸 US | 🔴 | vless | @vpntrt | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 12",
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 16",
-                "🇺🇸 US | 🟢 | vless | @configshubplus | 13",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 177",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
@@ -194,7 +192,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 8",
-                "PSGhdfjzxoeli",
+                "PSGfodyxrdlye",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
@@ -208,12 +206,10 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
                 "🇺🇸 US | 🔴 | vless | @vipv2rayngnp | 13",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
-                "🇺🇸 US | 🔴 | vless | @vpntrt | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 12",
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 16",
-                "🇺🇸 US | 🟢 | vless | @configshubplus | 13",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 177",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
@@ -428,7 +424,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "PSGhdfjzxoeli",
+            "tag": "PSGfodyxrdlye",
             "type": "vless",
             "server": "hibbb.fast.hosting-ip.com",
             "server_port": 80,
@@ -604,15 +600,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @vpntrt | 2",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "b0ea73c1-2a12-45c1-b9a4-1432c8244a3e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
             "type": "vless",
             "server": "fast-01.saitsazs.ir",
@@ -647,24 +634,6 @@
             "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @configshubplus | 13",
-            "type": "vless",
-            "server": "104.21.48.1",
-            "server_port": 2083,
-            "uuid": "c4e6a6ef-d782-4a12-a38a-906a61ee5bc1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cho.chonon.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @dailyv2ry | 177",
