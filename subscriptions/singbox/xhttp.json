@@ -114,10 +114,11 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 8",
-                "PSGdtihoianvt",
+                "PSGlyhdoltmno",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 15",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 4",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
@@ -162,8 +163,7 @@
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 4",
-                "🇺🇸 US | 🟢 | vless | @v2reay | 13",
-                "🇺🇸 US | 🟢 | vless | @vistav2ray | 11",
+                "🇺🇸 US | 🟢 | vless | @v2reay | 12",
                 "🇺🇸 US | 🔴 | vless | @vpnaloo | 13",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 10",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 12",
@@ -194,10 +194,11 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 8",
-                "PSGdtihoianvt",
+                "PSGlyhdoltmno",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 15",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 4",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
@@ -242,8 +243,7 @@
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 4",
-                "🇺🇸 US | 🟢 | vless | @v2reay | 13",
-                "🇺🇸 US | 🟢 | vless | @vistav2ray | 11",
+                "🇺🇸 US | 🟢 | vless | @v2reay | 12",
                 "🇺🇸 US | 🔴 | vless | @vpnaloo | 13",
                 "🇺🇸 US | 🔴 | vless | @vpncostumer | 10",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 12",
@@ -428,11 +428,20 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "PSGdtihoianvt",
+            "tag": "PSGlyhdoltmno",
             "type": "vless",
             "server": "hibbb.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "0af87088-87c9-403b-9369-70186cb711c3",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 15",
+            "type": "vless",
+            "server": "hibbb.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "50a3bb28-6e77-4847-8512-fcdda03b240c",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -455,7 +464,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 4",
+            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
             "type": "vless",
             "server": "statue.lnmarketplace.net",
             "server_port": 443,
@@ -1127,7 +1136,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2reay | 13",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2reay | 12",
             "type": "vless",
             "server": "104.21.48.1",
             "server_port": 2083,
@@ -1141,29 +1150,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @vistav2ray | 11",
-            "type": "vless",
-            "server": "5.161.151.225",
-            "server_port": 6009,
-            "uuid": "bd33dca5-e673-4c02-a629-f7fa368e2333",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "adtarget.com.tr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
-                    "short_id": "dc5db021ae2038a9"
                 }
             }
         },
