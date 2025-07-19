@@ -114,7 +114,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 8",
-                "PSGfodyxrdlye",
+                "PSGaixzypgnxu",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
@@ -132,13 +132,14 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 12",
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 16",
-                "🇺🇸 US | 🔴 | vless | @dailyv2ry | 177",
+                "🇺🇸 US | 🔴 | vless | @dailyv2ry | 142",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @flyv2ray | 4",
                 "🇩🇪 DE | 🟢 | vless | @free_serverir | 68",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 15",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 8",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 1",
@@ -192,7 +193,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 8",
-                "PSGfodyxrdlye",
+                "PSGaixzypgnxu",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
@@ -210,13 +211,14 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 12",
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 16",
-                "🇺🇸 US | 🔴 | vless | @dailyv2ry | 177",
+                "🇺🇸 US | 🔴 | vless | @dailyv2ry | 142",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @flyv2ray | 4",
                 "🇩🇪 DE | 🟢 | vless | @free_serverir | 68",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 15",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 8",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 1",
@@ -424,7 +426,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "PSGfodyxrdlye",
+            "tag": "PSGaixzypgnxu",
             "type": "vless",
             "server": "hibbb.fast.hosting-ip.com",
             "server_port": 80,
@@ -636,7 +638,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @dailyv2ry | 177",
+            "tag": "🇺🇸 US | 🔴 | vless | @dailyv2ry | 142",
             "type": "vless",
             "server": "45.56.83.239",
             "server_port": 443,
@@ -759,6 +761,29 @@
                     "enabled": true,
                     "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
                     "short_id": "dc5db021ae2038a9"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 15",
+            "type": "vless",
+            "server": "146.19.56.21",
+            "server_port": 80,
+            "uuid": "7925c9e1-70fe-40d4-a750-eada1f68370e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "VuQDnAsp3KcgZXEsPucAUv-aasLC_VbhctAuZAjFzA0",
+                    "short_id": "732a77"
                 }
             }
         },
