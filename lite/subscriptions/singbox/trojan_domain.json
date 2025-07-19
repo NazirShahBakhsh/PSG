@@ -99,7 +99,8 @@
             "outbounds": [
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayweb | 17"
             ],
             "interrupt_exist_connections": false
         },
@@ -108,7 +109,8 @@
             "type": "urltest",
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayweb | 17"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -161,6 +163,17 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayweb | 17",
+            "type": "trojan",
+            "server": "join-dailyconfigs.resurrection-time.sbs",
+            "server_port": 56807,
+            "password": "rhSacvSrrW",
+            "transport": {
+                "type": "grpc",
+                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2060"
             }
         }
     ],

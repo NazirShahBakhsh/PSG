@@ -226,7 +226,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayweb | 17",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -405,7 +405,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayweb | 17",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -479,16 +479,16 @@
         {
             "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 67",
             "type": "vless",
-            "server": "InformeD-loCATiOn.SEOtooLsfoRyOU.cO.uk",
+            "server": "hopeful-appointment.seotoolsforyou.co.uk",
             "server_port": 80,
-            "uuid": "5c929ec5-5b1e-447a-950c-354c5d1ba1de",
+            "uuid": "491e4f76-42f0-43a7-a987-25072a68d5e4",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "InformeD-loCATiOn.SEOtooLsfoRyOU.cO.uk"
+                    "Host": "hopeful-appointment.seotoolsforyou.co.uk"
                 }
             }
         },
@@ -2543,28 +2543,14 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
-            "type": "vless",
-            "server": "172.66.44.118",
-            "server_port": 443,
-            "uuid": "63005378-e32e-4e23-bc6e-84812f147a6f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ConFIgmr.PaGeS.dEV",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayweb | 17",
+            "type": "trojan",
+            "server": "join-dailyconfigs.resurrection-time.sbs",
+            "server_port": 56807,
+            "password": "rhSacvSrrW",
             "transport": {
-                "type": "ws",
-                "path": "/telegram@v2ray_configs_pools/?ed=2560",
-                "headers": {
-                    "Host": "ConFIgmr.PaGeS.dEV"
-                }
+                "type": "grpc",
+                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2060"
             }
         },
         {

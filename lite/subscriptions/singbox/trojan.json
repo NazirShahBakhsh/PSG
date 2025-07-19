@@ -100,6 +100,7 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayweb | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
@@ -112,6 +113,7 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayweb | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
@@ -167,6 +169,17 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayweb | 17",
+            "type": "trojan",
+            "server": "join-dailyconfigs.resurrection-time.sbs",
+            "server_port": 56807,
+            "password": "rhSacvSrrW",
+            "transport": {
+                "type": "grpc",
+                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2060"
             }
         },
         {
