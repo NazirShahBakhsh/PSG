@@ -128,7 +128,6 @@
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 4",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 10",
                 "🇺🇸 US | 🟢 | vless | @v2reay | 13",
                 "🇺🇸 US | 🟢 | vless | @vistav2ray | 11",
                 "🇺🇸 US | 🔴 | vless | @vpnaloo | 14",
@@ -136,8 +135,8 @@
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 12",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 21",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 24"
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 20",
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 23"
             ],
             "interrupt_exist_connections": false
         },
@@ -175,7 +174,6 @@
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 4",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 10",
                 "🇺🇸 US | 🟢 | vless | @v2reay | 13",
                 "🇺🇸 US | 🟢 | vless | @vistav2ray | 11",
                 "🇺🇸 US | 🔴 | vless | @vpnaloo | 14",
@@ -183,8 +181,8 @@
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 12",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 21",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 24"
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 20",
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 23"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -663,29 +661,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 10",
-            "type": "vless",
-            "server": "5.161.151.225",
-            "server_port": 6009,
-            "uuid": "bd33dca5-e673-4c02-a629-f7fa368e2333",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "adtarget.com.tr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
-                    "short_id": "dc5db021ae2038a9"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @v2reay | 13",
             "type": "vless",
             "server": "104.21.48.1",
@@ -823,7 +798,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 21",
+            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 20",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
@@ -832,7 +807,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 24",
+            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 23",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,

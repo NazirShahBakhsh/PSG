@@ -98,13 +98,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇮🇷 IR | 🔴 | vless | @configtrapi | 28",
+                "🇩🇪 DE | 🔴 | vless | @configtrapi | 28",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
                 "❔ XX | 🟢 | vless | @flash_proxies | 0",
                 "🇺🇸 US | 🔴 | vless | @freakconfig1 | 2",
@@ -151,12 +150,13 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
+                "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 17",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "interrupt_exist_connections": false
         },
@@ -164,13 +164,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇮🇷 IR | 🔴 | vless | @configtrapi | 28",
+                "🇩🇪 DE | 🔴 | vless | @configtrapi | 28",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
                 "❔ XX | 🟢 | vless | @flash_proxies | 0",
                 "🇺🇸 US | 🔴 | vless | @freakconfig1 | 2",
@@ -217,12 +216,13 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
+                "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 17",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -240,22 +240,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
-            "type": "vless",
-            "server": "moody-lock.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "82cdcdf0-e772-4d9a-b0a2-d6b605572ac1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "moody-lock.seotoolsforyou.co.uk"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -351,7 +335,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @configtrapi | 28",
+            "tag": "🇩🇪 DE | 🔴 | vless | @configtrapi | 28",
             "type": "vless",
             "server": "asia4.novahomedesigntips.com",
             "server_port": 48820,
@@ -1193,6 +1177,22 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 17",
+            "type": "vless",
+            "server": "chat.deepseek.com",
+            "server_port": 80,
+            "uuid": "cec135d5-fcce-4c9e-c5f4-d94744055291",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/olem/ws?ed=1024",
+                "headers": {
+                    "Host": "chat.deepseek.com"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1274,7 +1274,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
+            "tag": "🇫🇷 FR | 🔴 | vless | @zvpnn | 7",
             "type": "vless",
             "server": "power.dlmoviz.ir",
             "server_port": 2020,
