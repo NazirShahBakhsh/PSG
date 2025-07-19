@@ -121,7 +121,6 @@
                 "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 3",
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🟢 | vless | @satellitenewspersian | 12",
                 "🇺🇸 US | 🔴 | vless | @selinc | 8",
                 "🇺🇸 US | 🟢 | vless | @sobi_vpn | 9",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -150,7 +149,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
-                "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 8",
+                "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 7",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1"
             ],
             "interrupt_exist_connections": false
@@ -182,7 +181,6 @@
                 "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 3",
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🟢 | vless | @satellitenewspersian | 12",
                 "🇺🇸 US | 🔴 | vless | @selinc | 8",
                 "🇺🇸 US | 🟢 | vless | @sobi_vpn | 9",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -211,7 +209,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
-                "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 8",
+                "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 7",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -669,31 +667,6 @@
             "uuid": "qeshmserver",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @satellitenewspersian | 12",
-            "type": "vless",
-            "server": "172.66.47.61",
-            "server_port": 8443,
-            "uuid": "a396b860-11b7-4af3-9950-146caf79735e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "gghdfa.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/8WuhXm4QjK0L68Uf?ed=2560",
-                "headers": {
-                    "Host": "gghdfa.pages.dev"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @selinc | 8",
@@ -1215,7 +1188,7 @@
             }
         },
         {
-            "tag": "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 8",
+            "tag": "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 7",
             "type": "vless",
             "server": "104.16.69.162",
             "server_port": 8880,

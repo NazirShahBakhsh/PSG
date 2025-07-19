@@ -170,7 +170,6 @@
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇺🇸 US | 🔴 | vless | @prrofile_purple | 132",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🟢 | vless | @satellitenewspersian | 12",
                 "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
                 "🇺🇸 US | 🔴 | vless | @selinc | 8",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
@@ -226,7 +225,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
-                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 13",
+                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 17",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -259,7 +258,7 @@
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
                 "🇮🇷 IR | 🔴 | vless | @vpnv2rayngv | 19",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
-                "🇺🇸 US | 🔴 | vless | @vpnv2raytop | 8",
+                "🇺🇸 US | 🔴 | vless | @vpnv2raytop | 7",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4",
@@ -269,7 +268,7 @@
                 "❔ XX | 🟢 | vless | @yekoyekvpn | 0",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "interrupt_exist_connections": false
         },
@@ -349,7 +348,6 @@
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇺🇸 US | 🔴 | vless | @prrofile_purple | 132",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🟢 | vless | @satellitenewspersian | 12",
                 "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
                 "🇺🇸 US | 🔴 | vless | @selinc | 8",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
@@ -405,7 +403,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
-                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 13",
+                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 17",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -438,7 +436,7 @@
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
                 "🇮🇷 IR | 🔴 | vless | @vpnv2rayngv | 19",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
-                "🇺🇸 US | 🔴 | vless | @vpnv2raytop | 8",
+                "🇺🇸 US | 🔴 | vless | @vpnv2raytop | 7",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4",
@@ -448,7 +446,7 @@
                 "❔ XX | 🟢 | vless | @yekoyekvpn | 0",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -1698,31 +1696,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @satellitenewspersian | 12",
-            "type": "vless",
-            "server": "172.66.47.61",
-            "server_port": 8443,
-            "uuid": "a396b860-11b7-4af3-9950-146caf79735e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "gghdfa.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/8WuhXm4QjK0L68Uf?ed=2560",
-                "headers": {
-                    "Host": "gghdfa.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
             "type": "vmess",
             "server": "ir.svgspeedtest.net",
@@ -2575,17 +2548,13 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @v2rayweb | 13",
+            "tag": "🇮🇷 IR | 🔴 | vless | @v2rayweb | 17",
             "type": "vless",
-            "server": "sn.lunarmc.ir",
-            "server_port": 8082,
-            "uuid": "c5faf134-bade-4e16-96de-a33a24c51cce",
+            "server": "NL-SERVER-VIP-N-G-S-IS.nl-vip-nightgemshop.pledh.com",
+            "server_port": 8080,
+            "uuid": "fafe936d-0b5a-4c46-86ad-85b65126b436",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "sn.lunarmc.ir"
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
@@ -3102,7 +3071,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @vpnv2raytop | 8",
+            "tag": "🇺🇸 US | 🔴 | vless | @vpnv2raytop | 7",
             "type": "vless",
             "server": "104.16.69.162",
             "server_port": 8880,
@@ -3286,7 +3255,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
+            "tag": "🇫🇷 FR | 🔴 | vless | @zvpnn | 7",
             "type": "vless",
             "server": "power.dlmoviz.ir",
             "server_port": 2020,
