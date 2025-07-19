@@ -98,13 +98,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇭🇰 HK | 🟢 | trojan | @NamiraNet | 60",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
-                "❔ XX | 🟢 | trojan | @v2rayweb | 19"
+                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "interrupt_exist_connections": false
         },
@@ -112,13 +110,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇭🇰 HK | 🟢 | trojan | @NamiraNet | 60",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
-                "❔ XX | 🟢 | trojan | @v2rayweb | 19"
+                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -136,22 +132,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇭🇰 HK | 🟢 | trojan | @NamiraNet | 60",
-            "type": "trojan",
-            "server": "ni.mjt000.com",
-            "server_port": 443,
-            "password": "172b2279-f7f5-4542-ab6c-9e96ad7dd5be",
-            "tls": {
-                "enabled": true,
-                "server_name": "ni.mjt000.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
@@ -206,9 +186,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
             "type": "trojan",
-            "server": "13.37.64.205",
+            "server": "3.65.111.43",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
@@ -241,29 +221,6 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "usa-vp-111.mETIkaPPs.cOm"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | trojan | @v2rayweb | 19",
-            "type": "trojan",
-            "server": "[2606:4700:3033::ac43:c768]",
-            "server_port": 443,
-            "password": "03e92910-34b1-4245-ac63-04a865f43cd5",
-            "tls": {
-                "enabled": true,
-                "server_name": "eEeFr5T6.4444916.XYZ",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/bi35bFWoRrnPhIJoo2wcE6Q",
-                "headers": {
-                    "Host": "eEeFr5T6.4444916.XYZ"
                 }
             }
         }

@@ -98,8 +98,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "❔ XX | 🔴 | vless | @config_proxy | 75",
                 "❔ XX | 🟢 | vless | @deli_servers | 1",
                 "❔ XX | 🟢 | vless | @fire_vpn_channel | 0",
+                "❔ XX | 🟢 | vless | @freevpnatm | 13",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 6",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 9",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 10",
@@ -122,8 +124,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "❔ XX | 🔴 | vless | @config_proxy | 75",
                 "❔ XX | 🟢 | vless | @deli_servers | 1",
                 "❔ XX | 🟢 | vless | @fire_vpn_channel | 0",
+                "❔ XX | 🟢 | vless | @freevpnatm | 13",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 6",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 9",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 10",
@@ -156,6 +160,19 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "❔ XX | 🔴 | vless | @config_proxy | 75",
+            "type": "vless",
+            "server": "[2001:15e8:110:6e4b::1]",
+            "server_port": 17262,
+            "uuid": "9469238c-5733-418e-a989-0ef368826ec1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON"
+            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @deli_servers | 1",
@@ -205,6 +222,28 @@
                     "public_key": "Uu4tcBEWuNn0SKnDk2Jy_o5Te2VA76M68hMlVYj9kiQ",
                     "short_id": "6412"
                 }
+            }
+        },
+        {
+            "tag": "❔ XX | 🟢 | vless | @freevpnatm | 13",
+            "type": "vless",
+            "server": "[2606:4700:3030::6815:2001]",
+            "server_port": 443,
+            "uuid": "662e38ba-8427-4955-94aa-76f5347a0ce8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "6DuxYMYmrGrnGKRosltnP1Q0J66"
             }
         },
         {
