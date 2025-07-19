@@ -99,7 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 67",
+                "🇸🇬 SG | 🟢 | ss | @NamiraNet | 62",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
                 "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 12",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -120,7 +120,7 @@
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "❔ XX | 🟢 | vless | @flash_proxies | 0",
                 "🇺🇸 US | 🔴 | vless | @freakconfig1 | 2",
-                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 11",
+                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 10",
                 "🇨🇦 CA | 🔴 | vmess | @free4allvpn | 14",
                 "❔ XX | 🟢 | ss | @free_omega | 4",
                 "🇸🇪 SE | 🔴 | vless | @free_vip3 | 6",
@@ -219,7 +219,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
-                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
@@ -278,7 +278,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 67",
+                "🇸🇬 SG | 🟢 | ss | @NamiraNet | 62",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
                 "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 12",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -299,7 +299,7 @@
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "❔ XX | 🟢 | vless | @flash_proxies | 0",
                 "🇺🇸 US | 🔴 | vless | @freakconfig1 | 2",
-                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 11",
+                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 10",
                 "🇨🇦 CA | 🔴 | vmess | @free4allvpn | 14",
                 "❔ XX | 🟢 | ss | @free_omega | 4",
                 "🇸🇪 SE | 🔴 | vless | @free_vip3 | 6",
@@ -398,7 +398,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
-                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
@@ -477,20 +477,12 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 67",
-            "type": "vless",
-            "server": "hopeful-appointment.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "491e4f76-42f0-43a7-a987-25072a68d5e4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "hopeful-appointment.seotoolsforyou.co.uk"
-                }
-            }
+            "tag": "🇸🇬 SG | 🟢 | ss | @NamiraNet | 62",
+            "type": "shadowsocks",
+            "server": "45.76.180.205",
+            "server_port": 31298,
+            "method": "chacha20-ietf-poly1305",
+            "password": "c976721a-e390-4dbf-b4f9-72c3feb9594c"
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
@@ -823,7 +815,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vless | @free1_vpn | 11",
+            "tag": "🇷🇺 RU | 🟢 | vless | @free1_vpn | 10",
             "type": "vless",
             "server": "213.183.41.63",
             "server_port": 443,
@@ -2430,7 +2422,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

@@ -67,7 +67,6 @@ proxies:
   - {"name":"🇺🇸 US | 🔴 | vmess | @ghotb_scarf | 6","type":"vmess","server":"xvon.fast.hosting-ip.com","port":80,"cipher":"auto","uuid":"39dbe83a-3dac-43e7-8c14-97270749f420","alterId":"0","tls":false,"skip-cert-verify":true,"network":"xhttp"}
   - {"name":"🇮🇷 IR | 🔴 | vmess | @goldenvpn_v2rayy | 1","type":"vmess","server":"mrgold.iranman.shop","port":52065,"cipher":"auto","uuid":"f29ea77c-6842-4ee0-9fc1-9c7a871566b2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇫🇷 FR | 🔴 | vmess | @info_2it_channel | 10","type":"vmess","server":"nl.dnszone.top","port":45500,"cipher":"auto","uuid":"e81e7107-19b4-4e88-8015-820dcbb0a044","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔴 | vmess | @ip_cf_config | 12","type":"vmess","server":"172.67.131.27","port":2053,"cipher":"auto","uuid":"350e2b01-d410-44a6-90ba-6483f1062972","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"rak2d4.89060004.xyz"}}}
   - {"name":"❔ XX | 🔴 | vmess | @jedal_vpn | 1","type":"vmess","server":"j-45.mjedal.site","port":33167,"cipher":"auto","uuid":"148ed79d-7849-4243-8d91-a99c46b7fb1a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"j-45.mjedal.site"}}}
   - {"name":"❔ XX | 🔴 | vmess | @jedal_vpn | 2","type":"vmess","server":"sub.nilovip.net.tr","port":8081,"cipher":"auto","uuid":"b88bcdd1-64c6-4ec4-a64b-8ee078833a6d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔ XX | 🔴 | vmess | @jedal_vpn | 4","type":"vmess","server":"ge-6.jedalvip.site","port":17305,"cipher":"auto","uuid":"6546c678-3f22-4a32-899b-84035ce40199","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
@@ -137,7 +136,7 @@ proxies:
   - {"name":"🇬🇧 GB | 🟢 | vmess | @v2ray4win | 4","type":"vmess","server":"45.85.118.88","port":443,"cipher":"auto","uuid":"ee30d3ff-da14-4ea8-bcd2-02e8ee3667de","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aidapp.lifevws","headers":{"Host":"hstr1675520106270.aidapp.life"}}}
   - {"name":"🇺🇸 US | 🟢 | vmess | @v2ray4win | 5","type":"vmess","server":"www.speedtest.net","port":443,"cipher":"auto","uuid":"a4df089f-3c1c-4cf7-9a5f-ab6d2212136c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/appsvws","headers":{"Host":"v2-kiava.kiava.workers.dev"}}}
   - {"name":"🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7","type":"vmess","server":"91.107.160.240","port":15795,"cipher":"auto","uuid":"7ca6c13a-e450-49fa-9b9c-b49a6eda5b79","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪 DE | 🔴 | vmess | @v2ray_free_conf | 19","type":"vmess","server":"panel1.ipyar.org","port":42684,"cipher":"auto","uuid":"c4bd9eba-8aea-4d5e-a2ee-b5de65ac14e1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪 DE | 🔴 | vmess | @v2ray_free_conf | 18","type":"vmess","server":"panel1.ipyar.org","port":42684,"cipher":"auto","uuid":"c4bd9eba-8aea-4d5e-a2ee-b5de65ac14e1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸 US | 🔴 | vmess | @v2rayng3 | 3","type":"vmess","server":"104.19.150.10","port":2095,"cipher":"auto","uuid":"94f332b0-c5d3-4531-a1d6-6e6358cc6c72","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
   - {"name":"🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6","type":"vmess","server":"5.180.30.85","port":18598,"cipher":"auto","uuid":"bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸 US | 🔴 | vmess | @v2rayng_channel_vpn | 5","type":"vmess","server":"15.204.234.200","port":41100,"cipher":"auto","uuid":"c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -254,7 +253,6 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vmess | @ghotb_scarf | 6'
       - '🇮🇷 IR | 🔴 | vmess | @goldenvpn_v2rayy | 1'
       - '🇫🇷 FR | 🔴 | vmess | @info_2it_channel | 10'
-      - '🇺🇸 US | 🔴 | vmess | @ip_cf_config | 12'
       - '❔ XX | 🔴 | vmess | @jedal_vpn | 1'
       - '❔ XX | 🔴 | vmess | @jedal_vpn | 2'
       - '❔ XX | 🔴 | vmess | @jedal_vpn | 4'
@@ -324,7 +322,7 @@ proxy-groups:
       - '🇬🇧 GB | 🟢 | vmess | @v2ray4win | 4'
       - '🇺🇸 US | 🟢 | vmess | @v2ray4win | 5'
       - '🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7'
-      - '🇩🇪 DE | 🔴 | vmess | @v2ray_free_conf | 19'
+      - '🇩🇪 DE | 🔴 | vmess | @v2ray_free_conf | 18'
       - '🇺🇸 US | 🔴 | vmess | @v2rayng3 | 3'
       - '🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6'
       - '🇺🇸 US | 🔴 | vmess | @v2rayng_channel_vpn | 5'
@@ -417,7 +415,6 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vmess | @ghotb_scarf | 6'
       - '🇮🇷 IR | 🔴 | vmess | @goldenvpn_v2rayy | 1'
       - '🇫🇷 FR | 🔴 | vmess | @info_2it_channel | 10'
-      - '🇺🇸 US | 🔴 | vmess | @ip_cf_config | 12'
       - '❔ XX | 🔴 | vmess | @jedal_vpn | 1'
       - '❔ XX | 🔴 | vmess | @jedal_vpn | 2'
       - '❔ XX | 🔴 | vmess | @jedal_vpn | 4'
@@ -487,7 +484,7 @@ proxy-groups:
       - '🇬🇧 GB | 🟢 | vmess | @v2ray4win | 4'
       - '🇺🇸 US | 🟢 | vmess | @v2ray4win | 5'
       - '🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7'
-      - '🇩🇪 DE | 🔴 | vmess | @v2ray_free_conf | 19'
+      - '🇩🇪 DE | 🔴 | vmess | @v2ray_free_conf | 18'
       - '🇺🇸 US | 🔴 | vmess | @v2rayng3 | 3'
       - '🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6'
       - '🇺🇸 US | 🔴 | vmess | @v2rayng_channel_vpn | 5'
@@ -578,7 +575,6 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vmess | @ghotb_scarf | 6'
       - '🇮🇷 IR | 🔴 | vmess | @goldenvpn_v2rayy | 1'
       - '🇫🇷 FR | 🔴 | vmess | @info_2it_channel | 10'
-      - '🇺🇸 US | 🔴 | vmess | @ip_cf_config | 12'
       - '❔ XX | 🔴 | vmess | @jedal_vpn | 1'
       - '❔ XX | 🔴 | vmess | @jedal_vpn | 2'
       - '❔ XX | 🔴 | vmess | @jedal_vpn | 4'
@@ -648,7 +644,7 @@ proxy-groups:
       - '🇬🇧 GB | 🟢 | vmess | @v2ray4win | 4'
       - '🇺🇸 US | 🟢 | vmess | @v2ray4win | 5'
       - '🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7'
-      - '🇩🇪 DE | 🔴 | vmess | @v2ray_free_conf | 19'
+      - '🇩🇪 DE | 🔴 | vmess | @v2ray_free_conf | 18'
       - '🇺🇸 US | 🔴 | vmess | @v2rayng3 | 3'
       - '🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6'
       - '🇺🇸 US | 🔴 | vmess | @v2rayng_channel_vpn | 5'

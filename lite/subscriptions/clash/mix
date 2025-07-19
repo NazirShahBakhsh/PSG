@@ -17,6 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇸🇬 SG | 🟢 | ss | @NamiraNet | 62","type":"ss","server":"45.76.180.205","port":31298,"password":"c976721a-e390-4dbf-b4f9-72c3feb9594c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3","type":"vmess","server":"tu.shoptx.sbs","port":15400,"cipher":"auto","uuid":"cc660614-1172-4988-9647-3846502d0e4f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸 US | 🟢 | ss | @argo_vpn1 | 12","type":"ss","server":"213.111.142.59","port":8443,"password":"K5H7ATShusHhlh7Tbs6ANK","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @bislullproxy | 18","type":"ss","server":"4.250.60.151","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
@@ -92,6 +93,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇸🇬 SG | 🟢 | ss | @NamiraNet | 62'
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
       - '🇺🇸 US | 🟢 | ss | @argo_vpn1 | 12'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
@@ -143,6 +145,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇸🇬 SG | 🟢 | ss | @NamiraNet | 62'
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
       - '🇺🇸 US | 🟢 | ss | @argo_vpn1 | 12'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
@@ -192,6 +195,7 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
+      - '🇸🇬 SG | 🟢 | ss | @NamiraNet | 62'
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
       - '🇺🇸 US | 🟢 | ss | @argo_vpn1 | 12'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
