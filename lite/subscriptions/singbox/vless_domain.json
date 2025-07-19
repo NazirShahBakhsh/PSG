@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 67",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
@@ -141,7 +141,7 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 15",
+                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
@@ -166,7 +166,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 67",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
@@ -209,7 +209,7 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 15",
+                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
@@ -246,18 +246,18 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 67",
             "type": "vless",
-            "server": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK",
+            "server": "InformeD-loCATiOn.SEOtooLsfoRyOU.cO.uk",
             "server_port": 80,
-            "uuid": "5139af95-a453-46c6-831a-a532b6b51305",
+            "uuid": "5c929ec5-5b1e-447a-950c-354c5d1ba1de",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK"
+                    "Host": "InformeD-loCATiOn.SEOtooLsfoRyOU.cO.uk"
                 }
             }
         },
@@ -1020,7 +1020,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

@@ -103,7 +103,6 @@
                 "🇮🇪 IE | 🟢 | vless | @appsooner | 10",
                 "🇨🇿 CZ | 🟢 | vless | @bored_vpn | 4",
                 "🇨🇿 CZ | 🟢 | vless | @bored_vpn | 8",
-                "🇳🇱 NL | 🟢 | vless | @config_proxy | 74",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 2",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
@@ -153,7 +152,7 @@
                 "🇩🇪 DE | 🟢 | vless | @mastervpnshop1 | 14",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
-                "🇨🇿 CZ | 🟢 | vless | @mowjproxy | 2",
+                "🇨🇿 CZ | 🟢 | vless | @mowjproxy | 0",
                 "🇨🇦 CA | 🟢 | vless | @mtpv2ray | 4",
                 "🇫🇷 FR | 🟢 | vless | @mtpv2ray | 6",
                 "🇩🇪 DE | 🟢 | vless | @netfreedom0 | 16",
@@ -213,7 +212,6 @@
                 "🇮🇪 IE | 🟢 | vless | @appsooner | 10",
                 "🇨🇿 CZ | 🟢 | vless | @bored_vpn | 4",
                 "🇨🇿 CZ | 🟢 | vless | @bored_vpn | 8",
-                "🇳🇱 NL | 🟢 | vless | @config_proxy | 74",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 2",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
@@ -263,7 +261,7 @@
                 "🇩🇪 DE | 🟢 | vless | @mastervpnshop1 | 14",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
-                "🇨🇿 CZ | 🟢 | vless | @mowjproxy | 2",
+                "🇨🇿 CZ | 🟢 | vless | @mowjproxy | 0",
                 "🇨🇦 CA | 🟢 | vless | @mtpv2ray | 4",
                 "🇫🇷 FR | 🟢 | vless | @mtpv2ray | 6",
                 "🇩🇪 DE | 🟢 | vless | @netfreedom0 | 16",
@@ -450,29 +448,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @config_proxy | 74",
-            "type": "vless",
-            "server": "146.103.107.169",
-            "server_port": 443,
-            "uuid": "RAKETA_141477259",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "whatsapp.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "O4LhPcyUnjMpHLzStvFc2mGVriPcpBKpEtlOF2wpPXY",
-                    "short_id": "ffffffffff"
-                }
             }
         },
         {
@@ -1678,7 +1653,7 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🟢 | vless | @mowjproxy | 2",
+            "tag": "🇨🇿 CZ | 🟢 | vless | @mowjproxy | 0",
             "type": "vless",
             "server": "194.182.79.250",
             "server_port": 52611,
