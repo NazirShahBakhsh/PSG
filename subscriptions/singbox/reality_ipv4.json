@@ -103,7 +103,7 @@
                 "🇮🇪 IE | 🟢 | vless | @appsooner | 10",
                 "🇨🇿 CZ | 🟢 | vless | @bored_vpn | 4",
                 "🇨🇿 CZ | 🟢 | vless | @bored_vpn | 8",
-                "🇩🇪 DE | 🟢 | vless | @config_proxy | 47",
+                "🇳🇱 NL | 🟢 | vless | @config_proxy | 74",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 2",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
@@ -153,7 +153,7 @@
                 "🇩🇪 DE | 🟢 | vless | @mastervpnshop1 | 14",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
-                "🇨🇿 CZ | 🟢 | vless | @mowjproxy | 4",
+                "🇨🇿 CZ | 🟢 | vless | @mowjproxy | 2",
                 "🇨🇦 CA | 🟢 | vless | @mtpv2ray | 4",
                 "🇫🇷 FR | 🟢 | vless | @mtpv2ray | 6",
                 "🇩🇪 DE | 🟢 | vless | @netfreedom0 | 16",
@@ -213,7 +213,7 @@
                 "🇮🇪 IE | 🟢 | vless | @appsooner | 10",
                 "🇨🇿 CZ | 🟢 | vless | @bored_vpn | 4",
                 "🇨🇿 CZ | 🟢 | vless | @bored_vpn | 8",
-                "🇩🇪 DE | 🟢 | vless | @config_proxy | 47",
+                "🇳🇱 NL | 🟢 | vless | @config_proxy | 74",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 2",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
@@ -263,7 +263,7 @@
                 "🇩🇪 DE | 🟢 | vless | @mastervpnshop1 | 14",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
-                "🇨🇿 CZ | 🟢 | vless | @mowjproxy | 4",
+                "🇨🇿 CZ | 🟢 | vless | @mowjproxy | 2",
                 "🇨🇦 CA | 🟢 | vless | @mtpv2ray | 4",
                 "🇫🇷 FR | 🟢 | vless | @mtpv2ray | 6",
                 "🇩🇪 DE | 🟢 | vless | @netfreedom0 | 16",
@@ -453,16 +453,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @config_proxy | 47",
+            "tag": "🇳🇱 NL | 🟢 | vless | @config_proxy | 74",
             "type": "vless",
-            "server": "5.104.107.135",
+            "server": "146.103.107.169",
             "server_port": 443,
-            "uuid": "860bf99f-6817-4892-aa77-1877ec73a57b",
+            "uuid": "RAKETA_141477259",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "de.nahadeh.co",
+                "server_name": "whatsapp.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -470,8 +470,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "L_tbYn1GzbG3VS0OJcEFHFoYkh-jCK-iyzJVGLzoB30",
-                    "short_id": ""
+                    "public_key": "O4LhPcyUnjMpHLzStvFc2mGVriPcpBKpEtlOF2wpPXY",
+                    "short_id": "ffffffffff"
                 }
             }
         },
@@ -1678,7 +1678,7 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🟢 | vless | @mowjproxy | 4",
+            "tag": "🇨🇿 CZ | 🟢 | vless | @mowjproxy | 2",
             "type": "vless",
             "server": "194.182.79.250",
             "server_port": 52611,

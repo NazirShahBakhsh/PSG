@@ -100,6 +100,7 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
@@ -111,6 +112,7 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
@@ -160,6 +162,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
+            "type": "trojan",
+            "server": "35.181.156.239",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
