@@ -99,12 +99,11 @@
             "outbounds": [
                 "URL-TEST",
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 47",
-                "❔ XX | 🟢 | vless | @Fr33C0nfig | 48",
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 48",
                 "❔ XX | 🟢 | vless | @buffalo_vpn | 5",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-                "🇫🇮 FI | 🟢 | vless | @config_proxy | 54",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -173,12 +172,11 @@
             "type": "urltest",
             "outbounds": [
                 "❔ XX | 🟢 | vless | @Fr33C0nfig | 47",
-                "❔ XX | 🟢 | vless | @Fr33C0nfig | 48",
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 48",
                 "❔ XX | 🟢 | vless | @buffalo_vpn | 5",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-                "🇫🇮 FI | 🟢 | vless | @config_proxy | 54",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -281,7 +279,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @Fr33C0nfig | 48",
+            "tag": "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 48",
             "type": "vless",
             "server": "usa.multiapvps.ir",
             "server_port": 4434,
@@ -400,29 +398,6 @@
                     "enabled": true,
                     "public_key": "wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM",
                     "short_id": "c7bc4d"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @config_proxy | 54",
-            "type": "vless",
-            "server": "online-chat.webboosterpro.co.uk",
-            "server_port": 443,
-            "uuid": "f72e4aa8-36c2-4dd6-b19d-dfe6be679e44",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.fastly.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QxGoAQpy2zri2JRkXmPfESKjAMHpsrJPmjbkJuZCz3U",
-                    "short_id": "1eaf5214"
                 }
             }
         },

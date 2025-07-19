@@ -225,7 +225,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
-                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 17",
+                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 17",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -403,7 +403,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
-                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 17",
+                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 17",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -2548,13 +2548,27 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @v2rayweb | 17",
-            "type": "vless",
-            "server": "NL-SERVER-VIP-N-G-S-IS.nl-vip-nightgemshop.pledh.com",
-            "server_port": 8080,
-            "uuid": "fafe936d-0b5a-4c46-86ad-85b65126b436",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayweb | 17",
+            "type": "trojan",
+            "server": "104.25.197.102",
+            "server_port": 8443,
+            "password": "AQYZMBIoZd",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn65667.boshrachoice.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "cdn65667.boshrachoice.ir"
+                }
+            }
         },
         {
             "tag": "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",

@@ -100,7 +100,6 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
-                "🇫🇮 FI | 🟢 | vless | @config_proxy | 54",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -113,7 +112,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 8",
-                "PSGoziqwxoybe",
+                "PSGohltiddfln",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
@@ -136,7 +135,6 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 8",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
-                "🇫🇮 FI | 🟢 | vless | @config_proxy | 54",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -149,7 +147,7 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 8",
-                "PSGoziqwxoybe",
+                "PSGohltiddfln",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
@@ -210,29 +208,6 @@
                     "enabled": true,
                     "public_key": "53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk",
                     "short_id": "aeba"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @config_proxy | 54",
-            "type": "vless",
-            "server": "online-chat.webboosterpro.co.uk",
-            "server_port": 443,
-            "uuid": "f72e4aa8-36c2-4dd6-b19d-dfe6be679e44",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.fastly.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QxGoAQpy2zri2JRkXmPfESKjAMHpsrJPmjbkJuZCz3U",
-                    "short_id": "1eaf5214"
                 }
             }
         },
@@ -345,7 +320,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "PSGoziqwxoybe",
+            "tag": "PSGohltiddfln",
             "type": "vless",
             "server": "hibbb.fast.hosting-ip.com",
             "server_port": 80,
