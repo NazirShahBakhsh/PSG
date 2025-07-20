@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇭 CH | 🟢 | ss | @argo_vpn1 | 9",
+                "🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 9",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
@@ -110,7 +110,6 @@
                 "🇺🇸 US | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
-                "🇨🇦 CA | 🟢 | ss | @vmess_ir | 18",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
@@ -126,7 +125,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇭 CH | 🟢 | ss | @argo_vpn1 | 9",
+                "🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 9",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
@@ -138,7 +137,6 @@
                 "🇺🇸 US | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
-                "🇨🇦 CA | 🟢 | ss | @vmess_ir | 18",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
@@ -166,12 +164,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇭 CH | 🟢 | ss | @argo_vpn1 | 9",
+            "tag": "🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 9",
             "type": "shadowsocks",
-            "server": "37.235.50.230",
-            "server_port": 8443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "m61k5jrSAbXAFJSn8yHoIE"
+            "server": "220.124.31.130",
+            "server_port": 19378,
+            "method": "aes-256-gcm",
+            "password": "NiznLvoIuy"
         },
         {
             "tag": "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
@@ -260,14 +258,6 @@
             "server_port": 5601,
             "method": "aes-256-gcm",
             "password": "Y6R9pAtvxxzmGC"
-        },
-        {
-            "tag": "🇨🇦 CA | 🟢 | ss | @vmess_ir | 18",
-            "type": "shadowsocks",
-            "server": "64.74.163.218",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
         },
         {
             "tag": "❔ XX | 🟢 | ss | @chestertm | 12",
