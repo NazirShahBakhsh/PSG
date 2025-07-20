@@ -99,7 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
+                "🇨🇦 CA | 🔴 | vmess | @NamiraNet | 69",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
                 "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 11",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -208,7 +208,7 @@
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇺🇸 US | 🟢 | vless | @v2raying | 17",
-                "🇦🇲 AM | 🔴 | vless | @v2rayng3 | 7",
+                "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
@@ -225,7 +225,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇩🇪 DE | 🟢 | trojan | @v2rayweb | 17",
+                "🇺🇸 US | 🔴 | vmess | @v2rayweb | 17",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -276,7 +276,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
+                "🇨🇦 CA | 🔴 | vmess | @NamiraNet | 69",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
                 "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 11",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -385,7 +385,7 @@
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇺🇸 US | 🟢 | vless | @v2raying | 17",
-                "🇦🇲 AM | 🔴 | vless | @v2rayng3 | 7",
+                "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
@@ -402,7 +402,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇩🇪 DE | 🟢 | trojan | @v2rayweb | 17",
+                "🇺🇸 US | 🔴 | vmess | @v2rayweb | 17",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -473,18 +473,18 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
-            "type": "trojan",
-            "server": "104.21.47.176",
-            "server_port": 443,
-            "password": "52701795-3c3b-46b4-b7cf-c5978b3a4cf2",
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfyc1.achaemenidempireofpersia.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "tag": "🇨🇦 CA | 🔴 | vmess | @NamiraNet | 69",
+            "type": "vmess",
+            "server": "15.235.41.200",
+            "server_port": 80,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
@@ -2217,20 +2217,13 @@
             }
         },
         {
-            "tag": "🇦🇲 AM | 🔴 | vless | @v2rayng3 | 7",
-            "type": "vless",
-            "server": "85.90.207.183",
-            "server_port": 52943,
-            "uuid": "188801af-6b7c-4866-9206-287404619989",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "85.90.207.183"
-                }
-            }
+            "tag": "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
+            "type": "vmess",
+            "server": "5.180.30.85",
+            "server_port": 18598,
+            "uuid": "bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
@@ -2529,18 +2522,18 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayweb | 17",
-            "type": "trojan",
-            "server": "de01a.kbservice.club",
-            "server_port": 443,
-            "password": "6e1b9a65-884f-3aa9-9469-bf6ec0f08610",
-            "tls": {
-                "enabled": true,
-                "server_name": "45.32.28.232",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "tag": "🇺🇸 US | 🔴 | vmess | @v2rayweb | 17",
+            "type": "vmess",
+            "server": "104.26.0.80",
+            "server_port": 2095,
+            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/github.com/Alvin9999",
+                "headers": {
+                    "Host": "104.26.0.80"
                 }
             }
         },

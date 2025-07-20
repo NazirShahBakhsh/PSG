@@ -101,6 +101,7 @@
                 "❔ XX | 🔴 | vless | @bored_vpn | 9",
                 "❔ XX | 🟢 | vless | @deli_servers | 1",
                 "❔ XX | 🟢 | vless | @fire_vpn_channel | 0",
+                "❔ XX | 🔴 | vless | @freevpnatm | 19",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 6",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 9",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 10",
@@ -126,6 +127,7 @@
                 "❔ XX | 🔴 | vless | @bored_vpn | 9",
                 "❔ XX | 🟢 | vless | @deli_servers | 1",
                 "❔ XX | 🟢 | vless | @fire_vpn_channel | 0",
+                "❔ XX | 🔴 | vless | @freevpnatm | 19",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 6",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 9",
                 "❔ XX | 🔴 | vless | @freevv2rayng | 10",
@@ -215,6 +217,31 @@
                     "enabled": true,
                     "public_key": "Uu4tcBEWuNn0SKnDk2Jy_o5Te2VA76M68hMlVYj9kiQ",
                     "short_id": "6412"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔴 | vless | @freevpnatm | 19",
+            "type": "vless",
+            "server": "[2606:4700:3035::ac43:a232]",
+            "server_port": 443,
+            "uuid": "e4cbe8b8-37db-4aaa-8469-b84f34c51ebc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "[2606:4700:3035::ac43:a232]",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "[2606:4700:3035::ac43:a232]"
                 }
             }
         },

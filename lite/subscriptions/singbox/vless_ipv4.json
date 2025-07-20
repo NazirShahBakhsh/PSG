@@ -135,7 +135,6 @@
                 "🇳🇱 NL | 🔴 | vless | @v2ray_sub | 9",
                 "🇺🇸 US | 🔴 | vless | @v2ray_youtube | 12",
                 "🇺🇸 US | 🟢 | vless | @v2raying | 17",
-                "🇦🇲 AM | 🔴 | vless | @v2rayng3 | 7",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayngconfiig | 11",
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
@@ -197,7 +196,6 @@
                 "🇳🇱 NL | 🔴 | vless | @v2ray_sub | 9",
                 "🇺🇸 US | 🔴 | vless | @v2ray_youtube | 12",
                 "🇺🇸 US | 🟢 | vless | @v2raying | 17",
-                "🇦🇲 AM | 🔴 | vless | @v2rayng3 | 7",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayngconfiig | 11",
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
@@ -898,22 +896,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "mylearn-8zx.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇦🇲 AM | 🔴 | vless | @v2rayng3 | 7",
-            "type": "vless",
-            "server": "85.90.207.183",
-            "server_port": 52943,
-            "uuid": "188801af-6b7c-4866-9206-287404619989",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "85.90.207.183"
                 }
             }
         },
