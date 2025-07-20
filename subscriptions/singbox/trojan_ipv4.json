@@ -108,14 +108,12 @@
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 14",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 1",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 14",
+                "🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 12",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 5",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 6",
                 "🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇩🇪 DE | 🟢 | trojan | @mt_proxy | 6",
-                "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 12",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 13",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 14",
@@ -146,14 +144,12 @@
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 14",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 1",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 14",
+                "🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 12",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 5",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 6",
                 "🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇩🇪 DE | 🟢 | trojan | @mt_proxy | 6",
-                "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 12",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 13",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 14",
@@ -345,41 +341,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
+            "tag": "🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 12",
             "type": "trojan",
-            "server": "198.23.229.250",
+            "server": "176.32.39.29",
             "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
+            "password": "8OXD5VVt8s",
             "tls": {
                 "enabled": true,
-                "server_name": "rc6.freeguard.org",
+                "server_name": "journalofbigdata.springeropen.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 14",
-            "type": "trojan",
-            "server": "104.25.165.81",
-            "server_port": 8443,
-            "password": "123456",
-            "tls": {
-                "enabled": true,
-                "server_name": "top-azx.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Az1.vpn.33.TOP/?ed=2560",
-                "headers": {
-                    "Host": "top-azx.pages.dev"
                 }
             }
         },
@@ -470,22 +443,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-            "type": "trojan",
-            "server": "176.32.39.29",
-            "server_port": 443,
-            "password": "8OXD5VVt8s",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

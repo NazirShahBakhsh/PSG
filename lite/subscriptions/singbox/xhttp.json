@@ -101,7 +101,8 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
+                "🇭🇰 HK | 🟢 | vless | @vpnaloo | 16",
                 "🇳🇱 NL | 🟢 | vless | @lranonline_new | 3",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
@@ -116,7 +117,8 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
+                "🇭🇰 HK | 🟢 | vless | @vpnaloo | 16",
                 "🇳🇱 NL | 🟢 | vless | @lranonline_new | 3",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
@@ -167,13 +169,36 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
+            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
             "type": "vless",
-            "server": "ip.ir-sub.fun",
+            "server": "speedtestcustom.com",
             "server_port": 80,
-            "uuid": "3d1b7cfd-0019-4b71-9c8e-b922e5e262c3",
+            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇭🇰 HK | 🟢 | vless | @vpnaloo | 16",
+            "type": "vless",
+            "server": "ko1.xservers.ir",
+            "server_port": 81,
+            "uuid": "ce02ef89-4a22-40d3-a962-9a8e12c252fe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "A-8wmBnGrz4ny7CB9Zfnjz66cbS83uOMdH61CsI-rm8",
+                    "short_id": "200de4ca48fb1731"
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🟢 | vless | @lranonline_new | 3",
