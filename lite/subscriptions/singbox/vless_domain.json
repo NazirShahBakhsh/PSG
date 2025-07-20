@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 13",
+                "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 12",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -109,6 +109,7 @@
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
+                "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
                 "❔ XX | 🟢 | vless | @iraniv2ray | 6",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
@@ -167,7 +168,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 13",
+                "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 12",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -178,6 +179,7 @@
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
+                "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
                 "❔ XX | 🟢 | vless | @iraniv2ray | 6",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
@@ -248,7 +250,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 13",
+            "tag": "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 12",
             "type": "vless",
             "server": "fierce-data.seotoolsforyou.co.uk",
             "server_port": 80,
@@ -436,6 +438,22 @@
                 "path": "/http",
                 "headers": {
                     "Host": "s16.leader21.top"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
+            "type": "vless",
+            "server": "eNThuSIasTic-CeNTUrY.OneEAt.cO",
+            "server_port": 80,
+            "uuid": "edc0a710-b736-455a-a9f2-d26150e624b2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "eNThuSIasTic-CeNTUrY.OneEAt.cO"
                 }
             }
         },

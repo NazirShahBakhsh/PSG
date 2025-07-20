@@ -99,9 +99,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇳🇱 NL | 🟢 | ss | @NamiraNet | 68",
+                "🇳🇱 NL | 🔴 | vless | @NamiraNet | 64",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
-                "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 13",
+                "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 12",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
@@ -133,7 +133,7 @@
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
-                "🇺🇸 US | 🔴 | vless | @icv2ray | 13",
+                "🇺🇸 US | 🟢 | vless | @icv2ray | 14",
                 "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
                 "❔ XX | 🟢 | vless | @iraniv2ray | 6",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
@@ -226,7 +226,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 12",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
+                "🇫🇮 FI | 🟢 | vless | @v2rayweb | 18",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -276,9 +276,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇳🇱 NL | 🟢 | ss | @NamiraNet | 68",
+                "🇳🇱 NL | 🔴 | vless | @NamiraNet | 64",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
-                "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 13",
+                "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 12",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
@@ -310,7 +310,7 @@
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
-                "🇺🇸 US | 🔴 | vless | @icv2ray | 13",
+                "🇺🇸 US | 🟢 | vless | @icv2ray | 14",
                 "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
                 "❔ XX | 🟢 | vless | @iraniv2ray | 6",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
@@ -403,7 +403,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 12",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
+                "🇫🇮 FI | 🟢 | vless | @v2rayweb | 18",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -473,12 +473,17 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraNet | 68",
-            "type": "shadowsocks",
-            "server": "147.45.114.160",
-            "server_port": 45651,
-            "method": "chacha20-ietf-poly1305",
-            "password": "M8QlxO4xR2Aor3nI4nnojF"
+            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraNet | 64",
+            "type": "vless",
+            "server": "31.15.16.95",
+            "server_port": 1010,
+            "uuid": "1a35bdb9-217d-4fc5-acef-1fbff95c6b68",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "MoonV2r---Telegram---Channel"
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
@@ -490,7 +495,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 13",
+            "tag": "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 12",
             "type": "vless",
             "server": "fierce-data.seotoolsforyou.co.uk",
             "server_port": 80,
@@ -1031,34 +1036,43 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @icv2ray | 13",
+            "tag": "🇺🇸 US | 🟢 | vless | @icv2ray | 14",
             "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 8080,
-            "uuid": "%54ELEGR%41M-CONF%69GL%69NE",
+            "server": "104.18.24.113",
+            "server_port": 443,
+            "uuid": "80d1f%6559-60f4-4272-%61280-820%651%65f0%61754",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=80",
+                "path": "/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048",
                 "headers": {
-                    "Host": "172.66.40.99"
+                    "Host": "www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net"
                 }
             }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
             "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 8080,
-            "uuid": "Parsashonam-Bot-2",
+            "server": "eNThuSIasTic-CeNTUrY.OneEAt.cO",
+            "server_port": 80,
+            "uuid": "edc0a710-b736-455a-a9f2-d26150e624b2",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056",
+                "path": "/",
                 "headers": {
-                    "Host": "104.17.147.22"
+                    "Host": "eNThuSIasTic-CeNTUrY.OneEAt.cO"
                 }
             }
         },
@@ -2552,18 +2566,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
+            "tag": "🇫🇮 FI | 🟢 | vless | @v2rayweb | 18",
             "type": "vless",
-            "server": "172.67.65.158",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
+            "server": "5.181.20.219",
+            "server_port": 17422,
+            "uuid": "fe837fd0-840d-4cee-9334-0dc6c2b15c1c",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Etb1L6YUdZFZuTOr?ed=2560/?JOKERRVPN_BIA_CHANEL@JOKERRVPN",
-                "headers": {
-                    "Host": "172.67.65.158"
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
+                    "short_id": "33"
                 }
             }
         },

@@ -99,6 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇳🇱 NL | 🔴 | vless | @NamiraNet | 64",
                 "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🟢 | vless | @drvpn_net | 1",
                 "🇹🇷 TR | 🟢 | vless | @f_nirevil | 2",
@@ -109,8 +110,7 @@
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
-                "🇺🇸 US | 🔴 | vless | @icv2ray | 13",
-                "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
+                "🇺🇸 US | 🟢 | vless | @icv2ray | 14",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇺🇸 US | 🟢 | vless | @kingofilter | 4",
                 "🇺🇸 US | 🔴 | vless | @kurdistan_vpn_perfectt | 9",
@@ -140,7 +140,7 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
+                "🇫🇮 FI | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -161,6 +161,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇳🇱 NL | 🔴 | vless | @NamiraNet | 64",
                 "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🟢 | vless | @drvpn_net | 1",
                 "🇹🇷 TR | 🟢 | vless | @f_nirevil | 2",
@@ -171,8 +172,7 @@
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
-                "🇺🇸 US | 🔴 | vless | @icv2ray | 13",
-                "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
+                "🇺🇸 US | 🟢 | vless | @icv2ray | 14",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇺🇸 US | 🟢 | vless | @kingofilter | 4",
                 "🇺🇸 US | 🔴 | vless | @kurdistan_vpn_perfectt | 9",
@@ -202,7 +202,7 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
+                "🇫🇮 FI | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -241,6 +241,19 @@
             "uuid": "a804bb53-7504-4f06-96d8-ff56fb71539d",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraNet | 64",
+            "type": "vless",
+            "server": "31.15.16.95",
+            "server_port": 1010,
+            "uuid": "1a35bdb9-217d-4fc5-acef-1fbff95c6b68",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "MoonV2r---Telegram---Channel"
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
@@ -445,34 +458,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @icv2ray | 13",
+            "tag": "🇺🇸 US | 🟢 | vless | @icv2ray | 14",
             "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 8080,
-            "uuid": "TELEGRAM-CONFiGLiNE",
+            "server": "104.18.24.113",
+            "server_port": 443,
+            "uuid": "80d1fe59-60f4-4272-a280-820e1ef0a754",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=80",
-                "headers": {
-                    "Host": "172.66.40.99"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 8080,
-            "uuid": "Parsashonam-Bot-2",
-            "flow": "",
-            "packet_encoding": "xudp",
+            },
             "transport": {
                 "type": "ws",
-                "path": "/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056",
+                "path": "/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048",
                 "headers": {
-                    "Host": "104.17.147.22"
+                    "Host": "www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net"
                 }
             }
         },
@@ -1007,18 +1013,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
+            "tag": "🇫🇮 FI | 🟢 | vless | @v2rayweb | 18",
             "type": "vless",
-            "server": "172.67.65.158",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
+            "server": "5.181.20.219",
+            "server_port": 17422,
+            "uuid": "fe837fd0-840d-4cee-9334-0dc6c2b15c1c",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Etb1L6YUdZFZuTOr?ed=2560/?JOKERRVPN_BIA_CHANEL@JOKERRVPN",
-                "headers": {
-                    "Host": "172.67.65.158"
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
+                    "short_id": "33"
                 }
             }
         },

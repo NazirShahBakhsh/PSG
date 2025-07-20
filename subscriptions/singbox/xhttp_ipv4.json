@@ -102,13 +102,14 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 15",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
+                "🇦🇪 AE | 🟢 | vless | @dnsforyou | 25",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
-                "🇺🇸 US | 🟢 | vless | @flyv2ray | 1",
+                "🇺🇸 US | 🟢 | vless | @flyv2ray | 0",
                 "🇩🇪 DE | 🟢 | vless | @free_serverir | 55",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
-                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 12",
+                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 14",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann | 23",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 8",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 2",
@@ -139,8 +140,8 @@
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 12",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 23",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 26"
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 22",
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 25"
             ],
             "interrupt_exist_connections": false
         },
@@ -152,13 +153,14 @@
                 "🇺🇸 US | 🔴 | vless | @arv2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 15",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
+                "🇦🇪 AE | 🟢 | vless | @dnsforyou | 25",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
-                "🇺🇸 US | 🟢 | vless | @flyv2ray | 1",
+                "🇺🇸 US | 🟢 | vless | @flyv2ray | 0",
                 "🇩🇪 DE | 🟢 | vless | @free_serverir | 55",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
-                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 12",
+                "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 14",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann | 23",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 8",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 2",
@@ -189,8 +191,8 @@
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 12",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 23",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 26"
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 22",
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 25"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -260,6 +262,29 @@
             }
         },
         {
+            "tag": "🇦🇪 AE | 🟢 | vless | @dnsforyou | 25",
+            "type": "vless",
+            "server": "130.185.122.139",
+            "server_port": 16380,
+            "uuid": "a84f0ac2-0a3d-4ad4-bd9e-9b9ed0f7a603",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "microsoft.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fcCCo3amb6xSdqw_NPVERN8TF-Noy4DRHLNFM9ee4DQ",
+                    "short_id": "7821497e5d"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
             "type": "vless",
             "server": "104.21.48.1",
@@ -305,7 +330,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @flyv2ray | 1",
+            "tag": "🇺🇸 US | 🟢 | vless | @flyv2ray | 0",
             "type": "vless",
             "server": "104.21.48.1",
             "server_port": 2083,
@@ -369,7 +394,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 12",
+            "tag": "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 14",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
@@ -889,7 +914,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 23",
+            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 22",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -898,7 +923,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 26",
+            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 25",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
