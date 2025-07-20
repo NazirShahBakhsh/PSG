@@ -107,7 +107,6 @@
                 "🇩🇪 DE | 🟢 | vless | @configfa | 8",
                 "🇫🇮 FI | 🟢 | vless | @configfa | 9",
                 "🇺🇸 US | 🟢 | vless | @configfa | 12",
-                "🇩🇪 DE | 🟢 | vless | @configshubplus | 19",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -155,8 +154,8 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 14",
-                "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
+                "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 4",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
@@ -182,7 +181,6 @@
                 "🇩🇪 DE | 🟢 | vless | @configfa | 8",
                 "🇫🇮 FI | 🟢 | vless | @configfa | 9",
                 "🇺🇸 US | 🟢 | vless | @configfa | 12",
-                "🇩🇪 DE | 🟢 | vless | @configshubplus | 19",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -230,8 +228,8 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 14",
-                "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
+                "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 4",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
@@ -479,29 +477,6 @@
                     "enabled": true,
                     "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
                     "short_id": "b7b70c104ad267b8"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @configshubplus | 19",
-            "type": "vless",
-            "server": "real-all3-2.sdcards.ir",
-            "server_port": 8501,
-            "uuid": "ac37eb9c-0db8-4056-8f61-e8db4e2da35e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI",
-                    "short_id": "e701a013553059ba"
                 }
             }
         },
@@ -1674,7 +1649,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 14",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -1697,7 +1672,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 4",
             "type": "vless",
             "server": "de.gy-nt.shop",
             "server_port": 443,

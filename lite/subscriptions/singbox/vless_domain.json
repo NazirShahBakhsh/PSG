@@ -98,8 +98,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 13",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
-                "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇩🇪 DE | 🔴 | vless | @configtrapi | 28",
@@ -132,7 +132,7 @@
                 "🇱🇹 LT | 🔴 | vless | @u7kll | 0",
                 "🇺🇸 US | 🟢 | vless | @uvpn_org | 2",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
-                "❔ XX | 🔴 | vless | @v2ray03 | 4",
+                "❔ XX | 🔴 | vless | @v2ray03 | 3",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
@@ -143,10 +143,10 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 17",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
@@ -167,8 +167,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 13",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
-                "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇩🇪 DE | 🔴 | vless | @configtrapi | 28",
@@ -201,7 +201,7 @@
                 "🇱🇹 LT | 🔴 | vless | @u7kll | 0",
                 "🇺🇸 US | 🟢 | vless | @uvpn_org | 2",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
-                "❔ XX | 🔴 | vless | @v2ray03 | 4",
+                "❔ XX | 🔴 | vless | @v2ray03 | 3",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
@@ -212,10 +212,10 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 17",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
@@ -248,6 +248,22 @@
             "type": "dns"
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 13",
+            "type": "vless",
+            "server": "fierce-data.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "fierce-data.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
             "type": "vless",
             "server": "Artemis.sbs",
@@ -260,29 +276,6 @@
                 "path": "/@Artemis_vpn",
                 "headers": {
                     "Host": "Artemis.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-            "type": "vless",
-            "server": "bmi.raheaiande.ir",
-            "server_port": 1001,
-            "uuid": "b96fb229-78e8-49c4-ac4c-fba497acd100",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ea.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM",
-                    "short_id": "c7bc4d"
                 }
             }
         },
@@ -856,7 +849,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @v2ray03 | 4",
+            "tag": "❔ XX | 🔴 | vless | @v2ray03 | 3",
             "type": "vless",
             "server": "irtest.xiliservice.lol",
             "server_port": 80,
@@ -1088,15 +1081,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @v2rayweb | 17",
-            "type": "vless",
-            "server": "freesanjeshtestsanesh.sanjeshvipspeed.ir",
-            "server_port": 7642,
-            "uuid": "a945f650-991b-4691-ad8b-34c49df890b4",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
             "type": "vless",
             "server": "www.parsvds.ir",
@@ -1129,6 +1113,22 @@
             "uuid": "563e4ed0-9473-4d66-aca8-e23c641042a6",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
+            "type": "vless",
+            "server": "GrOUNdED-brotHER.SeoToolSFOryOu.co.uK",
+            "server_port": 80,
+            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "GrOUNdED-brotHER.SeoToolSFOryOu.co.uK"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @vp22ray | 10",
