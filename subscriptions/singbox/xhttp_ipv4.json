@@ -111,7 +111,6 @@
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 8",
-                "🇺🇸 US | 🔴 | vless | @irv2rey | 1",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 2",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 3",
                 "🇳🇱 NL | 🟢 | vless | @irv2rey | 4",
@@ -139,8 +138,8 @@
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 12",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 22",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 25"
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 23",
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 26"
             ],
             "interrupt_exist_connections": false
         },
@@ -161,7 +160,6 @@
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇦🇪 AE | 🟢 | vless | @grizzlyvpn | 8",
-                "🇺🇸 US | 🔴 | vless | @irv2rey | 1",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 2",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 3",
                 "🇳🇱 NL | 🟢 | vless | @irv2rey | 4",
@@ -189,8 +187,8 @@
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 12",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 22",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 25"
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 23",
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 26"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -417,15 +415,6 @@
                     "short_id": "7821497e5d"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @irv2rey | 1",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "eb37c073-3fe1-4a38-a1f4-f50a831e47e3",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @irv2rey | 2",
@@ -884,20 +873,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 22",
-            "type": "vless",
-            "server": "151.101.67.8",
-            "server_port": 80,
-            "uuid": "124b3799-aa8e-4d7a-ad7e-a474ecf4b159",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 25",
+            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 23",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "e2a0b27d-1330-409e-876a-eacc7d833049",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 26",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "6a51aa8b-e8fc-4039-8351-0e3d1c05d5ce",
             "flow": "",
             "packet_encoding": "xudp"
         }

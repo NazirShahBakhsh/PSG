@@ -116,7 +116,7 @@
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 0",
-                "🇫🇮 FI | 🟢 | ss | @v2ray_free_conf | 15",
+                "🇬🇧 GB | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
@@ -125,7 +125,8 @@
                 "🇺🇸 US | 🟢 | ss | @vpn451 | 8",
                 "🇺🇸 US | 🟢 | ss | @vpn451 | 9",
                 "🇺🇸 US | 🟢 | ss | @vpn451 | 11",
-                "❔ XX | 🟢 | ss | @vpn_meliii | 4"
+                "❔ XX | 🟢 | ss | @vpn_meliii | 4",
+                "🇳🇱 NL | 🟢 | ss | @zerobaipiao | 44"
             ],
             "interrupt_exist_connections": false
         },
@@ -151,7 +152,7 @@
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 0",
-                "🇫🇮 FI | 🟢 | ss | @v2ray_free_conf | 15",
+                "🇬🇧 GB | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
@@ -160,7 +161,8 @@
                 "🇺🇸 US | 🟢 | ss | @vpn451 | 8",
                 "🇺🇸 US | 🟢 | ss | @vpn451 | 9",
                 "🇺🇸 US | 🟢 | ss | @vpn451 | 11",
-                "❔ XX | 🟢 | ss | @vpn_meliii | 4"
+                "❔ XX | 🟢 | ss | @vpn_meliii | 4",
+                "🇳🇱 NL | 🟢 | ss | @zerobaipiao | 44"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -324,12 +326,12 @@
             "password": "1xO2cqPazqjGfCfd"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | ss | @v2ray_free_conf | 15",
+            "tag": "🇬🇧 GB | 🟢 | ss | @v2ray_free_conf | 19",
             "type": "shadowsocks",
-            "server": "rusrv.vmagnum.win",
-            "server_port": 57456,
+            "server": "series-a2.samanehha.co",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "a58fa62b4944ddbf"
+            "password": "W74XFALLLuw6m5IA"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
@@ -402,6 +404,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "W74XFALLLuw6m5IA"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | ss | @zerobaipiao | 44",
+            "type": "shadowsocks",
+            "server": "h110vpnnl.outlinekeys.net",
+            "server_port": 52571,
+            "method": "chacha20-ietf-poly1305",
+            "password": "bzkMevS2bDUIyPC3jk8U4Q"
         }
     ],
     "route": {
