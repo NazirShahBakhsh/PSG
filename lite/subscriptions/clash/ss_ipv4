@@ -17,13 +17,12 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🟢 | ss | @NamiraNet | 69","type":"ss","server":"83.147.216.70","port":64519,"password":"UlT89D0rvcr05tKft1NB5a","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 9","type":"ss","server":"220.124.31.130","port":19378,"password":"NiznLvoIuy","cipher":"aes-256-gcm"}
+  - {"name":"🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 8","type":"ss","server":"220.124.31.130","port":19378,"password":"NiznLvoIuy","cipher":"aes-256-gcm"}
   - {"name":"🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7","type":"ss","server":"4.223.106.151","port":48172,"password":"51yloQC8D9w1Wae7FHtI65","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @bislullproxy | 18","type":"ss","server":"4.250.60.151","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @megavpn_link | 14","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @novinology | 16","type":"ss","server":"13.87.74.71","port":14564,"password":"Q1qlRknoN9PwGeExWVyTKg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧 GB | 🟢 | ss | @outlineopenkey | 11","type":"ss","server":"89.185.84.185","port":443,"password":"JVgCIY3vzEdSVmKwcsUHLx","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱 PL | 🟢 | ss | @outlineopenkey | 12","type":"ss","server":"77.83.246.74","port":443,"password":"NbZNxuETXu3wGGbuiOT8RR","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮 FI | 🟢 | ss | @strongprotocol | 10","type":"ss","server":"45.12.135.36","port":47076,"password":"WrNAsbtcuoeEEQdoSOcPgO","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21","type":"ss","server":"194.87.216.121","port":443,"password":"piv97XS1Cval86vfwHPD5j","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7","type":"ss","server":"51.103.32.8","port":666,"password":"427395387a9379ca","cipher":"chacha20-ietf-poly1305"}
@@ -60,13 +59,12 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🟢 | ss | @NamiraNet | 69'
-      - '🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 9'
+      - '🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 8'
       - '🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
       - '🇬🇧 GB | 🟢 | ss | @novinology | 16'
-      - '🇬🇧 GB | 🟢 | ss | @outlineopenkey | 11'
+      - '🇵🇱 PL | 🟢 | ss | @outlineopenkey | 12'
       - '🇫🇮 FI | 🟢 | ss | @strongprotocol | 10'
       - '🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21'
       - '🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7'
@@ -79,13 +77,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🟢 | ss | @NamiraNet | 69'
-      - '🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 9'
+      - '🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 8'
       - '🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
       - '🇬🇧 GB | 🟢 | ss | @novinology | 16'
-      - '🇬🇧 GB | 🟢 | ss | @outlineopenkey | 11'
+      - '🇵🇱 PL | 🟢 | ss | @outlineopenkey | 12'
       - '🇫🇮 FI | 🟢 | ss | @strongprotocol | 10'
       - '🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21'
       - '🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7'
@@ -96,13 +93,12 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🟢 | ss | @NamiraNet | 69'
-      - '🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 9'
+      - '🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 8'
       - '🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
       - '🇬🇧 GB | 🟢 | ss | @novinology | 16'
-      - '🇬🇧 GB | 🟢 | ss | @outlineopenkey | 11'
+      - '🇵🇱 PL | 🟢 | ss | @outlineopenkey | 12'
       - '🇫🇮 FI | 🟢 | ss | @strongprotocol | 10'
       - '🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21'
       - '🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7'

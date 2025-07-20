@@ -106,6 +106,7 @@
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
+                "🇩🇪 DE | 🟢 | vless | @vpnv2rayngv | 20",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
@@ -134,6 +135,7 @@
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
+                "🇩🇪 DE | 🟢 | vless | @vpnv2rayngv | 20",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
@@ -362,6 +364,29 @@
                     "enabled": true,
                     "public_key": "XEpHiKs6YbcMrBR4YTRXLlIlO5RfGcVUUcbt4KZc7TY",
                     "short_id": "d90b293e"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vpnv2rayngv | 20",
+            "type": "vless",
+            "server": "zn.boshrachoice.ir",
+            "server_port": 9944,
+            "uuid": "8ec07b8c-289b-41df-a0c5-2b5f8c941e5f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IUk4LR6VI6CnvLMY_ks1KdOHvB1_byMvQM3gZfuU5S0",
+                    "short_id": ""
                 }
             }
         },

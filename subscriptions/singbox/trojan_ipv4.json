@@ -98,6 +98,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 65",
+                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 67",
                 "🇯🇵 JP | 🟢 | trojan | @awlix_ir | 9",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 8",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 9",
@@ -108,12 +110,12 @@
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 14",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 1",
-                "🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 9",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 5",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 6",
                 "🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇩🇪 DE | 🟢 | trojan | @mt_proxy | 6",
+                "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 8",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 9",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 10",
@@ -133,6 +135,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 65",
+                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 67",
                 "🇯🇵 JP | 🟢 | trojan | @awlix_ir | 9",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 8",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 9",
@@ -143,12 +147,12 @@
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 14",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 1",
-                "🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 9",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 5",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 6",
                 "🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇩🇪 DE | 🟢 | trojan | @mt_proxy | 6",
+                "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 8",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 9",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 10",
@@ -178,6 +182,38 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraNet | 65",
+            "type": "trojan",
+            "server": "69.162.95.5",
+            "server_port": 443,
+            "password": "4863e1b2-ec2f-4c71-b862-ce533028e57e",
+            "tls": {
+                "enabled": true,
+                "server_name": "trus.moonfree.top",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraNet | 67",
+            "type": "trojan",
+            "server": "162.210.196.168",
+            "server_port": 443,
+            "password": "4863e1b2-ec2f-4c71-b862-ce533028e57e",
+            "tls": {
+                "enabled": true,
+                "server_name": "trus.moonfree.top",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇯🇵 JP | 🟢 | trojan | @awlix_ir | 9",
@@ -342,22 +378,6 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 9",
-            "type": "trojan",
-            "server": "176.32.39.29",
-            "server_port": 443,
-            "password": "8OXD5VVt8s",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🟢 | trojan | @jiedianf | 5",
             "type": "trojan",
             "server": "15.236.173.146",
@@ -444,6 +464,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
+            "type": "trojan",
+            "server": "176.32.39.29",
+            "server_port": 443,
+            "password": "8OXD5VVt8s",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
