@@ -104,7 +104,9 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-                "🇷🇺 RU | 🟢 | vless | @config_proxy | 46",
+                "🇬🇧 GB | 🟢 | vless | @config_proxy | 42",
+                "🇭🇰 HK | 🟢 | vless | @config_proxy | 43",
+                "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -133,7 +135,7 @@
                 "❔ XX | 🟢 | vless | @kkkkkoabvbbvbvv | 9",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "❔ XX | 🟢 | vless | @mtpv2ray | 7",
-                "🇦🇪 AE | 🟢 | vless | @netmellianti | 15",
+                "🇦🇪 AE | 🟢 | vless | @netmellianti | 14",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
@@ -154,7 +156,7 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
+                "🇬🇧 GB | 🟢 | vless | @v2rayngrit | 14",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
@@ -178,7 +180,9 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-                "🇷🇺 RU | 🟢 | vless | @config_proxy | 46",
+                "🇬🇧 GB | 🟢 | vless | @config_proxy | 42",
+                "🇭🇰 HK | 🟢 | vless | @config_proxy | 43",
+                "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -207,7 +211,7 @@
                 "❔ XX | 🟢 | vless | @kkkkkoabvbbvbvv | 9",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "❔ XX | 🟢 | vless | @mtpv2ray | 7",
-                "🇦🇪 AE | 🟢 | vless | @netmellianti | 15",
+                "🇦🇪 AE | 🟢 | vless | @netmellianti | 14",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
@@ -228,7 +232,7 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
+                "🇬🇧 GB | 🟢 | vless | @v2rayngrit | 14",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
@@ -404,25 +408,71 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vless | @config_proxy | 46",
+            "tag": "🇬🇧 GB | 🟢 | vless | @config_proxy | 42",
             "type": "vless",
-            "server": "a.ru.maviks.ru",
-            "server_port": 443,
-            "uuid": "56054323-c2ec-48f1-85e8-d80c5f378611",
+            "server": "uk1.xservers.ir",
+            "server_port": 8585,
+            "uuid": "ce02ef89-4a22-40d3-a962-9a8e12c252fe",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "maviks.ru",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ",
-                    "short_id": "0f917152a871e9c0"
+                    "public_key": "A-8wmBnGrz4ny7CB9Zfnjz66cbS83uOMdH61CsI-rm8",
+                    "short_id": "200de4ca48fb1731"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🟢 | vless | @config_proxy | 43",
+            "type": "vless",
+            "server": "ko1.xservers.ir",
+            "server_port": 8585,
+            "uuid": "ce02ef89-4a22-40d3-a962-9a8e12c252fe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "A-8wmBnGrz4ny7CB9Zfnjz66cbS83uOMdH61CsI-rm8",
+                    "short_id": "200de4ca48fb1731"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @configshubplus | 15",
+            "type": "vless",
+            "server": "de1.xservers.ir",
+            "server_port": 8585,
+            "uuid": "ce02ef89-4a22-40d3-a962-9a8e12c252fe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "A-8wmBnGrz4ny7CB9Zfnjz66cbS83uOMdH61CsI-rm8",
+                    "short_id": "200de4ca48fb1731"
                 }
             }
         },
@@ -1138,7 +1188,7 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🟢 | vless | @netmellianti | 15",
+            "tag": "🇦🇪 AE | 🟢 | vless | @netmellianti | 14",
             "type": "vless",
             "server": "west.mahi-yar.com",
             "server_port": 7893,
@@ -1641,7 +1691,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
+            "tag": "🇬🇧 GB | 🟢 | vless | @v2rayngrit | 14",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

@@ -120,8 +120,8 @@
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
+                "🇩🇪 DE | 🔴 | vmess | @vpn_ioss | 18",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
-                "🇩🇪 DE | 🔴 | vmess | @vpnv2rayngv | 19",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3"
             ],
@@ -153,8 +153,8 @@
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
+                "🇩🇪 DE | 🔴 | vmess | @vpn_ioss | 18",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
-                "🇩🇪 DE | 🔴 | vmess | @vpnv2rayngv | 19",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3"
             ],
@@ -496,20 +496,20 @@
             "alter_id": 0
         },
         {
+            "tag": "🇩🇪 DE | 🔴 | vmess | @vpn_ioss | 18",
+            "type": "vmess",
+            "server": "panel3.ipyar.org",
+            "server_port": 32017,
+            "uuid": "c0ccdeb9-784c-4d67-b904-20dcaac9902a",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
             "type": "vmess",
             "server": "5.78.103.249",
             "server_port": 3389,
             "uuid": "9c050a86-d612-48f1-ec32-e573df08a1b7",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @vpnv2rayngv | 19",
-            "type": "vmess",
-            "server": "91.99.209.224",
-            "server_port": 32821,
-            "uuid": "94440946-20d3-48e3-9acc-bca519c6791f",
             "security": "auto",
             "alter_id": 0
         },
