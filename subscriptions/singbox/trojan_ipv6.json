@@ -98,8 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔ XX | 🟢 | trojan | @freevpnatm | 13",
-                "❔ XX | 🔴 | trojan | @freevpnatm | 14"
+                "❔ XX | 🟢 | trojan | @freevpnatm | 18"
             ],
             "interrupt_exist_connections": false
         },
@@ -107,8 +106,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔ XX | 🟢 | trojan | @freevpnatm | 13",
-                "❔ XX | 🔴 | trojan | @freevpnatm | 14"
+                "❔ XX | 🟢 | trojan | @freevpnatm | 18"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -128,14 +126,14 @@
             "type": "dns"
         },
         {
-            "tag": "❔ XX | 🟢 | trojan | @freevpnatm | 13",
+            "tag": "❔ XX | 🟢 | trojan | @freevpnatm | 18",
             "type": "trojan",
-            "server": "[2606:4700:3033::ac43:a181]",
+            "server": "[2606:4700:3030::6815:2001]",
             "server_port": 443,
-            "password": "662e38ba-8427-4955-94aa-76f5347a0ce8",
+            "password": "b8992384-c118-43a7-97aa-8f8423f19169",
             "tls": {
                 "enabled": true,
-                "server_name": "cDvFGt.666470.Xyz",
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -144,30 +142,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "hCbtKwyNTRDjosltnP1Q0J66"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 14",
-            "type": "trojan",
-            "server": "[2606:4700:3030::6815:429d]",
-            "server_port": 443,
-            "password": "662e38ba-8427-4955-94aa-76f5347a0ce8",
-            "tls": {
-                "enabled": true,
-                "server_name": "[2606:4700:3030::6815:429d]",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "[2606:4700:3030::6815:429d]"
-                }
+                "service_name": "mqQawXOoEXlJcna9A3rbSWSsX"
             }
         }
     ],

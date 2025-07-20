@@ -175,9 +175,9 @@
                 "🇩🇪 DE | 🟢 | vless | @proxygodratmand | 0",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇩🇪 DE | 🟢 | vless | @prrofile_purple | 128",
-                "🇩🇪 DE | 🟢 | vless | @sobyv2ray | 1",
-                "🇹🇷 TR | 🟢 | vless | @sobyv2ray | 2",
-                "🇩🇪 DE | 🟢 | vless | @sobyv2ray | 4",
+                "🇹🇷 TR | 🟢 | vless | @sobyv2ray | 1",
+                "🇩🇪 DE | 🟢 | vless | @sobyv2ray | 3",
+                "🇩🇪 DE | 🟢 | vless | @sobyv2ray | 5",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 34",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 4",
@@ -189,7 +189,6 @@
                 "🇩🇪 DE | 🟢 | vless | @v2ray_one1 | 12",
                 "🇫🇷 FR | 🟢 | vless | @v2ray_one1 | 13",
                 "🇺🇸 US | 🟢 | vless | @v2ray_sub | 7",
-                "🇳🇱 NL | 🟢 | vless | @v2raych | 18",
                 "🇸🇬 SG | 🟢 | vless | @v2rayexpress | 6",
                 "🇩🇪 DE | 🟢 | vless | @v2rayexpress | 7",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
@@ -217,6 +216,7 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
+                "🇳🇱 NL | 🟢 | vless | @config_proxy | 46",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -364,9 +364,9 @@
                 "🇩🇪 DE | 🟢 | vless | @proxygodratmand | 0",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇩🇪 DE | 🟢 | vless | @prrofile_purple | 128",
-                "🇩🇪 DE | 🟢 | vless | @sobyv2ray | 1",
-                "🇹🇷 TR | 🟢 | vless | @sobyv2ray | 2",
-                "🇩🇪 DE | 🟢 | vless | @sobyv2ray | 4",
+                "🇹🇷 TR | 🟢 | vless | @sobyv2ray | 1",
+                "🇩🇪 DE | 🟢 | vless | @sobyv2ray | 3",
+                "🇩🇪 DE | 🟢 | vless | @sobyv2ray | 5",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 34",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇳🇱 NL | 🟢 | vless | @tehranfreevpn | 4",
@@ -378,7 +378,6 @@
                 "🇩🇪 DE | 🟢 | vless | @v2ray_one1 | 12",
                 "🇫🇷 FR | 🟢 | vless | @v2ray_one1 | 13",
                 "🇺🇸 US | 🟢 | vless | @v2ray_sub | 7",
-                "🇳🇱 NL | 🟢 | vless | @v2raych | 18",
                 "🇸🇬 SG | 🟢 | vless | @v2rayexpress | 6",
                 "🇩🇪 DE | 🟢 | vless | @v2rayexpress | 7",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
@@ -406,6 +405,7 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
+                "🇳🇱 NL | 🟢 | vless | @config_proxy | 46",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -2402,34 +2402,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @sobyv2ray | 1",
-            "type": "vless",
-            "server": "91.107.180.100",
-            "server_port": 443,
-            "uuid": "Join-Tell-SobyV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eZs1Yn6wbXV2RPT47_szgepN6lNKseOb9nprDMrpNmE",
-                    "short_id": "f3"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@SobyV2ray"
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🟢 | vless | @sobyv2ray | 2",
+            "tag": "🇹🇷 TR | 🟢 | vless | @sobyv2ray | 1",
             "type": "vless",
             "server": "84.32.230.122",
             "server_port": 17349,
@@ -2456,11 +2429,38 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @sobyv2ray | 4",
+            "tag": "🇩🇪 DE | 🟢 | vless | @sobyv2ray | 3",
             "type": "vless",
             "server": "91.107.180.100",
             "server_port": 443,
             "uuid": "06cc2ece-a84c-44ee-bac7-b4493ff7d3fc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eZs1Yn6wbXV2RPT47_szgepN6lNKseOb9nprDMrpNmE",
+                    "short_id": "f3"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@SobyV2ray"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @sobyv2ray | 5",
+            "type": "vless",
+            "server": "91.107.180.100",
+            "server_port": 443,
+            "uuid": "a0445355-3959-4454-9235-cee5a7b86a64",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -2756,29 +2756,6 @@
                     "enabled": true,
                     "public_key": "aWooxptTQgQjHO1JDxB8axAo8jzLWJdOSE6322B7wWY",
                     "short_id": "a0209e22"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @v2raych | 18",
-            "type": "vless",
-            "server": "150.241.102.95",
-            "server_port": 10799,
-            "uuid": "7439d777-9773-4521-95ca-413dfaa0e449",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yw374OPQfpF0KpnFYX2zYnO8-NC7RkgGbbiMzmZYvDU",
-                    "short_id": "330602658f0ade"
                 }
             }
         },
@@ -3436,6 +3413,33 @@
                     "public_key": "wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM",
                     "short_id": "c7bc4d"
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @config_proxy | 46",
+            "type": "vless",
+            "server": "tg.fast2rayng.sbs",
+            "server_port": 65531,
+            "uuid": "e077ad05-20cc-4c0c-80ba-686c6d520929",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OBjtBZZt1YE8wB4_DYXnKzpk1oDPOGplk4RofzmVXQA",
+                    "short_id": "03af5a1c58"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Fast2RayNG"
             }
         },
         {
