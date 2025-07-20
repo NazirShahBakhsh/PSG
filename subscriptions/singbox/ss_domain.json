@@ -103,6 +103,7 @@
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
+                "🇺🇸 US | 🟢 | ss | @configshubplus | 15",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
@@ -138,6 +139,7 @@
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
+                "🇺🇸 US | 🟢 | ss | @configshubplus | 15",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
@@ -218,6 +220,14 @@
             "server_port": 10107,
             "method": "aes-256-gcm",
             "password": "M2E4ZGY2ZjI5MzU2ODAxMjEwYzgyNzQ0MGM5NGUy"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | ss | @configshubplus | 15",
+            "type": "shadowsocks",
+            "server": "vip.nl-16-07.galaxymc-ssh.ir",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
