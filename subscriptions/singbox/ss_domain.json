@@ -104,7 +104,6 @@
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
-                "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 11",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -117,8 +116,8 @@
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 0",
-                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 17",
-                "🇫🇮 FI | 🟢 | ss | @v2ray_free_conf | 19",
+                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 16",
+                "🇫🇮 FI | 🟢 | ss | @v2ray_free_conf | 18",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
@@ -141,7 +140,6 @@
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
-                "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 11",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -154,8 +152,8 @@
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @ultrasurf_12 | 0",
-                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 17",
-                "🇫🇮 FI | 🟢 | ss | @v2ray_free_conf | 19",
+                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 16",
+                "🇫🇮 FI | 🟢 | ss | @v2ray_free_conf | 18",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
@@ -230,14 +228,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c"
-        },
-        {
-            "tag": "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 11",
-            "type": "shadowsocks",
-            "server": "azure-sto.edgeservers.org",
-            "server_port": 48172,
-            "method": "chacha20-ietf-poly1305",
-            "password": "51yloQC8D9w1Wae7FHtI65"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
@@ -336,7 +326,7 @@
             "password": "1xO2cqPazqjGfCfd"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 17",
+            "tag": "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 16",
             "type": "shadowsocks",
             "server": "ltnl12.saint.ydns.eu",
             "server_port": 8080,
@@ -344,7 +334,7 @@
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | ss | @v2ray_free_conf | 19",
+            "tag": "🇫🇮 FI | 🟢 | ss | @v2ray_free_conf | 18",
             "type": "shadowsocks",
             "server": "rusrv.vmagnum.win",
             "server_port": 57456,

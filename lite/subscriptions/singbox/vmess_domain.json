@@ -98,7 +98,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
+                "🇭🇰 HK | 🔴 | vmess | @NamiraNet | 68",
+                "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
                 "❔ XX | 🔴 | vmess | @configforvpn01 | 9",
                 "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
                 "🇨🇦 CA | 🔴 | vmess | @free4allvpn | 14",
@@ -130,7 +131,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
+                "🇭🇰 HK | 🔴 | vmess | @NamiraNet | 68",
+                "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
                 "❔ XX | 🔴 | vmess | @configforvpn01 | 9",
                 "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
                 "🇨🇦 CA | 🔴 | vmess | @free4allvpn | 14",
@@ -174,7 +176,23 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
+            "tag": "🇭🇰 HK | 🔴 | vmess | @NamiraNet | 68",
+            "type": "vmess",
+            "server": "212.192.15.177",
+            "server_port": 20521,
+            "uuid": "0390d4bd-ba0e-4b87-8653-b33ea2f3e483",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
             "type": "vmess",
             "server": "tu.shoptx.sbs",
             "server_port": 15400,

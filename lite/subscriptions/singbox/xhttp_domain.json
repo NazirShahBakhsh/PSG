@@ -100,7 +100,8 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
-                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16"
+                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 18"
             ],
             "interrupt_exist_connections": false
         },
@@ -110,7 +111,8 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
-                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16"
+                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 18"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -153,6 +155,15 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
+            "type": "vless",
+            "server": "ip.ir-sub.fun",
+            "server_port": 80,
+            "uuid": "3d1b7cfd-0019-4b71-9c8e-b922e5e262c3",
             "flow": "",
             "packet_encoding": "xudp"
         }

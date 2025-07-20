@@ -106,7 +106,6 @@
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 10",
                 "🇫🇮 FI | 🟢 | vless | @configfa | 11",
-                "🇩🇪 DE | 🟢 | vless | @configshubplus | 17",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -134,7 +133,7 @@
                 "🇩🇪 DE | 🟢 | vless | @kingofilter | 2",
                 "❔ XX | 🟢 | vless | @kkkkkoabvbbvbvv | 9",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 4",
+                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 2",
                 "🇦🇪 AE | 🟢 | vless | @netmellianti | 11",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
@@ -182,7 +181,6 @@
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 10",
                 "🇫🇮 FI | 🟢 | vless | @configfa | 11",
-                "🇩🇪 DE | 🟢 | vless | @configshubplus | 17",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -210,7 +208,7 @@
                 "🇩🇪 DE | 🟢 | vless | @kingofilter | 2",
                 "❔ XX | 🟢 | vless | @kkkkkoabvbbvbvv | 9",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 4",
+                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 2",
                 "🇦🇪 AE | 🟢 | vless | @netmellianti | 11",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
@@ -459,33 +457,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @configshubplus | 17",
-            "type": "vless",
-            "server": "p.faraghost.sbs",
-            "server_port": 28338,
-            "uuid": "98f787cf-bc1c-4044-881e-a1f858f5f28b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "iNpnCGDf4E4ZR-_STyfA3Unh-zK8c2gJbtshJ_QZsnY",
-                    "short_id": "c3a7aaac59"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
             }
         },
         {
@@ -1177,7 +1148,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @mowjproxy | 4",
+            "tag": "🇩🇪 DE | 🟢 | vless | @mowjproxy | 2",
             "type": "vless",
             "server": "de1.xservers.ir",
             "server_port": 8585,
