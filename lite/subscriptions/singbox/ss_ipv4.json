@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇪🇪 EE | 🟢 | ss | @argo_vpn1 | 9",
+                "🇨🇭 CH | 🟢 | ss | @argo_vpn1 | 9",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
@@ -109,8 +109,7 @@
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
                 "🇺🇸 US | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
-                "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
-                "🇫🇮 FI | 🟢 | ss | @vmess_ir | 18"
+                "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19"
             ],
             "interrupt_exist_connections": false
         },
@@ -118,7 +117,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇪🇪 EE | 🟢 | ss | @argo_vpn1 | 9",
+                "🇨🇭 CH | 🟢 | ss | @argo_vpn1 | 9",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
@@ -129,8 +128,7 @@
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
                 "🇺🇸 US | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
-                "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
-                "🇫🇮 FI | 🟢 | ss | @vmess_ir | 18"
+                "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -150,12 +148,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇪🇪 EE | 🟢 | ss | @argo_vpn1 | 9",
+            "tag": "🇨🇭 CH | 🟢 | ss | @argo_vpn1 | 9",
             "type": "shadowsocks",
-            "server": "188.214.36.155",
-            "server_port": 990,
+            "server": "37.235.50.230",
+            "server_port": 8443,
             "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
+            "password": "m61k5jrSAbXAFJSn8yHoIE"
         },
         {
             "tag": "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
@@ -244,14 +242,6 @@
             "server_port": 5601,
             "method": "aes-256-gcm",
             "password": "Y6R9pAtvxxzmGC"
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | ss | @vmess_ir | 18",
-            "type": "shadowsocks",
-            "server": "83.147.216.70",
-            "server_port": 64519,
-            "method": "chacha20-ietf-poly1305",
-            "password": "YXgS8ComTam7qoesPlzlMo"
         }
     ],
     "route": {

@@ -98,7 +98,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vmess | @NamiraNet | 68",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
                 "❔ XX | 🔴 | vmess | @configforvpn01 | 9",
                 "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
@@ -114,6 +113,7 @@
                 "🇺🇸 US | 🟢 | vmess | @shadowsocksservers | 12",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
                 "🇺🇸 US | 🔴 | vmess | @tawanaclub | 2",
+                "🇨🇳 CN | 🔴 | vmess | @v2aryng_vpn | 11",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
@@ -130,7 +130,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vmess | @NamiraNet | 68",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
                 "❔ XX | 🔴 | vmess | @configforvpn01 | 9",
                 "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
@@ -146,6 +145,7 @@
                 "🇺🇸 US | 🟢 | vmess | @shadowsocksservers | 12",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
                 "🇺🇸 US | 🔴 | vmess | @tawanaclub | 2",
+                "🇨🇳 CN | 🔴 | vmess | @v2aryng_vpn | 11",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
@@ -172,15 +172,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraNet | 68",
-            "type": "vmess",
-            "server": "panel1.ipyar.org",
-            "server_port": 42684,
-            "uuid": "c4bd9eba-8aea-4d5e-a2ee-b5de65ac14e1",
-            "security": "auto",
-            "alter_id": 0
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
@@ -415,6 +406,15 @@
                     "Host": ""
                 }
             }
+        },
+        {
+            "tag": "🇨🇳 CN | 🔴 | vmess | @v2aryng_vpn | 11",
+            "type": "vmess",
+            "server": "47.92.152.169",
+            "server_port": 50002,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",

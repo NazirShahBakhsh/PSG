@@ -101,7 +101,6 @@
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 12",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -112,6 +111,7 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇺🇸 US | 🔴 | trojan | @v2raych | 17",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
@@ -125,7 +125,6 @@
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 12",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -136,6 +135,7 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇺🇸 US | 🔴 | trojan | @v2raych | 17",
                 "❔ XX | 🟢 | trojan | @v2rayngconfig | 41",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
@@ -209,13 +209,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 12",
-            "type": "trojan",
-            "server": "391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net",
-            "server_port": 15229,
-            "password": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -406,6 +399,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | trojan | @v2raych | 17",
+            "type": "trojan",
+            "server": "cris.ns.cloudflare.com",
+            "server_port": 443,
+            "password": "blue2024",
+            "tls": {
+                "enabled": true,
+                "server_name": "tc.promote.icu",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
