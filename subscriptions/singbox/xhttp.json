@@ -100,6 +100,8 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
+                "🇩🇪 DE | 🔴 | vless | @config_proxy | 43",
+                "🇺🇸 US | 🔴 | vless | @config_proxy | 45",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 143",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -115,7 +117,7 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-                "🇨🇦 CA | 🟢 | vless | @noforcedheaven | 11",
+                "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇳🇱 NL | 🟢 | vless | @proxycrone | 1",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
@@ -153,7 +155,7 @@
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇮🇹 IT | 🔴 | vless | @server_nekobox | 5",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
-                "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 6",
+                "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_one1 | 9",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
@@ -174,6 +176,8 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
+                "🇩🇪 DE | 🔴 | vless | @config_proxy | 43",
+                "🇺🇸 US | 🔴 | vless | @config_proxy | 45",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 143",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -189,7 +193,7 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-                "🇨🇦 CA | 🟢 | vless | @noforcedheaven | 11",
+                "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇳🇱 NL | 🟢 | vless | @proxycrone | 1",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
@@ -227,7 +231,7 @@
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇮🇹 IT | 🔴 | vless | @server_nekobox | 5",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
-                "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 6",
+                "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_one1 | 9",
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
@@ -288,6 +292,24 @@
                     "short_id": "aeba"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @config_proxy | 43",
+            "type": "vless",
+            "server": "speedy.mooo.info",
+            "server_port": 80,
+            "uuid": "9e8c0b71-1e9e-4a4d-9e86-4ea9772ef534",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @config_proxy | 45",
+            "type": "vless",
+            "server": "mci.dl101movis.ir",
+            "server_port": 80,
+            "uuid": "9e8c0b71-1e9e-4a4d-9e86-4ea9772ef534",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -425,7 +447,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @noforcedheaven | 11",
+            "tag": "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -1020,7 +1042,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 6",
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 7",
             "type": "vless",
             "server": "104.248.194.230",
             "server_port": 80,

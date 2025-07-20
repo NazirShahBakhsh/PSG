@@ -169,6 +169,7 @@
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
+                "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 12",
                 "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
                 "🇺🇸 US | 🟢 | vless | @selinc | 7",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
@@ -190,7 +191,7 @@
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇱🇹 LT | 🔴 | vless | @u7kll | 0",
                 "🇺🇸 US | 🟢 | vless | @uvpn_org | 2",
-                "🇨🇳 CN | 🔴 | vmess | @v2aryng_vpn | 10",
+                "🇨🇳 CN | 🔴 | vmess | @v2aryng_vpn | 11",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "🇩🇪 DE | 🔴 | vless | @v2pedia | 5",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
@@ -224,7 +225,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
+                "🇩🇪 DE | 🟢 | trojan | @v2rayweb | 17",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -345,6 +346,7 @@
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
+                "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 12",
                 "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
                 "🇺🇸 US | 🟢 | vless | @selinc | 7",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
@@ -366,7 +368,7 @@
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇱🇹 LT | 🔴 | vless | @u7kll | 0",
                 "🇺🇸 US | 🟢 | vless | @uvpn_org | 2",
-                "🇨🇳 CN | 🔴 | vmess | @v2aryng_vpn | 10",
+                "🇨🇳 CN | 🔴 | vmess | @v2aryng_vpn | 11",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "🇩🇪 DE | 🔴 | vless | @v2pedia | 5",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
@@ -400,7 +402,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
+                "🇩🇪 DE | 🟢 | trojan | @v2rayweb | 17",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -1620,6 +1622,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 12",
+            "type": "vless",
+            "server": "104.24.0.137",
+            "server_port": 8080,
+            "uuid": "cbfbc5e3-4b53-4854-931e-c9ac61719636",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
             "type": "vmess",
             "server": "ir.svgspeedtest.net",
@@ -1924,7 +1935,7 @@
             }
         },
         {
-            "tag": "🇨🇳 CN | 🔴 | vmess | @v2aryng_vpn | 10",
+            "tag": "🇨🇳 CN | 🔴 | vmess | @v2aryng_vpn | 11",
             "type": "vmess",
             "server": "47.92.152.169",
             "server_port": 50002,
@@ -2518,18 +2529,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
-            "type": "vless",
-            "server": "104.17.1.197",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/1ycR2zb3KeELWRha?ed=2560",
-                "headers": {
-                    "Host": "104.17.1.197"
+            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayweb | 17",
+            "type": "trojan",
+            "server": "de01a.kbservice.club",
+            "server_port": 443,
+            "password": "6e1b9a65-884f-3aa9-9469-bf6ec0f08610",
+            "tls": {
+                "enabled": true,
+                "server_name": "45.32.28.232",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

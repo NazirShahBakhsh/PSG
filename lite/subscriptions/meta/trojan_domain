@@ -19,6 +19,7 @@ dns:
 proxies:
   - {"name":"❔ XX | 🟢 | trojan | @maradona_vpn | 8","type":"trojan","server":"maradona_vpn.history-paint.art","port":443,"password":"Maradona_vpn","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6","type":"trojan","server":"de1.test3.net","port":443,"password":"b8841c50-c3ad-11ee-9be0-1239d0255272","skip-cert-verify":false}
+  - {"name":"🇩🇪 DE | 🟢 | trojan | @v2rayweb | 17","type":"trojan","server":"de01a.kbservice.club","port":443,"password":"6e1b9a65-884f-3aa9-9469-bf6ec0f08610","skip-cert-verify":true}
 
 rule-providers:
   ir_domains:
@@ -51,6 +52,7 @@ proxy-groups:
     proxies:
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       - '🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6'
+      - '🇩🇪 DE | 🟢 | trojan | @v2rayweb | 17'
 
   - name: 📉 Fallback
     type: fallback
@@ -59,12 +61,14 @@ proxy-groups:
     proxies:
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       - '🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6'
+      - '🇩🇪 DE | 🟢 | trojan | @v2rayweb | 17'
       
   - name: All-Proxies
     type: select
     proxies:
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       - '🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6'
+      - '🇩🇪 DE | 🟢 | trojan | @v2rayweb | 17'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
