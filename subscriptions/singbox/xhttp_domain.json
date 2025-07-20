@@ -112,7 +112,6 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 1",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
-                "🇫🇷 FR | 🟢 | vless | @getconfigir | 17",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
@@ -147,7 +146,6 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 1",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
-                "🇫🇷 FR | 🟢 | vless | @getconfigir | 17",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
@@ -318,29 +316,6 @@
             "uuid": "bf3c99e7-68b4-4bad-b110-ebaf2ecab772",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | vless | @getconfigir | 17",
-            "type": "vless",
-            "server": "frdhiss.sadyellow.ir",
-            "server_port": 443,
-            "uuid": "8059ab08-19ac-4924-881c-4d01a8865370",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "babanooel.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "_mPQpNgqDJeDUmXPeWTcVigbcH33KejxLoErq_ps6Uk",
-                    "short_id": "d00ab92f90fb44"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",

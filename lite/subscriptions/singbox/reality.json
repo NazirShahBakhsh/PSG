@@ -106,7 +106,7 @@
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
-                "🇭🇰 HK | 🟢 | vless | @vpnaloo | 16",
+                "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
@@ -117,7 +117,6 @@
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
-                "🇹🇷 TR | 🟢 | vless | @v2rayweb | 19",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
@@ -137,7 +136,7 @@
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
-                "🇭🇰 HK | 🟢 | vless | @vpnaloo | 16",
+                "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
@@ -148,7 +147,6 @@
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
-                "🇹🇷 TR | 🟢 | vless | @v2rayweb | 19",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
@@ -372,7 +370,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🟢 | vless | @vpnaloo | 16",
+            "tag": "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
             "type": "vless",
             "server": "ko1.xservers.ir",
             "server_port": 81,
@@ -637,29 +635,6 @@
                     "enabled": true,
                     "public_key": "VaX6bp_MHNDUuqYS7vbyXiw-ptqGCTutnV6K_jYE-3A",
                     "short_id": "54705fe6"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🟢 | vless | @v2rayweb | 19",
-            "type": "vless",
-            "server": "5.133.102.59",
-            "server_port": 80,
-            "uuid": "4d86fbab-d15f-4e7f-8ac7-3b4d90568444",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "6xEqt7g9Q7zJD8rtAzA_8rODvZ9ZJwlv3uOH1cXujzI",
-                    "short_id": "43"
                 }
             }
         },
