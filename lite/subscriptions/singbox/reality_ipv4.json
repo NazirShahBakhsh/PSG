@@ -99,7 +99,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
-                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
@@ -107,7 +106,6 @@
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
-                "🇫🇮 FI | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
@@ -120,7 +118,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
-                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
@@ -128,7 +125,6 @@
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
-                "🇫🇮 FI | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
@@ -176,33 +172,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "chessgame"
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
-            "type": "vless",
-            "server": "213.183.41.63",
-            "server_port": 443,
-            "uuid": "3c631fef-c28c-4dfe-aacc-9e67ace7d5b3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "skyroom.online",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "9tNnOU3bIHtyZfWaPv1J1ns78jDfzCdh6dRLjhQGlX8",
-                    "short_id": "1f"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "free"
             }
         },
         {
@@ -371,29 +340,6 @@
                     "enabled": true,
                     "public_key": "VaX6bp_MHNDUuqYS7vbyXiw-ptqGCTutnV6K_jYE-3A",
                     "short_id": "54705fe6"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @v2rayweb | 18",
-            "type": "vless",
-            "server": "5.181.20.219",
-            "server_port": 17422,
-            "uuid": "fe837fd0-840d-4cee-9334-0dc6c2b15c1c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
-                    "short_id": "33"
                 }
             }
         },

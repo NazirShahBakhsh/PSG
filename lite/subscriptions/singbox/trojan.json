@@ -100,7 +100,8 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 12",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
+                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 14",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "interrupt_exist_connections": false
@@ -111,7 +112,8 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 12",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
+                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 14",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -168,14 +170,30 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 12",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
             "type": "trojan",
-            "server": "52.58.120.58",
+            "server": "13.38.160.98",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayweb | 14",
+            "type": "trojan",
+            "server": "15.204.234.166",
+            "server_port": 443,
+            "password": "fc685880-dffe-11ef-8ac5-1239d0255272",
+            "tls": {
+                "enabled": true,
+                "server_name": "usa.test3.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

@@ -115,7 +115,6 @@
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇺🇸 US | 🔴 | vless | @lranonline_new | 6",
                 "❔ XX | 🔴 | vless | @mafiav2ray | 16",
                 "❔ XX | 🟢 | vless | @mastervpnshop1 | 17",
                 "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
@@ -147,7 +146,6 @@
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
@@ -185,7 +183,6 @@
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇺🇸 US | 🔴 | vless | @lranonline_new | 6",
                 "❔ XX | 🔴 | vless | @mafiav2ray | 16",
                 "❔ XX | 🟢 | vless | @mastervpnshop1 | 17",
                 "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
@@ -217,7 +214,6 @@
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
@@ -534,22 +530,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Hossien"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @lranonline_new | 6",
-            "type": "vless",
-            "server": "chat.deepseek.com",
-            "server_port": 80,
-            "uuid": "cec135d5-fcce-4c9e-c5f4-d94744055291",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/olem/ws?ed=1024",
-                "headers": {
-                    "Host": "chat.deepseek.com"
-                }
             }
         },
         {
@@ -1131,22 +1111,6 @@
             "uuid": "563e4ed0-9473-4d66-aca8-e23c641042a6",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
-            "type": "vless",
-            "server": "GrOUNdED-brotHER.SeoToolSFOryOu.co.uK",
-            "server_port": 80,
-            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "GrOUNdED-brotHER.SeoToolSFOryOu.co.uK"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @vp22ray | 10",
