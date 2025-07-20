@@ -145,7 +145,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -217,7 +217,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -1128,25 +1128,18 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
             "type": "vless",
-            "server": "real-all2.sdcards1.ir",
-            "server_port": 8502,
-            "uuid": "04b95b53-a8b6-4ffb-96ff-81bf6ac9f98e",
-            "flow": "xtls-rprx-vision",
+            "server": "modern-promise.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "bd9b0366-e5dd-4665-bd5b-9896bc7327ae",
+            "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI",
-                    "short_id": "e701a013553059ba"
+            "transport": {
+                "type": "ws",
+                "path": "/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560",
+                "headers": {
+                    "Host": "modern-promise.seotoolsforyou.co.uk"
                 }
             }
         },

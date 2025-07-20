@@ -105,7 +105,6 @@
                 "🇩🇪 DE | 🟢 | vless | @v2ray_extractor | 19",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
                 "❔ XX | 🟢 | vless | @vp22ray | 10"
             ],
             "interrupt_exist_connections": false
@@ -121,7 +120,6 @@
                 "🇩🇪 DE | 🟢 | vless | @v2ray_extractor | 19",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
                 "❔ XX | 🟢 | vless | @vp22ray | 10"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -316,29 +314,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@LIGHTNING6"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
-            "type": "vless",
-            "server": "real-all2.sdcards1.ir",
-            "server_port": 8502,
-            "uuid": "04b95b53-a8b6-4ffb-96ff-81bf6ac9f98e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI",
-                    "short_id": "e701a013553059ba"
-                }
             }
         },
         {

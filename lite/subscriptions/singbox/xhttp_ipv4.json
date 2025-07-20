@@ -98,7 +98,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
+                "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11"
             ],
             "interrupt_exist_connections": false
         },
@@ -106,7 +107,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
+                "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -133,6 +135,29 @@
             "uuid": "qeshmserver",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
+            "type": "vless",
+            "server": "91.107.254.202",
+            "server_port": 443,
+            "uuid": "Telegram---V2RAYNGCLOUD---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "firebase.googleapis.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "VaX6bp_MHNDUuqYS7vbyXiw-ptqGCTutnV6K_jYE-3A",
+                    "short_id": "54705fe6"
+                }
+            }
         }
     ],
     "route": {

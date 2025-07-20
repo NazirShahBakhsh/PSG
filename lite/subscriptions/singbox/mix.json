@@ -99,9 +99,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇵🇱 PL | 🟢 | ss | @NamiraNet | 69",
+                "🇩🇪 DE | 🔴 | vmess | @NamiraNet | 68",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
-                "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9",
+                "🇪🇪 EE | 🟢 | ss | @argo_vpn1 | 9",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
@@ -214,7 +214,7 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
-                "❔ XX | 🔴 | vless | @v2rayngcloud | 13",
+                "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayngconfiig | 11",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
@@ -226,7 +226,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -278,9 +278,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇵🇱 PL | 🟢 | ss | @NamiraNet | 69",
+                "🇩🇪 DE | 🔴 | vmess | @NamiraNet | 68",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
-                "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9",
+                "🇪🇪 EE | 🟢 | ss | @argo_vpn1 | 9",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
@@ -393,7 +393,7 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
-                "❔ XX | 🔴 | vless | @v2rayngcloud | 13",
+                "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayngconfiig | 11",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
@@ -405,7 +405,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -477,12 +477,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇵🇱 PL | 🟢 | ss | @NamiraNet | 69",
-            "type": "shadowsocks",
-            "server": "92.118.205.228",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
+            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraNet | 68",
+            "type": "vmess",
+            "server": "panel1.ipyar.org",
+            "server_port": 42684,
+            "uuid": "c4bd9eba-8aea-4d5e-a2ee-b5de65ac14e1",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
@@ -494,12 +495,12 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 9",
+            "tag": "🇪🇪 EE | 🟢 | ss | @argo_vpn1 | 9",
             "type": "shadowsocks",
-            "server": "104.167.197.25",
-            "server_port": 57456,
+            "server": "188.214.36.155",
+            "server_port": 990,
             "method": "chacha20-ietf-poly1305",
-            "password": "360e21d21977dc11"
+            "password": "f8f7aCzcPKbsF8p3"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -2372,13 +2373,27 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @v2rayngcloud | 13",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
             "type": "vless",
-            "server": "[2a01:4f8:1c1a:dc2b::1]",
-            "server_port": 8888,
-            "uuid": "%50%61%72%73%61%73%68%6F%6E%61%6D-285",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "91.107.254.202",
+            "server_port": 443,
+            "uuid": "Telegram---V2RAYNGCLOUD---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "firebase.googleapis.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "VaX6bp_MHNDUuqYS7vbyXiw-ptqGCTutnV6K_jYE-3A",
+                    "short_id": "54705fe6"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @v2rayngconfiig | 11",
@@ -2565,25 +2580,18 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 16",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
             "type": "vless",
-            "server": "real-all2.sdcards1.ir",
-            "server_port": 8502,
-            "uuid": "04b95b53-a8b6-4ffb-96ff-81bf6ac9f98e",
-            "flow": "xtls-rprx-vision",
+            "server": "modern-promise.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "bd9b0366-e5dd-4665-bd5b-9896bc7327ae",
+            "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI",
-                    "short_id": "e701a013553059ba"
+            "transport": {
+                "type": "ws",
+                "path": "/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560",
+                "headers": {
+                    "Host": "modern-promise.seotoolsforyou.co.uk"
                 }
             }
         },
