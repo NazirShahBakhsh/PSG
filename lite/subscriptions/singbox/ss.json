@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷 FR | 🟢 | ss | @argo_vpn1 | 6",
+                "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 7",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
@@ -110,7 +110,7 @@
                 "🇺🇸 US | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
-                "❔ XX | 🟢 | ss | @chestertm | 12",
+                "❔ XX | 🟢 | ss | @chestertm | 19",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
@@ -125,7 +125,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷 FR | 🟢 | ss | @argo_vpn1 | 6",
+                "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 7",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
@@ -137,7 +137,7 @@
                 "🇺🇸 US | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
-                "❔ XX | 🟢 | ss | @chestertm | 12",
+                "❔ XX | 🟢 | ss | @chestertm | 19",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
@@ -164,12 +164,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | ss | @argo_vpn1 | 6",
+            "tag": "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 7",
             "type": "shadowsocks",
-            "server": "77.105.166.12",
-            "server_port": 8594,
+            "server": "83.147.216.70",
+            "server_port": 64519,
             "method": "chacha20-ietf-poly1305",
-            "password": "mSQiuT5jR17nyWgcXOPrTW"
+            "password": "UlT89D0rvcr05tKft1NB5a"
         },
         {
             "tag": "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
@@ -260,7 +260,7 @@
             "password": "Y6R9pAtvxxzmGC"
         },
         {
-            "tag": "❔ XX | 🟢 | ss | @chestertm | 12",
+            "tag": "❔ XX | 🟢 | ss | @chestertm | 19",
             "type": "shadowsocks",
             "server": "freakconfig94.usecharge.ir",
             "server_port": 443,

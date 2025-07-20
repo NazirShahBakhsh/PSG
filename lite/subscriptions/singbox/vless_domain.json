@@ -114,6 +114,7 @@
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇺🇸 US | 🔴 | vless | @lranonline_new | 6",
                 "❔ XX | 🔴 | vless | @mafiav2ray | 16",
                 "❔ XX | 🟢 | vless | @mastervpnshop1 | 17",
                 "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
@@ -124,7 +125,7 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
-                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 132",
+                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -142,6 +143,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 17",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -181,6 +183,7 @@
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇺🇸 US | 🔴 | vless | @lranonline_new | 6",
                 "❔ XX | 🔴 | vless | @mafiav2ray | 16",
                 "❔ XX | 🟢 | vless | @mastervpnshop1 | 17",
                 "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
@@ -191,7 +194,7 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
-                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 132",
+                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -209,6 +212,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 17",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -522,6 +526,22 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @lranonline_new | 6",
+            "type": "vless",
+            "server": "chat.deepseek.com",
+            "server_port": 80,
+            "uuid": "cec135d5-fcce-4c9e-c5f4-d94744055291",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/olem/ws?ed=1024",
+                "headers": {
+                    "Host": "chat.deepseek.com"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔴 | vless | @mafiav2ray | 16",
             "type": "vless",
             "server": "bloo-netflix23.maj.gamerme.ir",
@@ -718,7 +738,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @prrofile_purple | 132",
+            "tag": "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
             "type": "vless",
             "server": "famous-experience.seotoolsforyou.co.uk",
             "server_port": 80,
@@ -1066,6 +1086,15 @@
                     "Host": "v2raylandd-66-irancell.utsxgao.workers.DeV"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @v2rayweb | 17",
+            "type": "vless",
+            "server": "freesanjeshtestsanesh.sanjeshvipspeed.ir",
+            "server_port": 7642,
+            "uuid": "a945f650-991b-4691-ad8b-34c49df890b4",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
