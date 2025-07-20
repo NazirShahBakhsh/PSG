@@ -101,6 +101,7 @@
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 9",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -109,9 +110,11 @@
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 13",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
-                "🇫🇷 FR | 🟢 | trojan | @outlinev2rayng | 15",
+                "🇫🇷 FR | 🟢 | trojan | @outlinev2rayng | 13",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 13",
+                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 14",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
@@ -124,6 +127,7 @@
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 9",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -132,9 +136,11 @@
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 13",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
-                "🇫🇷 FR | 🟢 | trojan | @outlinev2rayng | 15",
+                "🇫🇷 FR | 🟢 | trojan | @outlinev2rayng | 13",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 13",
+                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 14",
                 "❔ XX | 🟢 | trojan | @xrayzxn | 4",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
@@ -207,6 +213,13 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 9",
+            "type": "trojan",
+            "server": "391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net",
+            "server_port": 15229,
+            "password": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -366,7 +379,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @outlinev2rayng | 15",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @outlinev2rayng | 13",
             "type": "trojan",
             "server": "join-dailyconfigs.resurrection-time.sbs",
             "server_port": 56807,
@@ -408,6 +421,36 @@
             "tls": {
                 "enabled": true,
                 "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | trojan | @v2rayweb | 13",
+            "type": "trojan",
+            "server": "aio.zipzap.biz.id",
+            "server_port": 80,
+            "password": "f282b878-8711-45a1-8c69-5564172123c1",
+            "transport": {
+                "type": "ws",
+                "path": "/aioproxybot/129.150.49.58-18650",
+                "headers": {
+                    "Host": "aio.zipzap.biz.id"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | trojan | @v2rayweb | 14",
+            "type": "trojan",
+            "server": "yournextcareerstep.online",
+            "server_port": 443,
+            "password": "984e400bf5d541b7b0815913fe0c432a",
+            "tls": {
+                "enabled": true,
+                "server_name": "yournextcareerstep.online",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

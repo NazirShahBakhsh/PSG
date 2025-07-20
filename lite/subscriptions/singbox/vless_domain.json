@@ -98,7 +98,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 63",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
@@ -110,7 +109,6 @@
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
-                "🇺🇸 US | 🟢 | vless | @info_2it_channel | 11",
                 "❔ XX | 🟢 | vless | @iraniv2ray | 6",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
@@ -163,7 +161,7 @@
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "interrupt_exist_connections": false
         },
@@ -171,7 +169,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 63",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
@@ -183,7 +180,6 @@
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
-                "🇺🇸 US | 🟢 | vless | @info_2it_channel | 11",
                 "❔ XX | 🟢 | vless | @iraniv2ray | 6",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
@@ -236,7 +232,7 @@
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -254,22 +250,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 63",
-            "type": "vless",
-            "server": "gleeful-error.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "9a37131b-2b68-427f-a2fc-cc7381c2d575",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "gleeful-error.seotoolsforyou.co.uk"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -467,31 +447,6 @@
                 "path": "/http",
                 "headers": {
                     "Host": "s16.leader21.top"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @info_2it_channel | 11",
-            "type": "vless",
-            "server": "cloudflare.182682.xyz",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "test.saas.cname.123153.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/snippets",
-                "headers": {
-                    "Host": "test.saas.cname.123153.xyz"
                 }
             }
         },
@@ -1427,7 +1382,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
+            "tag": "🇫🇷 FR | 🔴 | vless | @zvpnn | 7",
             "type": "vless",
             "server": "power.dlmoviz.ir",
             "server_port": 2020,

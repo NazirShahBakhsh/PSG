@@ -106,7 +106,6 @@
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
                 "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
-                "🇺🇸 US | 🟢 | vmess | @minovpnch | 12",
                 "❔ XX | 🔴 | vmess | @net_azad_1 | 12",
                 "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
                 "🇩🇪 DE | 🔴 | vmess | @sezar_sec | 2",
@@ -139,7 +138,6 @@
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
                 "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
-                "🇺🇸 US | 🟢 | vmess | @minovpnch | 12",
                 "❔ XX | 🔴 | vmess | @net_azad_1 | 12",
                 "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
                 "🇩🇪 DE | 🔴 | vmess | @sezar_sec | 2",
@@ -304,31 +302,6 @@
                 "path": "/linkws",
                 "headers": {
                     "Host": "glweidf.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vmess | @minovpnch | 12",
-            "type": "vmess",
-            "server": "151.101.66.219",
-            "server_port": 443,
-            "uuid": "2d94dff9-fb62-44c6-8ce8-78eb663f20cd",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=1024",
-                "headers": {
-                    "Host": "speedtest.net"
                 }
             }
         },
