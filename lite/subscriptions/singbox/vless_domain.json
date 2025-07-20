@@ -144,6 +144,7 @@
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
+                "🇺🇸 US | 🟢 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
@@ -151,13 +152,13 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
-                "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 16",
+                "🇳🇱 NL | 🔴 | vless | @vpnv2rayngv | 18",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "interrupt_exist_connections": false
         },
@@ -211,6 +212,7 @@
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
+                "🇺🇸 US | 🟢 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
@@ -218,13 +220,13 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
-                "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 16",
+                "🇳🇱 NL | 🔴 | vless | @vpnv2rayngv | 18",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -1079,6 +1081,31 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🟢 | vless | @vmess_ir | 18",
+            "type": "vless",
+            "server": "cdnjs.com",
+            "server_port": 443,
+            "uuid": "db400287-fb42-441d-8a76-5624a8a96f49",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rayan-roof.atena.dpdns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "rayan-roof.atena.dpdns.org"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | vless | @vp22ray | 10",
             "type": "vless",
             "server": "German.vp22ray.site",
@@ -1213,27 +1240,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 16",
+            "tag": "🇳🇱 NL | 🔴 | vless | @vpnv2rayngv | 18",
             "type": "vless",
-            "server": "wouldyoumarriemepleasefuckthesystem5.siasia.ir",
-            "server_port": 2053,
-            "uuid": "ce62ee5e-e316-46af-b967-4588a5e8e66c",
+            "server": "portal12.saladshirazi.com",
+            "server_port": 443,
+            "uuid": "484d4e5b-7ec0-84bc-98fc-b55bb8037f38",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "hheydudethisworldisshet.siasia.ir",
+                "server_name": "portal12.saladshirazi.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/apiii",
-                "headers": {
-                    "Host": "hheydudethisworldisshet.siasia.ir"
                 }
             }
         },
@@ -1319,7 +1339,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
+            "tag": "🇫🇷 FR | 🔴 | vless | @zvpnn | 7",
             "type": "vless",
             "server": "power.dlmoviz.ir",
             "server_port": 2020,
