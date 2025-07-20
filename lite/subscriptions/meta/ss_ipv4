@@ -17,6 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇺🇸 US | 🟢 | ss | @argo_vpn1 | 11","type":"ss","server":"104.167.197.25","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7","type":"ss","server":"4.223.106.151","port":48172,"password":"51yloQC8D9w1Wae7FHtI65","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @bislullproxy | 18","type":"ss","server":"4.250.60.151","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🟢 | ss | @club_profsor | 16","type":"ss","server":"92.112.126.90","port":443,"password":"9tqhMdIrTkgQ46PvhyAtMH","cipher":"chacha20-ietf-poly1305"}
@@ -59,6 +60,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇺🇸 US | 🟢 | ss | @argo_vpn1 | 11'
       - '🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇳🇱 NL | 🟢 | ss | @club_profsor | 16'
@@ -77,6 +79,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇺🇸 US | 🟢 | ss | @argo_vpn1 | 11'
       - '🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇳🇱 NL | 🟢 | ss | @club_profsor | 16'
@@ -93,6 +96,7 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
+      - '🇺🇸 US | 🟢 | ss | @argo_vpn1 | 11'
       - '🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇳🇱 NL | 🟢 | ss | @club_profsor | 16'

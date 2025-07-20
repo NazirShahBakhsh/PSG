@@ -98,7 +98,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 12",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -125,7 +124,6 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
-                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -153,6 +151,7 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
+                "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 16",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -166,7 +165,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 12",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -193,7 +191,6 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
-                "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -221,6 +218,7 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
+                "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 16",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -244,22 +242,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @argo_vpn1 | 12",
-            "type": "vless",
-            "server": "fierce-data.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "fierce-data.seotoolsforyou.co.uk"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -727,22 +709,6 @@
             "uuid": "36c540df-eed6-4d7a-994c-dd766a86db30",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @prrofile_purple | 126",
-            "type": "vless",
-            "server": "famous-experience.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "7f09e7b4-4680-4653-a2da-307d110b6961",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "famous-experience.seotoolsforyou.co.uk"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
@@ -1243,6 +1209,31 @@
                 "path": "/@VPNCUSTOMIZE-----@VPNCUSTOMIZE-----@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE?ed=2560",
                 "headers": {
                     "Host": "fishlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 16",
+            "type": "vless",
+            "server": "wouldyoumarriemepleasefuckthesystem5.siasia.ir",
+            "server_port": 2053,
+            "uuid": "ce62ee5e-e316-46af-b967-4588a5e8e66c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hheydudethisworldisshet.siasia.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/apiii",
+                "headers": {
+                    "Host": "hheydudethisworldisshet.siasia.ir"
                 }
             }
         },

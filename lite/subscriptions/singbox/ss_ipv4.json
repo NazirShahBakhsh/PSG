@@ -98,6 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 11",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇳🇱 NL | 🟢 | ss | @club_profsor | 16",
@@ -117,6 +118,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 11",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇳🇱 NL | 🟢 | ss | @club_profsor | 16",
@@ -146,6 +148,14 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 11",
+            "type": "shadowsocks",
+            "server": "104.167.197.25",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "360e21d21977dc11"
         },
         {
             "tag": "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
