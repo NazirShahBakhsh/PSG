@@ -17,6 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇺🇸 US | 🟢 | trojan | @NamiraNet | 69","type":"trojan","server":"74.63.241.25","port":443,"password":"4863e1b2-ec2f-4c71-b862-ce533028e57e","skip-cert-verify":true}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11","type":"trojan","server":"35.180.162.247","port":22223,"password":"telegram-id-v2rayvpnchannel","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @webhube | 4","type":"trojan","server":"15.204.175.111","port":2083,"password":"t2WqbIW2JE","skip-cert-verify":false}
 
@@ -49,6 +50,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 69'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
 
@@ -57,12 +59,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 69'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
       
   - name: All-Proxies
     type: select
     proxies:
+      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 69'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
 

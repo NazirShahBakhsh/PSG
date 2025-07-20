@@ -37,6 +37,7 @@ proxies:
   - {"name":"🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20","type":"vmess","server":"85.208.253.91","port":16939,"cipher":"auto","uuid":"486387bb-8e15-4dbb-8f4c-7ccb6ee5c06c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
   - {"name":"🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13","type":"vmess","server":"144.48.81.134","port":443,"cipher":"auto","uuid":"73ed2e06-4833-4626-9746-b056668a2101","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0","type":"vmess","server":"176.120.17.67","port":42270,"cipher":"auto","uuid":"3c0f9cf4-6a0c-42f3-a6de-89c79d4af8e3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪 DE | 🔴 | vmess | @vpnv2rayngv | 19","type":"vmess","server":"91.99.209.224","port":32821,"cipher":"auto","uuid":"94440946-20d3-48e3-9acc-bca519c6791f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -87,6 +88,7 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20'
       - '🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13'
       - '🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0'
+      - '🇩🇪 DE | 🔴 | vmess | @vpnv2rayngv | 19'
 
   - name: 📉 Fallback
     type: fallback
@@ -113,6 +115,7 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20'
       - '🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13'
       - '🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0'
+      - '🇩🇪 DE | 🔴 | vmess | @vpnv2rayngv | 19'
       
   - name: All-Proxies
     type: select
@@ -137,6 +140,7 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20'
       - '🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13'
       - '🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0'
+      - '🇩🇪 DE | 🔴 | vmess | @vpnv2rayngv | 19'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
