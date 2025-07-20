@@ -104,7 +104,6 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-                "🇳🇱 NL | 🟢 | vless | @config_proxy | 46",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -115,6 +114,8 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 1",
                 "❔ XX | 🟢 | vless | @fsv2ray | 2",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
+                "🇩🇪 DE | 🟢 | vless | @getconfigir | 17",
+                "❔ XX | 🟢 | vless | @ip_cf_config | 10",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 4",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 5",
@@ -159,7 +160,6 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
-                "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🟢 | vless | @webshecan | 9",
                 "❔ XX | 🟢 | vless | @webshecan | 10",
                 "❔ XX | 🟢 | vless | @webshecan | 11",
@@ -178,7 +178,6 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-                "🇳🇱 NL | 🟢 | vless | @config_proxy | 46",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -189,6 +188,8 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 1",
                 "❔ XX | 🟢 | vless | @fsv2ray | 2",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
+                "🇩🇪 DE | 🟢 | vless | @getconfigir | 17",
+                "❔ XX | 🟢 | vless | @ip_cf_config | 10",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 4",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 5",
@@ -233,7 +234,6 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
-                "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🟢 | vless | @webshecan | 9",
                 "❔ XX | 🟢 | vless | @webshecan | 10",
                 "❔ XX | 🟢 | vless | @webshecan | 11",
@@ -401,33 +401,6 @@
                     "public_key": "wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM",
                     "short_id": "c7bc4d"
                 }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @config_proxy | 46",
-            "type": "vless",
-            "server": "tg.fast2rayng.sbs",
-            "server_port": 65531,
-            "uuid": "e077ad05-20cc-4c0c-80ba-686c6d520929",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OBjtBZZt1YE8wB4_DYXnKzpk1oDPOGplk4RofzmVXQA",
-                    "short_id": "03af5a1c58"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Fast2RayNG"
             }
         },
         {
@@ -682,6 +655,56 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@FsV2ray"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @getconfigir | 17",
+            "type": "vless",
+            "server": "gr.globalunlimitedinternet.xyz",
+            "server_port": 1911,
+            "uuid": "9bab8b74-de2e-486e-82f8-0b6b1744298c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "VCwUyNFL_IMTZfEKeIUYEuXbPfzCpuUBGNW1kAu2VW4",
+                    "short_id": "32aaf12b"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc.reality"
+            }
+        },
+        {
+            "tag": "❔ XX | 🟢 | vless | @ip_cf_config | 10",
+            "type": "vless",
+            "server": "WLF-V-P-N-ID2.dnsfree.one",
+            "server_port": 443,
+            "uuid": "---WLFVPN---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
+                    "short_id": "6bb85179e30d4fc2"
+                }
             }
         },
         {
@@ -1756,29 +1779,6 @@
                     "enabled": true,
                     "public_key": "COh8PaOebru8HlshEfNEN3_6pXREyUPQvyLWfX0zT3Y",
                     "short_id": "5e"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @vpnwlf | 10",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
                 }
             }
         },
