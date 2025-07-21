@@ -98,13 +98,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 11",
+                "🇹🇷 TR | 🟢 | ss | @argo_vpn1 | 12",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇳🇱 NL | 🟢 | ss | @club_profsor | 16",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
-                "🇬🇧 GB | 🟢 | ss | @outlineopenkey | 13",
+                "🇵🇱 PL | 🟢 | ss | @outlineopenkey | 13",
                 "🇫🇮 FI | 🟢 | ss | @strongprotocol | 10",
                 "🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21",
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
@@ -118,13 +118,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 11",
+                "🇹🇷 TR | 🟢 | ss | @argo_vpn1 | 12",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇳🇱 NL | 🟢 | ss | @club_profsor | 16",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
-                "🇬🇧 GB | 🟢 | ss | @outlineopenkey | 13",
+                "🇵🇱 PL | 🟢 | ss | @outlineopenkey | 13",
                 "🇫🇮 FI | 🟢 | ss | @strongprotocol | 10",
                 "🇳🇱 NL | 🟢 | ss | @tgvpn6 | 21",
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
@@ -150,12 +150,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 11",
+            "tag": "🇹🇷 TR | 🟢 | ss | @argo_vpn1 | 12",
             "type": "shadowsocks",
-            "server": "104.167.197.25",
-            "server_port": 57456,
+            "server": "185.123.101.241",
+            "server_port": 990,
             "method": "chacha20-ietf-poly1305",
-            "password": "360e21d21977dc11"
+            "password": "f8f7aCzcPKbsF8p3"
         },
         {
             "tag": "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
@@ -198,12 +198,12 @@
             "password": "Q1qlRknoN9PwGeExWVyTKg"
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | ss | @outlineopenkey | 13",
+            "tag": "🇵🇱 PL | 🟢 | ss | @outlineopenkey | 13",
             "type": "shadowsocks",
-            "server": "89.185.84.185",
+            "server": "77.83.246.74",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "2QzgzQm073v8eaEqOFTFg8"
+            "password": "krqf3jqX3EapZMmhR6AXGP"
         },
         {
             "tag": "🇫🇮 FI | 🟢 | ss | @strongprotocol | 10",

@@ -117,7 +117,7 @@
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
                 "🇺🇸 US | 🟢 | vless | @mt_proxy | 7",
                 "🇩🇪 DE | 🔴 | vless | @narcod_ping | 14",
-                "🇺🇸 US | 🟢 | vless | @ntconfig | 1",
+                "🇺🇸 US | 🟢 | vless | @ntconfig | 0",
                 "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 3",
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
@@ -140,6 +140,7 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -152,6 +153,7 @@
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
                 "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 5",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
+                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -242,7 +244,7 @@
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
                 "🇺🇸 US | 🟢 | vless | @mt_proxy | 7",
                 "🇩🇪 DE | 🔴 | vless | @narcod_ping | 14",
-                "🇺🇸 US | 🟢 | vless | @ntconfig | 1",
+                "🇺🇸 US | 🟢 | vless | @ntconfig | 0",
                 "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 3",
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
@@ -265,6 +267,7 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -277,6 +280,7 @@
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
                 "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 5",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
+                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -708,7 +712,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @ntconfig | 1",
+            "tag": "🇺🇸 US | 🟢 | vless | @ntconfig | 0",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 8443,
@@ -1119,6 +1123,22 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
+            "type": "vless",
+            "server": "172.67.207.54",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/34COh9NCiin5SJMk?ed=2560",
+                "headers": {
+                    "Host": "172.67.207.54"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
             "type": "vless",
             "server": "91.107.153.239",
@@ -1350,6 +1370,15 @@
                     "short_id": "353e"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
+            "type": "vless",
+            "server": "zzyd6dhd5.pet0er23mh21qq.com",
+            "server_port": 8080,
+            "uuid": "598a6cea-dfd2-4e97-9415-4571f742bf18",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
