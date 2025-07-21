@@ -225,7 +225,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇺🇸 US | 🔴 | vmess | @v2rayweb | 17",
+                "🇺🇸 US | 🔴 | vmess | @v2rayweb | 19",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -267,7 +267,7 @@
                 "❔ XX | 🟢 | vless | @yekoyekvpn | 0",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
-                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
+                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
             ],
             "interrupt_exist_connections": false
         },
@@ -402,7 +402,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇺🇸 US | 🔴 | vmess | @v2rayweb | 17",
+                "🇺🇸 US | 🔴 | vmess | @v2rayweb | 19",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -444,7 +444,7 @@
                 "❔ XX | 🟢 | vless | @yekoyekvpn | 0",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
-                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
+                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -2522,18 +2522,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @v2rayweb | 17",
+            "tag": "🇺🇸 US | 🔴 | vmess | @v2rayweb | 19",
             "type": "vmess",
-            "server": "104.26.0.80",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
+            "server": "104.26.0.103",
+            "server_port": 2086,
+            "uuid": "bc65fac2-7dc7-426f-acdd-0779a5035bde",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
                 "path": "/github.com/Alvin9999",
                 "headers": {
-                    "Host": "104.26.0.80"
+                    "Host": "104.26.0.103"
                 }
             }
         },
@@ -3244,7 +3244,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @zvpnn | 7",
+            "tag": "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
             "type": "vless",
             "server": "power.dlmoviz.ir",
             "server_port": 2020,

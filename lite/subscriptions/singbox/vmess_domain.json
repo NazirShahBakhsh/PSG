@@ -118,7 +118,7 @@
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
-                "🇺🇸 US | 🔴 | vmess | @v2rayweb | 17",
+                "🇺🇸 US | 🔴 | vmess | @v2rayweb | 19",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
                 "🇩🇪 DE | 🔴 | vmess | @vpn_ioss | 17",
@@ -152,7 +152,7 @@
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
-                "🇺🇸 US | 🔴 | vmess | @v2rayweb | 17",
+                "🇺🇸 US | 🔴 | vmess | @v2rayweb | 19",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
                 "🇩🇪 DE | 🔴 | vmess | @vpn_ioss | 17",
@@ -462,18 +462,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @v2rayweb | 17",
+            "tag": "🇺🇸 US | 🔴 | vmess | @v2rayweb | 19",
             "type": "vmess",
-            "server": "104.26.0.80",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
+            "server": "104.26.0.103",
+            "server_port": 2086,
+            "uuid": "bc65fac2-7dc7-426f-acdd-0779a5035bde",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
                 "path": "/github.com/Alvin9999",
                 "headers": {
-                    "Host": "104.26.0.80"
+                    "Host": "104.26.0.103"
                 }
             }
         },
