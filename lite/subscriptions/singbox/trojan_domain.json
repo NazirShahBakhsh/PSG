@@ -99,8 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇩🇪 DE | 🔴 | trojan | @v2rayweb | 19"
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
             ],
             "interrupt_exist_connections": false
         },
@@ -109,8 +108,7 @@
             "type": "urltest",
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇩🇪 DE | 🔴 | trojan | @v2rayweb | 19"
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -164,13 +162,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | trojan | @v2rayweb | 19",
-            "type": "trojan",
-            "server": "gerxyz.bm04.xyz",
-            "server_port": 2053,
-            "password": "94cf288d-f764-4ce9-a547-a7228144f056"
         }
     ],
     "route": {

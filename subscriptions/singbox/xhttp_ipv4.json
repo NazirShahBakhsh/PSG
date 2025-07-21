@@ -122,7 +122,6 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
-                "🇦🇪 AE | 🟢 | vless | @proxy_mtproto_vpns_free | 5",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇮🇹 IT | 🔴 | vless | @server_nekobox | 4",
@@ -134,11 +133,11 @@
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 3",
                 "🇩🇪 DE | 🟢 | vless | @v2rayn5 | 4",
                 "🇺🇸 US | 🟢 | vless | @v2reay | 8",
-                "🇩🇪 DE | 🟢 | vless | @v2ry_proxy | 12",
-                "🇺🇸 US | 🔴 | vless | @vpncostumer | 10",
-                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 12",
+                "🇩🇪 DE | 🟢 | vless | @v2ry_proxy | 11",
+                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 10",
+                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 11",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
-                "🇳🇱 NL | 🟢 | vless | @vpnplusee_free | 16",
+                "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 16",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 11",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 14"
@@ -173,7 +172,6 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
-                "🇦🇪 AE | 🟢 | vless | @proxy_mtproto_vpns_free | 5",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇮🇹 IT | 🔴 | vless | @server_nekobox | 4",
@@ -185,11 +183,11 @@
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 3",
                 "🇩🇪 DE | 🟢 | vless | @v2rayn5 | 4",
                 "🇺🇸 US | 🟢 | vless | @v2reay | 8",
-                "🇩🇪 DE | 🟢 | vless | @v2ry_proxy | 12",
-                "🇺🇸 US | 🔴 | vless | @vpncostumer | 10",
-                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 12",
+                "🇩🇪 DE | 🟢 | vless | @v2ry_proxy | 11",
+                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 10",
+                "🇳🇱 NL | 🟢 | vless | @vpncostumer | 11",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
-                "🇳🇱 NL | 🟢 | vless | @vpnplusee_free | 16",
+                "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 16",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 11",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 14"
@@ -617,29 +615,6 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🟢 | vless | @proxy_mtproto_vpns_free | 5",
-            "type": "vless",
-            "server": "130.185.122.252",
-            "server_port": 28964,
-            "uuid": "9987a847-5e57-440c-890e-33fd179af6ff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.bing.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "aaKkZMXLmcOEj1Gt7uEpXU5buAKh9V33PiRwJvuOqXs",
-                    "short_id": "5405"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
             "type": "vless",
             "server": "147.182.183.207",
@@ -818,7 +793,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2ry_proxy | 12",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2ry_proxy | 11",
             "type": "vless",
             "server": "91.107.254.202",
             "server_port": 443,
@@ -841,16 +816,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @vpncostumer | 10",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "64eabf2c-f24a-492c-bdfa-b02a7ebda17c",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @vpncostumer | 12",
+            "tag": "🇳🇱 NL | 🟢 | vless | @vpncostumer | 10",
             "type": "vless",
             "server": "77.110.103.21",
             "server_port": 50810,
@@ -873,7 +839,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
+            "tag": "🇳🇱 NL | 🟢 | vless | @vpncostumer | 11",
             "type": "vless",
             "server": "212.107.12.77",
             "server_port": 11676,
@@ -896,7 +862,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @vpnplusee_free | 16",
+            "tag": "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
             "type": "vless",
             "server": "45.150.33.157",
             "server_port": 50810,
@@ -915,6 +881,29 @@
                     "enabled": true,
                     "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
                     "short_id": "aa60a00122200b76"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 16",
+            "type": "vless",
+            "server": "130.185.122.252",
+            "server_port": 28964,
+            "uuid": "9987a847-5e57-440c-890e-33fd179af6ff",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aaKkZMXLmcOEj1Gt7uEpXU5buAKh9V33PiRwJvuOqXs",
+                    "short_id": "5405"
                 }
             }
         },
