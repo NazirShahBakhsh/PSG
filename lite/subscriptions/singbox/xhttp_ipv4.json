@@ -99,6 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
+                "🇩🇪 DE | 🔴 | vless | @orange_vpns | 14",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11"
             ],
@@ -109,6 +110,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
+                "🇩🇪 DE | 🔴 | vless | @orange_vpns | 14",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11"
             ],
@@ -135,6 +137,15 @@
             "server": "185.18.250.67",
             "server_port": 8080,
             "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @orange_vpns | 14",
+            "type": "vless",
+            "server": "91.99.98.90",
+            "server_port": 8443,
+            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
         },
