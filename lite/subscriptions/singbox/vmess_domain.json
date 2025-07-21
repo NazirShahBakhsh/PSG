@@ -98,11 +98,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇱🇻 LV | 🔴 | vmess | @NamiraNet | 69",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
                 "❔ XX | 🔴 | vmess | @configforvpn01 | 9",
                 "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
                 "🇨🇦 CA | 🔴 | vmess | @free4allvpn | 14",
-                "🇨🇦 CA | 🔴 | vmess | @freev2rays | 19",
+                "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
                 "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
@@ -116,6 +117,7 @@
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
+                "🇩🇪 DE | 🔴 | vmess | @v2rayweb | 17",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
@@ -128,11 +130,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇱🇻 LV | 🔴 | vmess | @NamiraNet | 69",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
                 "❔ XX | 🔴 | vmess | @configforvpn01 | 9",
                 "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
                 "🇨🇦 CA | 🔴 | vmess | @free4allvpn | 14",
-                "🇨🇦 CA | 🔴 | vmess | @freev2rays | 19",
+                "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
                 "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
@@ -146,6 +149,7 @@
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
+                "🇩🇪 DE | 🔴 | vmess | @v2rayweb | 17",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
@@ -168,6 +172,22 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇱🇻 LV | 🔴 | vmess | @NamiraNet | 69",
+            "type": "vmess",
+            "server": "216.173.69.250",
+            "server_port": 8443,
+            "uuid": "91382092-2330-455b-8a1c-9c129cfe661a",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
@@ -227,7 +247,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vmess | @freev2rays | 19",
+            "tag": "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
             "type": "vmess",
             "server": "cloudgetservice.mcloudservice.site",
             "server_port": 443,
@@ -427,6 +447,15 @@
                     "Host": ""
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vmess | @v2rayweb | 17",
+            "type": "vmess",
+            "server": "movaghat20.funfil.link",
+            "server_port": 48913,
+            "uuid": "08a3bdd2-2167-4761-b547-e8bd1b4a44ec",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",

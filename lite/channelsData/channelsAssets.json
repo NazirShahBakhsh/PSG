@@ -9,6 +9,7 @@
     },
     "NamiraNet": {
         "types": [
+            "ss",
             "vless",
             "vmess"
         ],
@@ -348,7 +349,6 @@
     },
     "kingofilter": {
         "types": [
-            "ss",
             "vless"
         ],
         "title": "خدمات کینگو فیلتر | فیلترشکن رایگان",
@@ -1059,7 +1059,8 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"

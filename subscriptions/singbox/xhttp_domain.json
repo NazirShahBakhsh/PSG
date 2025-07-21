@@ -114,11 +114,13 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 0",
                 "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=lake10.global.ssl.fastly.net&type=xhttp#🇺🇸 US | 🔴 | vless | @flyv2ray | 6",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
-                "🇺🇸 US | 🔴 | vless | @getconfigir | 15",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
+                "🇺🇸 US | 🔴 | vless | @nufilter | 13",
+                "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 15",
+                "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 16",
                 "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
@@ -150,11 +152,13 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 0",
                 "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=lake10.global.ssl.fastly.net&type=xhttp#🇺🇸 US | 🔴 | vless | @flyv2ray | 6",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
-                "🇺🇸 US | 🔴 | vless | @getconfigir | 15",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
+                "🇺🇸 US | 🔴 | vless | @nufilter | 13",
+                "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 15",
+                "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 16",
                 "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
@@ -340,15 +344,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 15",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "1d17f2dc-7572-4869-afe2-379d3e1785c6",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
             "type": "vless",
             "server": "ips.rainoteam.store",
@@ -392,6 +387,33 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @nufilter | 13",
+            "type": "vless",
+            "server": "bekhabim.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "493f50f6-fbf0-4810-9ced-b129c18e7de4",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 15",
+            "type": "vless",
+            "server": "cdn.irancdngame.com",
+            "server_port": 80,
+            "uuid": "3a65dd17-60d4-469c-b554-11cf94db74e7",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 16",
+            "type": "vless",
+            "server": "cdn.irancdngame.com",
+            "server_port": 80,
+            "uuid": "3a65dd17-60d4-469c-b554-11cf94db74e7",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
