@@ -132,12 +132,13 @@
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 3",
                 "🇩🇪 DE | 🟢 | vless | @v2rayn5 | 4",
+                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 17",
                 "🇺🇸 US | 🟢 | vless | @v2reay | 8",
                 "🇩🇪 DE | 🟢 | vless | @v2ry_proxy | 11",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 10",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 11",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
-                "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 16",
+                "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 15",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 11",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 14"
@@ -182,12 +183,13 @@
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 3",
                 "🇩🇪 DE | 🟢 | vless | @v2rayn5 | 4",
+                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 17",
                 "🇺🇸 US | 🟢 | vless | @v2reay | 8",
                 "🇩🇪 DE | 🟢 | vless | @v2ry_proxy | 11",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 10",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 11",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 13",
-                "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 16",
+                "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 15",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 11",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 14"
@@ -775,6 +777,15 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔴 | vless | @v2rayweb | 17",
+            "type": "vless",
+            "server": "91.99.183.30",
+            "server_port": 8443,
+            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @v2reay | 8",
             "type": "vless",
             "server": "104.21.48.1",
@@ -885,7 +896,7 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 16",
+            "tag": "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 15",
             "type": "vless",
             "server": "130.185.122.252",
             "server_port": 28964,

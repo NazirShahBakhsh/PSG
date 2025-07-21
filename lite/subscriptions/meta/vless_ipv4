@@ -28,7 +28,7 @@ proxies:
   - {"name":"🇺🇸 US | 🟢 | vless | @icv2ray | 14","type":"vless","server":"104.18.24.113","port":443,"uuid":"80d1fe59-60f4-4272-a280-820e1ef0a754","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net","ws-opts":{"path":"/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048","headers":{"Host":"www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net"}}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16","type":"vless","server":"157.230.28.73","port":23353,"uuid":"c34a9f73-3c11-4614-90ff-196add3fa4aa","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"*.sourceforge.net","reality-opts":{"public-key":"OItbKB3XzCXKysSNBIUZ7fDAfASACK_ucLrU6NAAFAU","short-id":"a98a22e2"}}
   - {"name":"🇺🇸 US | 🟢 | vless | @kingofilter | 3","type":"vless","server":"104.17.210.171","port":443,"uuid":"c98a16e4-0dc5-42f0-b3db-30f04525c123","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vless10-9sc.pages.dev","ws-opts":{"path":"/","headers":{"Host":"vless10-9sc.pages.dev"}}}
-  - {"name":"🇺🇸 US | 🔴 | vless | @kurdistan_vpn_perfectt | 9","type":"vless","server":"104.16.86.73","port":8880,"uuid":"e9979910-79d1-4621-a93c-b2a579c44ba7","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/J5aLQOY1R9ONWYCM?ed=2560","headers":{"Host":"vngsupply.ip-ddns.com"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @kurdistan_vpn_perfectt | 9","type":"vless","server":"178.162.244.226","port":443,"uuid":"4e57e34d-fc11-486e-9dbb-bcce9db1c39d","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇩🇪 DE | 🟢 | vless | @merdesert | 3","type":"vless","server":"188.245.61.146","port":8001,"uuid":"510d82c4-20c6-4605-9e92-cf49c1e9f900","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"oMIdmAHBouBI.ir","reality-opts":{"public-key":"W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg"}}
   - {"name":"🇨🇭 CH | 🔴 | vless | @minovpnch | 14","type":"vless","server":"185.18.250.67","port":8080,"uuid":"4d263c1a-fbb9-4946-a639-1de531120cde","tls":false,"network":"xhttp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🟢 | vless | @mt_proxy | 7","type":"vless","server":"104.18.26.90","port":443,"uuid":"80d1fe59-60f4-4272-a280-820e1ef0a754","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"pages.dev","ws-opts":{"path":"/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048","headers":{"Host":"tfs733.pages.dev"}}}
@@ -106,7 +106,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @icv2ray | 14'
       - '🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16'
       - '🇺🇸 US | 🟢 | vless | @kingofilter | 3'
-      - '🇺🇸 US | 🔴 | vless | @kurdistan_vpn_perfectt | 9'
+      - '🇩🇪 DE | 🔴 | vless | @kurdistan_vpn_perfectt | 9'
       - '🇩🇪 DE | 🟢 | vless | @merdesert | 3'
       - '🇨🇭 CH | 🔴 | vless | @minovpnch | 14'
       - '🇺🇸 US | 🟢 | vless | @mt_proxy | 7'
@@ -160,7 +160,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @icv2ray | 14'
       - '🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16'
       - '🇺🇸 US | 🟢 | vless | @kingofilter | 3'
-      - '🇺🇸 US | 🔴 | vless | @kurdistan_vpn_perfectt | 9'
+      - '🇩🇪 DE | 🔴 | vless | @kurdistan_vpn_perfectt | 9'
       - '🇩🇪 DE | 🟢 | vless | @merdesert | 3'
       - '🇨🇭 CH | 🔴 | vless | @minovpnch | 14'
       - '🇺🇸 US | 🟢 | vless | @mt_proxy | 7'
@@ -212,7 +212,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @icv2ray | 14'
       - '🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16'
       - '🇺🇸 US | 🟢 | vless | @kingofilter | 3'
-      - '🇺🇸 US | 🔴 | vless | @kurdistan_vpn_perfectt | 9'
+      - '🇩🇪 DE | 🔴 | vless | @kurdistan_vpn_perfectt | 9'
       - '🇩🇪 DE | 🟢 | vless | @merdesert | 3'
       - '🇨🇭 CH | 🔴 | vless | @minovpnch | 14'
       - '🇺🇸 US | 🟢 | vless | @mt_proxy | 7'
