@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
+                "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11"
             ],
@@ -108,7 +108,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
+                "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11"
             ],
@@ -130,11 +130,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
+            "tag": "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
             "type": "vless",
-            "server": "151.101.204.190",
-            "server_port": 80,
-            "uuid": "8285eef0-147d-4bb6-9d12-0e4601a36e78",
+            "server": "185.18.250.67",
+            "server_port": 8080,
+            "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
             "flow": "",
             "packet_encoding": "xudp"
         },

@@ -141,11 +141,10 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇳🇱 NL | 🔴 | vless | @v2rayweb | 10",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 11",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
@@ -209,11 +208,10 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇳🇱 NL | 🔴 | vless | @v2rayweb | 10",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 11",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
@@ -1033,13 +1031,20 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vless | @v2rayweb | 10",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 11",
             "type": "vless",
-            "server": "servrbot-alishabani.sbs",
-            "server_port": 13867,
-            "uuid": "a3e6d708-1441-4b6b-abba-fc28ab469b0f",
+            "server": "crazy-identity.oneeat.co",
+            "server_port": 80,
+            "uuid": "64d6d0d4-3706-4837-b154-cda2816adcc5",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "crazy-identity.oneeat.co"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
@@ -1074,22 +1079,6 @@
             "uuid": "563e4ed0-9473-4d66-aca8-e23c641042a6",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
-            "type": "vless",
-            "server": "brainy-party.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "34797f17-09a1-400c-9f4b-275718d62a0f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "brainy-party.seotoolsforyou.co.uk"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @vp22ray | 10",
