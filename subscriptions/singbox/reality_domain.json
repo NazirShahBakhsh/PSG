@@ -117,8 +117,6 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 1",
                 "❔ XX | 🟢 | vless | @fsv2ray | 2",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 15",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 18",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 4",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 5",
@@ -140,7 +138,6 @@
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
-                "🇺🇸 US | 🟢 | vless | @proxy_mtproto_vpns_free | 17",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 9",
                 "❔ XX | 🟢 | vless | @proxysudo | 1",
@@ -193,8 +190,6 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 1",
                 "❔ XX | 🟢 | vless | @fsv2ray | 2",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 15",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 18",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 4",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 5",
@@ -216,7 +211,6 @@
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
-                "🇺🇸 US | 🟢 | vless | @proxy_mtproto_vpns_free | 17",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 9",
                 "❔ XX | 🟢 | vless | @proxysudo | 1",
@@ -728,52 +722,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@FsV2ray"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @getconfigir | 15",
-            "type": "vless",
-            "server": "mci1.irancdngame.com",
-            "server_port": 2012,
-            "uuid": "83b80acd-b04c-4739-992f-14b34543ad9d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.pcmag.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I9RNJ9pJ1WzWsYnRFk7u1XWsFhWBS03iUDjQXwWsERY",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @getconfigir | 18",
-            "type": "vless",
-            "server": "balanced-de.irancdngame.com",
-            "server_port": 2012,
-            "uuid": "83b80acd-b04c-4739-992f-14b34543ad9d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.pcmag.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I9RNJ9pJ1WzWsYnRFk7u1XWsFhWBS03iUDjQXwWsERY",
-                    "short_id": ""
-                }
             }
         },
         {
@@ -1312,29 +1260,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPNCUSTOMIZE"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxy_mtproto_vpns_free | 17",
-            "type": "vless",
-            "server": "iwillconectyou.to.usa.irancdngame.com",
-            "server_port": 2012,
-            "uuid": "3a65dd17-60d4-469c-b554-11cf94db74e7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.pcmag.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I9RNJ9pJ1WzWsYnRFk7u1XWsFhWBS03iUDjQXwWsERY",
-                    "short_id": ""
-                }
             }
         },
         {

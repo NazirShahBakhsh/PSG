@@ -147,7 +147,7 @@
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
-                "🇩🇪 DE | 🔴 | vless | @vpnaloo | 14",
+                "🇫🇮 FI | 🟢 | vless | @vpnaloo | 15",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
@@ -214,7 +214,7 @@
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
-                "🇩🇪 DE | 🔴 | vless | @vpnaloo | 14",
+                "🇫🇮 FI | 🟢 | vless | @vpnaloo | 15",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
@@ -1122,16 +1122,26 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @vpnaloo | 14",
+            "tag": "🇫🇮 FI | 🟢 | vless | @vpnaloo | 15",
             "type": "vless",
-            "server": "sn.lunarmc.ir",
-            "server_port": 8082,
-            "uuid": "c5faf134-bade-4e16-96de-a33a24c51cce",
-            "flow": "",
+            "server": "speedtest.net.zula.ir.nobitex.ir.shakhle.ir",
+            "server_port": 39001,
+            "uuid": "15449e06-b519-414a-9e0d-fbb4a0fd2780",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "sn.lunarmc.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y1o",
+                    "short_id": "f23547"
+                }
             }
         },
         {

@@ -102,6 +102,7 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
+                "🇫🇮 FI | 🟢 | vless | @vpnaloo | 15",
                 "🇩🇪 DE | 🔴 | vless | @lranonline_new | 21",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇩🇪 DE | 🔴 | vless | @orange_vpns | 14",
@@ -118,6 +119,7 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
+                "🇫🇮 FI | 🟢 | vless | @vpnaloo | 15",
                 "🇩🇪 DE | 🔴 | vless | @lranonline_new | 21",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇩🇪 DE | 🔴 | vless | @orange_vpns | 14",
@@ -176,6 +178,29 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🟢 | vless | @vpnaloo | 15",
+            "type": "vless",
+            "server": "speedtest.net.zula.ir.nobitex.ir.shakhle.ir",
+            "server_port": 39001,
+            "uuid": "15449e06-b519-414a-9e0d-fbb4a0fd2780",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y1o",
+                    "short_id": "f23547"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔴 | vless | @lranonline_new | 21",

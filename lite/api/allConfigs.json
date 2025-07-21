@@ -14,8 +14,8 @@
             "title": "‌NamiraNet / نامیرا نت",
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraNet.jpg"
         },
-        "type": "vmess",
-        "config": "vmess://eyJhZGQiOiIyMTYuMTczLjY5LjI1MCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5MTM4MjA5Mi0yMzMwLTQ1NWItOGExYy05YzEyOWNmZTY2MWEiLCJuZXQiOiJ3cyIsInBhdGgiOiJcLyIsInBvcnQiOiI4NDQzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGYxXHVkODNjXHVkZGZiIExWIHwgXHVkODNkXHVkZDM0IHwgdm1lc3MgfCBATmFtaXJhTmV0IHwgNjkifQ"
+        "type": "vless",
+        "config": "vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.124:8880?type=grpc&encryption=none&flow=#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40NamiraNet%20%7C%2069"
     },
     {
         "channel": {
@@ -1158,7 +1158,7 @@
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayngn.jpg"
         },
         "type": "vless",
-        "config": "vless://b17ec18e-99af-40af-962b-0ad1b987d740@65.109.201.108:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40v2rayngn%20%7C%2014"
+        "config": "vless://b17ec18e-99af-40af-962b-0ad1b987d740@65.109.201.108:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40v2rayngn%20%7C%2013"
     },
     {
         "channel": {
@@ -1229,8 +1229,8 @@
             "title": "V2ray | VPN",
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
         },
-        "type": "vmess",
-        "config": "vmess://eyJhZGQiOiJtb3ZhZ2hhdDIwLmZ1bmZpbC5saW5rIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ0ZWxld2ViaW9uLmNvbSIsImlkIjoiMDhhM2JkZDItMjE2Ny00NzYxLWI1NDctZThiZDFiNGE0NGVjIiwibmV0IjoidGNwIiwicGF0aCI6IlwvIiwicG9ydCI6IjQ4OTEzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJodHRwIiwidiI6IjIiLCJwcyI6Ilx1ZDgzY1x1ZGRlOVx1ZDgzY1x1ZGRlYSBERSB8IFx1ZDgzZFx1ZGQzNCB8IHZtZXNzIHwgQHYycmF5d2ViIHwgMTcifQ"
+        "type": "trojan",
+        "config": "trojan://blue2024@190.93.247.138:443?type=ws&sni=hb.lii2010.us.kg&host=hb.lii2010.us.kg#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%F0%9F%94%B4%20%7C%20trojan%20%7C%20%40v2rayweb%20%7C%2018"
     },
     {
         "channel": {
@@ -1409,8 +1409,8 @@
             "title": "رفع فیلتر | پروکسی",
             "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpnaloo.jpg"
         },
-        "type": "vless",
-        "config": "vless://c5faf134-bade-4e16-96de-a33a24c51cce@sn.lunarmc.ir:8082?mode=gun&security=none&encryption=none&type=grpc&serviceName=sn.lunarmc.ir#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%B4%20%7C%20vless%20%7C%20%40vpnaloo%20%7C%2014"
+        "type": "reality",
+        "config": "vless://15449e06-b519-414a-9e0d-fbb4a0fd2780@speedtest.net.zula.ir.nobitex.ir.shakhle.ir:39001?type=xhttp&mode=stream-up&path=%2F%3Fed%3D80&security=reality&fp=firefox&sni=stackoverflow.com&pbk=7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y1o&sid=f23547&spx=%2F#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%F0%9F%9F%A2%20%7C%20vless%20%7C%20%40vpnaloo%20%7C%2015"
     },
     {
         "channel": {

@@ -98,6 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇫🇮 FI | 🔴 | vless | @NamiraNet | 66",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 15",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
@@ -115,6 +116,7 @@
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
                 "🇩🇪 DE | 🔴 | vless | @orange_vpns | 12",
                 "🇩🇪 DE | 🔴 | vless | @orange_vpns | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
@@ -147,6 +149,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇫🇮 FI | 🔴 | vless | @NamiraNet | 66",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 15",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
@@ -164,6 +167,7 @@
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
                 "🇩🇪 DE | 🔴 | vless | @orange_vpns | 12",
                 "🇩🇪 DE | 🔴 | vless | @orange_vpns | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
@@ -206,6 +210,15 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔴 | vless | @NamiraNet | 66",
+            "type": "vless",
+            "server": "65.109.215.10",
+            "server_port": 39585,
+            "uuid": "4268bc86-b252-45f3-9c6e-5cf95aba3284",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @canfing_vpn | 15",
@@ -489,6 +502,29 @@
             "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
+            "type": "vless",
+            "server": "62.212.70.229",
+            "server_port": 80,
+            "uuid": "c256ce5f-9b2b-43a0-946a-cceeadf0d5b0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ea.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tGORZqRxnUHzC46UYNRlydnkDlbA06OlkhPFZrxeLCE",
+                    "short_id": "3df4"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔴 | vless | @orange_vpns | 12",
