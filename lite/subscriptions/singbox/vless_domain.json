@@ -124,6 +124,7 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
+                "🇮🇷 IR | 🔴 | vless | @selinc | 7",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -140,6 +141,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇳🇱 NL | 🔴 | vless | @v2rayweb | 10",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -150,7 +152,7 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
-                "🇳🇱 NL | 🔴 | vless | @vpnv2rayngv | 18",
+                "🇮🇷 IR | 🔴 | vless | @vpnv2rayngv | 18",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -190,6 +192,7 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
+                "🇮🇷 IR | 🔴 | vless | @selinc | 7",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -206,6 +209,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇳🇱 NL | 🔴 | vless | @v2rayweb | 10",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -216,7 +220,7 @@
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
-                "🇳🇱 NL | 🔴 | vless | @vpnv2rayngv | 18",
+                "🇮🇷 IR | 🔴 | vless | @vpnv2rayngv | 18",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -709,6 +713,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇮🇷 IR | 🔴 | vless | @selinc | 7",
+            "type": "vless",
+            "server": "poland.a1mshop2.xyz",
+            "server_port": 49894,
+            "uuid": "df783237-8c86-4db2-bd97-8a2cc26154e9",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
             "type": "vless",
             "server": "sub.shadowsokstes.WoRkErs.DeV",
@@ -1020,6 +1033,15 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔴 | vless | @v2rayweb | 10",
+            "type": "vless",
+            "server": "servrbot-alishabani.sbs",
+            "server_port": 13867,
+            "uuid": "a3e6d708-1441-4b6b-abba-fc28ab469b0f",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
             "type": "vless",
             "server": "www.parsvds.ir",
@@ -1181,22 +1203,13 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vless | @vpnv2rayngv | 18",
+            "tag": "🇮🇷 IR | 🔴 | vless | @vpnv2rayngv | 18",
             "type": "vless",
-            "server": "portal12.saladshirazi.com",
-            "server_port": 443,
-            "uuid": "484d4e5b-7ec0-84bc-98fc-b55bb8037f38",
+            "server": "a-configazad.shop",
+            "server_port": 23244,
+            "uuid": "581e1473-2465-4e0b-b4ec-990e81e2e358",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "portal12.saladshirazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @wbrovers | 0",

@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "interrupt_exist_connections": false
@@ -107,7 +107,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -128,7 +128,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
             "type": "trojan",
             "server": "15.188.128.163",
             "server_port": 22223,
