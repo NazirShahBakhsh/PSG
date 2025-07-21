@@ -117,7 +117,6 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 11",
-                "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇳🇱 NL | 🟢 | vless | @proxycrone | 1",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
@@ -152,7 +151,6 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 11",
-                "🇺🇸 US | 🟢 | vless | @proxie | 11",
                 "🇳🇱 NL | 🟢 | vless | @proxycrone | 1",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
@@ -372,24 +370,6 @@
             "uuid": "5bdc4429-a059-453a-b033-b0502ad43a44",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxie | 11",
-            "type": "vless",
-            "server": "Aule.Manwe.ir",
-            "server_port": 443,
-            "uuid": "bdf79d37-877b-4727-b45a-5ba235a01a24",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Varda.Manwe.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇳🇱 NL | 🟢 | vless | @proxycrone | 1",
