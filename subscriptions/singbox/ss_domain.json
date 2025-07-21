@@ -98,9 +98,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸 US | 🟢 | ss | @NamiraNet | 51",
                 "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
-                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 12",
+                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 11",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @g0dv2ray | 11",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
@@ -130,9 +131,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸 US | 🟢 | ss | @NamiraNet | 51",
                 "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
-                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 12",
+                "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 11",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @g0dv2ray | 11",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
@@ -174,6 +176,14 @@
             "type": "dns"
         },
         {
+            "tag": "🇺🇸 US | 🟢 | ss | @NamiraNet | 51",
+            "type": "shadowsocks",
+            "server": "h110vpnus.outlinekeys.net",
+            "server_port": 9483,
+            "method": "chacha20-ietf-poly1305",
+            "password": "uusas0t0ucKJLqZ1XsZqse"
+        },
+        {
             "tag": "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
             "type": "shadowsocks",
             "server": "Peweza3.digipedia.shop",
@@ -190,7 +200,7 @@
             "password": "M2E4ZGY2ZjI5MzU2ODAxMjEwYzgyNzQ0MGM5NGUy"
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 12",
+            "tag": "🇸🇬 SG | 🟢 | ss | @free_outline_keys | 11",
             "type": "shadowsocks",
             "server": "sg.outlinekeys.net",
             "server_port": 52252,
