@@ -224,7 +224,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 15",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -242,9 +242,9 @@
                 "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | ss | @vpidiamond | 9",
-                "🇩🇪 DE | 🔴 | vmess | @vpn_ioss | 17",
+                "🇩🇪 DE | 🔴 | vmess | @vpn_ioss | 16",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
-                "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
+                "🇺🇸 US | 🔴 | vless | @vpnaloo | 15",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
@@ -266,7 +266,7 @@
                 "❔ XX | 🟢 | vless | @yekoyekvpn | 0",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "interrupt_exist_connections": false
         },
@@ -400,7 +400,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 15",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -418,9 +418,9 @@
                 "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | ss | @vpidiamond | 9",
-                "🇩🇪 DE | 🔴 | vmess | @vpn_ioss | 17",
+                "🇩🇪 DE | 🔴 | vmess | @vpn_ioss | 16",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
-                "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
+                "🇺🇸 US | 🔴 | vless | @vpnaloo | 15",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
@@ -442,7 +442,7 @@
                 "❔ XX | 🟢 | vless | @yekoyekvpn | 0",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -2497,13 +2497,20 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @v2rayweb | 15",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
             "type": "vless",
-            "server": "87.248.156.218",
-            "server_port": 10555,
-            "uuid": "450c5fb3-22d8-4ad2-8952-58d1f314ef0a",
+            "server": "104.16.69.162",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/fgvtHUpS6R8Rv8s5?ed=2560",
+                "headers": {
+                    "Host": "104.16.69.162"
+                }
+            }
         },
         {
             "tag": "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
@@ -2773,7 +2780,7 @@
             "password": "4cY4N/FWyfZ1r21mu4oj/L5E6WHN9b8VAeitl+Mk7CQ="
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @vpn_ioss | 17",
+            "tag": "🇩🇪 DE | 🔴 | vmess | @vpn_ioss | 16",
             "type": "vmess",
             "server": "91.99.209.224",
             "server_port": 32821,
@@ -2807,25 +2814,18 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
+            "tag": "🇺🇸 US | 🔴 | vless | @vpnaloo | 15",
             "type": "vless",
-            "server": "ko1.xservers.ir",
-            "server_port": 81,
-            "uuid": "ce02ef89-4a22-40d3-a962-9a8e12c252fe",
-            "flow": "xtls-rprx-vision",
+            "server": "172.67.207.54",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "A-8wmBnGrz4ny7CB9Zfnjz66cbS83uOMdH61CsI-rm8",
-                    "short_id": "200de4ca48fb1731"
+            "transport": {
+                "type": "ws",
+                "path": "/34COh9NCiin5SJMk?ed=2560",
+                "headers": {
+                    "Host": "172.67.207.54"
                 }
             }
         },
@@ -3212,7 +3212,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
+            "tag": "🇫🇷 FR | 🔴 | vless | @zvpnn | 7",
             "type": "vless",
             "server": "power.dlmoviz.ir",
             "server_port": 2020,
