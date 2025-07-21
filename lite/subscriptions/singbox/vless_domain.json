@@ -108,7 +108,7 @@
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
-                "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
+                "🇺🇸 US | 🔴 | vless | @info_2it_channel | 12",
                 "❔ XX | 🟢 | vless | @iraniv2ray | 6",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
@@ -124,7 +124,6 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
-                "🇮🇷 IR | 🔴 | vless | @selinc | 7",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -157,7 +156,7 @@
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "interrupt_exist_connections": false
         },
@@ -175,7 +174,7 @@
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
-                "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
+                "🇺🇸 US | 🔴 | vless | @info_2it_channel | 12",
                 "❔ XX | 🟢 | vless | @iraniv2ray | 6",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
@@ -191,7 +190,6 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
-                "🇮🇷 IR | 🔴 | vless | @selinc | 7",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -224,7 +222,7 @@
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -420,18 +418,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
+            "tag": "🇺🇸 US | 🔴 | vless | @info_2it_channel | 12",
             "type": "vless",
-            "server": "eNThuSIasTic-CeNTUrY.OneEAt.cO",
+            "server": "OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk",
             "server_port": 80,
-            "uuid": "edc0a710-b736-455a-a9f2-d26150e624b2",
+            "uuid": "1dd49fb8-6570-4a2a-a236-f410b63159cf",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "eNThuSIasTic-CeNTUrY.OneEAt.cO"
+                    "Host": "OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk"
                 }
             }
         },
@@ -707,15 +705,6 @@
             "server": "ir.any-server.cfd",
             "server_port": 24041,
             "uuid": "36c540df-eed6-4d7a-994c-dd766a86db30",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇷 IR | 🔴 | vless | @selinc | 7",
-            "type": "vless",
-            "server": "poland.a1mshop2.xyz",
-            "server_port": 49894,
-            "uuid": "df783237-8c86-4db2-bd97-8a2cc26154e9",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1282,7 +1271,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
+            "tag": "🇫🇷 FR | 🔴 | vless | @zvpnn | 7",
             "type": "vless",
             "server": "power.dlmoviz.ir",
             "server_port": 2020,
