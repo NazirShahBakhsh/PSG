@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 ❔ XX | 🟢 | trojan | @maradona_vpn | 8 = trojan, maradona_vpn.history-paint.art, 443, password = Maradona_vpn, skip-cert-verify = false
 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6 = trojan, de1.test3.net, 443, password = b8841c50-c3ad-11ee-9be0-1239d0255272, skip-cert-verify = false
+🇩🇪 DE | 🔴 | trojan | @v2rayweb | 19 = trojan, gerxyz.bm04.xyz, 2053, password = 94cf288d-f764-4ce9-a547-a7228144f056, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6
-PSG-AUTO = url-test, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6
-PSG-FALLBACK = fallback, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6, 🇩🇪 DE | 🔴 | trojan | @v2rayweb | 19
+PSG-AUTO = url-test, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6, 🇩🇪 DE | 🔴 | trojan | @v2rayweb | 19
+PSG-FALLBACK = fallback, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6, 🇩🇪 DE | 🔴 | trojan | @v2rayweb | 19
 
 [Rule]
 GEOIP,IR,DIRECT

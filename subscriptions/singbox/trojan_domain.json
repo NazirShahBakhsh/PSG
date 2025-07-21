@@ -101,6 +101,7 @@
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -111,8 +112,7 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇨🇳 CN | 🟢 | trojan | @v2rayweb | 14",
-                "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 15",
+                "🇩🇪 DE | 🔴 | trojan | @v2rayweb | 19",
                 "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
@@ -125,6 +125,7 @@
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -135,8 +136,7 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇨🇳 CN | 🟢 | trojan | @v2rayweb | 14",
-                "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 15",
+                "🇩🇪 DE | 🔴 | trojan | @v2rayweb | 19",
                 "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
@@ -207,6 +207,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
+            "type": "trojan",
+            "server": "production.tj.ojan.workers.dev",
+            "server_port": 443,
+            "password": "9yu6m5okr",
+            "tls": {
+                "enabled": true,
+                "server_name": "production.tj.ojan.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "production.tj.ojan.workers.dev"
                 }
             }
         },
@@ -407,36 +430,11 @@
             }
         },
         {
-            "tag": "🇨🇳 CN | 🟢 | trojan | @v2rayweb | 14",
+            "tag": "🇩🇪 DE | 🔴 | trojan | @v2rayweb | 19",
             "type": "trojan",
-            "server": "a10.taipeicitygovernment.kyiv.ua",
-            "server_port": 3462,
-            "password": "6e1b9a65-884f-3aa9-9469-bf6ec0f08610",
-            "tls": {
-                "enabled": true,
-                "server_name": "45.32.28.232",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 15",
-            "type": "trojan",
-            "server": "vn.mjt000.com",
-            "server_port": 443,
-            "password": "c85761bc-5d74-4ae5-b525-0d32443182fa",
-            "tls": {
-                "enabled": true,
-                "server_name": "vn.mjt000.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "server": "gerxyz.bm04.xyz",
+            "server_port": 2053,
+            "password": "94cf288d-f764-4ce9-a547-a7228144f056"
         },
         {
             "tag": "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
