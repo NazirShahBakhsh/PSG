@@ -103,9 +103,9 @@
                 "❔ XX | 🟢 | ss | @chestertm | 19",
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
-                "🇺🇸 US | 🟢 | ss | @configshubplus | 15",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @g0dv2ray | 11",
+                "🇺🇸 US | 🟢 | ss | @ip_cf_config | 14",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -138,9 +138,9 @@
                 "❔ XX | 🟢 | ss | @chestertm | 19",
                 "🇬🇧 GB | 🟢 | ss | @config_proxy_ir | 17",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
-                "🇺🇸 US | 🟢 | ss | @configshubplus | 15",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @g0dv2ray | 11",
+                "🇺🇸 US | 🟢 | ss | @ip_cf_config | 14",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -220,14 +220,6 @@
             "password": "M2E4ZGY2ZjI5MzU2ODAxMjEwYzgyNzQ0MGM5NGUy"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @configshubplus | 15",
-            "type": "shadowsocks",
-            "server": "host.phonygilson.icu",
-            "server_port": 49072,
-            "method": "chacha20-ietf-poly1305",
-            "password": "23a6gkcTQzPgAEsFLLybEpq4vPGyXgBtN5C7kfn876r8279zMPAoEKYFNFjsxcXJvuWv5EeMj6rnp3mH5VWZCWD2Xhufrafw"
-        },
-        {
             "tag": "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
@@ -242,6 +234,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "1xO2cqPazqjGfCfd"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | ss | @ip_cf_config | 14",
+            "type": "shadowsocks",
+            "server": "beesyar.org",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",

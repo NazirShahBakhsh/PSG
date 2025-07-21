@@ -146,6 +146,7 @@
                 "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
+                "🇩🇪 DE | 🔴 | vless | @vpnaloo | 15",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
@@ -212,6 +213,7 @@
                 "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
+                "🇩🇪 DE | 🔴 | vless | @vpnaloo | 15",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
@@ -1115,6 +1117,19 @@
                 "headers": {
                     "Host": "cv.rxteam.xyz"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @vpnaloo | 15",
+            "type": "vless",
+            "server": "sn.lunarmc.ir",
+            "server_port": 8082,
+            "uuid": "c5faf134-bade-4e16-96de-a33a24c51cce",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "sn.lunarmc.ir"
             }
         },
         {

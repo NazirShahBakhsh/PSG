@@ -98,10 +98,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
             ],
             "interrupt_exist_connections": false
         },
@@ -109,10 +110,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -130,6 +132,61 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
+            "type": "trojan",
+            "server": "74.63.241.23",
+            "server_port": 443,
+            "password": "4863e1b2-ec2f-4c71-b862-ce533028e57e",
+            "tls": {
+                "enabled": true,
+                "server_name": "trus.moonfree.top",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12",
+            "type": "trojan",
+            "server": "15.237.98.61",
+            "server_port": 22223,
+            "password": "telegram-id-v2rayvpnchannel",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+            "type": "trojan",
+            "server": "15.204.175.111",
+            "server_port": 2083,
+            "password": "t2WqbIW2JE",
+            "tls": {
+                "enabled": true,
+                "server_name": "usa-vp-111.mETIkaPPs.cOm",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "usa-vp-111.mETIkaPPs.cOm"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
@@ -164,45 +221,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12",
-            "type": "trojan",
-            "server": "52.47.143.163",
-            "server_port": 22223,
-            "password": "telegram-id-v2rayvpnchannel",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @webhube | 4",
-            "type": "trojan",
-            "server": "15.204.175.111",
-            "server_port": 2083,
-            "password": "t2WqbIW2JE",
-            "tls": {
-                "enabled": true,
-                "server_name": "usa-vp-111.mETIkaPPs.cOm",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "usa-vp-111.mETIkaPPs.cOm"
                 }
             }
         }

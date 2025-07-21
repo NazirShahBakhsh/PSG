@@ -101,9 +101,6 @@
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 15",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -114,6 +111,8 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇨🇳 CN | 🟢 | trojan | @v2rayweb | 14",
+                "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 15",
                 "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
@@ -126,9 +125,6 @@
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
                 "❔ XX | 🟢 | trojan | @fati_ffx | 1",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 15",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -139,6 +135,8 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇨🇳 CN | 🟢 | trojan | @v2rayweb | 14",
+                "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 15",
                 "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
@@ -211,43 +209,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
-            "type": "trojan",
-            "server": "391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net",
-            "server_port": 15229,
-            "password": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
-            "type": "trojan",
-            "server": "production.tj.ojan.workers.dev",
-            "server_port": 443,
-            "password": "9yu6m5okr",
-            "tls": {
-                "enabled": true,
-                "server_name": "production.tj.ojan.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "production.tj.ojan.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 15",
-            "type": "trojan",
-            "server": "13c2c931-swin40-swy6li-tni2.cu.plebai.net",
-            "server_port": 15229,
-            "password": "5e2f888c-68ef-11ef-96ca-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -438,6 +399,38 @@
             "tls": {
                 "enabled": true,
                 "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳 CN | 🟢 | trojan | @v2rayweb | 14",
+            "type": "trojan",
+            "server": "a10.taipeicitygovernment.kyiv.ua",
+            "server_port": 3462,
+            "password": "6e1b9a65-884f-3aa9-9469-bf6ec0f08610",
+            "tls": {
+                "enabled": true,
+                "server_name": "45.32.28.232",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 15",
+            "type": "trojan",
+            "server": "vn.mjt000.com",
+            "server_port": 443,
+            "password": "c85761bc-5d74-4ae5-b525-0d32443182fa",
+            "tls": {
+                "enabled": true,
+                "server_name": "vn.mjt000.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

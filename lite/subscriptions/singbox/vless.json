@@ -139,14 +139,14 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
+                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 16",
                 "🇩🇪 DE | 🟢 | vless | @vpn_ioss | 18",
-                "🇺🇸 US | 🔴 | vless | @vpnaloo | 15",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
@@ -201,6 +201,7 @@
                 "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
+                "🇩🇪 DE | 🔴 | vless | @vpnaloo | 15",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
@@ -263,14 +264,14 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
+                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 16",
                 "🇩🇪 DE | 🟢 | vless | @vpn_ioss | 18",
-                "🇺🇸 US | 🔴 | vless | @vpnaloo | 15",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
@@ -325,6 +326,7 @@
                 "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
+                "🇩🇪 DE | 🔴 | vless | @vpnaloo | 15",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
@@ -1097,6 +1099,31 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
+            "type": "vless",
+            "server": "172.67.204.157",
+            "server_port": 8443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "V2.YuNcHun.TOP",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "V2.YuNcHun.TOP"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
             "type": "vless",
             "server": "91.107.153.239",
@@ -1190,9 +1217,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
+            "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 16",
             "type": "vless",
-            "server": "52.47.143.163",
+            "server": "15.237.98.61",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1239,22 +1266,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram : @PouRia_Cheat"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vpnaloo | 15",
-            "type": "vless",
-            "server": "172.67.207.54",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/34COh9NCiin5SJMk?ed=2560",
-                "headers": {
-                    "Host": "172.67.207.54"
-                }
             }
         },
         {
@@ -2246,6 +2257,19 @@
                 "headers": {
                     "Host": "cv.rxteam.xyz"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @vpnaloo | 15",
+            "type": "vless",
+            "server": "sn.lunarmc.ir",
+            "server_port": 8082,
+            "uuid": "c5faf134-bade-4e16-96de-a33a24c51cce",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "sn.lunarmc.ir"
             }
         },
         {

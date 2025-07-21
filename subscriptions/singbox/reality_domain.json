@@ -105,6 +105,7 @@
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 15",
                 "🇫🇮 FI | 🟢 | vless | @configfa | 7",
+                "🇬🇧 GB | 🟢 | vless | @configshubplus | 17",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -136,7 +137,7 @@
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
-                "🇩🇪 DE | 🟢 | vless | @proxycrone | 3",
+                "🇫🇷 FR | 🟢 | vless | @proxy_mtproto_vpns_free | 8",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 9",
                 "❔ XX | 🟢 | vless | @proxysudo | 1",
@@ -151,7 +152,7 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
+                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 14",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 4",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
@@ -176,6 +177,7 @@
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 15",
                 "🇫🇮 FI | 🟢 | vless | @configfa | 7",
+                "🇬🇧 GB | 🟢 | vless | @configshubplus | 17",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 8",
@@ -207,7 +209,7 @@
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
-                "🇩🇪 DE | 🟢 | vless | @proxycrone | 3",
+                "🇫🇷 FR | 🟢 | vless | @proxy_mtproto_vpns_free | 8",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 9",
                 "❔ XX | 🟢 | vless | @proxysudo | 1",
@@ -222,7 +224,7 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
+                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 14",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 4",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
@@ -422,6 +424,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers"
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🟢 | vless | @configshubplus | 17",
+            "type": "vless",
+            "server": "uk.marzban-locations.com",
+            "server_port": 3033,
+            "uuid": "b847c699-a570-4357-88fa-62789a29fee2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -1217,25 +1242,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @proxycrone | 3",
+            "tag": "🇫🇷 FR | 🟢 | vless | @proxy_mtproto_vpns_free | 8",
             "type": "vless",
-            "server": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
-            "server_port": 443,
-            "uuid": "1584806e-f63d-4f9b-a0b3-abe64b35a09c",
+            "server": "fr.marzban-locations.com",
+            "server_port": 3032,
+            "uuid": "b847c699-a570-4357-88fa-62789a29fee2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ",
-                    "short_id": "974a74bf"
+                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
+                    "short_id": ""
                 }
             }
         },
@@ -1570,7 +1595,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
+            "tag": "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 14",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
