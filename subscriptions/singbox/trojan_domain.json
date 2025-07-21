@@ -100,6 +100,8 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
+                "🇭🇰 HK | 🔴 | trojan | @hope_net | 17",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 13",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -110,7 +112,7 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
+                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 10",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
             "interrupt_exist_connections": false
@@ -121,6 +123,8 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
+                "🇭🇰 HK | 🔴 | trojan | @hope_net | 17",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 13",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -131,7 +135,7 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
+                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 10",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -187,6 +191,20 @@
                     "Host": "asia.artunnel57.host"
                 }
             }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔴 | trojan | @hope_net | 17",
+            "type": "trojan",
+            "server": "16ab1c69cdfdbf898aa6c5c5131dfa99.v1.cac.node-is.green",
+            "server_port": 40913,
+            "password": "285caaa4-dd31-4825-ab6a-3e4a6808dcc7"
+        },
+        {
+            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 13",
+            "type": "trojan",
+            "server": "391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net",
+            "server_port": 15229,
+            "password": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -385,7 +403,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
+            "tag": "🇮🇷 IR | 🟢 | trojan | @vaslvip | 10",
             "type": "trojan",
             "server": "iranpet.dtpetshop.com",
             "server_port": 443,
