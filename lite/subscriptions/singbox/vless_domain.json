@@ -98,6 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -124,6 +125,7 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
+                "🇪🇪 EE | 🔴 | vless | @prrofile_purple | 129",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -141,12 +143,13 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 18",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
-                "🇩🇪 DE | 🔴 | vless | @vpnaloo | 15",
+                "🇩🇪 DE | 🔴 | vless | @vpnaloo | 14",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
@@ -164,6 +167,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -190,6 +194,7 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
+                "🇪🇪 EE | 🔴 | vless | @prrofile_purple | 129",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -207,12 +212,13 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 18",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
-                "🇩🇪 DE | 🔴 | vless | @vpnaloo | 15",
+                "🇩🇪 DE | 🔴 | vless | @vpnaloo | 14",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
@@ -240,6 +246,22 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
+            "type": "vless",
+            "server": "practical-complaint.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "aadbf0d6-6a32-4473-8a87-5b17db90e035",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "practical-complaint.seotoolsforyou.co.uk"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -702,6 +724,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇪🇪 EE | 🔴 | vless | @prrofile_purple | 129",
+            "type": "vless",
+            "server": "be.kimjo.ir",
+            "server_port": 8080,
+            "uuid": "3a95905b-0ee1-494b-bda8-79c20dc41be5",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
             "type": "vless",
             "server": "sub.shadowsokstes.WoRkErs.DeV",
@@ -1029,6 +1060,15 @@
             }
         },
         {
+            "tag": "🇮🇷 IR | 🔴 | vless | @v2rayweb | 18",
+            "type": "vless",
+            "server": "v-05.artemis-vpn.org",
+            "server_port": 80,
+            "uuid": "b1d4308d-c96a-5972-9c86-bb79fd6cc561",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
             "type": "vless",
             "server": "www.parsvds.ir",
@@ -1111,7 +1151,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @vpnaloo | 15",
+            "tag": "🇩🇪 DE | 🔴 | vless | @vpnaloo | 14",
             "type": "vless",
             "server": "sn.lunarmc.ir",
             "server_port": 8082,

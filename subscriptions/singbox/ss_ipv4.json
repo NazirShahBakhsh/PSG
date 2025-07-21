@@ -122,18 +122,17 @@
                 "🇺🇸 US | 🟢 | ss | @dnsforyou | 35",
                 "🇵🇹 PT | 🟢 | ss | @filtershekan_channel | 12",
                 "🇸🇪 SE | 🟢 | ss | @freakconfig1 | 1",
-                "🇨🇭 CH | 🟢 | ss | @free1ss | 12",
-                "🇳🇱 NL | 🟢 | ss | @free1ss | 15",
+                "🇺🇸 US | 🟢 | ss | @free1_vpn | 2",
+                "🇨🇭 CH | 🟢 | ss | @free1ss | 11",
+                "🇳🇱 NL | 🟢 | ss | @free1ss | 14",
                 "🇩🇪 DE | 🟢 | ss | @freev2raym | 8",
                 "🇳🇱 NL | 🟢 | ss | @freevirgoolnet | 6",
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇳🇱 NL | 🟢 | ss | @g0dv2ray | 9",
                 "🇬🇧 GB | 🟢 | ss | @gh_v2rayng | 14",
                 "🇩🇪 DE | 🟢 | ss | @hackmodvpnservers | 2",
-                "🇺🇸 US | 🟢 | ss | @ip_cf_config | 14",
                 "🇩🇪 DE | 🟢 | ss | @jiedianf | 6",
                 "🇳🇱 NL | 🟢 | ss | @jiedianf | 7",
-                "🇺🇸 US | 🟢 | ss | @kanfig_majani | 14",
                 "🇺🇸 US | 🟢 | ss | @key_outline | 15",
                 "🇫🇷 FR | 🟢 | ss | @key_outline | 16",
                 "🇬🇧 GB | 🟢 | ss | @key_outline | 17",
@@ -175,7 +174,7 @@
                 "🇮🇷 IR | 🟢 | ss | @shadowsockskeys | 17",
                 "🇺🇸 US | 🟢 | ss | @v222ray | 4",
                 "🇳🇱 NL | 🟢 | ss | @v222ray | 7",
-                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 19",
+                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 17",
                 "🇬🇧 GB | 🟢 | ss | @v2rayngrit | 11",
                 "🇱🇻 LV | 🟢 | ss | @v2rayngrit | 12",
                 "🇨🇦 CA | 🟢 | ss | @v2rayngvvpn | 24",
@@ -222,18 +221,17 @@
                 "🇺🇸 US | 🟢 | ss | @dnsforyou | 35",
                 "🇵🇹 PT | 🟢 | ss | @filtershekan_channel | 12",
                 "🇸🇪 SE | 🟢 | ss | @freakconfig1 | 1",
-                "🇨🇭 CH | 🟢 | ss | @free1ss | 12",
-                "🇳🇱 NL | 🟢 | ss | @free1ss | 15",
+                "🇺🇸 US | 🟢 | ss | @free1_vpn | 2",
+                "🇨🇭 CH | 🟢 | ss | @free1ss | 11",
+                "🇳🇱 NL | 🟢 | ss | @free1ss | 14",
                 "🇩🇪 DE | 🟢 | ss | @freev2raym | 8",
                 "🇳🇱 NL | 🟢 | ss | @freevirgoolnet | 6",
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇳🇱 NL | 🟢 | ss | @g0dv2ray | 9",
                 "🇬🇧 GB | 🟢 | ss | @gh_v2rayng | 14",
                 "🇩🇪 DE | 🟢 | ss | @hackmodvpnservers | 2",
-                "🇺🇸 US | 🟢 | ss | @ip_cf_config | 14",
                 "🇩🇪 DE | 🟢 | ss | @jiedianf | 6",
                 "🇳🇱 NL | 🟢 | ss | @jiedianf | 7",
-                "🇺🇸 US | 🟢 | ss | @kanfig_majani | 14",
                 "🇺🇸 US | 🟢 | ss | @key_outline | 15",
                 "🇫🇷 FR | 🟢 | ss | @key_outline | 16",
                 "🇬🇧 GB | 🟢 | ss | @key_outline | 17",
@@ -275,7 +273,7 @@
                 "🇮🇷 IR | 🟢 | ss | @shadowsockskeys | 17",
                 "🇺🇸 US | 🟢 | ss | @v222ray | 4",
                 "🇳🇱 NL | 🟢 | ss | @v222ray | 7",
-                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 19",
+                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 17",
                 "🇬🇧 GB | 🟢 | ss | @v2rayngrit | 11",
                 "🇱🇻 LV | 🟢 | ss | @v2rayngrit | 12",
                 "🇨🇦 CA | 🟢 | ss | @v2rayngvvpn | 24",
@@ -502,7 +500,15 @@
             "password": "ETt8vY8HbPwOfk21c3i13h"
         },
         {
-            "tag": "🇨🇭 CH | 🟢 | ss | @free1ss | 12",
+            "tag": "🇺🇸 US | 🟢 | ss | @free1_vpn | 2",
+            "type": "shadowsocks",
+            "server": "45.87.175.35",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🇨🇭 CH | 🟢 | ss | @free1ss | 11",
             "type": "shadowsocks",
             "server": "195.15.215.198",
             "server_port": 5555,
@@ -510,7 +516,7 @@
             "password": "XevjdeNQAO-qGx5t1ow98Q"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @free1ss | 15",
+            "tag": "🇳🇱 NL | 🟢 | ss | @free1ss | 14",
             "type": "shadowsocks",
             "server": "193.29.139.144",
             "server_port": 8080,
@@ -566,14 +572,6 @@
             "password": "9b3b33c24f203e40"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @ip_cf_config | 14",
-            "type": "shadowsocks",
-            "server": "45.87.175.171",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
-        },
-        {
             "tag": "🇩🇪 DE | 🟢 | ss | @jiedianf | 6",
             "type": "shadowsocks",
             "server": "138.124.115.157",
@@ -588,14 +586,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "piv97XS1Cval86vfwHPD5j"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | ss | @kanfig_majani | 14",
-            "type": "shadowsocks",
-            "server": "45.87.175.35",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @key_outline | 15",
@@ -926,7 +916,7 @@
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 19",
+            "tag": "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 17",
             "type": "shadowsocks",
             "server": "45.87.175.22",
             "server_port": 8080,
