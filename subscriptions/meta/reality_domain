@@ -23,7 +23,7 @@ proxies:
   - {"name":"🇩🇪 DE | 🟢 | vless | @appsooner | 10","type":"vless","server":"r2.srk-mihan.xyz","port":443,"uuid":"477f5c5d-57e6-4811-ba26-e67f071cae8b","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"alexa.com","reality-opts":{"public-key":"PwGy2n398PGn4h9GEBrCCk7T06jgYhbE03WVo8gbHW8","short-id":"78c9419570a7565d"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18","type":"vless","server":"de6rt.samsungmarketshop.ir","port":2083,"uuid":"bf989dce-7af7-423b-a499-71da71cdcef1","tls":true,"network":"xhttp","client-fingerprint":"firefox","udp":true,"servername":"refersion.com","reality-opts":{"public-key":"53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk","short-id":"aeba"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @club_profsor | 15","type":"vless","server":"bmi.raheaiande.ir","port":1001,"uuid":"b96fb229-78e8-49c4-ac4c-fba497acd100","tls":true,"network":"tcp","client-fingerprint":"edge","udp":true,"servername":"ea.com","reality-opts":{"public-key":"wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM","short-id":"c7bc4d"}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @configfa | 7","type":"vless","server":"adsth27.netpilotserverne22twork.ir","port":8080,"uuid":"8ab33d56-3288-40fa-9f4f-8e438119941c","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"chatgpt.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw","short-id":"b7b70c104ad267b8"}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @configfa | 6","type":"vless","server":"adsth27.netpilotserverne22twork.ir","port":8080,"uuid":"8ab33d56-3288-40fa-9f4f-8e438119941c","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"chatgpt.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw","short-id":"b7b70c104ad267b8"}}
   - {"name":"❔ XX | 🟢 | vless | @custom_14 | 7","type":"vless","server":"usa-join.outline-vpn.fun","port":443,"uuid":"fc6395b9-8060-41b2-82f1-a55419093fe9","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"grpc-opts":{"grpc-service-name":"Telegram:"},"reality-opts":{"public-key":"U79mwBYXYzaNs1L57EDyJNC5p8HSrQYx1GDnBdttgmw"}}
   - {"name":"🇳🇱 NL | 🟢 | vless | @dalton_ping | 8","type":"vless","server":"server2.fergalvpnmod.com","port":25126,"uuid":"bab6b157-a6e8-4756-a485-dcb4ca476eb9","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"cloudflare.com","grpc-opts":{"grpc-service-name":"Telegram:@FergalVpnMod"},"reality-opts":{"public-key":"AtKTc84OxbQltdeNKIgGRpUBmO1nKRCyqV6OuZmGIik","short-id":"1e"}}
   - {"name":"❔ XX | 🟢 | vless | @filter5050 | 0","type":"vless","server":"Filter5050.nabxcsjghjs2004.shop","port":22113,"uuid":"fe25fd7f-d035-4448-baaa-a67237a03cb7","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"cdn.discordapp.com","reality-opts":{"public-key":"NY4vf2xmEysVkOcgDnGASs9E_kJS1QxqRo7uFSzwh3g","short-id":"a7cf4983"}}
@@ -110,7 +110,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @appsooner | 10'
       - '🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18'
       - '🇩🇪 DE | 🟢 | vless | @club_profsor | 15'
-      - '🇺🇸 US | 🟢 | vless | @configfa | 7'
+      - '🇺🇸 US | 🟢 | vless | @configfa | 6'
       - '❔ XX | 🟢 | vless | @custom_14 | 7'
       - '🇳🇱 NL | 🟢 | vless | @dalton_ping | 8'
       - '❔ XX | 🟢 | vless | @filter5050 | 0'
@@ -173,7 +173,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @appsooner | 10'
       - '🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18'
       - '🇩🇪 DE | 🟢 | vless | @club_profsor | 15'
-      - '🇺🇸 US | 🟢 | vless | @configfa | 7'
+      - '🇺🇸 US | 🟢 | vless | @configfa | 6'
       - '❔ XX | 🟢 | vless | @custom_14 | 7'
       - '🇳🇱 NL | 🟢 | vless | @dalton_ping | 8'
       - '❔ XX | 🟢 | vless | @filter5050 | 0'
@@ -234,7 +234,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @appsooner | 10'
       - '🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18'
       - '🇩🇪 DE | 🟢 | vless | @club_profsor | 15'
-      - '🇺🇸 US | 🟢 | vless | @configfa | 7'
+      - '🇺🇸 US | 🟢 | vless | @configfa | 6'
       - '❔ XX | 🟢 | vless | @custom_14 | 7'
       - '🇳🇱 NL | 🟢 | vless | @dalton_ping | 8'
       - '❔ XX | 🟢 | vless | @filter5050 | 0'

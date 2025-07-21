@@ -288,9 +288,9 @@
     "config_proxy": {
         "types": [
             "vless",
-            "vmess",
             "ss",
-            "trojan"
+            "trojan",
+            "vmess"
         ],
         "title": "Proxy | V2ray | Config | Vpn | Hiddify | Nekobox | Segaro | پروکسی | فیلترشکن | ایرانسل | همراه اول | رایتل | سامانتل | مخابرات|",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/config_proxy.jpg"
@@ -320,9 +320,9 @@
     },
     "configfa": {
         "types": [
-            "vless",
             "ss",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "configfa",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/configfa.jpg"
@@ -364,6 +364,7 @@
         "types": [
             "vless",
             "vmess",
+            "trojan",
             "ss"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
@@ -473,8 +474,8 @@
     "dailyv2ry": {
         "types": [
             "vless",
-            "ss",
             "vmess",
+            "ss",
             "trojan"
         ],
         "title": "Daily V2ray",
@@ -623,8 +624,7 @@
     },
     "farahvpn": {
         "types": [
-            "vless",
-            "ss"
+            "vless"
         ],
         "title": "FarahVPN | فراح وی پی ان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/farahvpn.jpg"
@@ -1140,9 +1140,9 @@
     },
     "hope_net": {
         "types": [
+            "ss",
             "trojan",
             "vless",
-            "ss",
             "vmess"
         ],
         "title": "🕊 Hope Net",
@@ -1208,8 +1208,8 @@
         "types": [
             "trojan",
             "vless",
-            "vmess",
-            "ss"
+            "ss",
+            "vmess"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1775,7 +1775,8 @@
     "mowjproxy": {
         "types": [
             "vmess",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -1920,7 +1921,6 @@
     },
     "netmellianti": {
         "types": [
-            "vmess",
             "vless"
         ],
         "title": "VPN | V2rayNG | نت ملی",
@@ -2281,7 +2281,6 @@
     },
     "prroxyng": {
         "types": [
-            "vless",
             "ss"
         ],
         "title": "proxy |v2ray",
@@ -2690,8 +2689,8 @@
     },
     "v2ray_extractor": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "trojan"
         ],
         "title": "V2ray Extractor",
@@ -2714,10 +2713,10 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "trojan",
-            "ss",
             "vless",
-            "vmess"
+            "trojan",
+            "vmess",
+            "ss"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -2800,9 +2799,9 @@
     },
     "v2raych": {
         "types": [
+            "vless",
             "trojan",
-            "vmess",
-            "vless"
+            "vmess"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2raych.jpg"
@@ -3040,7 +3039,8 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -3565,9 +3565,9 @@
     },
     "zerobaipiao": {
         "types": [
-            "ss",
             "vmess",
-            "trojan"
+            "trojan",
+            "ss"
         ],
         "title": "免费节点 🏆【1小时前更新】",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/zerobaipiao.jpg"
