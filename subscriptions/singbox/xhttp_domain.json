@@ -101,9 +101,7 @@
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @dailyv2ry | 134",
-                "🇺🇸 US | 🔴 | vless | @dailyv2ry | 135",
-                "🇺🇸 US | 🔴 | vless | @dailyv2ry | 136",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @elfv2ray | 1",
@@ -118,6 +116,7 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
+                "🇺🇸 US | 🔴 | vless | @nofiltering2 | 21",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
@@ -129,7 +128,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 4",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
-                "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 17",
+                "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 16",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
             "interrupt_exist_connections": false
@@ -141,9 +140,7 @@
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @dailyv2ry | 134",
-                "🇺🇸 US | 🔴 | vless | @dailyv2ry | 135",
-                "🇺🇸 US | 🔴 | vless | @dailyv2ry | 136",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @elfv2ray | 1",
@@ -158,6 +155,7 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
+                "🇺🇸 US | 🔴 | vless | @nofiltering2 | 21",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
@@ -169,7 +167,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 4",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
-                "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 17",
+                "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 16",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -231,29 +229,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @dailyv2ry | 134",
+            "tag": "🇺🇸 US | 🔴 | vless | @configshubplus | 18",
             "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "949362b6-82e4-42e2-bb4d-e4afc8db7fe8",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @dailyv2ry | 135",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "949362b6-82e4-42e2-bb4d-e4afc8db7fe8",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @dailyv2ry | 136",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "8fd03f5b-c522-4c05-91aa-0771658794bf",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -380,6 +360,15 @@
             "server": "s5.1dnt.k-l.cloud",
             "server_port": 80,
             "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @nofiltering2 | 21",
+            "type": "vless",
+            "server": "nl-fa.adm-cll.ir",
+            "server_port": 80,
+            "uuid": "fee253e9-b903-5c7a-e7f7-2a557718c810",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -524,7 +513,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 17",
+            "tag": "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 16",
             "type": "vless",
             "server": "speedy.mooo.info",
             "server_port": 80,

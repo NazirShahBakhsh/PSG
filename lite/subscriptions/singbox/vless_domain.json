@@ -126,7 +126,7 @@
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
                 "🇮🇷 IR | 🔴 | vless | @selinc | 7",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
-                "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
+                "🇨🇦 CA | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
                 "🇱🇹 LT | 🔴 | vless | @u7kll | 0",
                 "🇺🇸 US | 🟢 | vless | @uvpn_org | 2",
@@ -141,7 +141,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 11",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -157,7 +156,7 @@
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "interrupt_exist_connections": false
         },
@@ -193,7 +192,7 @@
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
                 "🇮🇷 IR | 🔴 | vless | @selinc | 7",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
-                "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
+                "🇨🇦 CA | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
                 "🇱🇹 LT | 🔴 | vless | @u7kll | 0",
                 "🇺🇸 US | 🟢 | vless | @uvpn_org | 2",
@@ -208,7 +207,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 11",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -224,7 +222,7 @@
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -745,7 +743,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
+            "tag": "🇨🇦 CA | 🔴 | vless | @shahedtec | 4",
             "type": "vless",
             "server": "shahed2.novintecc.org",
             "server_port": 8080,
@@ -1031,22 +1029,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 11",
-            "type": "vless",
-            "server": "crazy-identity.oneeat.co",
-            "server_port": 80,
-            "uuid": "64d6d0d4-3706-4837-b154-cda2816adcc5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "crazy-identity.oneeat.co"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
             "type": "vless",
             "server": "www.parsvds.ir",
@@ -1282,7 +1264,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
+            "tag": "🇫🇷 FR | 🔴 | vless | @zvpnn | 7",
             "type": "vless",
             "server": "power.dlmoviz.ir",
             "server_port": 2020,
