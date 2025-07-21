@@ -100,6 +100,8 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
+                "🇮🇹 IT | 🔴 | vless | @config_proxy | 46",
+                "🇮🇹 IT | 🔴 | vless | @config_proxy | 47",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 134",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 135",
@@ -119,6 +121,7 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 11",
+                "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
@@ -142,7 +145,6 @@
                 "🇳🇱 NL | 🟢 | vless | @irv2rey | 3",
                 "🇺🇸 US | 🔴 | vless | @komail315 | 1",
                 "🇺🇸 US | 🔴 | vless | @lexernet | 7",
-                "🇳🇱 NL | 🔴 | vless | @manzariyeh_rasht | 23",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
@@ -177,6 +179,8 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
+                "🇮🇹 IT | 🔴 | vless | @config_proxy | 46",
+                "🇮🇹 IT | 🔴 | vless | @config_proxy | 47",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 134",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 135",
@@ -196,6 +200,7 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 11",
+                "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
@@ -219,7 +224,6 @@
                 "🇳🇱 NL | 🟢 | vless | @irv2rey | 3",
                 "🇺🇸 US | 🔴 | vless | @komail315 | 1",
                 "🇺🇸 US | 🔴 | vless | @lexernet | 7",
-                "🇳🇱 NL | 🔴 | vless | @manzariyeh_rasht | 23",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
@@ -294,6 +298,24 @@
                     "short_id": "aeba"
                 }
             }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔴 | vless | @config_proxy | 46",
+            "type": "vless",
+            "server": "filmnet.filimnet.com",
+            "server_port": 80,
+            "uuid": "0ce9fe26-e4f4-4b68-a127-b6984f3d3bb2",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇹 IT | 🔴 | vless | @config_proxy | 47",
+            "type": "vless",
+            "server": "filmnet.filimnet.com",
+            "server_port": 80,
+            "uuid": "d21aa1c0-7f00-4b6f-bf16-fbf0fa9658ea",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -472,6 +494,15 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "5bdc4429-a059-453a-b033-b0502ad43a44",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @nufilter | 13",
+            "type": "vless",
+            "server": "CoNFiGLiNE.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "80172ff8-708e-4a71-aa85-42eea7171ba9",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -822,15 +853,6 @@
             "server": "151.101.67.8",
             "server_port": 80,
             "uuid": "turboo-server",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔴 | vless | @manzariyeh_rasht | 23",
-            "type": "vless",
-            "server": "45.150.33.157",
-            "server_port": 50810,
-            "uuid": "412dce1a-f2b6-4603-9fb9-be8a848bc855",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1240,7 +1262,7 @@
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "e2a0b27d-1330-409e-876a-eacc7d833049",
+            "uuid": "6a51aa8b-e8fc-4039-8351-0e3d1c05d5ce",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1249,7 +1271,7 @@
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "6a51aa8b-e8fc-4039-8351-0e3d1c05d5ce",
+            "uuid": "40ea915d-c8e7-49a3-8f2f-a319cc3d08f8",
             "flow": "",
             "packet_encoding": "xudp"
         }

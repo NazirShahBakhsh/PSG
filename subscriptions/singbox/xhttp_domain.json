@@ -100,6 +100,8 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
+                "🇮🇹 IT | 🔴 | vless | @config_proxy | 46",
+                "🇮🇹 IT | 🔴 | vless | @config_proxy | 47",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 134",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 135",
@@ -119,6 +121,7 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 11",
+                "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
@@ -136,6 +139,8 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
+                "🇮🇹 IT | 🔴 | vless | @config_proxy | 46",
+                "🇮🇹 IT | 🔴 | vless | @config_proxy | 47",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 134",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 135",
@@ -155,6 +160,7 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 11",
+                "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 6",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
@@ -212,6 +218,24 @@
                     "short_id": "aeba"
                 }
             }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔴 | vless | @config_proxy | 46",
+            "type": "vless",
+            "server": "filmnet.filimnet.com",
+            "server_port": 80,
+            "uuid": "0ce9fe26-e4f4-4b68-a127-b6984f3d3bb2",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇹 IT | 🔴 | vless | @config_proxy | 47",
+            "type": "vless",
+            "server": "filmnet.filimnet.com",
+            "server_port": 80,
+            "uuid": "d21aa1c0-7f00-4b6f-bf16-fbf0fa9658ea",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -390,6 +414,15 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "5bdc4429-a059-453a-b033-b0502ad43a44",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @nufilter | 13",
+            "type": "vless",
+            "server": "CoNFiGLiNE.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "80172ff8-708e-4a71-aa85-42eea7171ba9",
             "flow": "",
             "packet_encoding": "xudp"
         },

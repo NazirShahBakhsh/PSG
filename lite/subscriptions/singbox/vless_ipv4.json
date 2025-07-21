@@ -141,13 +141,14 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 17",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 14",
+                "🇩🇪 DE | 🟢 | vless | @vpn_ioss | 18",
                 "🇺🇸 US | 🔴 | vless | @vpnaloo | 15",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
@@ -205,13 +206,14 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 17",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 14",
+                "🇩🇪 DE | 🟢 | vless | @vpn_ioss | 18",
                 "🇺🇸 US | 🔴 | vless | @vpnaloo | 15",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
@@ -1013,18 +1015,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 17",
             "type": "vless",
-            "server": "104.16.69.162",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "server": "172.66.47.15",
+            "server_port": 443,
+            "uuid": "9368b093-d790-4096-9d8a-1265e82f9e2f",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "GgGgr.PaGES.dEV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/fgvtHUpS6R8Rv8s5?ed=2560",
+                "path": "/telegram@v2ray_alpha/?ed=2560",
                 "headers": {
-                    "Host": "104.16.69.162"
+                    "Host": "GgGgr.PaGES.dEV"
                 }
             }
         },
@@ -1144,6 +1155,33 @@
                 "headers": {
                     "Host": "trojan.burgerip.co.uk"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vpn_ioss | 18",
+            "type": "vless",
+            "server": "5.75.197.120",
+            "server_port": 2025,
+            "uuid": "54b4c039-7be6-448f-b704-820251b079db",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AUNIYov4R2TvNmC0cF0NiKWYGqzikosOu4g2wcCALlw",
+                    "short_id": "8d9c20be72b4"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram : @PouRia_Cheat"
             }
         },
         {
