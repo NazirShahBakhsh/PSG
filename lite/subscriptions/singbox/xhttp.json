@@ -100,14 +100,13 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-                "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
+                "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 122",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇩🇪 DE | 🔴 | vless | @orange_vpns | 14",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
-                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 7"
+                "🇫🇮 FI | 🔴 | vless | @v2rayweb | 18"
             ],
             "interrupt_exist_connections": false
         },
@@ -117,14 +116,13 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-                "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
+                "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 122",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇩🇪 DE | 🔴 | vless | @orange_vpns | 14",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
-                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 7"
+                "🇫🇮 FI | 🔴 | vless | @v2rayweb | 18"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -162,7 +160,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
+            "tag": "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 122",
             "type": "vless",
             "server": "be.kimjo.ir",
             "server_port": 8080,
@@ -176,15 +174,6 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -239,11 +228,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @v2rayweb | 7",
+            "tag": "🇫🇮 FI | 🔴 | vless | @v2rayweb | 18",
             "type": "vless",
-            "server": "91.99.218.14",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
+            "server": "65.108.247.56",
+            "server_port": 80,
+            "uuid": "joinshotoV2rayNGFreee",
             "flow": "",
             "packet_encoding": "xudp"
         }

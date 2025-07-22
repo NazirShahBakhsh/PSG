@@ -98,7 +98,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -109,7 +108,7 @@
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
-                "Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=cdn39030.marzban-l.ir&type=ws#🇺🇸 US | 🔴 | vless | @info_2it_channel | 13",
+                "🇺🇸 US | 🔴 | vless | @info_2it_channel | 13",
                 "❔ XX | 🟢 | vless | @iraniv2ray | 6",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
@@ -125,7 +124,7 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
-                "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
+                "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 122",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -146,7 +145,6 @@
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
@@ -166,7 +164,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -177,7 +174,7 @@
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
-                "Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=cdn39030.marzban-l.ir&type=ws#🇺🇸 US | 🔴 | vless | @info_2it_channel | 13",
+                "🇺🇸 US | 🔴 | vless | @info_2it_channel | 13",
                 "❔ XX | 🟢 | vless | @iraniv2ray | 6",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
@@ -193,7 +190,7 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
-                "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
+                "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 122",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -214,7 +211,6 @@
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
@@ -244,22 +240,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
-            "type": "vless",
-            "server": "182910.www.11338899.servers801.ir",
-            "server_port": 2096,
-            "uuid": "09f1d928-05ab-4ba2-80c5-f33edc244024",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/fscsxfVgdzhrefjgsBgaa?ed=80",
-                "headers": {
-                    "Host": "182910.www.11338899.servers801.ir"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -438,13 +418,20 @@
             }
         },
         {
-            "tag": "Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=cdn39030.marzban-l.ir&type=ws#🇺🇸 US | 🔴 | vless | @info_2it_channel | 13",
+            "tag": "🇺🇸 US | 🔴 | vless | @info_2it_channel | 13",
             "type": "vless",
-            "server": "cdn39030.marzban-l.ir",
-            "server_port": 8080,
-            "uuid": "9fb80a5f-f898-476f-8504-4cf36a1d69c7",
+            "server": "informed-location.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "5c929ec5-5b1e-447a-950c-354c5d1ba1de",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "informed-location.seotoolsforyou.co.uk"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @iraniv2ray | 6",
@@ -722,7 +709,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
+            "tag": "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 122",
             "type": "vless",
             "server": "be.kimjo.ir",
             "server_port": 8080,
@@ -1086,15 +1073,6 @@
             "server": "free.miladiran1.shop",
             "server_port": 2002,
             "uuid": "563e4ed0-9473-4d66-aca8-e23c641042a6",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
             "flow": "",
             "packet_encoding": "xudp"
         },
