@@ -98,10 +98,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
             ],
             "interrupt_exist_connections": false
         },
@@ -109,10 +110,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+                "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -132,34 +134,14 @@
             "type": "dns"
         },
         {
-            "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
             "type": "trojan",
-            "server": "maradona_vpn.history-paint.art",
+            "server": "172.67.188.77",
             "server_port": 443,
-            "password": "Maradona_vpn",
+            "password": "1c5b4508-7f18-47bf-9bce-e7ec19fb31cb",
             "tls": {
                 "enabled": true,
-                "server_name": "teo.history-paint.art",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc20337"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-            "type": "trojan",
-            "server": "de1.test3.net",
-            "server_port": 443,
-            "password": "b8841c50-c3ad-11ee-9be0-1239d0255272",
-            "tls": {
-                "enabled": true,
-                "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+                "server_name": "dddfghnju.890604.dpdns.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -203,6 +185,42 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "usa-vp-111.mETIkaPPs.cOm"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+            "type": "trojan",
+            "server": "maradona_vpn.history-paint.art",
+            "server_port": 443,
+            "password": "Maradona_vpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "teo.history-paint.art",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc20337"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+            "type": "trojan",
+            "server": "de1.test3.net",
+            "server_port": 443,
+            "password": "b8841c50-c3ad-11ee-9be0-1239d0255272",
+            "tls": {
+                "enabled": true,
+                "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }

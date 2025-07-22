@@ -139,9 +139,11 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
@@ -202,9 +204,11 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
@@ -1003,6 +1007,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
+            "type": "vless",
+            "server": "cellone.learn-new.ir",
+            "server_port": 443,
+            "uuid": "f56b1d07-2c00-4cac-91e4-6d49a8f9051b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "khanacademy.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ikTKkSZZZ18NraMIwbLCP8ln6NmsD77VTSKWTESIOAk",
+                    "short_id": "6acf3ba5790e4324"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
             "type": "vless",
             "server": "www.parsvds.ir",
@@ -1035,6 +1062,22 @@
             "uuid": "563e4ed0-9473-4d66-aca8-e23c641042a6",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
+            "type": "vless",
+            "server": "www.speedtest.net.cdn.cloudflare.net",
+            "server_port": 80,
+            "uuid": "6b3b071f-096b-4e4c-8d70-0e0b53f27434",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed",
+                "headers": {
+                    "Host": "www.speedtest.net.cdn.cloudflare.net"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @vp22ray | 10",
