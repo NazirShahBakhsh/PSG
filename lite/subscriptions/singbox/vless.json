@@ -99,6 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇺🇸 US | 🟢 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🟢 | vless | @drvpn_net | 1",
                 "🇹🇷 TR | 🟢 | vless | @f_nirevil | 2",
@@ -135,6 +136,7 @@
                 "🇮🇷 IR | 🔴 | vless | @v2ray_iran88 | 9",
                 "🇳🇱 NL | 🔴 | vless | @v2ray_sub | 9",
                 "🇺🇸 US | 🔴 | vless | @v2ray_youtube | 12",
+                "🇺🇸 US | 🔴 | vless | @v2raying | 14",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayngconfiig | 11",
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 13",
@@ -191,7 +193,6 @@
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
-                "🇺🇸 US | 🔴 | vless | @v2raying | 12",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
@@ -201,6 +202,7 @@
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
@@ -224,6 +226,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇺🇸 US | 🟢 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🟢 | vless | @drvpn_net | 1",
                 "🇹🇷 TR | 🟢 | vless | @f_nirevil | 2",
@@ -260,6 +263,7 @@
                 "🇮🇷 IR | 🔴 | vless | @v2ray_iran88 | 9",
                 "🇳🇱 NL | 🔴 | vless | @v2ray_sub | 9",
                 "🇺🇸 US | 🔴 | vless | @v2ray_youtube | 12",
+                "🇺🇸 US | 🔴 | vless | @v2raying | 14",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayngconfiig | 11",
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 13",
@@ -316,7 +320,6 @@
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
-                "🇺🇸 US | 🔴 | vless | @v2raying | 12",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
@@ -326,6 +329,7 @@
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
@@ -367,6 +371,31 @@
             "uuid": "a804bb53-7504-4f06-96d8-ff56fb71539d",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraNet | 69",
+            "type": "vless",
+            "server": "104.21.25.95",
+            "server_port": 443,
+            "uuid": "07a3df8f-2a2c-42f8-ad92-65889d90f3bf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rrRFgt6.890604.fiLeGEAR-Sg.ME",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/5UW2C42lpZ7Dj4VDwVOkZfoq",
+                "headers": {
+                    "Host": "rrRFgt6.890604.fiLeGEAR-Sg.ME"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
@@ -990,6 +1019,22 @@
                 "path": "/?ed=2560",
                 "headers": {
                     "Host": "104.16.104.151"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2raying | 14",
+            "type": "vless",
+            "server": "104.17.41.52",
+            "server_port": 8080,
+            "uuid": "7e948e09-fa6f-4b8e-8c5d-181fa15fbec5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/ijiDwDw8BcM9ieHc?ed=2560",
+                "headers": {
+                    "Host": "104.17.41.52"
                 }
             }
         },
@@ -2001,22 +2046,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2raying | 12",
-            "type": "vless",
-            "server": "obedient-detail.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "1dd49fb8-6570-4a2a-a236-f410b63159cf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "obedient-detail.seotoolsforyou.co.uk"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
             "type": "vless",
             "server": "site.felinefreedom.site",
@@ -2188,6 +2217,15 @@
             "server": "free.miladiran1.shop",
             "server_port": 2002,
             "uuid": "563e4ed0-9473-4d66-aca8-e23c641042a6",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
             "flow": "",
             "packet_encoding": "xudp"
         },

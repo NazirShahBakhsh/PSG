@@ -99,9 +99,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇩🇪 DE | 🔴 | vmess | @NamiraNet | 69",
+                "🇺🇸 US | 🟢 | vless | @NamiraNet | 69",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
-                "🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 4",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
@@ -208,7 +207,7 @@
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
-                "🇺🇸 US | 🔴 | vless | @v2raying | 12",
+                "🇺🇸 US | 🔴 | vless | @v2raying | 14",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
@@ -239,6 +238,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
                 "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | ss | @vpidiamond | 9",
@@ -275,9 +275,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇩🇪 DE | 🔴 | vmess | @NamiraNet | 69",
+                "🇺🇸 US | 🟢 | vless | @NamiraNet | 69",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
-                "🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 4",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
@@ -384,7 +383,7 @@
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
-                "🇺🇸 US | 🔴 | vless | @v2raying | 12",
+                "🇺🇸 US | 🔴 | vless | @v2raying | 14",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
@@ -415,6 +414,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
                 "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | ss | @vpidiamond | 9",
@@ -471,13 +471,29 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraNet | 69",
-            "type": "vmess",
-            "server": "panel3.ipyar.org",
-            "server_port": 32017,
-            "uuid": "c0ccdeb9-784c-4d67-b904-20dcaac9902a",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraNet | 69",
+            "type": "vless",
+            "server": "104.21.25.95",
+            "server_port": 443,
+            "uuid": "07a3df8f-2a2c-42f8-ad92-65889d90f3bf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rrRFgt6.890604.fiLeGEAR-Sg.ME",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/5UW2C42lpZ7Dj4VDwVOkZfoq",
+                "headers": {
+                    "Host": "rrRFgt6.890604.fiLeGEAR-Sg.ME"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
@@ -487,14 +503,6 @@
             "uuid": "cc660614-1172-4988-9647-3846502d0e4f",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 4",
-            "type": "shadowsocks",
-            "server": "188.166.220.70",
-            "server_port": 37708,
-            "method": "chacha20-ietf-poly1305",
-            "password": "24Wk2NSszrfHn22zem1lYV"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -2158,18 +2166,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2raying | 12",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2raying | 14",
             "type": "vless",
-            "server": "obedient-detail.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "1dd49fb8-6570-4a2a-a236-f410b63159cf",
+            "server": "104.17.41.52",
+            "server_port": 8080,
+            "uuid": "7e948e09-fa6f-4b8e-8c5d-181fa15fbec5",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/ijiDwDw8BcM9ieHc?ed=2560",
                 "headers": {
-                    "Host": "obedient-detail.seotoolsforyou.co.uk"
+                    "Host": "104.17.41.52"
                 }
             }
         },
@@ -2680,6 +2688,15 @@
                     "Host": "trojan.burgerip.co.uk"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
