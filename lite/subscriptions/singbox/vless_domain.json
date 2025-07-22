@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraNet | 69",
+                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -165,7 +165,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraNet | 69",
+                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -244,27 +244,18 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraNet | 69",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
             "type": "vless",
-            "server": "www.indyskipass.com",
-            "server_port": 443,
-            "uuid": "004ba5d4-d448-4960-a762-e5190ab415f2",
+            "server": "182910.www.11338899.servers801.ir",
+            "server_port": 2096,
+            "uuid": "09f1d928-05ab-4ba2-80c5-f33edc244024",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "albedoalbedochan.violetchaan.ip-ddns.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/fscsxfVgdzhrefjgsBgaa?ed=80",
                 "headers": {
-                    "Host": "albedoalbedochan.violetchaan.ip-ddns.com"
+                    "Host": "182910.www.11338899.servers801.ir"
                 }
             }
         },

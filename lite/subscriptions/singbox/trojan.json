@@ -100,7 +100,8 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12",
+                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 19",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "interrupt_exist_connections": false
@@ -111,7 +112,8 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12",
+                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 19",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -168,9 +170,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12",
             "type": "trojan",
-            "server": "15.188.178.145",
+            "server": "13.39.171.69",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
@@ -180,6 +182,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayweb | 19",
+            "type": "trojan",
+            "server": "104.21.78.243",
+            "server_port": 443,
+            "password": "a94fafdb-10d6-46c2-be8a-5c2e8358fbb0",
+            "tls": {
+                "enabled": true,
+                "server_name": "SSSSsssSDDDdDdddFfffFFFG.7282728.XyZ",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/xa846InEcmjyiKVby2Lp",
+                "headers": {
+                    "Host": "SSSSsssSDDDdDdddFfffFFFG.7282728.XyZ"
                 }
             }
         },
