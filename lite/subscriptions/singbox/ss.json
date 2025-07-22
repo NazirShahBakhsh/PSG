@@ -111,6 +111,7 @@
                 "🇺🇸 US | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
+                "🇨🇾 CY | 🟢 | ss | @vmess_ir | 18",
                 "🇳🇱 NL | 🟢 | ss | @vpnaloo | 15",
                 "❔ XX | 🟢 | ss | @chestertm | 19",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
@@ -140,6 +141,7 @@
                 "🇺🇸 US | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
+                "🇨🇾 CY | 🟢 | ss | @vmess_ir | 18",
                 "🇳🇱 NL | 🟢 | ss | @vpnaloo | 15",
                 "❔ XX | 🟢 | ss | @chestertm | 19",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
@@ -270,6 +272,14 @@
             "server_port": 5601,
             "method": "aes-256-gcm",
             "password": "Y6R9pAtvxxzmGC"
+        },
+        {
+            "tag": "🇨🇾 CY | 🟢 | ss | @vmess_ir | 18",
+            "type": "shadowsocks",
+            "server": "134.255.210.49",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
         },
         {
             "tag": "🇳🇱 NL | 🟢 | ss | @vpnaloo | 15",

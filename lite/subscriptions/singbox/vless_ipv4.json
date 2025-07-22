@@ -99,8 +99,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
-                "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
+                "🇫🇷 FR | 🟢 | vless | @NamiraNet | 69",
+                "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🟢 | vless | @drvpn_net | 1",
                 "🇹🇷 TR | 🟢 | vless | @f_nirevil | 2",
                 "🇮🇷 IR | 🔴 | vless | @fasst_vpn | 0",
@@ -147,7 +147,6 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vlessconfig | 11",
-                "🇩🇪 DE | 🔴 | vless | @vmess_ir | 18",
                 "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 18",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
@@ -164,8 +163,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
-                "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
+                "🇫🇷 FR | 🟢 | vless | @NamiraNet | 69",
+                "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🟢 | vless | @drvpn_net | 1",
                 "🇹🇷 TR | 🟢 | vless | @f_nirevil | 2",
                 "🇮🇷 IR | 🔴 | vless | @fasst_vpn | 0",
@@ -212,7 +211,6 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vlessconfig | 11",
-                "🇩🇪 DE | 🔴 | vless | @vmess_ir | 18",
                 "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 18",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
@@ -249,43 +247,36 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraNet | 69",
             "type": "vless",
-            "server": "104.16.86.73",
+            "server": "213.176.66.204",
+            "server_port": 443,
+            "uuid": "d53af1bb-8b66-413c-b135-5e49c0d213a8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mehrab.mojtabajeab.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
+            "type": "vless",
+            "server": "172.67.65.158",
             "server_port": 8880,
             "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/J5aLQOY1R9ONWYCM?ed=2560",
+                "path": "/Etb1L6YUdZFZuTOr?ed=2560",
                 "headers": {
-                    "Host": "104.16.86.73"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
-            "type": "vless",
-            "server": "104.18.26.90",
-            "server_port": 443,
-            "uuid": "5879d109-8c92-448a-801b-3f3989019934",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048",
-                "headers": {
-                    "Host": "pages.dev"
+                    "Host": "172.67.65.158"
                 }
             }
         },
@@ -1111,24 +1102,6 @@
                 "path": "/telegram-channel-vlessconfig",
                 "headers": {
                     "Host": "trojan.burgerip.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @vmess_ir | 18",
-            "type": "vless",
-            "server": "178.162.244.224",
-            "server_port": 443,
-            "uuid": "83a85a41-fb7f-43e0-9c15-d199509a9624",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "178.162.244.224",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
