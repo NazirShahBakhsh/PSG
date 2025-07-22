@@ -99,7 +99,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🟢 | vless | @drvpn_net | 1",
                 "🇹🇷 TR | 🟢 | vless | @f_nirevil | 2",
@@ -190,7 +189,7 @@
                 "🇺🇸 US | 🟢 | vless | @uvpn_org | 2",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
-                "🇨🇦 CA | 🟢 | vless | @v2ray_reality_new | 8",
+                "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 14",
@@ -201,6 +200,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -228,7 +228,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🟢 | vless | @drvpn_net | 1",
                 "🇹🇷 TR | 🟢 | vless | @f_nirevil | 2",
@@ -319,7 +318,7 @@
                 "🇺🇸 US | 🟢 | vless | @uvpn_org | 2",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
-                "🇨🇦 CA | 🟢 | vless | @v2ray_reality_new | 8",
+                "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 14",
@@ -330,6 +329,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -375,22 +375,6 @@
             "uuid": "a804bb53-7504-4f06-96d8-ff56fb71539d",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
-            "type": "vless",
-            "server": "104.16.222.98",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/uLF6HXZ7986oF7Yg?ed",
-                "headers": {
-                    "Host": "VngSupply.Ip-DdNS.com"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
@@ -2001,7 +1985,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @v2ray_reality_new | 8",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
             "type": "vless",
             "server": "discord.com",
             "server_port": 2053,
@@ -2229,6 +2213,22 @@
                 "path": "/?ed=2560",
                 "headers": {
                     "Host": "v2raylandd-66-irancell.utsxgao.workers.DeV"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
+            "type": "vless",
+            "server": "www.speedtest.net.cdn.cloudflare.net",
+            "server_port": 80,
+            "uuid": "6b3b071f-096b-4e4c-8d70-0e0b53f27434",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "www.speedtest.net.cdn.cloudflare.net"
                 }
             }
         },

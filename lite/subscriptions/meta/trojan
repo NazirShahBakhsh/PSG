@@ -20,7 +20,6 @@ proxies:
   - {"name":"❔ XX | 🟢 | trojan | @maradona_vpn | 8","type":"trojan","server":"maradona_vpn.history-paint.art","port":443,"password":"Maradona_vpn","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6","type":"trojan","server":"de1.test3.net","port":443,"password":"b8841c50-c3ad-11ee-9be0-1239d0255272","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11","type":"trojan","server":"15.188.36.178","port":22223,"password":"telegram-id-v2rayvpnchannel","skip-cert-verify":false}
-  - {"name":"🇺🇸 US | 🔴 | trojan | @v2rayweb | 13","type":"trojan","server":"188.114.99.126","port":443,"password":"NISHIKUITAN111","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @webhube | 4","type":"trojan","server":"15.204.175.111","port":2083,"password":"t2WqbIW2JE","skip-cert-verify":false}
 
 rule-providers:
@@ -55,7 +54,6 @@ proxy-groups:
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       - '🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11'
-      - '🇺🇸 US | 🔴 | trojan | @v2rayweb | 13'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
 
   - name: 📉 Fallback
@@ -66,7 +64,6 @@ proxy-groups:
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       - '🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11'
-      - '🇺🇸 US | 🔴 | trojan | @v2rayweb | 13'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
       
   - name: All-Proxies
@@ -75,7 +72,6 @@ proxy-groups:
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       - '🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11'
-      - '🇺🇸 US | 🔴 | trojan | @v2rayweb | 13'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
 
 rules:

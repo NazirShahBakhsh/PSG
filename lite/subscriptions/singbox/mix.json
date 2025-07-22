@@ -99,7 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
+                "🇳🇱 NL | 🟢 | ss | @NamiraNet | 69",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
                 "🇨🇦 CA | 🟢 | ss | @argo_vpn1 | 13",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -202,7 +202,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 3",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇮🇷 IR | 🔴 | vless | @v2ray_iran88 | 9",
-                "🇨🇦 CA | 🟢 | vless | @v2ray_reality_new | 8",
+                "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇳🇱 NL | 🔴 | vless | @v2ray_sub | 9",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇺🇸 US | 🔴 | vless | @v2ray_youtube | 12",
@@ -227,7 +227,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
-                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 13",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -277,7 +277,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
+                "🇳🇱 NL | 🟢 | ss | @NamiraNet | 69",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
                 "🇨🇦 CA | 🟢 | ss | @argo_vpn1 | 13",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -380,7 +380,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 3",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇮🇷 IR | 🔴 | vless | @v2ray_iran88 | 9",
-                "🇨🇦 CA | 🟢 | vless | @v2ray_reality_new | 8",
+                "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇳🇱 NL | 🔴 | vless | @v2ray_sub | 9",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇺🇸 US | 🔴 | vless | @v2ray_youtube | 12",
@@ -405,7 +405,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
-                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 13",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -475,20 +475,12 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
-            "type": "vless",
-            "server": "104.16.222.98",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/uLF6HXZ7986oF7Yg?ed",
-                "headers": {
-                    "Host": "VngSupply.Ip-DdNS.com"
-                }
-            }
+            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraNet | 69",
+            "type": "shadowsocks",
+            "server": "193.29.139.141",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
@@ -2091,7 +2083,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @v2ray_reality_new | 8",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
             "type": "vless",
             "server": "discord.com",
             "server_port": 2053,
@@ -2526,18 +2518,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | trojan | @v2rayweb | 13",
-            "type": "trojan",
-            "server": "188.114.99.126",
-            "server_port": 443,
-            "password": "NISHIKUITAN111",
-            "tls": {
-                "enabled": true,
-                "server_name": "188.114.99.126",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
+            "type": "vless",
+            "server": "www.speedtest.net.cdn.cloudflare.net",
+            "server_port": 80,
+            "uuid": "6b3b071f-096b-4e4c-8d70-0e0b53f27434",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "www.speedtest.net.cdn.cloudflare.net"
                 }
             }
         },

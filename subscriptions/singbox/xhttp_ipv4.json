@@ -99,6 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 15",
+                "🇮🇹 IT | 🔴 | vless | @config_proxy | 44",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
@@ -148,6 +149,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 15",
+                "🇮🇹 IT | 🔴 | vless | @config_proxy | 44",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
@@ -213,6 +215,15 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇹 IT | 🔴 | vless | @config_proxy | 44",
+            "type": "vless",
+            "server": "146.75.55.82",
+            "server_port": 80,
+            "uuid": "0498875d-3520-4883-a8be-821b5a89fedc",
             "flow": "",
             "packet_encoding": "xudp"
         },
