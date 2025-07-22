@@ -107,6 +107,7 @@
                 "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
                 "❔ XX | 🔴 | vmess | @net_azad_1 | 12",
+                "🇩🇪 DE | 🔴 | vmess | @prrofile_purple | 122",
                 "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
                 "🇩🇪 DE | 🔴 | vmess | @sezar_sec | 1",
                 "🇺🇸 US | 🟢 | vmess | @shadowsocksservers | 12",
@@ -138,6 +139,7 @@
                 "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
                 "❔ XX | 🔴 | vmess | @net_azad_1 | 12",
+                "🇩🇪 DE | 🔴 | vmess | @prrofile_purple | 122",
                 "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
                 "🇩🇪 DE | 🔴 | vmess | @sezar_sec | 1",
                 "🇺🇸 US | 🟢 | vmess | @shadowsocksservers | 12",
@@ -311,6 +313,22 @@
             "uuid": "471db8a5-8715-4fcb-9522-fdd78d2c1904",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vmess | @prrofile_purple | 122",
+            "type": "vmess",
+            "server": "51.68.191.233",
+            "server_port": 80,
+            "uuid": "f0eda072-9ae8-494c-a495-215fa5729467",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",

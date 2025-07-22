@@ -98,6 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇩🇪 DE | 🔴 | vless | @orange_vpns | 14",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
@@ -109,6 +110,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇩🇪 DE | 🔴 | vless | @orange_vpns | 14",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
@@ -130,6 +132,29 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
+            "type": "vless",
+            "server": "91.99.140.175",
+            "server_port": 80,
+            "uuid": "bf9f0b0a-9ccd-457f-b039-a0d80fe4862e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "allthecooks.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8JLXaAVzfzBxustA4rSIJYXfbwgnarMBUiWghUe610s",
+                    "short_id": "f58f"
+                }
+            }
         },
         {
             "tag": "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",

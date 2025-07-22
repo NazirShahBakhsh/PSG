@@ -100,6 +100,7 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
+                "🇺🇸 US | 🔴 | vless | @config_proxy | 50",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -119,14 +120,11 @@
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 3",
-                "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 122",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 3",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 13",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 14",
                 "🇺🇸 US | 🔴 | vless | @vmess_ir | 14",
                 "🇺🇸 US | 🔴 | vless | @vmess_ir | 17",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
@@ -140,6 +138,7 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
+                "🇺🇸 US | 🔴 | vless | @config_proxy | 50",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -159,14 +158,11 @@
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 3",
-                "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 122",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 3",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 13",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 14",
                 "🇺🇸 US | 🔴 | vless | @vmess_ir | 14",
                 "🇺🇸 US | 🔴 | vless | @vmess_ir | 17",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
@@ -220,6 +216,15 @@
                     "short_id": "aeba"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @config_proxy | 50",
+            "type": "vless",
+            "server": "cdn.irancdngame.com",
+            "server_port": 80,
+            "uuid": "ab513a36-abe6-46ff-a356-edb8c280e28d",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -402,15 +407,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 122",
-            "type": "vless",
-            "server": "be.kimjo.ir",
-            "server_port": 8080,
-            "uuid": "3a95905b-0ee1-494b-bda8-79c20dc41be5",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
             "type": "vless",
             "server": "optmaze.speegy.club",
@@ -472,24 +468,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 13",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 14",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 14",
