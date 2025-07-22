@@ -114,6 +114,7 @@
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇺🇸 US | 🟢 | vless | @lranonline_new | 8",
                 "❔ XX | 🔴 | vless | @mafiav2ray | 16",
                 "❔ XX | 🟢 | vless | @mastervpnshop1 | 17",
                 "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
@@ -143,7 +144,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -182,6 +182,7 @@
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇺🇸 US | 🟢 | vless | @lranonline_new | 8",
                 "❔ XX | 🔴 | vless | @mafiav2ray | 16",
                 "❔ XX | 🟢 | vless | @mastervpnshop1 | 17",
                 "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
@@ -211,7 +212,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -507,6 +507,31 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Hossien"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @lranonline_new | 8",
+            "type": "vless",
+            "server": "deepseek.com",
+            "server_port": 2087,
+            "uuid": "020fa7d6-7589-4f3c-be01-1b2670eeb895",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "marzfnjdnfgd.ahmadinabaz.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "marzfnjdnfgd.ahmadinabaz.ir"
+                }
             }
         },
         {
@@ -1054,29 +1079,6 @@
                 "path": "/?ed=2560",
                 "headers": {
                     "Host": "v2raylandd-66-irancell.utsxgao.workers.DeV"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 19",
-            "type": "vless",
-            "server": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
-            "server_port": 443,
-            "uuid": "1584806e-f63d-4f9b-a0b3-abe64b35a09c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ",
-                    "short_id": "974a74bf"
                 }
             }
         },
