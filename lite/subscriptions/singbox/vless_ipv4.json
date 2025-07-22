@@ -146,7 +146,6 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 18",
                 "🇳🇱 NL | 🔴 | vless | @vpnaloo | 15",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
@@ -210,7 +209,6 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 18",
                 "🇳🇱 NL | 🔴 | vless | @vpnaloo | 15",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
@@ -1083,22 +1081,6 @@
                 "path": "/telegram-channel-vlessconfig",
                 "headers": {
                     "Host": "trojan.burgerip.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
-            "type": "vless",
-            "server": "45.8.146.207",
-            "server_port": 80,
-            "uuid": "a6c4db3e-7785-429e-8bc5-9eaf7b1a79b1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/vless/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560",
-                "headers": {
-                    "Host": "45.8.146.207"
                 }
             }
         },
