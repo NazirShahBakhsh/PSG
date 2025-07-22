@@ -98,6 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -143,7 +144,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -167,6 +167,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -212,7 +213,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -246,6 +246,22 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
+            "type": "vless",
+            "server": "182910.www.11338899.servers801.ir",
+            "server_port": 2096,
+            "uuid": "09f1d928-05ab-4ba2-80c5-f33edc244024",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/fscsxfVgdzhrefjgsBgaa?ed=80",
+                "headers": {
+                    "Host": "182910.www.11338899.servers801.ir"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -1056,22 +1072,6 @@
                 "path": "/?ed=2560",
                 "headers": {
                     "Host": "v2raylandd-66-irancell.utsxgao.workers.DeV"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
-            "type": "vless",
-            "server": "www.speedtest.net.cdn.cloudflare.net",
-            "server_port": 80,
-            "uuid": "6b3b071f-096b-4e4c-8d70-0e0b53f27434",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048",
-                "headers": {
-                    "Host": "www.speedtest.net.cdn.cloudflare.net"
                 }
             }
         },

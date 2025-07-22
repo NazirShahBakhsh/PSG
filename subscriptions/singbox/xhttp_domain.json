@@ -115,7 +115,7 @@
                 "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=lake10.global.ssl.fastly.net&type=xhttp#🇺🇸 US | 🔴 | vless | @flyv2ray | 6",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
-                "❔ XX | 🔴 | vless | @iseqaro | 2",
+                "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
@@ -124,9 +124,7 @@
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
-                "🇺🇸 US | 🔴 | vless | @v2raych | 18",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 4",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
@@ -153,7 +151,7 @@
                 "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=lake10.global.ssl.fastly.net&type=xhttp#🇺🇸 US | 🔴 | vless | @flyv2ray | 6",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
-                "❔ XX | 🔴 | vless | @iseqaro | 2",
+                "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
@@ -162,9 +160,7 @@
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
-                "🇺🇸 US | 🔴 | vless | @v2raych | 18",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 4",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
@@ -353,7 +349,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @iseqaro | 2",
+            "tag": "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
             "type": "vless",
             "server": "s5.1dnt.k-l.cloud",
             "server_port": 80,
@@ -452,15 +448,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2raych | 18",
-            "type": "vless",
-            "server": "bekhabim.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "493f50f6-fbf0-4810-9ced-b129c18e7de4",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 4",
             "type": "vless",
             "server": "statue.lnmarketplace.net",
@@ -471,24 +458,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "statue.lnmarketplace.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
-            "type": "vless",
-            "server": "viovpn.viocompany.site",
-            "server_port": 443,
-            "uuid": "2d37cd89-d6e5-4d58-a688-8b0208a48e6e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "viowpn.viocompany.site",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

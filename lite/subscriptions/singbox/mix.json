@@ -99,7 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇳🇱 NL | 🟢 | ss | @NamiraNet | 69",
+                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
                 "🇨🇦 CA | 🟢 | ss | @argo_vpn1 | 13",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -139,7 +139,6 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇺🇸 US | 🟢 | vless | @kingofilter | 2",
                 "🇩🇪 DE | 🔴 | vless | @kurdistan_vpn_perfectt | 9",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
@@ -227,7 +226,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
+                "🇨🇿 CZ | 🟢 | vless | @v2rayweb | 19",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -277,7 +276,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇳🇱 NL | 🟢 | ss | @NamiraNet | 69",
+                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
                 "🇨🇦 CA | 🟢 | ss | @argo_vpn1 | 13",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -317,7 +316,6 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇺🇸 US | 🟢 | vless | @kingofilter | 2",
                 "🇩🇪 DE | 🔴 | vless | @kurdistan_vpn_perfectt | 9",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
@@ -405,7 +403,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
+                "🇨🇿 CZ | 🟢 | vless | @v2rayweb | 19",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -475,12 +473,20 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraNet | 69",
-            "type": "shadowsocks",
-            "server": "193.29.139.141",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
+            "type": "vless",
+            "server": "182910.www.11338899.servers801.ir",
+            "server_port": 2096,
+            "uuid": "09f1d928-05ab-4ba2-80c5-f33edc244024",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/fscsxfVgdzhrefjgsBgaa?ed=80",
+                "headers": {
+                    "Host": "182910.www.11338899.servers801.ir"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
@@ -1117,31 +1123,6 @@
                     "enabled": true,
                     "public_key": "OItbKB3XzCXKysSNBIUZ7fDAfASACK_ucLrU6NAAFAU",
                     "short_id": "a98a22e2"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @kingofilter | 2",
-            "type": "vless",
-            "server": "104.17.210.171",
-            "server_port": 443,
-            "uuid": "c98a16e4-0dc5-42f0-b3db-30f04525c123",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vless10-9sc.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "vless10-9sc.pages.dev"
                 }
             }
         },
@@ -2518,19 +2499,30 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
+            "tag": "🇨🇿 CZ | 🟢 | vless | @v2rayweb | 19",
             "type": "vless",
-            "server": "www.speedtest.net.cdn.cloudflare.net",
-            "server_port": 80,
-            "uuid": "6b3b071f-096b-4e4c-8d70-0e0b53f27434",
-            "flow": "",
+            "server": "194.182.79.142",
+            "server_port": 11745,
+            "uuid": "f278037e-ce36-4634-9b4d-fca93e345a35",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048",
-                "headers": {
-                    "Host": "www.speedtest.net.cdn.cloudflare.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hgaeyKQWo1Cf0fDhXVD2AZKI6DfOhBhjsSSfccW7ADo",
+                    "short_id": "26a52325"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
             }
         },
         {
