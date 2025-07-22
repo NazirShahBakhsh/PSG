@@ -100,7 +100,6 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
-                "🇩🇪 DE | 🔴 | vless | @config_proxy | 49",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 21",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -117,9 +116,10 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-                "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
+                "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 3",
+                "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
@@ -135,7 +135,6 @@
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
-                "🇳🇱 NL | 🟢 | vless | @getconfigir | 17",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann | 17",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann | 19",
@@ -183,7 +182,6 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 18",
-                "🇩🇪 DE | 🔴 | vless | @config_proxy | 49",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 21",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -200,9 +198,10 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-                "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
+                "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 3",
+                "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
@@ -218,7 +217,6 @@
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
-                "🇳🇱 NL | 🟢 | vless | @getconfigir | 17",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann | 17",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann | 19",
@@ -306,15 +304,6 @@
                     "short_id": "aeba"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @config_proxy | 49",
-            "type": "vless",
-            "server": "be.kimjo.ir",
-            "server_port": 8080,
-            "uuid": "3a95905b-0ee1-494b-bda8-79c20dc41be5",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -461,15 +450,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
-            "type": "vless",
-            "server": "nl-fa.adm-cll.ir",
-            "server_port": 80,
-            "uuid": "fee253e9-b903-5c7a-e7f7-2a557718c810",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -493,6 +473,24 @@
             "server": "bekhabim.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "493f50f6-fbf0-4810-9ced-b129c18e7de4",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 3",
+            "type": "vless",
+            "server": "s2.1dnt.k-l.cloud",
+            "server_port": 80,
+            "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
+            "type": "vless",
+            "server": "be.kimjo.ir",
+            "server_port": 8080,
+            "uuid": "3a95905b-0ee1-494b-bda8-79c20dc41be5",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -710,29 +708,6 @@
                     "enabled": true,
                     "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
                     "short_id": "dc5db021ae2038a9"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @getconfigir | 17",
-            "type": "vless",
-            "server": "199.247.28.17",
-            "server_port": 44914,
-            "uuid": "68b442b5-e9ba-4881-b363-1826ff3abe46",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "black-moai.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "o1n1Qj_IBvl3xGDkMPzmuRJzKKW31L_r9kEeyW7e3F8",
-                    "short_id": "1ac2a2dde288"
                 }
             }
         },

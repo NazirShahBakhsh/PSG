@@ -105,6 +105,7 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 2",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
+                "🇨🇿 CZ | 🟢 | vless | @configshubplus | 17",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
                 "🇮🇷 IR | 🟢 | vless | @dargiiriis | 0",
                 "🇳🇱 NL | 🟢 | vless | @expressvpn_420 | 26",
@@ -116,7 +117,6 @@
                 "🇵🇱 PL | 🟢 | vless | @freenapsternetv | 4",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
-                "🇳🇱 NL | 🟢 | vless | @getconfigir | 17",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann | 17",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann | 19",
                 "🇨🇿 CZ | 🟢 | vless | @ghalagyann2 | 6",
@@ -149,8 +149,7 @@
                 "🇩🇪 DE | 🟢 | vless | @proxy_emperor | 3",
                 "🇩🇪 DE | 🟢 | vless | @proxy_emperor | 4",
                 "🇩🇪 DE | 🟢 | vless | @proxy_emperor | 5",
-                "🇩🇪 DE | 🟢 | vless | @proxy_hiddfy | 0",
-                "🇩🇪 DE | 🟢 | vless | @proxy_hiddfy | 3",
+                "🇩🇪 DE | 🟢 | vless | @proxy_hiddfy | 2",
                 "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
                 "🇹🇷 TR | 🟢 | vless | @proxycrone | 7",
                 "🇷🇺 RU | 🟢 | vless | @proxyfn | 16",
@@ -205,6 +204,7 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 2",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 4",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
+                "🇨🇿 CZ | 🟢 | vless | @configshubplus | 17",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
                 "🇮🇷 IR | 🟢 | vless | @dargiiriis | 0",
                 "🇳🇱 NL | 🟢 | vless | @expressvpn_420 | 26",
@@ -216,7 +216,6 @@
                 "🇵🇱 PL | 🟢 | vless | @freenapsternetv | 4",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
-                "🇳🇱 NL | 🟢 | vless | @getconfigir | 17",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann | 17",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann | 19",
                 "🇨🇿 CZ | 🟢 | vless | @ghalagyann2 | 6",
@@ -249,8 +248,7 @@
                 "🇩🇪 DE | 🟢 | vless | @proxy_emperor | 3",
                 "🇩🇪 DE | 🟢 | vless | @proxy_emperor | 4",
                 "🇩🇪 DE | 🟢 | vless | @proxy_emperor | 5",
-                "🇩🇪 DE | 🟢 | vless | @proxy_hiddfy | 0",
-                "🇩🇪 DE | 🟢 | vless | @proxy_hiddfy | 3",
+                "🇩🇪 DE | 🟢 | vless | @proxy_hiddfy | 2",
                 "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
                 "🇹🇷 TR | 🟢 | vless | @proxycrone | 7",
                 "🇷🇺 RU | 🟢 | vless | @proxyfn | 16",
@@ -476,6 +474,33 @@
                     "public_key": "PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o",
                     "short_id": "b5ecd44d"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇿 CZ | 🟢 | vless | @configshubplus | 17",
+            "type": "vless",
+            "server": "194.182.79.43",
+            "server_port": 25245,
+            "uuid": "aa374d55-b368-4121-8f02-7e6bd9ef1924",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uv1gMqjxJ-bF5Xjix_d5M4qGK0-VmGyrU5ZMtiXrhHg",
+                    "short_id": "16b619c73e22"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
@@ -740,29 +765,6 @@
                     "enabled": true,
                     "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
                     "short_id": "dc5db021ae2038a9"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @getconfigir | 17",
-            "type": "vless",
-            "server": "199.247.28.17",
-            "server_port": 44914,
-            "uuid": "68b442b5-e9ba-4881-b363-1826ff3abe46",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "black-moai.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "o1n1Qj_IBvl3xGDkMPzmuRJzKKW31L_r9kEeyW7e3F8",
-                    "short_id": "1ac2a2dde288"
                 }
             }
         },
@@ -1570,34 +1572,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @proxy_hiddfy | 0",
-            "type": "vless",
-            "server": "91.107.180.100",
-            "server_port": 443,
-            "uuid": "a0445355-3959-4454-9235-cee5a7b86a64",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eZs1Yn6wbXV2RPT47_szgepN6lNKseOb9nprDMrpNmE",
-                    "short_id": "f3"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@SobyV2ray"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @proxy_hiddfy | 3",
+            "tag": "🇩🇪 DE | 🟢 | vless | @proxy_hiddfy | 2",
             "type": "vless",
             "server": "91.107.180.100",
             "server_port": 443,
