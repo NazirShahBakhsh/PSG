@@ -110,6 +110,7 @@
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "🇬🇧 GB | 🟢 | ss | @outline_vpn | 23",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
+                "🇩🇪 DE | 🟢 | ss | @proxy_mtproto_vpns_free | 10",
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
@@ -143,6 +144,7 @@
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "🇬🇧 GB | 🟢 | ss | @outline_vpn | 23",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
+                "🇩🇪 DE | 🟢 | ss | @proxy_mtproto_vpns_free | 10",
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
@@ -270,6 +272,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | ss | @proxy_mtproto_vpns_free | 10",
+            "type": "shadowsocks",
+            "server": "xcel0dooz.pet0er23mh21qq.com",
+            "server_port": 1080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "bCmNtjuyczgcKj2s3P3eBg"
         },
         {
             "tag": "❔ XX | 🟢 | ss | @public504 | 7",

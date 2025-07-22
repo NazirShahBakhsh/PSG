@@ -116,7 +116,6 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 1",
                 "❔ XX | 🟢 | vless | @fsv2ray | 2",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 4",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 5",
@@ -143,7 +142,7 @@
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 9",
                 "❔ XX | 🟢 | vless | @proxysudo | 1",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
-                "🇩🇪 DE | 🟢 | vless | @prrofile_purple | 128",
+                "🇩🇪 DE | 🟢 | vless | @prrofile_purple | 121",
                 "❔ XX | 🟢 | vless | @public504 | 9",
                 "❔ XX | 🟢 | vless | @public504 | 11",
                 "🇬🇧 GB | 🟢 | vless | @savagenet | 0",
@@ -190,7 +189,6 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 1",
                 "❔ XX | 🟢 | vless | @fsv2ray | 2",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 4",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 5",
@@ -217,7 +215,7 @@
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 9",
                 "❔ XX | 🟢 | vless | @proxysudo | 1",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
-                "🇩🇪 DE | 🟢 | vless | @prrofile_purple | 128",
+                "🇩🇪 DE | 🟢 | vless | @prrofile_purple | 121",
                 "❔ XX | 🟢 | vless | @public504 | 9",
                 "❔ XX | 🟢 | vless | @public504 | 11",
                 "🇬🇧 GB | 🟢 | vless | @savagenet | 0",
@@ -701,29 +699,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@FsV2ray"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
-            "type": "vless",
-            "server": "zn.boshrachoice.ir",
-            "server_port": 4433,
-            "uuid": "f5bb0c7f-57e1-44ab-b544-f1db76319c20",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IUk4LR6VI6CnvLMY_ks1KdOHvB1_byMvQM3gZfuU5S0",
-                    "short_id": "6762f9cf85154ca2"
-                }
             }
         },
         {
@@ -1380,7 +1355,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @prrofile_purple | 128",
+            "tag": "🇩🇪 DE | 🟢 | vless | @prrofile_purple | 121",
             "type": "vless",
             "server": "p.faraghost.sbs",
             "server_port": 28338,
