@@ -136,6 +136,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 14",
+                "🇦🇲 AM | 🔴 | vless | @v2rayng3 | 8",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
@@ -203,6 +204,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 14",
+                "🇦🇲 AM | 🔴 | vless | @v2rayng3 | 8",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
@@ -895,6 +897,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "obedient-detail.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇲 AM | 🔴 | vless | @v2rayng3 | 8",
+            "type": "vless",
+            "server": "wolf558.royalmt.life",
+            "server_port": 53624,
+            "uuid": "d83c8440-4bd9-4695-aec5-c39b52313e1c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "wolf558.royalmt.life"
                 }
             }
         },
