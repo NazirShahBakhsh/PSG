@@ -17,7 +17,6 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraNet | 69","type":"vless","server":"182910.www.11338899.servers801.ir","port":2096,"uuid":"09f1d928-05ab-4ba2-80c5-f33edc244024","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/fscsxfVgdzhrefjgsBgaa?ed=80","headers":{"Host":"45f4d22d.Mareza.pages.dev"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1","type":"vless","server":"Artemis.sbs","port":80,"uuid":"6db4a91c-838d-419a-af83-bc5bd211ffc6","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@Artemis_vpn","headers":{"Host":"free-02.artemis-03.sbs"}}}
   - {"name":"❔ XX | 🟢 | vless | @config_vip7 | 3","type":"vless","server":"g.configvip7.site","port":8443,"uuid":"103868fa-6eaa-4368-b497-066c39fd0cf7","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"configvip7.site","grpc-opts":{"grpc-service-name":"@CONFIG_ViP7,"}}
   - {"name":"🇺🇸 US | 🔴 | vless | @configscenter | 2","type":"vless","server":"2sudo.winapp3.ir","port":80,"uuid":"5b0e1347-1e9b-4b83-a27b-468e3dafb69b","tls":false,"network":"xhttp","client-fingerprint":"chrome","udp":true}
@@ -105,7 +104,6 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraNet | 69'
       - '🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1'
       - '❔ XX | 🟢 | vless | @config_vip7 | 3'
       - '🇺🇸 US | 🔴 | vless | @configscenter | 2'
@@ -169,7 +167,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraNet | 69'
       - '🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1'
       - '❔ XX | 🟢 | vless | @config_vip7 | 3'
       - '🇺🇸 US | 🔴 | vless | @configscenter | 2'
@@ -231,7 +228,6 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraNet | 69'
       - '🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1'
       - '❔ XX | 🟢 | vless | @config_vip7 | 3'
       - '🇺🇸 US | 🔴 | vless | @configscenter | 2'
