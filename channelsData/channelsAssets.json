@@ -10,8 +10,7 @@
     "NamiraNet": {
         "types": [
             "trojan",
-            "vless",
-            "vmess"
+            "vless"
         ],
         "title": "‌NamiraNet / نامیرا نت",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraNet.jpg"
@@ -278,7 +277,8 @@
     "config_proxy": {
         "types": [
             "vless",
-            "vmess"
+            "vmess",
+            "ss"
         ],
         "title": "Proxy | V2ray | Config | Vpn | Hiddify | Nekobox | Segaro | پروکسی | فیلترشکن | ایرانسل | همراه اول | رایتل | سامانتل | مخابرات|",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/config_proxy.jpg"
@@ -340,7 +340,6 @@
     "configshubplus": {
         "types": [
             "vless",
-            "ss",
             "trojan"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
@@ -726,8 +725,8 @@
     },
     "freakconfig": {
         "types": [
-            "ss",
             "vless",
+            "ss",
             "vmess",
             "trojan"
         ],
@@ -1075,9 +1074,8 @@
     },
     "hope_net": {
         "types": [
-            "trojan",
-            "ss",
-            "vless"
+            "vless",
+            "trojan"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1434,14 +1432,6 @@
         ],
         "title": "Call center limo",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/limootuursh.jpg"
-    },
-    "lion_channel_vpn2": {
-        "types": [
-            "vmess",
-            "vless"
-        ],
-        "title": "پروکسی",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/lion_channel_vpn2.jpg"
     },
     "lockey_vpn": {
         "types": [
@@ -2093,8 +2083,8 @@
     },
     "proxy_mtproto_vpns_free": {
         "types": [
-            "vmess",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/proxy_mtproto_vpns_free.jpg"
@@ -2595,10 +2585,10 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vless",
             "ss",
             "vmess",
-            "trojan"
+            "trojan",
+            "vless"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -2681,9 +2671,10 @@
     },
     "v2raych": {
         "types": [
-            "vmess",
+            "trojan",
             "vless",
-            "trojan"
+            "ss",
+            "vmess"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2raych.jpg"
@@ -2705,8 +2696,8 @@
     },
     "v2rayfree": {
         "types": [
-            "vmess",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayfree.jpg"
@@ -2908,7 +2899,8 @@
     "v2rayweb": {
         "types": [
             "vless",
-            "vmess"
+            "vmess",
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -3132,8 +3124,9 @@
     },
     "vpn_meliii": {
         "types": [
+            "ss",
             "vless",
-            "ss"
+            "vmess"
         ],
         "title": "پروکسی کانفینگ ویتوری وی پی ان ملی اخبار جنگ فیلترشکن ایران | vpn proxy sstp cisco v2rayng vemss vless",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpn_meliii.jpg"

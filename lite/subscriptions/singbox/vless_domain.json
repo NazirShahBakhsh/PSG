@@ -124,6 +124,7 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
+                "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 13",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -139,7 +140,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -189,6 +190,7 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
+                "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 13",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -204,7 +206,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -707,6 +709,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 13",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "e4e82781-f854-4f5e-bfeb-8f34d8ab9fe7",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
             "type": "vless",
             "server": "sub.shadowsokstes.WoRkErs.DeV",
@@ -1007,25 +1018,27 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
             "type": "vless",
-            "server": "cellone.learn-new.ir",
-            "server_port": 443,
-            "uuid": "f56b1d07-2c00-4cac-91e4-6d49a8f9051b",
-            "flow": "xtls-rprx-vision",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "khanacademy.org",
+                "server_name": "lease-10.access.name.ng",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ikTKkSZZZ18NraMIwbLCP8ln6NmsD77VTSKWTESIOAk",
-                    "short_id": "6acf3ba5790e4324"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "lease-10.access.name.ng"
                 }
             }
         },

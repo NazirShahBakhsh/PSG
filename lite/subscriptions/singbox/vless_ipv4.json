@@ -99,6 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇷🇺 RU | 🔴 | vless | @NamiraNet | 69",
                 "🇭🇰 HK | 🟢 | vless | @azarbayjab1 | 7",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
@@ -124,7 +125,6 @@
                 "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 3",
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 12",
                 "🇺🇸 US | 🔴 | vless | @selinc | 6",
                 "🇺🇸 US | 🟢 | vless | @sobi_vpn | 9",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -165,6 +165,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇷🇺 RU | 🔴 | vless | @NamiraNet | 69",
                 "🇭🇰 HK | 🟢 | vless | @azarbayjab1 | 7",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
@@ -190,7 +191,6 @@
                 "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 3",
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 12",
                 "🇺🇸 US | 🔴 | vless | @selinc | 6",
                 "🇺🇸 US | 🟢 | vless | @sobi_vpn | 9",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -247,6 +247,15 @@
             "server": "81.12.32.135",
             "server_port": 32990,
             "uuid": "a804bb53-7504-4f06-96d8-ff56fb71539d",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraNet | 69",
+            "type": "vless",
+            "server": "95.141.205.39",
+            "server_port": 7557,
+            "uuid": "2e3bb27c-ab28-4ddb-9e33-7c5874b4d25a",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -711,15 +720,6 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "qeshmserver",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 12",
-            "type": "vless",
-            "server": "104.24.0.137",
-            "server_port": 8080,
-            "uuid": "cbfbc5e3-4b53-4854-931e-c9ac61719636",
             "flow": "",
             "packet_encoding": "xudp"
         },

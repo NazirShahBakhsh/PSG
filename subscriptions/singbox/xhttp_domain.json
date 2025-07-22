@@ -101,7 +101,7 @@
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @confing_chanel | 18",
+                "🇺🇸 US | 🔴 | vless | @confing_chanel | 17",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @elfv2ray | 1",
@@ -119,6 +119,7 @@
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 3",
+                "🇺🇸 US | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
@@ -137,7 +138,7 @@
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @confing_chanel | 18",
+                "🇺🇸 US | 🔴 | vless | @confing_chanel | 17",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @elfv2ray | 1",
@@ -155,6 +156,7 @@
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 3",
+                "🇺🇸 US | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
@@ -223,7 +225,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @confing_chanel | 18",
+            "tag": "🇺🇸 US | 🔴 | vless | @confing_chanel | 17",
             "type": "vless",
             "server": "CoNFiGLiNE.fast.hosting-ip.com",
             "server_port": 80,
@@ -392,6 +394,24 @@
             "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "186c95f5-9814-4082-83f8-948a426f5eac",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pars.stepson.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",

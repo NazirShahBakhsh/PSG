@@ -103,7 +103,6 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
                 "❔ XX | 🟢 | vless | @vp22ray | 10"
             ],
             "interrupt_exist_connections": false
@@ -117,7 +116,6 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
                 "❔ XX | 🟢 | vless | @vp22ray | 10"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -266,29 +264,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@LIGHTNING6"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
-            "type": "vless",
-            "server": "cellone.learn-new.ir",
-            "server_port": 443,
-            "uuid": "f56b1d07-2c00-4cac-91e4-6d49a8f9051b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "khanacademy.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ikTKkSZZZ18NraMIwbLCP8ln6NmsD77VTSKWTESIOAk",
-                    "short_id": "6acf3ba5790e4324"
-                }
             }
         },
         {

@@ -99,7 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
+                "🇷🇺 RU | 🔴 | vless | @NamiraNet | 69",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇭🇰 HK | 🟢 | vless | @azarbayjab1 | 7",
@@ -170,7 +170,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇩🇪 DE | 🔴 | vmess | @prrofile_purple | 129",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 12",
+                "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 13",
                 "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
                 "🇺🇸 US | 🔴 | vless | @selinc | 6",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
@@ -224,7 +224,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -275,7 +275,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
+                "🇷🇺 RU | 🔴 | vless | @NamiraNet | 69",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇭🇰 HK | 🟢 | vless | @azarbayjab1 | 7",
@@ -346,7 +346,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇩🇪 DE | 🔴 | vmess | @prrofile_purple | 129",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 12",
+                "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 13",
                 "🇮🇷 IR | 🔴 | vmess | @savagenet | 1",
                 "🇺🇸 US | 🔴 | vless | @selinc | 6",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
@@ -400,7 +400,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -471,20 +471,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
-            "type": "trojan",
-            "server": "172.67.188.77",
-            "server_port": 443,
-            "password": "1c5b4508-7f18-47bf-9bce-e7ec19fb31cb",
-            "tls": {
-                "enabled": true,
-                "server_name": "dddfghnju.890604.dpdns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraNet | 69",
+            "type": "vless",
+            "server": "95.141.205.39",
+            "server_port": 7557,
+            "uuid": "2e3bb27c-ab28-4ddb-9e33-7c5874b4d25a",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
@@ -1669,11 +1662,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 12",
+            "tag": "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 13",
             "type": "vless",
-            "server": "104.24.0.137",
-            "server_port": 8080,
-            "uuid": "cbfbc5e3-4b53-4854-931e-c9ac61719636",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "e4e82781-f854-4f5e-bfeb-8f34d8ab9fe7",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -2517,25 +2510,27 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 11",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
             "type": "vless",
-            "server": "cellone.learn-new.ir",
-            "server_port": 443,
-            "uuid": "f56b1d07-2c00-4cac-91e4-6d49a8f9051b",
-            "flow": "xtls-rprx-vision",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "khanacademy.org",
+                "server_name": "lease-10.access.name.ng",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ikTKkSZZZ18NraMIwbLCP8ln6NmsD77VTSKWTESIOAk",
-                    "short_id": "6acf3ba5790e4324"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "lease-10.access.name.ng"
                 }
             }
         },

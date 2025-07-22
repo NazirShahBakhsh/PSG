@@ -17,7 +17,6 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | trojan | @NamiraNet | 69","type":"trojan","server":"172.67.188.77","port":443,"password":"1c5b4508-7f18-47bf-9bce-e7ec19fb31cb","skip-cert-verify":false}
   - {"name":"🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0","type":"vmess","server":"tu.shoptx.sbs","port":15400,"cipher":"auto","uuid":"cc660614-1172-4988-9647-3846502d0e4f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @bislullproxy | 18","type":"ss","server":"4.250.60.151","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🟢 | ss | @chestertm | 19","type":"ss","server":"freakconfig94.usecharge.ir","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
@@ -91,7 +90,6 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 69'
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '❔ XX | 🟢 | ss | @chestertm | 19'
@@ -141,7 +139,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 69'
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '❔ XX | 🟢 | ss | @chestertm | 19'
@@ -189,7 +186,6 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 69'
       - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '❔ XX | 🟢 | ss | @chestertm | 19'

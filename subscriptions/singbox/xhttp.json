@@ -101,7 +101,7 @@
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @confing_chanel | 18",
+                "🇺🇸 US | 🔴 | vless | @confing_chanel | 17",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @elfv2ray | 1",
@@ -119,6 +119,7 @@
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 3",
+                "🇺🇸 US | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
@@ -129,8 +130,7 @@
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "🇺🇸 US | 🔴 | vless | @configfa | 41",
-                "🇺🇸 US | 🔴 | vless | @configfa | 42",
-                "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
+                "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 110",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
@@ -182,7 +182,7 @@
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @confing_chanel | 18",
+                "🇺🇸 US | 🔴 | vless | @confing_chanel | 17",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @elfv2ray | 1",
@@ -200,6 +200,7 @@
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 3",
+                "🇺🇸 US | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
@@ -210,8 +211,7 @@
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "🇺🇸 US | 🔴 | vless | @configfa | 41",
-                "🇺🇸 US | 🔴 | vless | @configfa | 42",
-                "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
+                "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🔴 | vless | @dailyv2ry | 110",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
@@ -313,7 +313,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @confing_chanel | 18",
+            "tag": "🇺🇸 US | 🔴 | vless | @confing_chanel | 17",
             "type": "vless",
             "server": "CoNFiGLiNE.fast.hosting-ip.com",
             "server_port": 80,
@@ -484,6 +484,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "186c95f5-9814-4082-83f8-948a426f5eac",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pars.stepson.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
             "type": "vless",
             "server": "optmaze.speegy.club",
@@ -599,24 +617,6 @@
         {
             "tag": "🇺🇸 US | 🔴 | vless | @configfa | 41",
             "type": "vless",
-            "server": "172.234.31.130",
-            "server_port": 443,
-            "uuid": "327df0a8-741f-4d35-aa07-ee653174889e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "172.234.31.130",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @configfa | 42",
-            "type": "vless",
             "server": "198.58.118.49",
             "server_port": 443,
             "uuid": "dab73a2f-f396-47a6-ac83-33ed17204b7b",
@@ -633,7 +633,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
+            "tag": "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
             "type": "vless",
             "server": "91.107.254.202",
             "server_port": 8443,
