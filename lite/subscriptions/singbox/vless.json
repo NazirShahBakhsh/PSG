@@ -99,6 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🟢 | vless | @drvpn_net | 1",
                 "🇹🇷 TR | 🟢 | vless | @f_nirevil | 2",
@@ -141,7 +142,6 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 13",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -190,7 +190,7 @@
                 "🇺🇸 US | 🟢 | vless | @uvpn_org | 2",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
-                "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
+                "🇨🇦 CA | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 14",
@@ -228,6 +228,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🟢 | vless | @drvpn_net | 1",
                 "🇹🇷 TR | 🟢 | vless | @f_nirevil | 2",
@@ -270,7 +271,6 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 13",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -319,7 +319,7 @@
                 "🇺🇸 US | 🟢 | vless | @uvpn_org | 2",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
-                "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
+                "🇨🇦 CA | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 14",
@@ -375,6 +375,22 @@
             "uuid": "a804bb53-7504-4f06-96d8-ff56fb71539d",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
+            "type": "vless",
+            "server": "104.16.222.98",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/uLF6HXZ7986oF7Yg?ed",
+                "headers": {
+                    "Host": "VngSupply.Ip-DdNS.com"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @canfing_vpn | 19",
@@ -1116,22 +1132,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "116.202.177.190"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 11",
-            "type": "vless",
-            "server": "172.67.179.79",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/pGBzWmXLHFXw6oHR?ed=2560",
-                "headers": {
-                    "Host": "172.67.179.79"
                 }
             }
         },
@@ -2001,7 +2001,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
+            "tag": "🇨🇦 CA | 🟢 | vless | @v2ray_reality_new | 8",
             "type": "vless",
             "server": "discord.com",
             "server_port": 2053,
