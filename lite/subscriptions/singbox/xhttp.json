@@ -102,6 +102,7 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 13",
                 "🇫🇮 FI | 🟢 | vless | @vpnaloo | 15",
                 "🇩🇪 DE | 🔴 | vless | @lranonline_new | 21",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
@@ -119,6 +120,7 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 129",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 13",
                 "🇫🇮 FI | 🟢 | vless | @vpnaloo | 15",
                 "🇩🇪 DE | 🔴 | vless | @lranonline_new | 21",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
@@ -176,6 +178,15 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 13",
+            "type": "vless",
+            "server": "voip.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "0f70aacc-9223-412d-8035-413d61df3059",
             "flow": "",
             "packet_encoding": "xudp"
         },
