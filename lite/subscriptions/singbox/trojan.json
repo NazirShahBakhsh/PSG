@@ -101,7 +101,6 @@
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
-                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 19",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "interrupt_exist_connections": false
@@ -113,7 +112,6 @@
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
-                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 19",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -178,22 +176,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayweb | 19",
-            "type": "trojan",
-            "server": "172.66.47.33",
-            "server_port": 443,
-            "password": "bba5ce00-09e4-4fce-8d26-35db5b4e38d4",
-            "tls": {
-                "enabled": true,
-                "server_name": "cfpage-39t.pages.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
