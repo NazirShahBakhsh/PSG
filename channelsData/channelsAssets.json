@@ -9,7 +9,6 @@
     },
     "NamiraNet": {
         "types": [
-            "trojan",
             "vless"
         ],
         "title": "‌NamiraNet / نامیرا نت",
@@ -339,8 +338,9 @@
     },
     "configshubplus": {
         "types": [
+            "trojan",
             "vless",
-            "trojan"
+            "vmess"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/configshubplus.jpg"
@@ -1074,8 +1074,8 @@
     },
     "hope_net": {
         "types": [
-            "vless",
-            "trojan"
+            "trojan",
+            "vless"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1120,10 +1120,10 @@
     },
     "ip_cf_config": {
         "types": [
+            "trojan",
             "ss",
-            "vless",
             "vmess",
-            "trojan"
+            "vless"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2586,9 +2586,9 @@
     "v2ray_free_conf": {
         "types": [
             "ss",
+            "vless",
             "vmess",
-            "trojan",
-            "vless"
+            "trojan"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -2671,10 +2671,9 @@
     },
     "v2raych": {
         "types": [
-            "trojan",
             "vless",
-            "ss",
-            "vmess"
+            "vmess",
+            "trojan"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2raych.jpg"
@@ -2898,8 +2897,8 @@
     },
     "v2rayweb": {
         "types": [
-            "vless",
             "vmess",
+            "vless",
             "trojan"
         ],
         "title": "V2ray | VPN",
@@ -3395,8 +3394,8 @@
     },
     "zerobaipiao": {
         "types": [
-            "vmess",
             "trojan",
+            "vmess",
             "ss"
         ],
         "title": "免费节点 🏆【1小时前更新】",

@@ -99,7 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇷🇺 RU | 🔴 | vless | @NamiraNet | 69",
+                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇭🇰 HK | 🟢 | vless | @azarbayjab1 | 7",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
@@ -143,6 +143,7 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 13",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -199,7 +200,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -227,7 +227,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇷🇺 RU | 🔴 | vless | @NamiraNet | 69",
+                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇭🇰 HK | 🟢 | vless | @azarbayjab1 | 7",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
@@ -271,6 +271,7 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 13",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -327,7 +328,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -375,13 +375,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraNet | 69",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
             "type": "vless",
-            "server": "95.141.205.39",
-            "server_port": 7557,
-            "uuid": "2e3bb27c-ab28-4ddb-9e33-7c5874b4d25a",
+            "server": "178.162.244.224",
+            "server_port": 443,
+            "uuid": "83a85a41-fb7f-43e0-9c15-d199509a9624",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "178.162.244.224",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇭🇰 HK | 🟢 | vless | @azarbayjab1 | 7",
@@ -1160,6 +1169,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "116.202.177.190"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
+            "type": "vless",
+            "server": "138.199.168.187",
+            "server_port": 28153,
+            "uuid": "8611dbb2-fdd5-4ba3-b06f-bc10bb75deeb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wIyC9CuOB33Hx1HbHnx_0JZXypmEink7icN0rWmzTlE",
+                    "short_id": "b6f9"
                 }
             }
         },
@@ -2208,31 +2240,6 @@
                 "path": "/?ed=2560",
                 "headers": {
                     "Host": "v2raylandd-66-irancell.utsxgao.workers.DeV"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8443,
-            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lease-10.access.name.ng",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "lease-10.access.name.ng"
                 }
             }
         },
