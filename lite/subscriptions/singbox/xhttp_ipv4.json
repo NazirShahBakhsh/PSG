@@ -102,7 +102,7 @@
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 10",
-                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 19"
+                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 10"
             ],
             "interrupt_exist_connections": false
         },
@@ -114,7 +114,7 @@
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 10",
-                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 19"
+                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 10"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -198,9 +198,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @v2rayweb | 19",
+            "tag": "🇩🇪 DE | 🔴 | vless | @v2rayweb | 10",
             "type": "vless",
-            "server": "91.99.222.180",
+            "server": "91.99.98.90",
             "server_port": 8443,
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
