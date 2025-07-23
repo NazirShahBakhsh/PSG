@@ -128,6 +128,7 @@
                 "🇩🇪 DE | 🔴 | vless | @srovpn | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
+                "🇺🇸 US | 🔴 | vless | @v2aryng_vpn | 11",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 3",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇮🇷 IR | 🔴 | vless | @v2ray_iran88 | 9",
@@ -144,7 +145,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 16",
-                "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vmess_ir | 19",
+                "🇺🇸 US | 🟢 | vless | @vmess_ir | 19",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
@@ -195,6 +196,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 9",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -251,6 +253,7 @@
                 "🇩🇪 DE | 🔴 | vless | @srovpn | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
+                "🇺🇸 US | 🔴 | vless | @v2aryng_vpn | 11",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 3",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇮🇷 IR | 🔴 | vless | @v2ray_iran88 | 9",
@@ -267,7 +270,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 16",
-                "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vmess_ir | 19",
+                "🇺🇸 US | 🟢 | vless | @vmess_ir | 19",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
@@ -318,6 +321,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 9",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -904,6 +908,22 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2aryng_vpn | 11",
+            "type": "vless",
+            "server": "104.16.85.3",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/6TvG8D6HimXKgdp2?ed=2560",
+                "headers": {
+                    "Host": "104.16.85.3"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @v2ray_god | 3",
             "type": "vless",
             "server": "104.26.1.212",
@@ -1204,13 +1224,27 @@
             }
         },
         {
-            "tag": "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vmess_ir | 19",
+            "tag": "🇺🇸 US | 🟢 | vless | @vmess_ir | 19",
             "type": "vless",
-            "server": "104.16.85.3",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "103.175.79.10",
+            "server_port": 443,
+            "uuid": "49ed01ad-3bb4-204f-b0ff-a58f658fd618",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
@@ -2141,6 +2175,15 @@
                     "Host": "v2raylandd-66-irancell.utsxgao.workers.DeV"
                 }
             }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vless | @v2rayweb | 9",
+            "type": "vless",
+            "server": "s.seyedshakan.ir",
+            "server_port": 2080,
+            "uuid": "8f4ce6ff-3756-4636-ac1c-7f21427aa118",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",

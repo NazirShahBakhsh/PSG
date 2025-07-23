@@ -105,7 +105,6 @@
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
-                "🇳🇱 NL | 🟢 | vless | @getconfigir | 19",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann | 15",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann2 | 5",
@@ -124,7 +123,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 0",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 119",
+                "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 126",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇮🇹 IT | 🔴 | vless | @server_nekobox | 2",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
@@ -136,7 +135,6 @@
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
                 "🇺🇸 US | 🔴 | vless | @vpnkanfik | 10",
-                "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 9",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 10",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 13"
@@ -154,7 +152,6 @@
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
-                "🇳🇱 NL | 🟢 | vless | @getconfigir | 19",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann | 15",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann2 | 5",
@@ -173,7 +170,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 0",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 119",
+                "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 126",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇮🇹 IT | 🔴 | vless | @server_nekobox | 2",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 3",
@@ -185,7 +182,6 @@
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
                 "🇺🇸 US | 🔴 | vless | @vpnkanfik | 10",
-                "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 9",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 10",
                 "🇺🇸 US | 🔴 | vless | @xpnteam | 13"
@@ -336,29 +332,6 @@
                     "enabled": true,
                     "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
                     "short_id": "dc5db021ae2038a9"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @getconfigir | 19",
-            "type": "vless",
-            "server": "128.199.60.37",
-            "server_port": 4653,
-            "uuid": "8c43d6c5-ecc1-407b-949f-5b17266dafea",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
-                    "short_id": ""
                 }
             }
         },
@@ -682,7 +655,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 119",
+            "tag": "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 126",
             "type": "vless",
             "server": "199.247.28.17",
             "server_port": 44914,
@@ -886,29 +859,6 @@
             "uuid": "47bc8a56-89bb-43fd-bcba-4ef013ca1786",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇦🇪 AE | 🟢 | vless | @vpnplusee_free | 9",
-            "type": "vless",
-            "server": "130.185.122.252",
-            "server_port": 28964,
-            "uuid": "9987a847-5e57-440c-890e-33fd179af6ff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.bing.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "aaKkZMXLmcOEj1Gt7uEpXU5buAKh9V33PiRwJvuOqXs",
-                    "short_id": "5405"
-                }
-            }
         },
         {
             "tag": "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",

@@ -100,7 +100,8 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 10",
+                "🇺🇸 US | 🟢 | trojan | @hope_net | 19",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -111,7 +112,6 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 10",
                 "🇮🇷 IR | 🟢 | trojan | @vaslvip | 9",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
@@ -123,7 +123,8 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 10",
+                "🇺🇸 US | 🟢 | trojan | @hope_net | 19",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -134,7 +135,6 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 10",
                 "🇮🇷 IR | 🟢 | trojan | @vaslvip | 9",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
@@ -193,11 +193,34 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 10",
+            "tag": "🇺🇸 US | 🟢 | trojan | @hope_net | 19",
             "type": "trojan",
-            "server": "13c2c931-swin40-swy6li-tni2.cu.plebai.net",
+            "server": "pscresearch.faculty.ucdavis.edu",
+            "server_port": 443,
+            "password": "d6b6ea41-0950-4611-8246-224583e4ed1e",
+            "tls": {
+                "enabled": true,
+                "server_name": "pscresearch.faculty.ucdavis.edu",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/?ed=2048",
+                "headers": {
+                    "Host": "pscresearch.faculty.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
+            "type": "trojan",
+            "server": "391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net",
             "server_port": 15229,
-            "password": "5e2f888c-68ef-11ef-96ca-f23c9164ca5d"
+            "password": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -392,29 +415,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayweb | 10",
-            "type": "trojan",
-            "server": "dry-snowflake-b29f.vpnetwork3567.workers.dev",
-            "server_port": 443,
-            "password": "0EBCBB23-C337-0909-4655-BC85BCDCFC02",
-            "tls": {
-                "enabled": true,
-                "server_name": "dry-snowflake-b29f.vpnetwork3567.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "dry-snowflake-b29f.vpnetwork3567.workers.dev"
                 }
             }
         },
