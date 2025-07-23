@@ -100,7 +100,7 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇺🇸 US | 🟢 | trojan | @hope_net | 15",
+                "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 11",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -111,7 +111,6 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 9",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
             "interrupt_exist_connections": false
@@ -122,7 +121,7 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇺🇸 US | 🟢 | trojan | @hope_net | 15",
+                "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 11",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -133,7 +132,6 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 9",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -191,25 +189,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @hope_net | 15",
+            "tag": "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 11",
             "type": "trojan",
-            "server": "pscresearch.faculty.ucdavis.edu",
+            "server": "stirring-parakeet.shiner427.skin",
             "server_port": 443,
-            "password": "d6b6ea41-0950-4611-8246-224583e4ed1e",
+            "password": "74260628090146500",
             "tls": {
                 "enabled": true,
-                "server_name": "pscresearch.faculty.ucdavis.edu",
+                "server_name": "stirring-parakeet.shiner427.skin",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/?ed=2048",
-                "headers": {
-                    "Host": "pscresearch.faculty.ucdavis.edu"
                 }
             }
         },
@@ -402,22 +393,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🟢 | trojan | @vaslvip | 9",
-            "type": "trojan",
-            "server": "iranpet.dtpetshop.com",
-            "server_port": 443,
-            "password": "cSbZXtsrr3",
-            "tls": {
-                "enabled": true,
-                "server_name": "iranpet.dtpetshop.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

@@ -115,6 +115,7 @@
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
                 "🇺🇸 US | 🔴 | vmess | @tawanaclub | 2",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
+                "🇮🇷 IR | 🔴 | vmess | @v2ray_sub | 9",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
@@ -147,6 +148,7 @@
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
                 "🇺🇸 US | 🔴 | vmess | @tawanaclub | 2",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
+                "🇮🇷 IR | 🔴 | vmess | @v2ray_sub | 9",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇮🇷 IR | 🔴 | vmess | @v2rayngfast | 20",
@@ -415,6 +417,22 @@
             "uuid": "7ca6c13a-e450-49fa-9b9c-b49a6eda5b79",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vmess | @v2ray_sub | 9",
+            "type": "vmess",
+            "server": "37.202.225.74",
+            "server_port": 40521,
+            "uuid": "b368a86e-6fbc-431c-9f05-6e1fab896858",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
