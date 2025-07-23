@@ -114,9 +114,10 @@
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇺🇸 US | 🔴 | vless | @lranonline_new | 7",
                 "❔ XX | 🔴 | vless | @mafiav2ray | 16",
                 "❔ XX | 🟢 | vless | @mastervpnshop1 | 17",
-                "🇺🇸 US | 🟢 | vless | @mimitdl | 5",
+                "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "🇨🇦 CA | 🟢 | vless | @n2vpn | 9",
                 "🇺🇸 US | 🟢 | vless | @nepo_v2ray | 23",
@@ -141,7 +142,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 9",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 9",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -181,9 +182,10 @@
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇺🇸 US | 🔴 | vless | @lranonline_new | 7",
                 "❔ XX | 🔴 | vless | @mafiav2ray | 16",
                 "❔ XX | 🟢 | vless | @mastervpnshop1 | 17",
-                "🇺🇸 US | 🟢 | vless | @mimitdl | 5",
+                "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "🇨🇦 CA | 🟢 | vless | @n2vpn | 9",
                 "🇺🇸 US | 🟢 | vless | @nepo_v2ray | 23",
@@ -208,7 +210,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 9",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 9",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -522,6 +524,15 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @lranonline_new | 7",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2086,
+            "uuid": "15afc020-bec1-4e06-dbdb-75f89a2c1a67",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "❔ XX | 🔴 | vless | @mafiav2ray | 16",
             "type": "vless",
             "server": "bloo-netflix23.maj.gamerme.ir",
@@ -560,11 +571,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @mimitdl | 5",
+            "tag": "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "8d10333a-edf1-4474-a2d9-576a30fdf44a",
+            "uuid": "8d10333a-edf1-4475-a2d9-576a30fdf44a",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
@@ -1043,13 +1054,20 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @v2rayweb | 9",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 9",
             "type": "vless",
-            "server": "s.seyedshakan.ir",
-            "server_port": 2080,
-            "uuid": "8f4ce6ff-3756-4636-ac1c-7f21427aa118",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "57aeb444-ec88-4693-bb76-95b5c4620b6d",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "tgju.org"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
