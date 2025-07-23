@@ -100,9 +100,9 @@
                 "URL-TEST",
                 "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
-                "🇫🇮 FI | 🟢 | ss | @configshubplus | 16",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @g0dv2ray | 10",
+                "🇳🇱 NL | 🟢 | ss | @ip_cf_config | 12",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -116,7 +116,7 @@
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
                 "❔ XX | 🟢 | ss | @shadowsockskeys | 15",
-                "🇱🇻 LV | 🟢 | ss | @v2ray_free_conf | 16",
+                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
@@ -132,9 +132,9 @@
             "outbounds": [
                 "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
-                "🇫🇮 FI | 🟢 | ss | @configshubplus | 16",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @g0dv2ray | 10",
+                "🇳🇱 NL | 🟢 | ss | @ip_cf_config | 12",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -148,7 +148,7 @@
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
                 "❔ XX | 🟢 | ss | @shadowsockskeys | 15",
-                "🇱🇻 LV | 🟢 | ss | @v2ray_free_conf | 16",
+                "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
@@ -190,14 +190,6 @@
             "password": "M2E4ZGY2ZjI5MzU2ODAxMjEwYzgyNzQ0MGM5NGUy"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | ss | @configshubplus | 16",
-            "type": "shadowsocks",
-            "server": "rusrv.vpnsparta.pro",
-            "server_port": 57456,
-            "method": "chacha20-ietf-poly1305",
-            "password": "360e21d21977dc11"
-        },
-        {
             "tag": "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
@@ -212,6 +204,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "1xO2cqPazqjGfCfd"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | ss | @ip_cf_config | 12",
+            "type": "shadowsocks",
+            "server": "beesyar.org",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
@@ -318,12 +318,12 @@
             "password": "CH5xv3A7JA6sLKzEhLpm81Y4GHi9nUiHWxtYU4eMLabhpX8DrCaveoqhTTNVkZdHe3ocQFx843hnCNpRdPeibgvM1mYNPRuM"
         },
         {
-            "tag": "🇱🇻 LV | 🟢 | ss | @v2ray_free_conf | 16",
+            "tag": "🇺🇸 US | 🟢 | ss | @v2ray_free_conf | 19",
             "type": "shadowsocks",
-            "server": "lv.vpnsparta.pro",
-            "server_port": 57456,
+            "server": "ltnl16.saint.ydns.eu",
+            "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "360e21d21977dc11"
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",

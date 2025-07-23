@@ -136,6 +136,7 @@
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
+                "🇳🇱 NL | 🟢 | vless | @getconfigir | 17",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann | 17",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann | 19",
@@ -217,6 +218,7 @@
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
+                "🇳🇱 NL | 🟢 | vless | @getconfigir | 17",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann | 17",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann | 19",
@@ -729,6 +731,29 @@
                     "enabled": true,
                     "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
                     "short_id": "dc5db021ae2038a9"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @getconfigir | 17",
+            "type": "vless",
+            "server": "199.247.28.17",
+            "server_port": 44914,
+            "uuid": "06e3029a-bab5-455b-9fbc-e555e5c1caed",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "black-moai.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "o1n1Qj_IBvl3xGDkMPzmuRJzKKW31L_r9kEeyW7e3F8",
+                    "short_id": "1ac2a2dde288"
                 }
             }
         },
