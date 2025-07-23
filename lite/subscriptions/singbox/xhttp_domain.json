@@ -100,6 +100,7 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
+                "🇺🇸 US | 🔴 | vless | @lranonline_new | 4",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16"
             ],
             "interrupt_exist_connections": false
@@ -110,6 +111,7 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
+                "🇺🇸 US | 🔴 | vless | @lranonline_new | 4",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -144,6 +146,15 @@
             "server": "s5.1dnt.k-l.cloud",
             "server_port": 80,
             "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @lranonline_new | 4",
+            "type": "vless",
+            "server": "CoNFiGLiNE.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE",
             "flow": "",
             "packet_encoding": "xudp"
         },
