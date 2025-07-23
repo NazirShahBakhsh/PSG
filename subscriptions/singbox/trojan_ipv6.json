@@ -98,8 +98,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔ XX | 🔴 | trojan | @freevpnatm | 11",
-                "❔ XX | 🟢 | trojan | @freevpnatm | 12",
                 "❔ XX | 🔴 | trojan | @freevpnatm | 13"
             ],
             "interrupt_exist_connections": false
@@ -108,8 +106,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔ XX | 🔴 | trojan | @freevpnatm | 11",
-                "❔ XX | 🟢 | trojan | @freevpnatm | 12",
                 "❔ XX | 🔴 | trojan | @freevpnatm | 13"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -130,11 +126,11 @@
             "type": "dns"
         },
         {
-            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 11",
+            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 13",
             "type": "trojan",
             "server": "[2606:4700:3030::6815:2001]",
             "server_port": 443,
-            "password": "a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2",
+            "password": "b8992384-c118-43a7-97aa-8f8423f19169",
             "tls": {
                 "enabled": true,
                 "server_name": "[2606:4700:3030::6815:2001]",
@@ -149,49 +145,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "[2606:4700:3030::6815:2001]"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | trojan | @freevpnatm | 12",
-            "type": "trojan",
-            "server": "[2606:4700:3030::6815:2001]",
-            "server_port": 443,
-            "password": "a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2",
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "mFvK3LJyIAiopgjLp4v"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 13",
-            "type": "trojan",
-            "server": "[2606:4700:3031::ac43:ac47]",
-            "server_port": 443,
-            "password": "a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2",
-            "tls": {
-                "enabled": true,
-                "server_name": "[2606:4700:3031::ac43:ac47]",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "[2606:4700:3031::ac43:ac47]"
                 }
             }
         }

@@ -99,7 +99,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇭🇰 HK | 🟢 | vless | @azarbayjab1 | 7",
@@ -224,7 +223,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 15",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -266,7 +265,8 @@
                 "❔ XX | 🟢 | vless | @yekoyekvpn | 0",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
+                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 49"
             ],
             "interrupt_exist_connections": false
         },
@@ -275,7 +275,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇭🇰 HK | 🟢 | vless | @azarbayjab1 | 7",
@@ -400,7 +399,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 15",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -442,7 +441,8 @@
                 "❔ XX | 🟢 | vless | @yekoyekvpn | 0",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
+                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 49"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -469,24 +469,6 @@
             "uuid": "a804bb53-7504-4f06-96d8-ff56fb71539d",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
-            "type": "vless",
-            "server": "178.162.244.224",
-            "server_port": 443,
-            "uuid": "83a85a41-fb7f-43e0-9c15-d199509a9624",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "178.162.244.224",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0",
@@ -2519,16 +2501,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 15",
             "type": "vless",
-            "server": "138.199.168.187",
-            "server_port": 28153,
-            "uuid": "8611dbb2-fdd5-4ba3-b06f-bc10bb75deeb",
+            "server": "172.233.164.237",
+            "server_port": 80,
+            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "zhaket.com",
+                "server_name": "zula.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -2536,8 +2518,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "wIyC9CuOB33Hx1HbHnx_0JZXypmEink7icN0rWmzTlE",
-                    "short_id": "b6f9"
+                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
+                    "short_id": "94aa1bdc"
                 }
             }
         },
@@ -3243,6 +3225,24 @@
             "uuid": "e7cc66ec-4b16-42c9-bbc8-20283e67d656",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraNet | 49",
+            "type": "vless",
+            "server": "178.162.244.224",
+            "server_port": 443,
+            "uuid": "83a85a41-fb7f-43e0-9c15-d199509a9624",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "178.162.244.224",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
