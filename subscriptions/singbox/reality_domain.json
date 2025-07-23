@@ -104,6 +104,8 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 14",
+                "🇬🇧 GB | 🟢 | vless | @config_proxy | 37",
+                "🇬🇧 GB | 🟢 | vless | @config_proxy | 38",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "🇫🇮 FI | 🟢 | vless | @configfa | 44",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
@@ -145,7 +147,7 @@
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 9",
                 "❔ XX | 🟢 | vless | @public504 | 11",
-                "🇬🇧 GB | 🟢 | vless | @savagenet | 0",
+                "❔ XX | 🟢 | vless | @savagenet | 0",
                 "❔ XX | 🟢 | vless | @tc_v2ray | 1",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "🇳🇱 NL | 🟢 | vless | @turboo_server | 2",
@@ -153,7 +155,7 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
@@ -174,6 +176,8 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 14",
+                "🇬🇧 GB | 🟢 | vless | @config_proxy | 37",
+                "🇬🇧 GB | 🟢 | vless | @config_proxy | 38",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "🇫🇮 FI | 🟢 | vless | @configfa | 44",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
@@ -215,7 +219,7 @@
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 9",
                 "❔ XX | 🟢 | vless | @public504 | 11",
-                "🇬🇧 GB | 🟢 | vless | @savagenet | 0",
+                "❔ XX | 🟢 | vless | @savagenet | 0",
                 "❔ XX | 🟢 | vless | @tc_v2ray | 1",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "🇳🇱 NL | 🟢 | vless | @turboo_server | 2",
@@ -223,7 +227,7 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
@@ -393,6 +397,60 @@
                     "public_key": "wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM",
                     "short_id": "c7bc4d"
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🟢 | vless | @config_proxy | 37",
+            "type": "vless",
+            "server": "DailyConfigs.resurrection-time.sbs",
+            "server_port": 17033,
+            "uuid": "00a3fe78-3443-4a2d-9ee8-4bc1af665d0f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "python.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vzP6PwyPGVvccDhVpT3JN3GmRCJVeGd0rPTQPrYY4Xk",
+                    "short_id": "b2233653bbd913b1"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Dailyconfigs-Dailyconfigs-Dailyconfigs-Dailyconfigs-Dailyconfigs-Dailyconfigs-Dailyconfigs-Dailyconfigs?ed=443"
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🟢 | vless | @config_proxy | 38",
+            "type": "vless",
+            "server": "DailyConfigs.resurrection-time.sbs",
+            "server_port": 40735,
+            "uuid": "7b58c33c-92f9-4a8f-97cc-e9460e060e68",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "github.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zOCZ24y2Y3T5D1v69NJ15rDUp1WZJOSWHTM1I0hqOTc",
+                    "short_id": "10"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Dailyconfigs-Dailyconfigs-Dailyconfigs-Dailyconfigs-Dailyconfigs-Dailyconfigs-Dailyconfigs-Dailyconfigs?ed=443"
             }
         },
         {
@@ -1422,7 +1480,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | vless | @savagenet | 0",
+            "tag": "❔ XX | 🟢 | vless | @savagenet | 0",
             "type": "vless",
             "server": "dash.svgspeedtest.net",
             "server_port": 7852,
@@ -1614,7 +1672,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

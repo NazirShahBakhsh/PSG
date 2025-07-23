@@ -223,7 +223,8 @@
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
+                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 13",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -236,7 +237,7 @@
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 13",
+                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 14",
                 "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | ss | @vpidiamond | 9",
@@ -397,7 +398,8 @@
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
+                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 13",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -410,7 +412,7 @@
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 13",
+                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 14",
                 "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | ss | @vpidiamond | 9",
@@ -2006,16 +2008,16 @@
         {
             "tag": "🇺🇸 US | 🔴 | vless | @v2ray_extractor | 19",
             "type": "vless",
-            "server": "104.17.1.197",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "server": "Hh.somo44.sbs",
+            "server_port": 8080,
+            "uuid": "9471a8c4-2f95-4a95-b869-5e31b9bc4a9b",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/1ycR2zb3KeELWRha?ed=2560",
+                "path": "/hhvghhv",
                 "headers": {
-                    "Host": "104.17.1.197"
+                    "Host": "Hh.somo44.sbs"
                 }
             }
         },
@@ -2491,9 +2493,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 13",
             "type": "trojan",
-            "server": "13.36.14.125",
+            "server": "3.78.11.46",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
@@ -2503,6 +2505,22 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
+            "type": "vless",
+            "server": "grounded-brother.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "grounded-brother.seotoolsforyou.co.uk"
                 }
             }
         },
@@ -2685,9 +2703,9 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 13",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vlessconfig | 14",
             "type": "vless",
-            "server": "13.36.14.125",
+            "server": "3.78.11.46",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
