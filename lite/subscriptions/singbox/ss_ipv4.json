@@ -109,7 +109,6 @@
                 "🇺🇸 US | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
-                "🇫🇮 FI | 🟢 | ss | @vmess_ir | 19",
                 "🇱🇹 LT | 🟢 | ss | @vpn_ioss | 16"
             ],
             "interrupt_exist_connections": false
@@ -129,7 +128,6 @@
                 "🇺🇸 US | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
-                "🇫🇮 FI | 🟢 | ss | @vmess_ir | 19",
                 "🇱🇹 LT | 🟢 | ss | @vpn_ioss | 16"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -236,14 +234,6 @@
             "server_port": 5601,
             "method": "aes-256-gcm",
             "password": "Y6R9pAtvxxzmGC"
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | ss | @vmess_ir | 19",
-            "type": "shadowsocks",
-            "server": "83.147.216.70",
-            "server_port": 64519,
-            "method": "chacha20-ietf-poly1305",
-            "password": "YXgS8ComTam7qoesPlzlMo"
         },
         {
             "tag": "🇱🇹 LT | 🟢 | ss | @vpn_ioss | 16",

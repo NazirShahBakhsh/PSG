@@ -99,7 +99,6 @@
             "outbounds": [
                 "URL-TEST",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇺🇸 US | 🟢 | vless | @iseqaro | 2",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
@@ -113,7 +112,6 @@
             "type": "urltest",
             "outbounds": [
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇺🇸 US | 🟢 | vless | @iseqaro | 2",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
@@ -162,29 +160,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@FsV2ray"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @iseqaro | 2",
-            "type": "vless",
-            "server": "uuk6v.tok8888.com",
-            "server_port": 45445,
-            "uuid": "6e719400-b88e-4ab0-a05b-089d6cd3bcaa",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.webilop.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "safari"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yDkCTYl7Ap0XeU9PNv_kBY9BwQrgYZPIov-MXvpf7R8",
-                    "short_id": ""
-                }
             }
         },
         {
