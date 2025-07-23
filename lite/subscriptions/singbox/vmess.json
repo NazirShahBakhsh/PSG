@@ -102,12 +102,11 @@
                 "❔ XX | 🔴 | vmess | @configforvpn01 | 9",
                 "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
                 "🇨🇦 CA | 🔴 | vmess | @free4allvpn | 14",
-                "🇨🇦 CA | 🔴 | vmess | @freev2rays | 19",
+                "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
                 "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
                 "❔ XX | 🔴 | vmess | @net_azad_1 | 12",
-                "🇩🇪 DE | 🔴 | vmess | @prrofile_purple | 122",
                 "❔ XX | 🔴 | vmess | @savagenet | 1",
                 "🇩🇪 DE | 🔴 | vmess | @selinc | 4",
                 "🇩🇪 DE | 🔴 | vmess | @sezar_sec | 1",
@@ -135,12 +134,11 @@
                 "❔ XX | 🔴 | vmess | @configforvpn01 | 9",
                 "🇫🇷 FR | 🟢 | vmess | @configsstore | 7",
                 "🇨🇦 CA | 🔴 | vmess | @free4allvpn | 14",
-                "🇨🇦 CA | 🔴 | vmess | @freev2rays | 19",
+                "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
                 "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
                 "❔ XX | 🔴 | vmess | @net_azad_1 | 12",
-                "🇩🇪 DE | 🔴 | vmess | @prrofile_purple | 122",
                 "❔ XX | 🔴 | vmess | @savagenet | 1",
                 "🇩🇪 DE | 🔴 | vmess | @selinc | 4",
                 "🇩🇪 DE | 🔴 | vmess | @sezar_sec | 1",
@@ -233,7 +231,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vmess | @freev2rays | 19",
+            "tag": "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
             "type": "vmess",
             "server": "cloudgetservice.mcloudservice.site",
             "server_port": 443,
@@ -315,22 +313,6 @@
             "uuid": "471db8a5-8715-4fcb-9522-fdd78d2c1904",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @prrofile_purple | 122",
-            "type": "vmess",
-            "server": "51.68.191.233",
-            "server_port": 80,
-            "uuid": "f0eda072-9ae8-494c-a495-215fa5729467",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/vmess/",
-                "headers": {
-                    "Host": ""
-                }
-            }
         },
         {
             "tag": "❔ XX | 🔴 | vmess | @savagenet | 1",

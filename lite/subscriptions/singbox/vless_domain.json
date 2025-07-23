@@ -119,9 +119,9 @@
                 "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "🇨🇦 CA | 🟢 | vless | @n2vpn | 9",
-                "🇨🇦 CA | 🟢 | vless | @nepo_v2ray | 23",
+                "🇺🇸 US | 🟢 | vless | @nepo_v2ray | 23",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
-                "🇨🇦 CA | 🟢 | vless | @ohvpn | 17",
+                "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
                 "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 13",
@@ -141,12 +141,12 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
-                "🇫🇷 FR | 🟢 | vless | @vpnaloo | 15",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
@@ -185,9 +185,9 @@
                 "🇺🇸 US | 🟢 | vless | @mimitdl | 6",
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "🇨🇦 CA | 🟢 | vless | @n2vpn | 9",
-                "🇨🇦 CA | 🟢 | vless | @nepo_v2ray | 23",
+                "🇺🇸 US | 🟢 | vless | @nepo_v2ray | 23",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
-                "🇨🇦 CA | 🟢 | vless | @ohvpn | 17",
+                "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
                 "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 13",
@@ -207,12 +207,12 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
-                "🇫🇷 FR | 🟢 | vless | @vpnaloo | 15",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
@@ -617,7 +617,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @nepo_v2ray | 23",
+            "tag": "🇺🇸 US | 🟢 | vless | @nepo_v2ray | 23",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 2083,
@@ -666,7 +666,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @ohvpn | 17",
+            "tag": "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 2096,
@@ -1041,6 +1041,24 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 16",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "25cff889-0921-40a9-814b-15d3af3bbc58",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ru2.asc-sam.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
             "type": "vless",
             "server": "www.parsvds.ir",
@@ -1119,29 +1137,6 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "cv.rxteam.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | vless | @vpnaloo | 15",
-            "type": "vless",
-            "server": "fr.momashost.ir",
-            "server_port": 8086,
-            "uuid": "f48ce62c-85cb-422f-9478-7d049b781ac7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cBiruUOymQvzSQnjAD7aaFXgZ45EDbVAEaxf3zxbg1o",
-                    "short_id": "fd7cbbe42ad29796"
                 }
             }
         },
