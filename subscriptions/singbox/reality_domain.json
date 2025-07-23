@@ -104,7 +104,6 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 14",
-                "🇫🇷 FR | 🟢 | vless | @config_proxy | 19",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "🇫🇮 FI | 🟢 | vless | @configfa | 44",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
@@ -133,7 +132,7 @@
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "❔ XX | 🟢 | vless | @kkkkkoabvbbvbvv | 9",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 16",
+                "🇩🇪 DE | 🟢 | vless | @netmellianti | 14",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
@@ -160,9 +159,6 @@
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
-                "❔ XX | 🟢 | vless | @webshecan | 9",
-                "❔ XX | 🟢 | vless | @webshecan | 10",
-                "❔ XX | 🟢 | vless | @webshecan | 11",
                 "❔ XX | 🟢 | vless | @xsv2ray | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
             ],
@@ -178,7 +174,6 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 14",
-                "🇫🇷 FR | 🟢 | vless | @config_proxy | 19",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "🇫🇮 FI | 🟢 | vless | @configfa | 44",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
@@ -207,7 +202,7 @@
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "❔ XX | 🟢 | vless | @kkkkkoabvbbvbvv | 9",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 16",
+                "🇩🇪 DE | 🟢 | vless | @netmellianti | 14",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
@@ -234,9 +229,6 @@
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
-                "❔ XX | 🟢 | vless | @webshecan | 9",
-                "❔ XX | 🟢 | vless | @webshecan | 10",
-                "❔ XX | 🟢 | vless | @webshecan | 11",
                 "❔ XX | 🟢 | vless | @xsv2ray | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
             ],
@@ -400,29 +392,6 @@
                     "enabled": true,
                     "public_key": "wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM",
                     "short_id": "c7bc4d"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | vless | @config_proxy | 19",
-            "type": "vless",
-            "server": "hp.mastertunnel.shop",
-            "server_port": 2096,
-            "uuid": "474494eb-e8ef-402e-be1c-f9670fcf3f33",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Un5haKCXEnekiryaRDLmOHCGEufZfseV6IpdKHnav3M",
-                    "short_id": "089604fd79ac01fd"
                 }
             }
         },
@@ -1142,7 +1111,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @netmellianti | 16",
+            "tag": "🇩🇪 DE | 🟢 | vless | @netmellianti | 14",
             "type": "vless",
             "server": "balanced-de.irancdngame.com",
             "server_port": 2012,
@@ -1779,75 +1748,6 @@
                     "enabled": true,
                     "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
                     "short_id": "6bb85179e30d4fc2"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @webshecan | 9",
-            "type": "vless",
-            "server": "webshecan.webredirect.org",
-            "server_port": 2087,
-            "uuid": "f6b91664-0903-4063-8e15-dba1bc9ee9a2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2M6UwPCIFyRuf41xzoiHRo_5DUDNBs8lfe-sK3c8-Dw",
-                    "short_id": "53242a95"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @webshecan | 10",
-            "type": "vless",
-            "server": "webshecan.webredirect.org",
-            "server_port": 2083,
-            "uuid": "89eeb27d-1a8c-4d84-9ca4-75d614d19900",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.theverge.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TTyvgA7WXFTrzGfnc3n2thNNEcWc_GWReVsvs5Gd9D4",
-                    "short_id": "7f321171"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @webshecan | 11",
-            "type": "vless",
-            "server": "webshecan.webredirect.org",
-            "server_port": 2087,
-            "uuid": "8f646a01-2cc1-4270-ad43-f87e157e4d44",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2M6UwPCIFyRuf41xzoiHRo_5DUDNBs8lfe-sK3c8-Dw",
-                    "short_id": "53242a95"
                 }
             }
         },

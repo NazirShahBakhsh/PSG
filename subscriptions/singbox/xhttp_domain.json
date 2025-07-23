@@ -100,7 +100,6 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
-                "🇫🇷 FR | 🟢 | vless | @config_proxy | 19",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 17",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -120,13 +119,13 @@
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 16",
-                "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 3",
+                "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 2",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 3",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 15",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 14",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
@@ -138,7 +137,6 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
-                "🇫🇷 FR | 🟢 | vless | @config_proxy | 19",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @confing_chanel | 17",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -158,13 +156,13 @@
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 16",
-                "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 3",
+                "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 2",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 3",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 15",
+                "🇺🇸 US | 🔴 | vless | @vmess_ir | 14",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
@@ -214,29 +212,6 @@
                     "enabled": true,
                     "public_key": "53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk",
                     "short_id": "aeba"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | vless | @config_proxy | 19",
-            "type": "vless",
-            "server": "hp.mastertunnel.shop",
-            "server_port": 2096,
-            "uuid": "474494eb-e8ef-402e-be1c-f9670fcf3f33",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Un5haKCXEnekiryaRDLmOHCGEufZfseV6IpdKHnav3M",
-                    "short_id": "089604fd79ac01fd"
                 }
             }
         },
@@ -421,7 +396,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 3",
+            "tag": "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 2",
             "type": "vless",
             "server": "s2.1dnt.k-l.cloud",
             "server_port": 80,
@@ -493,7 +468,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 15",
+            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 14",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,

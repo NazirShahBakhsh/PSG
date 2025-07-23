@@ -99,9 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-                "🇺🇸 US | 🔴 | vless | @config_proxy | 18",
                 "🇺🇸 US | 🔴 | vless | @configfa | 40",
-                "🇳🇱 NL | 🟢 | vless | @configshubplus | 16",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇫🇮 FI | 🟢 | vless | @dailyv2ry | 112",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
@@ -152,9 +150,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-                "🇺🇸 US | 🔴 | vless | @config_proxy | 18",
                 "🇺🇸 US | 🔴 | vless | @configfa | 40",
-                "🇳🇱 NL | 🟢 | vless | @configshubplus | 16",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇫🇮 FI | 🟢 | vless | @dailyv2ry | 112",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 3",
@@ -239,24 +235,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @config_proxy | 18",
-            "type": "vless",
-            "server": "198.58.116.209",
-            "server_port": 443,
-            "uuid": "2a0e68d1-56e9-43cc-802f-5cbc617e8e98",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "198.58.116.209",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @configfa | 40",
             "type": "vless",
             "server": "198.58.118.49",
@@ -271,29 +249,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @configshubplus | 16",
-            "type": "vless",
-            "server": "199.247.28.17",
-            "server_port": 44914,
-            "uuid": "06e3029a-bab5-455b-9fbc-e555e5c1caed",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "black-moai.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "o1n1Qj_IBvl3xGDkMPzmuRJzKKW31L_r9kEeyW7e3F8",
-                    "short_id": "1ac2a2dde288"
                 }
             }
         },
