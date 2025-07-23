@@ -105,13 +105,12 @@
                 "🇬🇧 GB | 🟢 | ss | @g0dv2ray | 10",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
-                "🇩🇪 DE | 🟢 | ss | @mowjproxy | 1",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 0",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 1",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "🇳🇱 NL | 🟢 | ss | @outline_ir | 15",
-                "🇳🇱 NL | 🟢 | ss | @outline_vpn | 27",
+                "🇺🇸 US | 🟢 | ss | @outline_vpn | 27",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
                 "🇬🇧 GB | 🟢 | ss | @prroxyng | 0",
                 "❔ XX | 🟢 | ss | @public504 | 7",
@@ -122,8 +121,7 @@
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 26",
-                "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
-                "🇹🇷 TR | 🟢 | ss | @vpn_ioss | 16"
+                "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0"
             ],
             "interrupt_exist_connections": false
         },
@@ -138,13 +136,12 @@
                 "🇬🇧 GB | 🟢 | ss | @g0dv2ray | 10",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
-                "🇩🇪 DE | 🟢 | ss | @mowjproxy | 1",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 0",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 1",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "🇳🇱 NL | 🟢 | ss | @outline_ir | 15",
-                "🇳🇱 NL | 🟢 | ss | @outline_vpn | 27",
+                "🇺🇸 US | 🟢 | ss | @outline_vpn | 27",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
                 "🇬🇧 GB | 🟢 | ss | @prroxyng | 0",
                 "❔ XX | 🟢 | ss | @public504 | 7",
@@ -155,8 +152,7 @@
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 26",
-                "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0",
-                "🇹🇷 TR | 🟢 | ss | @vpn_ioss | 16"
+                "🇬🇧 GB | 🟢 | ss | @vmess_iran | 0"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -232,14 +228,6 @@
             "password": "2be0c954-4291-45ea-b47d-ca713180550b"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | ss | @mowjproxy | 1",
-            "type": "shadowsocks",
-            "server": "xcel0dooz.pet0er23mh21qq.com",
-            "server_port": 1080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "bCmNtjuyczgcKj2s3P3eBg"
-        },
-        {
             "tag": "❔ XX | 🟢 | ss | @mt_proxy | 4",
             "type": "shadowsocks",
             "server": "www2.broadalx.cfd",
@@ -280,7 +268,7 @@
             "password": "9tqhMdIrTkgQ46PvhyAtMH"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @outline_vpn | 27",
+            "tag": "🇺🇸 US | 🟢 | ss | @outline_vpn | 27",
             "type": "shadowsocks",
             "server": "beesyar.org",
             "server_port": 8080,
@@ -374,14 +362,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "1xO2cqPazqjGfCfd"
-        },
-        {
-            "tag": "🇹🇷 TR | 🟢 | ss | @vpn_ioss | 16",
-            "type": "shadowsocks",
-            "server": "tr.vpnsparta.pro",
-            "server_port": 57456,
-            "method": "chacha20-ietf-poly1305",
-            "password": "c40641c1f89e7acb"
         }
     ],
     "route": {
