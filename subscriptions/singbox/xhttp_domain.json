@@ -110,7 +110,6 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 6",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 0",
-                "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=lake10.global.ssl.fastly.net&type=xhttp#🇺🇸 US | 🔴 | vless | @flyv2ray | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 1",
@@ -125,7 +124,6 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 3",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
-                "🇫🇮 FI | 🟢 | vless | @vpnplusee_free | 9",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
             "interrupt_exist_connections": false
@@ -146,7 +144,6 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 6",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 0",
-                "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=lake10.global.ssl.fastly.net&type=xhttp#🇺🇸 US | 🔴 | vless | @flyv2ray | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 1",
@@ -161,7 +158,6 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 6",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 3",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
-                "🇫🇮 FI | 🟢 | vless | @vpnplusee_free | 9",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -300,15 +296,6 @@
             "server": "server2.ultra-irancell.com",
             "server_port": 80,
             "uuid": "a707317c-2236-41c0-9c00-63e866401b25",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=lake10.global.ssl.fastly.net&type=xhttp#🇺🇸 US | 🔴 | vless | @flyv2ray | 3",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -464,29 +451,6 @@
             "uuid": "e018bfab-0902-47a0-abfc-7efbd017ec73",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @vpnplusee_free | 9",
-            "type": "vless",
-            "server": "speedtest.net.zula.ir.nobitex.ir.shakhle.ir",
-            "server_port": 39001,
-            "uuid": "15449e06-b519-414a-9e0d-fbb4a0fd2780",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y1o",
-                    "short_id": "f23547"
-                }
-            }
         },
         {
             "tag": "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
