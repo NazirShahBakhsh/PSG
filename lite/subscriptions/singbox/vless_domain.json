@@ -142,12 +142,13 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
+                "🇫🇮 FI | 🟢 | vless | @v2rayweb | 13",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
+                "🇫🇷 FR | 🟢 | vless | @vpnaloo | 15",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
@@ -210,12 +211,13 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
+                "🇫🇮 FI | 🟢 | vless | @v2rayweb | 13",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
+                "🇫🇷 FR | 🟢 | vless | @vpnaloo | 15",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
@@ -1056,18 +1058,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
+            "tag": "🇫🇮 FI | 🟢 | vless | @v2rayweb | 13",
             "type": "vless",
-            "server": "grounded-brother.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
-            "flow": "",
+            "server": "fn.momasvps.ir",
+            "server_port": 8085,
+            "uuid": "f48ce62c-85cb-422f-9478-7d049b781ac7",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "grounded-brother.seotoolsforyou.co.uk"
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cBiruUOymQvzSQnjAD7aaFXgZ45EDbVAEaxf3zxbg1o",
+                    "short_id": "fd7cbbe42ad29796"
                 }
             }
         },
@@ -1150,6 +1159,29 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "cv.rxteam.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | vless | @vpnaloo | 15",
+            "type": "vless",
+            "server": "fr.momashost.ir",
+            "server_port": 8086,
+            "uuid": "f48ce62c-85cb-422f-9478-7d049b781ac7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cBiruUOymQvzSQnjAD7aaFXgZ45EDbVAEaxf3zxbg1o",
+                    "short_id": "fd7cbbe42ad29796"
                 }
             }
         },
