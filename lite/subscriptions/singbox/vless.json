@@ -142,7 +142,7 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 13",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 15",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 15",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -157,7 +157,6 @@
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
                 "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
-                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 49",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -270,7 +269,7 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 13",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 15",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 15",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -285,7 +284,6 @@
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
                 "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
-                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 49",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -1155,25 +1153,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 15",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 15",
             "type": "vless",
-            "server": "172.233.164.237",
-            "server_port": 80,
-            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
-            "flow": "xtls-rprx-vision",
+            "server": "172.67.65.158",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
-                    "short_id": "94aa1bdc"
+            "transport": {
+                "type": "ws",
+                "path": "/Etb1L6YUdZFZuTOr?ed=2560",
+                "headers": {
+                    "Host": "172.67.65.158"
                 }
             }
         },
@@ -1446,24 +1437,6 @@
                     "enabled": true,
                     "public_key": "YTLvKt0zlbz5RI_m147go0PMsEa3WdhlQ-tqJKkeNHQ",
                     "short_id": "353e"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraNet | 49",
-            "type": "vless",
-            "server": "178.162.244.224",
-            "server_port": 443,
-            "uuid": "83a85a41-fb7f-43e0-9c15-d199509a9624",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "178.162.244.224",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },

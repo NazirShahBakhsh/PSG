@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔ XX | 🔴 | trojan | @freevpnatm | 13"
+                "❔ XX | 🔴 | trojan | @freevpnatm | 12"
             ],
             "interrupt_exist_connections": false
         },
@@ -106,7 +106,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔ XX | 🔴 | trojan | @freevpnatm | 13"
+                "❔ XX | 🔴 | trojan | @freevpnatm | 12"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -126,7 +126,7 @@
             "type": "dns"
         },
         {
-            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 13",
+            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 12",
             "type": "trojan",
             "server": "[2606:4700:3030::6815:2001]",
             "server_port": 443,

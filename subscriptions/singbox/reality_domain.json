@@ -106,7 +106,6 @@
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 14",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "🇫🇮 FI | 🟢 | vless | @configfa | 45",
-                "🇱🇰 LK | 🟢 | vless | @configshubplus | 15",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🟢 | vless | @dailyv2ry | 114",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 6",
@@ -157,7 +156,7 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
+                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
@@ -183,7 +182,6 @@
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 14",
                 "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "🇫🇮 FI | 🟢 | vless | @configfa | 45",
-                "🇱🇰 LK | 🟢 | vless | @configshubplus | 15",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🟢 | vless | @dailyv2ry | 114",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 6",
@@ -234,7 +232,7 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
+                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngseven | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
@@ -457,29 +455,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers"
-            }
-        },
-        {
-            "tag": "🇱🇰 LK | 🟢 | vless | @configshubplus | 15",
-            "type": "vless",
-            "server": "direct.yasharteam.com",
-            "server_port": 443,
-            "uuid": "95dd1a77-89e1-4448-9763-514cc79168ed",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
-                }
             }
         },
         {
@@ -1720,7 +1695,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
+            "tag": "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
