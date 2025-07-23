@@ -137,18 +137,18 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 12",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
+                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 13",
-                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 19",
+                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
-                "🇸🇪 SE | 🔴 | vless | @vpnv2rayngv | 18",
+                "🇸🇪 SE | 🔴 | vless | @vpnv2rayngv | 17",
                 "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1"
             ],
@@ -197,18 +197,18 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 12",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
+                "🇮🇷 IR | 🔴 | vless | @v2rayweb | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 13",
-                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 19",
+                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
-                "🇸🇪 SE | 🔴 | vless | @vpnv2rayngv | 18",
+                "🇸🇪 SE | 🔴 | vless | @vpnv2rayngv | 17",
                 "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1"
             ],
@@ -935,6 +935,15 @@
             }
         },
         {
+            "tag": "🇮🇷 IR | 🔴 | vless | @v2rayweb | 11",
+            "type": "vless",
+            "server": "31.47.51.143",
+            "server_port": 50438,
+            "uuid": "ccfbd5c8-f3b4-4192-9b4e-42e8ebd78f21",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
             "type": "vless",
             "server": "91.107.153.239",
@@ -1028,7 +1037,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 13",
+            "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
             "type": "vless",
             "server": "15.236.67.13",
             "server_port": 22224,
@@ -1050,33 +1059,6 @@
                 "headers": {
                     "Host": "trojan.burgerip.co.uk"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vmess_ir | 19",
-            "type": "vless",
-            "server": "5.75.197.120",
-            "server_port": 2025,
-            "uuid": "54b4c039-7be6-448f-b704-820251b079db",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AUNIYov4R2TvNmC0cF0NiKWYGqzikosOu4g2wcCALlw",
-                    "short_id": "8d9c20be72b4"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram : @PouRia_Cheat"
             }
         },
         {
@@ -1163,7 +1145,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔴 | vless | @vpnv2rayngv | 18",
+            "tag": "🇸🇪 SE | 🔴 | vless | @vpnv2rayngv | 17",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
