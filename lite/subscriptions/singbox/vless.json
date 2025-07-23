@@ -124,7 +124,6 @@
                 "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 3",
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @selinc | 6",
                 "🇺🇸 US | 🟢 | vless | @sobi_vpn | 9",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇩🇪 DE | 🔴 | vless | @srovpn | 15",
@@ -183,6 +182,7 @@
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
                 "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 13",
+                "🇮🇷 IR | 🔴 | vless | @selinc | 6",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -201,13 +201,13 @@
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
+                "🇩🇪 DE | 🔴 | vless | @vpnv2rayngv | 18",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -250,7 +250,6 @@
                 "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 3",
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @selinc | 6",
                 "🇺🇸 US | 🟢 | vless | @sobi_vpn | 9",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇩🇪 DE | 🔴 | vless | @srovpn | 15",
@@ -309,6 +308,7 @@
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
                 "🇺🇸 US | 🔴 | vless | @satellitenewspersian | 13",
+                "🇮🇷 IR | 🔴 | vless | @selinc | 6",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -327,13 +327,13 @@
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "❔ XX | 🟢 | vless | @vpn_storm | 0",
                 "❔ XX | 🔴 | vless | @vpncaneel | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnfree85 | 0",
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
+                "🇩🇪 DE | 🔴 | vless | @vpnv2rayngv | 18",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
@@ -833,22 +833,6 @@
             "uuid": "qeshmserver",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @selinc | 6",
-            "type": "vless",
-            "server": "104.16.86.73",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/J5aLQOY1R9ONWYCM?ed=2560",
-                "headers": {
-                    "Host": "104.16.86.73"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @sobi_vpn | 9",
@@ -1899,6 +1883,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇮🇷 IR | 🔴 | vless | @selinc | 6",
+            "type": "vless",
+            "server": "turkey3.v2shop2.xyz",
+            "server_port": 443,
+            "uuid": "261d2049-2152-449e-bbc8-0e25a8e08fa2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "turkey3.v2shop2.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
             "type": "vless",
             "server": "sub.shadowsokstes.WoRkErs.DeV",
@@ -2233,22 +2235,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
-            "type": "vless",
-            "server": "www.speedtest.net.cdn.cloudflare.net",
-            "server_port": 80,
-            "uuid": "6b3b071f-096b-4e4c-8d70-0e0b53f27434",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?ed",
-                "headers": {
-                    "Host": "www.speedtest.net.cdn.cloudflare.net"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @vp22ray | 10",
             "type": "vless",
             "server": "German.vp22ray.site",
@@ -2358,6 +2344,15 @@
                     "Host": "fishlab.ucdavis.edu"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @vpnv2rayngv | 18",
+            "type": "vless",
+            "server": "meli_proxyy.vip-plan.org",
+            "server_port": 29947,
+            "uuid": "7ad891be-5fad-4cca-b6d6-d67a3a881590",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
