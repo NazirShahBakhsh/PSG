@@ -102,7 +102,6 @@
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @g0dv2ray | 10",
-                "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 13",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -112,7 +111,7 @@
                 "🇳🇱 NL | 🟢 | ss | @outline_ir | 15",
                 "🇺🇸 US | 🟢 | ss | @outline_vpn | 27",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
-                "🇬🇧 GB | 🟢 | ss | @proxy_mtproto_vpns_free | 12",
+                "🇬🇧 GB | 🟢 | ss | @proxy_mtproto_vpns_free | 11",
                 "🇬🇧 GB | 🟢 | ss | @prroxyng | 0",
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
@@ -133,7 +132,6 @@
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @g0dv2ray | 10",
-                "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 13",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
@@ -143,7 +141,7 @@
                 "🇳🇱 NL | 🟢 | ss | @outline_ir | 15",
                 "🇺🇸 US | 🟢 | ss | @outline_vpn | 27",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
-                "🇬🇧 GB | 🟢 | ss | @proxy_mtproto_vpns_free | 12",
+                "🇬🇧 GB | 🟢 | ss | @proxy_mtproto_vpns_free | 11",
                 "🇬🇧 GB | 🟢 | ss | @prroxyng | 0",
                 "❔ XX | 🟢 | ss | @public504 | 7",
                 "❔ XX | 🟢 | ss | @public504 | 8",
@@ -202,14 +200,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "1xO2cqPazqjGfCfd"
-        },
-        {
-            "tag": "🇸🇪 SE | 🟢 | ss | @ip_cf_config | 13",
-            "type": "shadowsocks",
-            "server": "azure-sto.edgeservers.org",
-            "server_port": 48172,
-            "method": "chacha20-ietf-poly1305",
-            "password": "51yloQC8D9w1Wae7FHtI65"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
@@ -284,7 +274,7 @@
             "password": "u17T3BvpYaaiuW2c"
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | ss | @proxy_mtproto_vpns_free | 12",
+            "tag": "🇬🇧 GB | 🟢 | ss | @proxy_mtproto_vpns_free | 11",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
             "server_port": 443,

@@ -112,7 +112,7 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
-                "🇩🇪 DE | 🔴 | vless | @iseqaro | 1",
+                "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 23",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
@@ -132,6 +132,7 @@
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
+                "🇳🇱 NL | 🟢 | vless | @getconfigir | 19",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann | 15",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann2 | 5",
@@ -148,7 +149,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
-                "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 1",
+                "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 0",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 119",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
@@ -187,7 +188,7 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
-                "🇩🇪 DE | 🔴 | vless | @iseqaro | 1",
+                "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 23",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 11",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 13",
@@ -207,6 +208,7 @@
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
+                "🇳🇱 NL | 🟢 | vless | @getconfigir | 19",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann | 15",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann2 | 5",
@@ -223,7 +225,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 13",
                 "🇺🇸 US | 🟢 | vless | @proxie | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
-                "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 1",
+                "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 0",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇳🇱 NL | 🟢 | vless | @prrofile_purple | 119",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
@@ -400,7 +402,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @iseqaro | 1",
+            "tag": "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
             "type": "vless",
             "server": "s5.1dnt.k-l.cloud",
             "server_port": 80,
@@ -672,6 +674,29 @@
                     "enabled": true,
                     "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
                     "short_id": "dc5db021ae2038a9"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "128.199.60.37",
+            "server_port": 4653,
+            "uuid": "8c43d6c5-ecc1-407b-949f-5b17266dafea",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
+                    "short_id": ""
                 }
             }
         },
@@ -949,7 +974,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 1",
+            "tag": "🇩🇪 DE | 🟢 | vless | @proxyandvpnofficial1 | 0",
             "type": "vless",
             "server": "138.199.168.187",
             "server_port": 28153,
