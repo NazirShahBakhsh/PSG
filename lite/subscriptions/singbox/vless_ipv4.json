@@ -114,6 +114,7 @@
                 "🇺🇸 US | 🟢 | vless | @icv2ray | 14",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇳🇱 NL | 🔴 | vless | @kurdistan_vpn_perfectt | 8",
+                "🇺🇦 UA | 🔴 | vless | @lranonline_new | 6",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🟢 | vless | @mt_proxy | 7",
@@ -149,6 +150,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
+                "🇹🇷 TR | 🟢 | vless | @vpnv2rayngv | 19",
                 "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1"
             ],
@@ -174,6 +176,7 @@
                 "🇺🇸 US | 🟢 | vless | @icv2ray | 14",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇳🇱 NL | 🔴 | vless | @kurdistan_vpn_perfectt | 8",
+                "🇺🇦 UA | 🔴 | vless | @lranonline_new | 6",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🟢 | vless | @mt_proxy | 7",
@@ -209,6 +212,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
+                "🇹🇷 TR | 🟢 | vless | @vpnv2rayngv | 19",
                 "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1"
             ],
@@ -531,6 +535,15 @@
                     "Host": "barayeiran-mahsang.gerald81.dpdns.org"
                 }
             }
+        },
+        {
+            "tag": "🇺🇦 UA | 🔴 | vless | @lranonline_new | 6",
+            "type": "vless",
+            "server": "193.238.153.84",
+            "server_port": 33817,
+            "uuid": "133361c8-60e7-447a-dd5b-e7af60b9d115",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
@@ -1171,6 +1184,31 @@
                 "path": "/bDUGlAj9BFG7zebG?ed=2560",
                 "headers": {
                     "Host": "2.link-kon.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🟢 | vless | @vpnv2rayngv | 19",
+            "type": "vless",
+            "server": "62.3.12.185",
+            "server_port": 443,
+            "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "NGINX-Z.pages.DEV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "NGINX-Z.pages.DEV"
                 }
             }
         },

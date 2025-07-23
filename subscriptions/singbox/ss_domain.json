@@ -100,17 +100,19 @@
                 "URL-TEST",
                 "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
+                "🇬🇧 GB | 🟢 | ss | @dailyv2ry | 99",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @g0dv2ray | 10",
+                "🇩🇪 DE | 🟢 | ss | @ip_cf_config | 12",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
-                "🇩🇪 DE | 🟢 | ss | @mowjproxy | 5",
+                "🇩🇪 DE | 🟢 | ss | @mowjproxy | 4",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 0",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 1",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
-                "🇳🇱 NL | 🟢 | ss | @outline_ir | 17",
-                "🇳🇱 NL | 🟢 | ss | @outline_vpn | 27",
+                "🇳🇱 NL | 🟢 | ss | @outline_ir | 15",
+                "🇺🇸 US | 🟢 | ss | @outline_vpn | 27",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
                 "🇬🇧 GB | 🟢 | ss | @prroxyng | 0",
                 "❔ XX | 🟢 | ss | @public504 | 7",
@@ -132,17 +134,19 @@
             "outbounds": [
                 "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
+                "🇬🇧 GB | 🟢 | ss | @dailyv2ry | 99",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @g0dv2ray | 10",
+                "🇩🇪 DE | 🟢 | ss | @ip_cf_config | 12",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
                 "🇨🇳 CN | 🟢 | ss | @mftizi | 17",
-                "🇩🇪 DE | 🟢 | ss | @mowjproxy | 5",
+                "🇩🇪 DE | 🟢 | ss | @mowjproxy | 4",
                 "❔ XX | 🟢 | ss | @mt_proxy | 4",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 0",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 1",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
-                "🇳🇱 NL | 🟢 | ss | @outline_ir | 17",
-                "🇳🇱 NL | 🟢 | ss | @outline_vpn | 27",
+                "🇳🇱 NL | 🟢 | ss | @outline_ir | 15",
+                "🇺🇸 US | 🟢 | ss | @outline_vpn | 27",
                 "❔ XX | 🟢 | ss | @proxy_confiingir | 1",
                 "🇬🇧 GB | 🟢 | ss | @prroxyng | 0",
                 "❔ XX | 🟢 | ss | @public504 | 7",
@@ -190,6 +194,14 @@
             "password": "M2E4ZGY2ZjI5MzU2ODAxMjEwYzgyNzQ0MGM5NGUy"
         },
         {
+            "tag": "🇬🇧 GB | 🟢 | ss | @dailyv2ry | 99",
+            "type": "shadowsocks",
+            "server": "peweza2.digipedia.shop",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "WstuSnlu4ieA9M0L"
+        },
+        {
             "tag": "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
@@ -204,6 +216,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "1xO2cqPazqjGfCfd"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | ss | @ip_cf_config | 12",
+            "type": "shadowsocks",
+            "server": "fin.outlinebot1.ru",
+            "server_port": 5904,
+            "method": "chacha20-ietf-poly1305",
+            "password": "5TZnwPb23pQS39lIucspJw"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
@@ -222,7 +242,7 @@
             "password": "2be0c954-4291-45ea-b47d-ca713180550b"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | ss | @mowjproxy | 5",
+            "tag": "🇩🇪 DE | 🟢 | ss | @mowjproxy | 4",
             "type": "shadowsocks",
             "server": "xcel0dooz.pet0er23mh21qq.com",
             "server_port": 1080,
@@ -262,7 +282,7 @@
             "password": "WstuSnlu4ieA9M0L"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @outline_ir | 17",
+            "tag": "🇳🇱 NL | 🟢 | ss | @outline_ir | 15",
             "type": "shadowsocks",
             "server": "switcher-nick-croquet.freesocks.work",
             "server_port": 443,
@@ -270,7 +290,7 @@
             "password": "9tqhMdIrTkgQ46PvhyAtMH"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @outline_vpn | 27",
+            "tag": "🇺🇸 US | 🟢 | ss | @outline_vpn | 27",
             "type": "shadowsocks",
             "server": "beesyar.org",
             "server_port": 8080,

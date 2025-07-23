@@ -64,6 +64,7 @@ proxies:
   - {"name":"🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0","type":"vless","server":"91.99.148.251","port":3184,"uuid":"2e655095-7f4e-428d-9c7e-eb2278e153a8","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.chess.com","grpc-opts":{"grpc-service-name":"chessgame"},"reality-opts":{"public-key":"hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I"}}
   - {"name":"🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3","type":"vless","server":"37.152.173.139","port":8464,"uuid":"0f2e0501-5a4f-45b7-bd5e-209169cd34f9","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🟢 | vless | @vpnstorefast | 17","type":"vless","server":"104.21.43.168","port":443,"uuid":"e2c0a0ac-0270-4ebc-acbd-75df71153b0e","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"2.link-kon.ir","ws-opts":{"path":"/bDUGlAj9BFG7zebG?ed=2560","headers":{"Host":"2.lINK-KoN.IR"}}}
+  - {"name":"🇹🇷 TR | 🟢 | vless | @vpnv2rayngv | 19","type":"vless","server":"62.3.12.185","port":443,"uuid":"75fde681-ec64-4654-86fa-30732e8e179c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"NGINX-Z.pages.DEV","ws-opts":{"path":"/","headers":{"Host":"nginx-z.pages.dev"}}}
   - {"name":"/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3","type":"vless","server":"104.16.69.162","port":8880,"uuid":"e9979910-79d1-4621-a93c-b2a579c44ba7","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
@@ -142,6 +143,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0'
       - '🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3'
       - '🇺🇸 US | 🟢 | vless | @vpnstorefast | 17'
+      - '🇹🇷 TR | 🟢 | vless | @vpnv2rayngv | 19'
       - '/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3'
 
   - name: 📉 Fallback
@@ -196,6 +198,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0'
       - '🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3'
       - '🇺🇸 US | 🟢 | vless | @vpnstorefast | 17'
+      - '🇹🇷 TR | 🟢 | vless | @vpnv2rayngv | 19'
       - '/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3'
       
   - name: All-Proxies
@@ -248,6 +251,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0'
       - '🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3'
       - '🇺🇸 US | 🟢 | vless | @vpnstorefast | 17'
+      - '🇹🇷 TR | 🟢 | vless | @vpnv2rayngv | 19'
       - '/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3'
 
 rules:
