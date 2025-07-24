@@ -110,8 +110,7 @@
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
-                "🇺🇸 US | 🔴 | vless | @icv2ray | 14",
-                "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
+                "🇦🇪 AE | 🟢 | vless | @icv2ray | 15",
                 "🇩🇪 DE | 🟢 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
@@ -144,7 +143,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
-                "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&encryption=none&host=NGINX.NSCl.IR&fp=chrome&type=ws&sni=NGINX.NSCl.IR#🇺🇸 US | 🟢 | vless | @vmess_ir | 19",
+                "🇺🇸 US | 🟢 | vless | @vmess_ir | 19",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
@@ -171,8 +170,7 @@
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
-                "🇺🇸 US | 🔴 | vless | @icv2ray | 14",
-                "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
+                "🇦🇪 AE | 🟢 | vless | @icv2ray | 15",
                 "🇩🇪 DE | 🟢 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
@@ -205,7 +203,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
-                "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&encryption=none&host=NGINX.NSCl.IR&fp=chrome&type=ws&sni=NGINX.NSCl.IR#🇺🇸 US | 🟢 | vless | @vmess_ir | 19",
+                "🇺🇸 US | 🟢 | vless | @vmess_ir | 19",
                 "🇺🇸 US | 🟢 | vless | @vpnfreeo | 33",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
@@ -455,35 +453,30 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @icv2ray | 14",
+            "tag": "🇦🇪 AE | 🟢 | vless | @icv2ray | 15",
             "type": "vless",
-            "server": "104.21.72.109",
-            "server_port": 80,
-            "uuid": "a847dd0c-6c0e-4304-b1c0-69569a1b6925",
-            "flow": "",
+            "server": "91.98.21.55",
+            "server_port": 51479,
+            "uuid": "c7df53f9-8d92-4367-d889-c05bb14c2c54",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2?ed=2560",
-                "headers": {
-                    "Host": "PamcHalL.coM"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "B2NhynX6fULgqNKDOyHWHV0tMUO8XKM_SShFu5N8ZmQ",
+                    "short_id": ""
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @info_2it_channel | 11",
-            "type": "vless",
-            "server": "198.62.62.175",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp",
+            },
             "transport": {
-                "type": "ws",
-                "path": "/J5aLQOY1R9ONWYCM?ed=2560",
-                "headers": {
-                    "Host": "198.62.62.175"
-                }
+                "type": "grpc",
+                "service_name": "/@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
             }
         },
         {
@@ -1078,7 +1071,7 @@
             }
         },
         {
-            "tag": "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&encryption=none&host=NGINX.NSCl.IR&fp=chrome&type=ws&sni=NGINX.NSCl.IR#🇺🇸 US | 🟢 | vless | @vmess_ir | 19",
+            "tag": "🇺🇸 US | 🟢 | vless | @vmess_ir | 19",
             "type": "vless",
             "server": "104.16.243.59",
             "server_port": 443,
@@ -1087,11 +1080,18 @@
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "104.16.243.59",
+                "server_name": "NGINX.NSCl.IR",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assets",
+                "headers": {
+                    "Host": "NGINX.NSCl.IR"
                 }
             }
         },

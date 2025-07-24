@@ -27,6 +27,7 @@ proxies:
   - {"name":"🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2","type":"vmess","server":"104.21.15.212","port":443,"cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"Host":"glweidf.sbs"}}}
   - {"name":"❔ XX | 🔴 | vmess | @net_azad_1 | 12","type":"vmess","server":"adsl.stylebender209.ir","port":1010,"cipher":"auto","uuid":"471db8a5-8715-4fcb-9522-fdd78d2c1904","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔ XX | 🔴 | vmess | @savagenet | 1","type":"vmess","server":"ir.svgspeedtest.net","port":38960,"cipher":"auto","uuid":"41c91b85-66bb-4aa7-a7f5-e30ec82cffab","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪 DE | 🔴 | vmess | @selinc | 4","type":"vmess","server":"panel3.ipyar.org","port":32017,"cipher":"auto","uuid":"c0ccdeb9-784c-4d67-b904-20dcaac9902a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪 DE | 🔴 | vmess | @sezar_sec | 1","type":"vmess","server":"panel3.ipyar.org","port":32017,"cipher":"auto","uuid":"c0ccdeb9-784c-4d67-b904-20dcaac9902a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3","type":"vmess","server":"120.233.248.133","port":30514,"cipher":"auto","uuid":"02f0d2ec-086c-4ca2-a229-7ee75e9a73b6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸 US | 🔴 | vmess | @tawanaclub | 2","type":"vmess","server":"173.245.59.168","port":8080,"cipher":"auto","uuid":"27848739-7e62-4138-9fd3-938a63964b6b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/KTR","headers":{"Host":"4.arvanktbr.store"}}}
@@ -76,6 +77,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2'
       - '❔ XX | 🔴 | vmess | @net_azad_1 | 12'
       - '❔ XX | 🔴 | vmess | @savagenet | 1'
+      - '🇩🇪 DE | 🔴 | vmess | @selinc | 4'
       - '🇩🇪 DE | 🔴 | vmess | @sezar_sec | 1'
       - '🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3'
       - '🇺🇸 US | 🔴 | vmess | @tawanaclub | 2'
@@ -101,6 +103,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2'
       - '❔ XX | 🔴 | vmess | @net_azad_1 | 12'
       - '❔ XX | 🔴 | vmess | @savagenet | 1'
+      - '🇩🇪 DE | 🔴 | vmess | @selinc | 4'
       - '🇩🇪 DE | 🔴 | vmess | @sezar_sec | 1'
       - '🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3'
       - '🇺🇸 US | 🔴 | vmess | @tawanaclub | 2'
@@ -124,6 +127,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2'
       - '❔ XX | 🔴 | vmess | @net_azad_1 | 12'
       - '❔ XX | 🔴 | vmess | @savagenet | 1'
+      - '🇩🇪 DE | 🔴 | vmess | @selinc | 4'
       - '🇩🇪 DE | 🔴 | vmess | @sezar_sec | 1'
       - '🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3'
       - '🇺🇸 US | 🔴 | vmess | @tawanaclub | 2'
