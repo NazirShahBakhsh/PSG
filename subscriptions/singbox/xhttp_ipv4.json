@@ -99,7 +99,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
+                "🇺🇸 US | 🔴 | vless | @config_proxy | 41",
                 "🇺🇸 US | 🔴 | vless | @configfa | 40",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 16",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 19",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 1",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
@@ -113,7 +116,6 @@
                 "🇺🇸 US | 🔴 | vless | @lexernet | 7",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
-                "🇺🇸 US | 🔴 | vless | @mehrosaboran | 7",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
@@ -137,8 +139,8 @@
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
                 "🇺🇸 US | 🔴 | vless | @vpnkanfik | 8",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 10",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 13"
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 11",
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 14"
             ],
             "interrupt_exist_connections": false
         },
@@ -147,7 +149,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
+                "🇺🇸 US | 🔴 | vless | @config_proxy | 41",
                 "🇺🇸 US | 🔴 | vless | @configfa | 40",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 16",
+                "🇺🇸 US | 🔴 | vless | @configshubplus | 19",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 1",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
@@ -161,7 +166,6 @@
                 "🇺🇸 US | 🔴 | vless | @lexernet | 7",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
-                "🇺🇸 US | 🔴 | vless | @mehrosaboran | 7",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 11",
@@ -185,8 +189,8 @@
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
                 "🇺🇸 US | 🔴 | vless | @vpnkanfik | 8",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 10",
-                "🇺🇸 US | 🔴 | vless | @xpnteam | 13"
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 11",
+                "🇺🇸 US | 🔴 | vless | @xpnteam | 14"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -229,6 +233,24 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @config_proxy | 41",
+            "type": "vless",
+            "server": "172.236.250.139",
+            "server_port": 443,
+            "uuid": "4414fd58-952b-4c7e-bb1d-f75f76d1c752",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "172.236.250.139",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @configfa | 40",
             "type": "vless",
             "server": "198.58.118.49",
@@ -245,6 +267,33 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @configshubplus | 16",
+            "type": "vless",
+            "server": "96.126.118.94",
+            "server_port": 443,
+            "uuid": "6b32299a-472f-44e2-94e5-380d6dbbcbc7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "96.126.118.94",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @configshubplus | 19",
+            "type": "vless",
+            "server": "151.101.195.8",
+            "server_port": 80,
+            "uuid": "90b89fd9-1682-4b01-93ac-bd1300d2a22f",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
@@ -478,15 +527,6 @@
                     "short_id": "bc5a8ead5ee076aa"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @mehrosaboran | 7",
-            "type": "vless",
-            "server": "151.101.195.8",
-            "server_port": 80,
-            "uuid": "90b89fd9-1682-4b01-93ac-bd1300d2a22f",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
@@ -890,20 +930,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 10",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "40ea915d-c8e7-49a3-8f2f-a319cc3d08f8",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 13",
+            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 11",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "da3671c7-795f-421d-9cdc-9e3a79681852",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @xpnteam | 14",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "0134428a-02d8-4f94-8221-a1e858552212",
             "flow": "",
             "packet_encoding": "xudp"
         }
