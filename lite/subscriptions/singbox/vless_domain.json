@@ -130,7 +130,6 @@
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "🇺🇸 US | 🔴 | vless | @v2pedia | 7",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
-                "🇺🇸 US | 🔴 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
@@ -194,7 +193,6 @@
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "🇺🇸 US | 🔴 | vless | @v2pedia | 7",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
-                "🇺🇸 US | 🔴 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
@@ -796,22 +794,6 @@
             "uuid": "d10fae09-dd50-4067-90cf-f3e09eb9c206",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2ray_extractor | 19",
-            "type": "vless",
-            "server": "Hh.somo44.sbs",
-            "server_port": 8080,
-            "uuid": "9471a8c4-2f95-4a95-b869-5e31b9bc4a9b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/hhvghhv",
-                "headers": {
-                    "Host": "Hh.somo44.sbs"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",

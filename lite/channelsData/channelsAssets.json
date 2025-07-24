@@ -805,8 +805,8 @@
     "v2ray_extractor": {
         "types": [
             "vless",
-            "trojan",
-            "ss"
+            "ss",
+            "trojan"
         ],
         "title": "V2ray Extractor",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_extractor.jpg"
@@ -1032,6 +1032,7 @@
     "v2rayweb": {
         "types": [
             "vless",
+            "trojan",
             "vmess"
         ],
         "title": "V2ray | VPN",
