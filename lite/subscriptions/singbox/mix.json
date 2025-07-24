@@ -221,7 +221,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 18",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -393,7 +393,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 18",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -2461,13 +2461,29 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @v2rayweb | 18",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
             "type": "vless",
-            "server": "meli_proxyy.vip-plan.org",
-            "server_port": 29947,
-            "uuid": "7ad891be-5fad-4cca-b6d6-d67a3a881590",
+            "server": "172.66.47.175",
+            "server_port": 2083,
+            "uuid": "4d794980-54c0-4fcb-8def-c2beaecadbad",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "azadnet05.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/lZU7WqWIDqC1jRn6?ed=2560",
+                "headers": {
+                    "Host": "azadnet05.pages.dev"
+                }
+            }
         },
         {
             "tag": "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
