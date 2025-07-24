@@ -99,7 +99,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
-                "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
+                "❔ XX | 🟢 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇮🇹 IT | 🔴 | vless | @confing_chanel | 9",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -113,18 +113,15 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
-                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 1",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 16",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 12",
-                "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 4",
                 "🇺🇸 US | 🔴 | vless | @proxyandvpnofficial1 | 0",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 3",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 9",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
@@ -135,7 +132,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
-                "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
+                "❔ XX | 🟢 | vless | @canfing_vpn | 17",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇮🇹 IT | 🔴 | vless | @confing_chanel | 9",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
@@ -149,18 +146,15 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
-                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 1",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 16",
                 "🇺🇸 US | 🔴 | vless | @nufilter | 12",
-                "🇺🇸 US | 🔴 | vless | @nufilter | 13",
                 "🇨🇭 CH | 🔴 | vless | @proxy_hiddfy | 4",
                 "🇺🇸 US | 🔴 | vless | @proxyandvpnofficial1 | 0",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 3",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 9",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
@@ -191,7 +185,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
+            "tag": "❔ XX | 🟢 | vless | @canfing_vpn | 17",
             "type": "vless",
             "server": "de6rt.samsungmarketshop.ir",
             "server_port": 2083,
@@ -331,29 +325,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @mowjproxy | 1",
-            "type": "vless",
-            "server": "Service-2.SalarvandService.org",
-            "server_port": 443,
-            "uuid": "88755bd8-72fc-404a-b97a-ffaf1e9fd914",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mdundo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
-                    "short_id": "6ba85179e30d4fc2"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
             "type": "vless",
             "server": "configline.fast.hosting-ip.com",
@@ -382,15 +353,6 @@
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @nufilter | 12",
-            "type": "vless",
-            "server": "CoNFiGLiNE.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "b0dc0687-a93b-48e0-b80c-e7604d3a3f05",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @nufilter | 13",
             "type": "vless",
             "server": "CoNFiGLiNE.fast.hosting-ip.com",
             "server_port": 80,
@@ -469,15 +431,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 9",
-            "type": "vless",
-            "server": "Evay-vpn.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "bb57d265-b716-4092-bd0a-68f3988db63c",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
