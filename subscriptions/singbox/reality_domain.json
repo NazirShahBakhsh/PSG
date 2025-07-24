@@ -104,7 +104,7 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 14",
-                "🇩🇪 DE | 🟢 | vless | @configasli | 7",
+                "🇺🇸 US | 🟢 | vless | @config_proxy | 56",
                 "🇫🇮 FI | 🟢 | vless | @configfa | 44",
                 "🇫🇮 FI | 🟢 | vless | @confing_chanel | 19",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
@@ -118,7 +118,7 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 1",
                 "❔ XX | 🟢 | vless | @fsv2ray | 2",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "❔ XX | 🟢 | vless | @ip_cf_config | 13",
+                "❔ XX | 🟢 | vless | @ip_cf_config | 9",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 4",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 5",
@@ -157,7 +157,7 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇯🇵 JP | 🟢 | vless | @v2rayngrit | 14",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
@@ -176,7 +176,7 @@
                 "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 17",
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 14",
-                "🇩🇪 DE | 🟢 | vless | @configasli | 7",
+                "🇺🇸 US | 🟢 | vless | @config_proxy | 56",
                 "🇫🇮 FI | 🟢 | vless | @configfa | 44",
                 "🇫🇮 FI | 🟢 | vless | @confing_chanel | 19",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
@@ -190,7 +190,7 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 1",
                 "❔ XX | 🟢 | vless | @fsv2ray | 2",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "❔ XX | 🟢 | vless | @ip_cf_config | 13",
+                "❔ XX | 🟢 | vless | @ip_cf_config | 9",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 4",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 5",
@@ -229,7 +229,7 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇯🇵 JP | 🟢 | vless | @v2rayngrit | 14",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 7",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
@@ -400,25 +400,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @configasli | 7",
+            "tag": "🇺🇸 US | 🟢 | vless | @config_proxy | 56",
             "type": "vless",
-            "server": "s1.aparat-movies-download.ir",
-            "server_port": 4450,
-            "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
+            "server": "amazon-4.cristiano.name.ng",
+            "server_port": 443,
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "zhaket.com",
+                "server_name": "store.steampowered.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic",
-                    "short_id": ""
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
                 }
             }
         },
@@ -762,7 +762,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @ip_cf_config | 13",
+            "tag": "❔ XX | 🟢 | vless | @ip_cf_config | 9",
             "type": "vless",
             "server": "WLF-V-P-N-ID2.dnsfree.one",
             "server_port": 443,
@@ -1718,7 +1718,7 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🟢 | vless | @v2rayngrit | 14",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,

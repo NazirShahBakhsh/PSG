@@ -137,7 +137,7 @@
                 "🇩🇪 DE | 🟢 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇳🇱 NL | 🔴 | vless | @kurdistan_vpn_perfectt | 8",
+                "🇺🇸 US | 🟢 | ss | @kurdistan_vpn_perfectt | 9",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "❔ XX | 🔴 | vless | @mafiav2ray | 16",
@@ -204,7 +204,7 @@
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 15",
-                "🇦🇲 AM | 🔴 | vless | @v2rayng3 | 7",
+                "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
@@ -309,7 +309,7 @@
                 "🇩🇪 DE | 🟢 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🔴 | vless | @jeyksatan | 16",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇳🇱 NL | 🔴 | vless | @kurdistan_vpn_perfectt | 8",
+                "🇺🇸 US | 🟢 | ss | @kurdistan_vpn_perfectt | 9",
                 "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "❔ XX | 🔴 | vless | @mafiav2ray | 16",
@@ -376,7 +376,7 @@
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 15",
-                "🇦🇲 AM | 🔴 | vless | @v2rayng3 | 7",
+                "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
@@ -1113,20 +1113,12 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vless | @kurdistan_vpn_perfectt | 8",
-            "type": "vless",
-            "server": "91.206.71.162",
-            "server_port": 8880,
-            "uuid": "26bc13af-e442-4956-afd4-b8f85744d26f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Barayeiranmahsang/----@-?ed=2560",
-                "headers": {
-                    "Host": "barayeiran-mahsang.gerald81.dpdns.org"
-                }
-            }
+            "tag": "🇺🇸 US | 🟢 | ss | @kurdistan_vpn_perfectt | 9",
+            "type": "shadowsocks",
+            "server": "104.167.197.25",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "360e21d21977dc11"
         },
         {
             "tag": "❔ XX | 🔴 | vless | @lemonshopvpn | 8",
@@ -2149,20 +2141,13 @@
             }
         },
         {
-            "tag": "🇦🇲 AM | 🔴 | vless | @v2rayng3 | 7",
-            "type": "vless",
-            "server": "wolf558.royalmt.life",
-            "server_port": 53624,
-            "uuid": "d83c8440-4bd9-4695-aec5-c39b52313e1c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "wolf558.royalmt.life"
-                }
-            }
+            "tag": "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
+            "type": "vmess",
+            "server": "5.180.30.85",
+            "server_port": 18598,
+            "uuid": "bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",

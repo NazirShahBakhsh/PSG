@@ -100,6 +100,7 @@
                 "URL-TEST",
                 "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
+                "🇩🇪 DE | 🟢 | ss | @configshubplus | 16",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @kafing_2 | 15",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
@@ -115,7 +116,7 @@
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
                 "❔ XX | 🟢 | ss | @shadowsockskeys | 15",
-                "🇩🇪 DE | 🟢 | ss | @v2ray_free_conf | 18",
+                "🇩🇪 DE | 🟢 | ss | @v2ray_free_conf | 17",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
@@ -131,6 +132,7 @@
             "outbounds": [
                 "🇬🇧 GB | 🟢 | ss | @ai_duet | 7",
                 "🇮🇷 IR | 🟢 | ss | @configscenter | 0",
+                "🇩🇪 DE | 🟢 | ss | @configshubplus | 16",
                 "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
                 "🇬🇧 GB | 🟢 | ss | @kafing_2 | 15",
                 "🇺🇸 US | 🟢 | ss | @mester_v2ray | 15",
@@ -146,7 +148,7 @@
                 "❔ XX | 🟢 | ss | @public504 | 8",
                 "🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19",
                 "❔ XX | 🟢 | ss | @shadowsockskeys | 15",
-                "🇩🇪 DE | 🟢 | ss | @v2ray_free_conf | 18",
+                "🇩🇪 DE | 🟢 | ss | @v2ray_free_conf | 17",
                 "🇬🇧 GB | 🟢 | ss | @v2rayang201 | 7",
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "❔ XX | 🟢 | ss | @v2rayngvvpn | 23",
@@ -186,6 +188,14 @@
             "server_port": 10107,
             "method": "aes-256-gcm",
             "password": "M2E4ZGY2ZjI5MzU2ODAxMjEwYzgyNzQ0MGM5NGUy"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | ss | @configshubplus | 16",
+            "type": "shadowsocks",
+            "server": "h110vpnde.outlinekeys.net",
+            "server_port": 21712,
+            "method": "chacha20-ietf-poly1305",
+            "password": "GNF4E3ASA7lDLhjFEqp9Qk"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @freevirgoolnet | 4",
@@ -308,7 +318,7 @@
             "password": "CH5xv3A7JA6sLKzEhLpm81Y4GHi9nUiHWxtYU4eMLabhpX8DrCaveoqhTTNVkZdHe3ocQFx843hnCNpRdPeibgvM1mYNPRuM"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | ss | @v2ray_free_conf | 18",
+            "tag": "🇩🇪 DE | 🟢 | ss | @v2ray_free_conf | 17",
             "type": "shadowsocks",
             "server": "de-freevmess.privateip.net",
             "server_port": 8443,

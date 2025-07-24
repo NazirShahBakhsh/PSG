@@ -114,7 +114,6 @@
                 "🇺🇸 US | 🔴 | vless | @info_2it_channel | 12",
                 "🇩🇪 DE | 🟢 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇳🇱 NL | 🔴 | vless | @kurdistan_vpn_perfectt | 8",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🟢 | vless | @mt_proxy | 7",
@@ -176,7 +175,6 @@
                 "🇺🇸 US | 🔴 | vless | @info_2it_channel | 12",
                 "🇩🇪 DE | 🟢 | vless | @iseqaro | 3",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇳🇱 NL | 🔴 | vless | @kurdistan_vpn_perfectt | 8",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🟢 | vless | @mt_proxy | 7",
@@ -531,22 +529,6 @@
                     "enabled": true,
                     "public_key": "OItbKB3XzCXKysSNBIUZ7fDAfASACK_ucLrU6NAAFAU",
                     "short_id": "a98a22e2"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔴 | vless | @kurdistan_vpn_perfectt | 8",
-            "type": "vless",
-            "server": "91.206.71.162",
-            "server_port": 8880,
-            "uuid": "26bc13af-e442-4956-afd4-b8f85744d26f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Barayeiranmahsang/----@-?ed=2560",
-                "headers": {
-                    "Host": "barayeiran-mahsang.gerald81.dpdns.org"
                 }
             }
         },
