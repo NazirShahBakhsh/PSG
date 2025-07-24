@@ -110,12 +110,14 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
+                "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 18",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
+                "🇷🇺 RU | 🟢 | vless | @v2rayweb | 15",
                 "❔ XX | 🟢 | vless | @vp22ray | 10"
             ],
             "interrupt_exist_connections": false
@@ -136,12 +138,14 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
+                "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 18",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
+                "🇷🇺 RU | 🟢 | vless | @v2rayweb | 15",
                 "❔ XX | 🟢 | vless | @vp22ray | 10"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -454,6 +458,29 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 18",
+            "type": "vless",
+            "server": "18.188.59.45",
+            "server_port": 443,
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
             "type": "vless",
             "server": "91.99.97.7",
@@ -605,6 +632,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@LIGHTNING6"
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🟢 | vless | @v2rayweb | 15",
+            "type": "vless",
+            "server": "a.ru.maviks.ru",
+            "server_port": 443,
+            "uuid": "04bd2301-8fea-462f-b74b-e244c514135d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "maviks.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ",
+                    "short_id": "0f917152a871e9c0"
+                }
             }
         },
         {

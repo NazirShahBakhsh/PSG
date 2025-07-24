@@ -137,7 +137,6 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 12",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -149,7 +148,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
-                "🇸🇪 SE | 🔴 | vless | @vpnv2rayngv | 17",
+                "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 18",
                 "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -194,6 +193,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇷🇺 RU | 🟢 | vless | @v2rayweb | 15",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -259,7 +259,6 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 12",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -271,7 +270,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
-                "🇸🇪 SE | 🔴 | vless | @vpnv2rayngv | 17",
+                "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 18",
                 "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3",
                 "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -316,6 +315,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
+                "🇷🇺 RU | 🟢 | vless | @v2rayweb | 15",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -1057,31 +1057,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
-            "type": "vless",
-            "server": "172.66.47.175",
-            "server_port": 2083,
-            "uuid": "4d794980-54c0-4fcb-8def-c2beaecadbad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "azadnet05.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/lZU7WqWIDqC1jRn6?ed=2560",
-                "headers": {
-                    "Host": "azadnet05.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
             "type": "vless",
             "server": "91.107.153.239",
@@ -1292,13 +1267,27 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔴 | vless | @vpnv2rayngv | 17",
+            "tag": "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 18",
             "type": "vless",
-            "server": "185.146.173.39",
-            "server_port": 8880,
-            "uuid": "Parsashonam-289",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "18.188.59.45",
+            "server_port": 443,
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
+                }
+            }
         },
         {
             "tag": "/Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3",
@@ -2105,6 +2094,29 @@
                 "path": "/?ed=2560",
                 "headers": {
                     "Host": "v2raylandd-66-irancell.utsxgao.workers.DeV"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🟢 | vless | @v2rayweb | 15",
+            "type": "vless",
+            "server": "a.ru.maviks.ru",
+            "server_port": 443,
+            "uuid": "04bd2301-8fea-462f-b74b-e244c514135d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "maviks.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ",
+                    "short_id": "0f917152a871e9c0"
                 }
             }
         },

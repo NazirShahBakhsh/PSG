@@ -105,7 +105,6 @@
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann | 15",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann2 | 6",
@@ -154,7 +153,6 @@
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 10",
                 "🇺🇸 US | 🟢 | vless | @game_file2020 | 9",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
                 "🇺🇸 US | 🔴 | vless | @gh_v2rayng | 15",
                 "🇳🇱 NL | 🟢 | vless | @ghalagyann | 15",
                 "🇩🇪 DE | 🟢 | vless | @ghalagyann2 | 6",
@@ -336,24 +334,6 @@
                     "enabled": true,
                     "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
                     "short_id": "dc5db021ae2038a9"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
-            "type": "vless",
-            "server": "104.21.48.1",
-            "server_port": 2083,
-            "uuid": "c4e6a6ef-d782-4a12-a38a-906a61ee5bc1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cho.chonon.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },

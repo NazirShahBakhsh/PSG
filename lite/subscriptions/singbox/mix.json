@@ -221,7 +221,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
+                "🇷🇺 RU | 🟢 | vless | @v2rayweb | 15",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -250,7 +250,7 @@
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
-                "🇸🇪 SE | 🔴 | vless | @vpnv2rayngv | 17",
+                "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3",
@@ -393,7 +393,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
+                "🇷🇺 RU | 🟢 | vless | @v2rayweb | 15",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -422,7 +422,7 @@
                 "🇺🇸 US | 🟢 | vless | @vpnmeg | 2",
                 "🇮🇷 IR | 🔴 | vless | @vpnplus100 | 3",
                 "🇺🇸 US | 🟢 | vless | @vpnstorefast | 17",
-                "🇸🇪 SE | 🔴 | vless | @vpnv2rayngv | 17",
+                "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇺🇸 US | 🔴 | vless | @vpnv2raytop | 3",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3",
@@ -2446,27 +2446,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
+            "tag": "🇷🇺 RU | 🟢 | vless | @v2rayweb | 15",
             "type": "vless",
-            "server": "172.66.47.175",
-            "server_port": 2083,
-            "uuid": "4d794980-54c0-4fcb-8def-c2beaecadbad",
-            "flow": "",
+            "server": "a.ru.maviks.ru",
+            "server_port": 443,
+            "uuid": "04bd2301-8fea-462f-b74b-e244c514135d",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "azadnet05.pages.dev",
+                "server_name": "maviks.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/lZU7WqWIDqC1jRn6?ed=2560",
-                "headers": {
-                    "Host": "azadnet05.pages.dev"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ",
+                    "short_id": "0f917152a871e9c0"
                 }
             }
         },
@@ -2910,13 +2908,27 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔴 | vless | @vpnv2rayngv | 17",
+            "tag": "🇺🇸 US | 🟢 | vless | @vpnv2rayngv | 18",
             "type": "vless",
-            "server": "185.146.173.39",
-            "server_port": 8880,
-            "uuid": "Parsashonam-289",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "18.188.59.45",
+            "server_port": 443,
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
