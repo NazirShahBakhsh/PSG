@@ -107,7 +107,6 @@
                 "🇩🇪 DE | 🟢 | trojan | @flyv2ray | 7",
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 17",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 11",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 5",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇩🇪 DE | 🟢 | trojan | @mt_proxy | 6",
@@ -121,7 +120,8 @@
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
-                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 16",
+                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 15",
+                "🇨🇳 CN | 🔴 | trojan | @v2raych | 17",
                 "a@104.18.26.90:443?path=/trUXByA1rnbs4YQ1Xw?ed=2560&security=tls&alpn=h3,h2,http/1.1&host=s1.mitivpn.workers.dev&fp=randomized&type=ws&sni=S1.mitivpN.wOrKeRS.DEV#🇺🇸 US | 🟢 | trojan | @v2rayngconfiig | 8",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 10",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 11",
@@ -144,7 +144,6 @@
                 "🇩🇪 DE | 🟢 | trojan | @flyv2ray | 7",
                 "🇩🇪 DE | 🔴 | trojan | @freev2raym | 7",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 17",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 11",
                 "🇫🇷 FR | 🟢 | trojan | @jiedianf | 5",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇩🇪 DE | 🟢 | trojan | @mt_proxy | 6",
@@ -158,7 +157,8 @@
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 17",
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
-                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 16",
+                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 15",
+                "🇨🇳 CN | 🔴 | trojan | @v2raych | 17",
                 "a@104.18.26.90:443?path=/trUXByA1rnbs4YQ1Xw?ed=2560&security=tls&alpn=h3,h2,http/1.1&host=s1.mitivpn.workers.dev&fp=randomized&type=ws&sni=S1.mitivpN.wOrKeRS.DEV#🇺🇸 US | 🟢 | trojan | @v2rayngconfiig | 8",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 10",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 11",
@@ -320,29 +320,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "raChT39pjLFYRAO6JLn303d"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 11",
-            "type": "trojan",
-            "server": "104.25.165.81",
-            "server_port": 8443,
-            "password": "123456",
-            "tls": {
-                "enabled": true,
-                "server_name": "top-azx.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Az1.vpn.33.TOP/?ed=2560",
-                "headers": {
-                    "Host": "top-azx.pages.dev"
-                }
             }
         },
         {
@@ -568,7 +545,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 16",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 15",
             "type": "trojan",
             "server": "15.188.178.145",
             "server_port": 22222,
@@ -582,6 +559,13 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇨🇳 CN | 🔴 | trojan | @v2raych | 17",
+            "type": "trojan",
+            "server": "36.151.192.242",
+            "server_port": 51377,
+            "password": "DNUMdmnJ"
         },
         {
             "tag": "a@104.18.26.90:443?path=/trUXByA1rnbs4YQ1Xw?ed=2560&security=tls&alpn=h3,h2,http/1.1&host=s1.mitivpn.workers.dev&fp=randomized&type=ws&sni=S1.mitivpN.wOrKeRS.DEV#🇺🇸 US | 🟢 | trojan | @v2rayngconfiig | 8",
