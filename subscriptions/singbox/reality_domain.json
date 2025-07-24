@@ -105,12 +105,10 @@
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 14",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 17",
-                "🇱🇰 LK | 🟢 | vless | @configshubplus | 14",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 3",
                 "❔ XX | 🟢 | vless | @farahvpn | 15",
                 "🇳🇱 NL | 🟢 | vless | @farahvpn | 18",
-                "🇩🇪 DE | 🟢 | vless | @filter_breaker | 43",
                 "🇳🇱 NL | 🟢 | vless | @flyv2ray | 5",
                 "❔ XX | 🟢 | vless | @free_omega | 0",
                 "❔ XX | 🟢 | vless | @fsv2ray | 0",
@@ -156,10 +154,11 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
+                "🇩🇪 DE | 🟢 | vless | @v2rayngrit | 14",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇫🇮 FI | 🟢 | vless | @vaslvip | 13",
+                "🇩🇪 DE | 🟢 | vless | @vpnkanfik | 11",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🟢 | vless | @xsv2ray | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
@@ -177,12 +176,10 @@
                 "❔ XX | 🟢 | vless | @catvpns | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 14",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 17",
-                "🇱🇰 LK | 🟢 | vless | @configshubplus | 14",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇳🇱 NL | 🟢 | vless | @dalton_ping | 3",
                 "❔ XX | 🟢 | vless | @farahvpn | 15",
                 "🇳🇱 NL | 🟢 | vless | @farahvpn | 18",
-                "🇩🇪 DE | 🟢 | vless | @filter_breaker | 43",
                 "🇳🇱 NL | 🟢 | vless | @flyv2ray | 5",
                 "❔ XX | 🟢 | vless | @free_omega | 0",
                 "❔ XX | 🟢 | vless | @fsv2ray | 0",
@@ -228,10 +225,11 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
+                "🇩🇪 DE | 🟢 | vless | @v2rayngrit | 14",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇫🇮 FI | 🟢 | vless | @vaslvip | 13",
+                "🇩🇪 DE | 🟢 | vless | @vpnkanfik | 11",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🟢 | vless | @xsv2ray | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
@@ -423,29 +421,6 @@
             }
         },
         {
-            "tag": "🇱🇰 LK | 🟢 | vless | @configshubplus | 14",
-            "type": "vless",
-            "server": "direct.yasharteam.com",
-            "server_port": 443,
-            "uuid": "95dd1a77-89e1-4448-9763-514cc79168ed",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @custom_14 | 7",
             "type": "vless",
             "server": "usa-join.outline-vpn.fun",
@@ -547,29 +522,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:@FergalVpnMod"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @filter_breaker | 43",
-            "type": "vless",
-            "server": "all97-vip.f-sub.com",
-            "server_port": 2434,
-            "uuid": "d83ff70d-8b78-4b47-9f49-d0e968c502db",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "chess.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA",
-                    "short_id": ""
-                }
             }
         },
         {
@@ -1687,7 +1639,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayngrit | 14",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -1780,6 +1732,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "bing"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vpnkanfik | 11",
+            "type": "vless",
+            "server": "cert.gamberonvps.ir",
+            "server_port": 28076,
+            "uuid": "b4a5c9ba-0cd1-462a-ab34-6683cf8f25fa",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.zula.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aFAL9AlapF2P4VEIiGOf4O_E-Z1wryr1AnACoBgpgCg",
+                    "short_id": "ac5d"
+                }
             }
         },
         {
