@@ -44,7 +44,7 @@ proxies:
   - {"name":"🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0","type":"vless","server":"sub.shadowsokstes.WoRkErs.DeV","port":2096,"uuid":"70f5d3b8-7d31-4d7d-9467-e43752d66fca","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"sub.shadowsokstes.WoRkErs.DeV","ws-opts":{"path":"/vless-ws/?ed=2048","headers":{"Host":"sub.shadowsokstes.WoRkErs.DeV"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @shahedtec | 4","type":"vless","server":"shahed2.novintecc.org","port":8080,"uuid":"a04be978-3b21-42cf-a80c-4832894d26f0","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"shahed2.novintecc.org"}}}
   - {"name":"🇮🇷 IR | 🔴 | vless | @tobevasl | 16","type":"vless","server":"1conf.top","port":3333,"uuid":"7d283c1a-3a5b-4b2a-a924-0bd256e89726","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🔴 | vless | @v2pedia | 7","type":"vless","server":"www.speedtest.net","port":80,"uuid":"43c06dde-b530-4536-a9d7-ba7bccb6d0dd","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/ali","headers":{"Host":"www.speedtest.net.b.1.speedtest2029.com.v2logy.ir."}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @v2pedia | 6","type":"vless","server":"www.speedtest.net","port":80,"uuid":"43c06dde-b530-4536-a9d7-ba7bccb6d0dd","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/ali","headers":{"Host":"www.speedtest.net.b.1.speedtest2029.com.v2logy.ir."}}}
   - {"name":"❔ XX | 🔴 | vless | @v2ray03 | 3","type":"vless","server":"irtest.xiliservice.lol","port":80,"uuid":"d10fae09-dd50-4067-90cf-f3e09eb9c206","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8","type":"vless","server":"discord.com","port":2053,"uuid":"8ae88ee2-2f11-46ad-8302-ba388712196a","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"cdn.biglog.sbs","ws-opts":{"path":"/","headers":{"Host":"cdn.biglog.sbs"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16","type":"vless","server":"viop.fast.hosting-ip.com","port":80,"uuid":"11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b","tls":false,"network":"xhttp","client-fingerprint":"chrome","udp":true}
@@ -126,7 +126,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0'
       - '🇺🇸 US | 🔴 | vless | @shahedtec | 4'
       - '🇮🇷 IR | 🔴 | vless | @tobevasl | 16'
-      - '🇺🇸 US | 🔴 | vless | @v2pedia | 7'
+      - '🇺🇸 US | 🔴 | vless | @v2pedia | 6'
       - '❔ XX | 🔴 | vless | @v2ray03 | 3'
       - '🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8'
       - '🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16'
@@ -184,7 +184,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0'
       - '🇺🇸 US | 🔴 | vless | @shahedtec | 4'
       - '🇮🇷 IR | 🔴 | vless | @tobevasl | 16'
-      - '🇺🇸 US | 🔴 | vless | @v2pedia | 7'
+      - '🇺🇸 US | 🔴 | vless | @v2pedia | 6'
       - '❔ XX | 🔴 | vless | @v2ray03 | 3'
       - '🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8'
       - '🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16'
@@ -240,7 +240,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0'
       - '🇺🇸 US | 🔴 | vless | @shahedtec | 4'
       - '🇮🇷 IR | 🔴 | vless | @tobevasl | 16'
-      - '🇺🇸 US | 🔴 | vless | @v2pedia | 7'
+      - '🇺🇸 US | 🔴 | vless | @v2pedia | 6'
       - '❔ XX | 🔴 | vless | @v2ray03 | 3'
       - '🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8'
       - '🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16'

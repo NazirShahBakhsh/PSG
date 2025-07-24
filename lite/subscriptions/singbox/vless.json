@@ -138,7 +138,6 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 12",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇪🇸 ES | 🟢 | vless | @v2rayweb | 14",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -183,7 +182,7 @@
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
-                "🇺🇸 US | 🔴 | vless | @v2pedia | 7",
+                "🇺🇸 US | 🔴 | vless | @v2pedia | 6",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
@@ -260,7 +259,6 @@
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 12",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇪🇸 ES | 🟢 | vless | @v2rayweb | 14",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -305,7 +303,7 @@
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
-                "🇺🇸 US | 🔴 | vless | @v2pedia | 7",
+                "🇺🇸 US | 🔴 | vless | @v2pedia | 6",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
@@ -1078,29 +1076,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "116.202.177.190"
-                }
-            }
-        },
-        {
-            "tag": "🇪🇸 ES | 🟢 | vless | @v2rayweb | 14",
-            "type": "vless",
-            "server": "45.12.150.145",
-            "server_port": 15470,
-            "uuid": "ecc97810-557a-44ef-9957-ba078d0ac414",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Io59wtB0RP01ty3SWv8Hn-z84vrckaEPVJi6SRBqFXY",
-                    "short_id": "e08a28"
                 }
             }
         },
@@ -1914,7 +1889,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2pedia | 7",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2pedia | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,

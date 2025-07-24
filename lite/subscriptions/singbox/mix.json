@@ -162,7 +162,7 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇺🇸 US | 🟢 | trojan | @orange_vpns | 17",
-                "🇪🇸 ES | 🟢 | ss | @outlineopenkey | 11",
+                "🇵🇱 PL | 🟢 | ss | @outlineopenkey | 11",
                 "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 3",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
@@ -189,7 +189,7 @@
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
-                "🇺🇸 US | 🔴 | vless | @v2pedia | 7",
+                "🇺🇸 US | 🔴 | vless | @v2pedia | 6",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
                 "🇫🇷 FR | 🟢 | vless | @v2ray_extractor | 20",
@@ -221,7 +221,6 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇪🇸 ES | 🟢 | vless | @v2rayweb | 14",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -334,7 +333,7 @@
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
                 "🇺🇸 US | 🔴 | vless | @oonfig | 1",
                 "🇺🇸 US | 🟢 | trojan | @orange_vpns | 17",
-                "🇪🇸 ES | 🟢 | ss | @outlineopenkey | 11",
+                "🇵🇱 PL | 🟢 | ss | @outlineopenkey | 11",
                 "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 3",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
                 "🇺🇸 US | 🟢 | vless | @proxyfull | 13",
@@ -361,7 +360,7 @@
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
-                "🇺🇸 US | 🔴 | vless | @v2pedia | 7",
+                "🇺🇸 US | 🔴 | vless | @v2pedia | 6",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
                 "🇫🇷 FR | 🟢 | vless | @v2ray_extractor | 20",
@@ -393,7 +392,6 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇪🇸 ES | 🟢 | vless | @v2rayweb | 14",
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vless | @v2rray_ng | 4",
                 "❔ XX | 🔴 | vless | @v2ryngfree | 10",
@@ -1545,12 +1543,12 @@
             }
         },
         {
-            "tag": "🇪🇸 ES | 🟢 | ss | @outlineopenkey | 11",
+            "tag": "🇵🇱 PL | 🟢 | ss | @outlineopenkey | 11",
             "type": "shadowsocks",
-            "server": "194.87.45.189",
+            "server": "77.83.246.74",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "LTCIflhaVl3D2lppYv1iLc"
+            "password": "jQWpOpZLtPGgcCbzusP3gm"
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @pistachiovpn | 3",
@@ -1909,7 +1907,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2pedia | 7",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2pedia | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -2451,29 +2449,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇪🇸 ES | 🟢 | vless | @v2rayweb | 14",
-            "type": "vless",
-            "server": "45.12.150.145",
-            "server_port": 15470,
-            "uuid": "ecc97810-557a-44ef-9957-ba078d0ac414",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Io59wtB0RP01ty3SWv8Hn-z84vrckaEPVJi6SRBqFXY",
-                    "short_id": "e08a28"
                 }
             }
         },
