@@ -117,12 +117,10 @@
                 "🇺🇸 US | 🔴 | vless | @proxyandvpnofficial1 | 0",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
-                "🇩🇪 DE | 🔴 | vless | @v2ray_free_conf | 17",
+                "🇩🇪 DE | 🔴 | vless | @v2ray_free_conf | 15",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 3",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
-                "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 14",
-                "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 15",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
             "interrupt_exist_connections": false
@@ -150,12 +148,10 @@
                 "🇺🇸 US | 🔴 | vless | @proxyandvpnofficial1 | 0",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
-                "🇩🇪 DE | 🔴 | vless | @v2ray_free_conf | 17",
+                "🇩🇪 DE | 🔴 | vless | @v2ray_free_conf | 15",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 3",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
-                "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 14",
-                "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 15",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -379,7 +375,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @v2ray_free_conf | 17",
+            "tag": "🇩🇪 DE | 🔴 | vless | @v2ray_free_conf | 15",
             "type": "vless",
             "server": "speedy.mooo.info",
             "server_port": 80,
@@ -420,24 +416,6 @@
             "server": "netmeli.noytads.ir",
             "server_port": 80,
             "uuid": "e018bfab-0902-47a0-abfc-7efbd017ec73",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 14",
-            "type": "vless",
-            "server": "mci.dl101movis.ir",
-            "server_port": 80,
-            "uuid": "9e8c0b71-1e9e-4a4d-9e86-4ea9772ef534",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 15",
-            "type": "vless",
-            "server": "speedy.mooo.info",
-            "server_port": 80,
-            "uuid": "9e8c0b71-1e9e-4a4d-9e86-4ea9772ef534",
             "flow": "",
             "packet_encoding": "xudp"
         },
