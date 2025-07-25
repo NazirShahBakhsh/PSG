@@ -114,7 +114,6 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 1",
                 "❔ XX | 🟢 | vless | @fsv2ray | 2",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇷🇺 RU | 🟢 | vless | @getconfigir | 14",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 4",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 5",
@@ -130,7 +129,7 @@
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "❔ XX | 🟢 | vless | @kkkkkoabvbbvbvv | 9",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 14",
+                "🇩🇪 DE | 🟢 | vless | @netmellianti | 13",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
@@ -154,7 +153,7 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇸🇪 SE | 🟢 | vless | @v2rayngrit | 14",
+                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇫🇮 FI | 🟢 | vless | @vaslvip | 13",
@@ -185,7 +184,6 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 1",
                 "❔ XX | 🟢 | vless | @fsv2ray | 2",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇷🇺 RU | 🟢 | vless | @getconfigir | 14",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 4",
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 5",
@@ -201,7 +199,7 @@
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "❔ XX | 🟢 | vless | @kkkkkoabvbbvbvv | 9",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 14",
+                "🇩🇪 DE | 🟢 | vless | @netmellianti | 13",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
@@ -225,7 +223,7 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇸🇪 SE | 🟢 | vless | @v2rayngrit | 14",
+                "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇫🇮 FI | 🟢 | vless | @vaslvip | 13",
@@ -660,29 +658,6 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vless | @getconfigir | 14",
-            "type": "vless",
-            "server": "ru.sfasti.ru",
-            "server_port": 443,
-            "uuid": "5475990d-e0ce-46ea-95e5-50f9e4879af9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ru.sfasti.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
-                }
-            }
-        },
-        {
             "tag": "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
             "type": "vless",
             "server": "uae.kitten-tube.com",
@@ -1067,7 +1042,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @netmellianti | 14",
+            "tag": "🇩🇪 DE | 🟢 | vless | @netmellianti | 13",
             "type": "vless",
             "server": "cert.gamberonvps.ir",
             "server_port": 28076,
@@ -1639,7 +1614,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🟢 | vless | @v2rayngrit | 14",
+            "tag": "🇨🇦 CA | 🟢 | vless | @v2rayngrit | 14",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
