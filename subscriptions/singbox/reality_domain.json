@@ -106,8 +106,8 @@
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 14",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 17",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
-                "🇳🇱 NL | 🟢 | vless | @dalton_ping | 3",
-                "🇳🇱 NL | 🟢 | vless | @farahvpn | 17",
+                "🇳🇱 NL | 🟢 | vless | @dalton_ping | 2",
+                "🇳🇱 NL | 🟢 | vless | @farahvpn | 16",
                 "🇳🇱 NL | 🟢 | vless | @flyv2ray | 5",
                 "❔ XX | 🟢 | vless | @free_omega | 0",
                 "❔ XX | 🟢 | vless | @fsv2ray | 0",
@@ -153,9 +153,8 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 14",
+                "🇮🇪 IE | 🟢 | vless | @v2rayngrit | 14",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
-                "🇳🇱 NL | 🟢 | vless | @v2rayweb | 10",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇫🇮 FI | 🟢 | vless | @vaslvip | 13",
                 "🇩🇪 DE | 🟢 | vless | @vpnkanfik | 11",
@@ -177,8 +176,8 @@
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 14",
                 "🇩🇪 DE | 🟢 | vless | @configfa | 17",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
-                "🇳🇱 NL | 🟢 | vless | @dalton_ping | 3",
-                "🇳🇱 NL | 🟢 | vless | @farahvpn | 17",
+                "🇳🇱 NL | 🟢 | vless | @dalton_ping | 2",
+                "🇳🇱 NL | 🟢 | vless | @farahvpn | 16",
                 "🇳🇱 NL | 🟢 | vless | @flyv2ray | 5",
                 "❔ XX | 🟢 | vless | @free_omega | 0",
                 "❔ XX | 🟢 | vless | @fsv2ray | 0",
@@ -224,9 +223,8 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 14",
+                "🇮🇪 IE | 🟢 | vless | @v2rayngrit | 14",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
-                "🇳🇱 NL | 🟢 | vless | @v2rayweb | 10",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇫🇮 FI | 🟢 | vless | @vaslvip | 13",
                 "🇩🇪 DE | 🟢 | vless | @vpnkanfik | 11",
@@ -448,7 +446,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @dalton_ping | 3",
+            "tag": "🇳🇱 NL | 🟢 | vless | @dalton_ping | 2",
             "type": "vless",
             "server": "server2.fergalvpnmod.com",
             "server_port": 25126,
@@ -475,7 +473,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @farahvpn | 17",
+            "tag": "🇳🇱 NL | 🟢 | vless | @farahvpn | 16",
             "type": "vless",
             "server": "server2.fergalvpnmod.com",
             "server_port": 25126,
@@ -1616,7 +1614,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 14",
+            "tag": "🇮🇪 IE | 🟢 | vless | @v2rayngrit | 14",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -1658,29 +1656,6 @@
                     "enabled": true,
                     "public_key": "bf0D8kLkfGVYP8NVpiOGKcm-wutxlcLXua3760tRgkI",
                     "short_id": "adf6b90c"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @v2rayweb | 10",
-            "type": "vless",
-            "server": "direct2.yasharteam.com",
-            "server_port": 443,
-            "uuid": "7c9af6bc-8dc1-4846-b2d4-533e95c4a7bf",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
                 }
             }
         },
