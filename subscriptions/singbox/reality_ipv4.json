@@ -103,6 +103,7 @@
                 "🇫🇮 FI | 🟢 | vless | @appsooner | 11",
                 "🇨🇿 CZ | 🟢 | vless | @bored_vpn | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
+                "🇫🇮 FI | 🟢 | vless | @configshubplus | 14",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 9",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 6",
                 "🇮🇷 IR | 🟢 | vless | @dargiiriis | 0",
@@ -200,6 +201,7 @@
                 "🇫🇮 FI | 🟢 | vless | @appsooner | 11",
                 "🇨🇿 CZ | 🟢 | vless | @bored_vpn | 10",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
+                "🇫🇮 FI | 🟢 | vless | @configshubplus | 14",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 9",
                 "🇩🇪 DE | 🟢 | vless | @dalton_ping | 6",
                 "🇮🇷 IR | 🟢 | vless | @dargiiriis | 0",
@@ -419,6 +421,29 @@
                     "enabled": true,
                     "public_key": "8JLXaAVzfzBxustA4rSIJYXfbwgnarMBUiWghUe610s",
                     "short_id": "f58f"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🟢 | vless | @configshubplus | 14",
+            "type": "vless",
+            "server": "5.181.20.219",
+            "server_port": 17422,
+            "uuid": "fe837fd0-840d-4cee-9334-0dc6c2b15c1c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
+                    "short_id": "33"
                 }
             }
         },
