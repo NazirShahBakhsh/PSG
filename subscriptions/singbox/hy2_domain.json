@@ -97,14 +97,17 @@
             "tag": "Proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST"
+                "URL-TEST",
+                "❔ XX | 🟢 | hy2 | @filter_breaker | 43"
             ],
             "interrupt_exist_connections": false
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [],
+            "outbounds": [
+                "❔ XX | 🟢 | hy2 | @filter_breaker | 43"
+            ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
             "tolerance": 50,
@@ -121,6 +124,25 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "❔ XX | 🟢 | hy2 | @filter_breaker | 43",
+            "type": "hysteria2",
+            "server": "nlnl.yinheyz.cfd",
+            "server_port": 33856,
+            "password": "ecb6728b-70e5-4b01-8cc1-19d6ffc84858",
+            "obfs": {
+                "type": "salamander",
+                "password": "ZDQxZDhjZDk4ZjAwYjIwNA=="
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nlnl.yinheyz.cfd",
+                "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
+            }
         }
     ],
     "route": {
