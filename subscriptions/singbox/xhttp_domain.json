@@ -100,6 +100,7 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "❔ XX | 🟢 | vless | @canfing_vpn | 17",
+                "🇷🇺 RU | 🟢 | vless | @configfa | 15",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -116,7 +117,7 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 14",
-                "🇷🇺 RU | 🟢 | vless | @noforcedheaven | 15",
+                "🇩🇪 DE | 🔴 | vless | @proxy_hiddfy | 18",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 6",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
@@ -124,7 +125,7 @@
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 4",
                 "🇫🇮 FI | 🟢 | vless | @vistav2ray | 10",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
-                "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 14",
+                "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 13",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
             "interrupt_exist_connections": false
@@ -135,6 +136,7 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @appsooner | 7",
                 "❔ XX | 🟢 | vless | @canfing_vpn | 17",
+                "🇷🇺 RU | 🟢 | vless | @configfa | 15",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "❔ XX | 🔴 | vless | @dgkbza | 18",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -151,7 +153,7 @@
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
                 "🇺🇸 US | 🔴 | vless | @nofiltering2 | 20",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 14",
-                "🇷🇺 RU | 🟢 | vless | @noforcedheaven | 15",
+                "🇩🇪 DE | 🔴 | vless | @proxy_hiddfy | 18",
                 "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 6",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
@@ -159,7 +161,7 @@
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 4",
                 "🇫🇮 FI | 🟢 | vless | @vistav2ray | 10",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
-                "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 14",
+                "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 13",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -208,6 +210,29 @@
                     "enabled": true,
                     "public_key": "53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk",
                     "short_id": "aeba"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🟢 | vless | @configfa | 15",
+            "type": "vless",
+            "server": "ru2.asc-sam.ir",
+            "server_port": 8443,
+            "uuid": "7715f3b0-9661-4c92-8b32-1c4c1f79bb5c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "VuL69lz3WqpGe-rhAvd2-M2-KaZpG10iDu71aTVMx2Y",
+                    "short_id": "d3044a6aa923a9"
                 }
             }
         },
@@ -365,27 +390,13 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vless | @noforcedheaven | 15",
+            "tag": "🇩🇪 DE | 🔴 | vless | @proxy_hiddfy | 18",
             "type": "vless",
-            "server": "ru2.asc-sam.ir",
-            "server_port": 8443,
-            "uuid": "7715f3b0-9661-4c92-8b32-1c4c1f79bb5c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "VuL69lz3WqpGe-rhAvd2-M2-KaZpG10iDu71aTVMx2Y",
-                    "short_id": "d3044a6aa923a9"
-                }
-            }
+            "server": "s1.1dnt.k-l.cloud",
+            "server_port": 80,
+            "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
@@ -483,7 +494,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 14",
+            "tag": "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 13",
             "type": "vless",
             "server": "EVAY_VPN.fast.hosting-ip.com",
             "server_port": 80,
