@@ -103,7 +103,7 @@
                 "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 16",
                 "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 17",
                 "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 18",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 15",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 13",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -114,6 +114,7 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 12",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 16",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
             "interrupt_exist_connections": false
@@ -127,7 +128,7 @@
                 "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 16",
                 "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 17",
                 "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 18",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 15",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 13",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -138,6 +139,7 @@
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 12",
                 "🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 16",
                 "🇺🇸 US | 🟢 | trojan | @zdyz2 | 0"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
@@ -264,11 +266,20 @@
             }
         },
         {
-            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 15",
+            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 13",
             "type": "trojan",
-            "server": "13c2c931-swin40-swy6li-tni2.cu.plebai.net",
-            "server_port": 15229,
-            "password": "5e2f888c-68ef-11ef-96ca-f23c9164ca5d"
+            "server": "stirring-parakeet.shiner427.skin",
+            "server_port": 443,
+            "password": "74260628090146500",
+            "tls": {
+                "enabled": true,
+                "server_name": "stirring-parakeet.shiner427.skin",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
@@ -459,6 +470,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 16",
+            "type": "trojan",
+            "server": "usla.mjt000.com",
+            "server_port": 443,
+            "password": "1ba48a0e-af2e-45fb-9e15-2b2d4134657c",
+            "tls": {
+                "enabled": true,
+                "server_name": "usla.mjt000.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

@@ -131,6 +131,7 @@
                 "❔ XX | 🟢 | vless | @kkkkkoabvbbvbvv | 9",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "🇮🇹 IT | 🟢 | vless | @manzariyeh_rasht | 22",
+                "🇬🇧 GB | 🟢 | vless | @netmellianti | 15",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
@@ -153,11 +154,11 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
+                "🇩🇪 DE | 🟢 | vless | @v2rayngrit | 14",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇫🇮 FI | 🟢 | vless | @vaslvip | 11",
-                "🇩🇪 DE | 🟢 | vless | @vpnkanfik | 11",
+                "🇩🇪 DE | 🟢 | vless | @vpnkanfik | 10",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🟢 | vless | @xsv2ray | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
@@ -201,6 +202,7 @@
                 "❔ XX | 🟢 | vless | @kkkkkoabvbbvbvv | 9",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "🇮🇹 IT | 🟢 | vless | @manzariyeh_rasht | 22",
+                "🇬🇧 GB | 🟢 | vless | @netmellianti | 15",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @persian_proxy6 | 0",
@@ -223,11 +225,11 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
+                "🇩🇪 DE | 🟢 | vless | @v2rayngrit | 14",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
                 "🇫🇮 FI | 🟢 | vless | @vaslvip | 11",
-                "🇩🇪 DE | 🟢 | vless | @vpnkanfik | 11",
+                "🇩🇪 DE | 🟢 | vless | @vpnkanfik | 10",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🟢 | vless | @xsv2ray | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
@@ -1092,6 +1094,29 @@
             }
         },
         {
+            "tag": "🇬🇧 GB | 🟢 | vless | @netmellianti | 15",
+            "type": "vless",
+            "server": "luna.postpapet.ir",
+            "server_port": 8443,
+            "uuid": "b28446a5-c6ba-4c53-af62-4a7d067d51fd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🟢 | vless | @nn_vpn | 2",
             "type": "vless",
             "server": "Sadaf.Netherlands.mehrdadsadaf.com",
@@ -1618,7 +1643,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 14",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayngrit | 14",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -1714,7 +1739,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vpnkanfik | 11",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vpnkanfik | 10",
             "type": "vless",
             "server": "cert.gamberonvps.ir",
             "server_port": 28076,
