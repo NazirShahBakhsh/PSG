@@ -128,6 +128,7 @@
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 11",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @vmessorg | 24",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
@@ -171,6 +172,7 @@
                 "🇪🇸 ES | 🟢 | vless | @v2rayexpress | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 11",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🔴 | vless | @vmessorg | 24",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
@@ -665,6 +667,24 @@
                     "enabled": true,
                     "public_key": "o1n1Qj_IBvl3xGDkMPzmuRJzKKW31L_r9kEeyW7e3F8",
                     "short_id": "1ac2a2dde288"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 18",
+            "type": "vless",
+            "server": "69.164.195.66",
+            "server_port": 443,
+            "uuid": "2a0e68d1-56e9-43cc-802f-5cbc617e8e98",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "69.164.195.66",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
