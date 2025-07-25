@@ -119,7 +119,6 @@
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 5",
                 "🇩🇪 DE | 🟢 | vless | @iranbaxvpn | 6",
                 "🇩🇪 DE | 🟢 | vless | @iranbaxvpn | 7",
-                "❔ XX | 🟢 | vless | @iseqaro | 0",
                 "❔ XX | 🟢 | vless | @itv2ray | 25",
                 "❔ XX | 🟢 | vless | @itv2ray | 26",
                 "❔ XX | 🟢 | vless | @itv2ray | 28",
@@ -153,10 +152,10 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇮🇪 IE | 🟢 | vless | @v2rayngrit | 14",
+                "🇯🇵 JP | 🟢 | vless | @v2rayngrit | 14",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
-                "🇫🇮 FI | 🟢 | vless | @vaslvip | 13",
+                "🇫🇮 FI | 🟢 | vless | @vaslvip | 12",
                 "🇩🇪 DE | 🟢 | vless | @vpnkanfik | 11",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🟢 | vless | @xsv2ray | 6",
@@ -189,7 +188,6 @@
                 "🇺🇸 US | 🟢 | vless | @iranbaxvpn | 5",
                 "🇩🇪 DE | 🟢 | vless | @iranbaxvpn | 6",
                 "🇩🇪 DE | 🟢 | vless | @iranbaxvpn | 7",
-                "❔ XX | 🟢 | vless | @iseqaro | 0",
                 "❔ XX | 🟢 | vless | @itv2ray | 25",
                 "❔ XX | 🟢 | vless | @itv2ray | 26",
                 "❔ XX | 🟢 | vless | @itv2ray | 28",
@@ -223,10 +221,10 @@
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 4",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇮🇪 IE | 🟢 | vless | @v2rayngrit | 14",
+                "🇯🇵 JP | 🟢 | vless | @v2rayngrit | 14",
                 "❔ XX | 🟢 | vless | @v2rayturbo | 4",
                 "❔ XX | 🟢 | vless | @v2rayza | 18",
-                "🇫🇮 FI | 🟢 | vless | @vaslvip | 13",
+                "🇫🇮 FI | 🟢 | vless | @vaslvip | 12",
                 "🇩🇪 DE | 🟢 | vless | @vpnkanfik | 11",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🟢 | vless | @xsv2ray | 6",
@@ -786,29 +784,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@iranbaxvpn-@iranbaxvpn-@iranbaxvpn-@iranbaxvpn"
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @iseqaro | 0",
-            "type": "vless",
-            "server": "pviranian.ip-venzo.com",
-            "server_port": 7070,
-            "uuid": "808cb101-6dc8-933c-49cc-bc9d91f75c0b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ubz7iJHjM9JSh8h0-SgPCgMfJejpu-CpmV0ZQYQhjXU",
-                    "short_id": ""
-                }
             }
         },
         {
@@ -1614,7 +1589,7 @@
             }
         },
         {
-            "tag": "🇮🇪 IE | 🟢 | vless | @v2rayngrit | 14",
+            "tag": "🇯🇵 JP | 🟢 | vless | @v2rayngrit | 14",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -1683,7 +1658,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @vaslvip | 13",
+            "tag": "🇫🇮 FI | 🟢 | vless | @vaslvip | 12",
             "type": "vless",
             "server": "freedam.wirecard.store",
             "server_port": 2053,
