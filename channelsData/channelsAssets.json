@@ -308,7 +308,6 @@
     "configshubplus": {
         "types": [
             "vless",
-            "trojan",
             "ss",
             "vmess"
         ],
@@ -685,8 +684,8 @@
     },
     "free1ss": {
         "types": [
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "🍊Aperto Shadowsocks Outline Vless VPN 🍊",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/free1ss.jpg"
@@ -710,8 +709,8 @@
     },
     "free_outline_keys": {
         "types": [
-            "vless",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "FREE Outline VPN keys",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/free_outline_keys.jpg"
@@ -827,9 +826,9 @@
     },
     "freevpnatm": {
         "types": [
-            "vmess",
             "vless",
-            "trojan"
+            "trojan",
+            "vmess"
         ],
         "title": "科學上网 free configs",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/freevpnatm.jpg"
@@ -1002,8 +1001,8 @@
     "hope_net": {
         "types": [
             "vless",
-            "trojan",
-            "vmess"
+            "vmess",
+            "trojan"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1040,8 +1039,8 @@
     "ip_cf_config": {
         "types": [
             "vless",
-            "ss",
             "vmess",
+            "ss",
             "trojan"
         ],
         "title": "IP_CF | V2ray Config Pool",
@@ -1575,7 +1574,8 @@
     },
     "mowjproxy": {
         "types": [
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -1836,7 +1836,6 @@
     },
     "outline_ir": {
         "types": [
-            "ss",
             "vless"
         ],
         "title": "سرور اوتلاین ا سرور V2ray",
@@ -1866,8 +1865,8 @@
     },
     "outlinev2rayng": {
         "types": [
-            "vless",
             "vmess",
+            "vless",
             "ss"
         ],
         "title": "پروکسی تله کد | فیلترشکن رایگان V2ray - Outline",
@@ -2446,10 +2445,10 @@
     },
     "v2ray_free_conf": {
         "types": [
+            "trojan",
             "ss",
             "vmess",
-            "vless",
-            "trojan"
+            "vless"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -2744,7 +2743,8 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -3201,8 +3201,8 @@
     "zerobaipiao": {
         "types": [
             "vmess",
-            "ss",
-            "trojan"
+            "trojan",
+            "ss"
         ],
         "title": "免费节点 🏆【1小时前更新】",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/zerobaipiao.jpg"
