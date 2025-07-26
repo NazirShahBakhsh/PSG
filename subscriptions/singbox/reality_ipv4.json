@@ -124,6 +124,7 @@
                 "🇨🇿 CZ | 🟢 | vless | @ghalagyann2 | 8",
                 "🇦🇪 AE | 🟢 | vless | @ghalagyann2 | 9",
                 "🇩🇪 DE | 🟢 | vless | @goldenshiinevpn | 8",
+                "🇵🇱 PL | 🟢 | vless | @hope_net | 19",
                 "🇩🇪 DE | 🟢 | vless | @hopev2ray | 2",
                 "🇩🇪 DE | 🟢 | vless | @hopev2ray | 3",
                 "🇦🇪 AE | 🟢 | vless | @icv2ray | 12",
@@ -212,6 +213,7 @@
                 "🇨🇿 CZ | 🟢 | vless | @ghalagyann2 | 8",
                 "🇦🇪 AE | 🟢 | vless | @ghalagyann2 | 9",
                 "🇩🇪 DE | 🟢 | vless | @goldenshiinevpn | 8",
+                "🇵🇱 PL | 🟢 | vless | @hope_net | 19",
                 "🇩🇪 DE | 🟢 | vless | @hopev2ray | 2",
                 "🇩🇪 DE | 🟢 | vless | @hopev2ray | 3",
                 "🇦🇪 AE | 🟢 | vless | @icv2ray | 12",
@@ -928,6 +930,29 @@
                     "enabled": true,
                     "public_key": "MFhTxw6M0UU7nAoxP-jAw8szA2vhXy6KYmBCrDwbpRw",
                     "short_id": "99d38a68"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🟢 | vless | @hope_net | 19",
+            "type": "vless",
+            "server": "146.19.170.113",
+            "server_port": 443,
+            "uuid": "e380b385-c450-44ca-b34a-44e30ad377af",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EsvkKogbRPn7YK-U5Rx5G5Q255VDmJMY4TU37KTVN14",
+                    "short_id": "1be095b3"
                 }
             }
         },

@@ -100,9 +100,6 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 16",
-                "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 17",
-                "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 18",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -123,9 +120,6 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
-                "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 16",
-                "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 17",
-                "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 18",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -189,75 +183,6 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 16",
-            "type": "trojan",
-            "server": "sg007.421421.xyz",
-            "server_port": 20230,
-            "password": "8d3b917e-6520-4725-b284-a369f14a5315",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.alibaba.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "www.alibaba.com"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 17",
-            "type": "trojan",
-            "server": "sg008.421421.xyz",
-            "server_port": 20230,
-            "password": "8d3b917e-6520-4725-b284-a369f14a5315",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.alibaba.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "www.alibaba.com"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🟢 | trojan | @freevpnatm | 18",
-            "type": "trojan",
-            "server": "sg005.421421.xyz",
-            "server_port": 20230,
-            "password": "8d3b917e-6520-4725-b284-a369f14a5315",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.alibaba.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "www.alibaba.com"
                 }
             }
         },

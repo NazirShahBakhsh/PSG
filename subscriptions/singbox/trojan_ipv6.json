@@ -98,7 +98,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔ XX | 🔴 | trojan | @freevpnatm | 15"
+                "❔ XX | 🟢 | trojan | @freevpnatm | 13"
             ],
             "interrupt_exist_connections": false
         },
@@ -106,7 +106,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔ XX | 🔴 | trojan | @freevpnatm | 15"
+                "❔ XX | 🟢 | trojan | @freevpnatm | 13"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -126,14 +126,14 @@
             "type": "dns"
         },
         {
-            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 15",
+            "tag": "❔ XX | 🟢 | trojan | @freevpnatm | 13",
             "type": "trojan",
-            "server": "[2606:4700:3030::6815:6001]",
+            "server": "[2606:4700:3030::6815:4001]",
             "server_port": 443,
-            "password": "e4cbe8b8-37db-4aaa-8469-b84f34c51ebc",
+            "password": "cf8c791e-9d0b-4e90-aaf6-41ac62468416",
             "tls": {
                 "enabled": true,
-                "server_name": "[2606:4700:3030::6815:6001]",
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -141,11 +141,8 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "[2606:4700:3030::6815:6001]"
-                }
+                "type": "grpc",
+                "service_name": "XkJmZCwVxla9D5o64T0dM"
             }
         }
     ],

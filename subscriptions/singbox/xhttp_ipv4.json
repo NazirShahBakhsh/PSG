@@ -101,8 +101,6 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 10",
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-                "🇺🇸 US | 🔴 | vless | @configshubplus | 18",
-                "🇺🇸 US | 🔴 | vless | @configshubplus | 19",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 8",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 0",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
@@ -143,8 +141,6 @@
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 10",
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 8",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
-                "🇺🇸 US | 🔴 | vless | @configshubplus | 18",
-                "🇺🇸 US | 🔴 | vless | @configshubplus | 19",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 8",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 0",
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 6",
@@ -231,42 +227,6 @@
                     "enabled": true,
                     "public_key": "8JLXaAVzfzBxustA4rSIJYXfbwgnarMBUiWghUe610s",
                     "short_id": "f58f"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @configshubplus | 18",
-            "type": "vless",
-            "server": "172.236.103.104",
-            "server_port": 443,
-            "uuid": "bc432859-051c-40e5-ab96-a34f47f1b14a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "172.236.103.104",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @configshubplus | 19",
-            "type": "vless",
-            "server": "172.235.128.66",
-            "server_port": 443,
-            "uuid": "239cfabf-d064-4cfd-8c2a-c74babc1c77b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "172.235.128.66",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
