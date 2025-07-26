@@ -126,7 +126,7 @@
                 "🇨🇿 CZ | 🟢 | vless | @ghalagyann2 | 8",
                 "🇦🇪 AE | 🟢 | vless | @ghalagyann2 | 9",
                 "🇩🇪 DE | 🟢 | vless | @goldenshiinevpn | 8",
-                "🇵🇱 PL | 🟢 | vless | @hope_net | 17",
+                "🇵🇱 PL | 🟢 | vless | @hope_net | 15",
                 "🇩🇪 DE | 🟢 | vless | @hopev2ray | 2",
                 "🇩🇪 DE | 🟢 | vless | @hopev2ray | 3",
                 "🇦🇪 AE | 🟢 | vless | @icv2ray | 12",
@@ -172,6 +172,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vip_vpn_2022 | 3",
                 "🇨🇿 CZ | 🟢 | vless | @vipv2rayngnp | 12",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
+                "🇩🇪 DE | 🟢 | vless | @vmessorg | 25",
                 "🇫🇮 FI | 🟢 | vless | @vpn_ocean | 0",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
@@ -216,7 +217,7 @@
                 "🇨🇿 CZ | 🟢 | vless | @ghalagyann2 | 8",
                 "🇦🇪 AE | 🟢 | vless | @ghalagyann2 | 9",
                 "🇩🇪 DE | 🟢 | vless | @goldenshiinevpn | 8",
-                "🇵🇱 PL | 🟢 | vless | @hope_net | 17",
+                "🇵🇱 PL | 🟢 | vless | @hope_net | 15",
                 "🇩🇪 DE | 🟢 | vless | @hopev2ray | 2",
                 "🇩🇪 DE | 🟢 | vless | @hopev2ray | 3",
                 "🇦🇪 AE | 🟢 | vless | @icv2ray | 12",
@@ -262,6 +263,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vip_vpn_2022 | 3",
                 "🇨🇿 CZ | 🟢 | vless | @vipv2rayngnp | 12",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
+                "🇩🇪 DE | 🟢 | vless | @vmessorg | 25",
                 "🇫🇮 FI | 🟢 | vless | @vpn_ocean | 0",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
@@ -990,7 +992,7 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🟢 | vless | @hope_net | 17",
+            "tag": "🇵🇱 PL | 🟢 | vless | @hope_net | 15",
             "type": "vless",
             "server": "146.19.170.113",
             "server_port": 443,
@@ -2130,6 +2132,29 @@
                     "enabled": true,
                     "public_key": "Qdg7LVP5VmLr7xzv556ry5RNc3QaeAj4TwOUxndA23M",
                     "short_id": "e3f89b63"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vmessorg | 25",
+            "type": "vless",
+            "server": "80.240.23.101",
+            "server_port": 47567,
+            "uuid": "73cc7084-a427-4193-8fe0-6dd72ac48265",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.black-moai.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qmdcGi9MFglpiaqalAFvOUGNehBjYIwaXLbula8K0gU",
+                    "short_id": "a862ded52ae3ea"
                 }
             }
         },

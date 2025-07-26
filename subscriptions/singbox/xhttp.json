@@ -102,6 +102,7 @@
                 "❔ XX | 🟢 | vless | @canfing_vpn | 17",
                 "🇷🇺 RU | 🟢 | vless | @configfa | 15",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+                "🇩🇪 DE | 🔴 | vless | @configshubplus | 15",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "🇺🇸 US | 🔴 | vless | @evay_vpn | 12",
                 "🇺🇸 US | 🔴 | vless | @evay_vpn | 13",
@@ -122,7 +123,6 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 7",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
-                "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 13",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 10",
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 8",
@@ -152,6 +152,7 @@
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇩🇪 DE | 🟢 | vless | @v2rayexpress | 11",
                 "🇩🇪 DE | 🔴 | vless | @vmessorg | 24",
+                "🇩🇪 DE | 🟢 | vless | @vmessorg | 25",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
@@ -168,6 +169,7 @@
                 "❔ XX | 🟢 | vless | @canfing_vpn | 17",
                 "🇷🇺 RU | 🟢 | vless | @configfa | 15",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+                "🇩🇪 DE | 🔴 | vless | @configshubplus | 15",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "🇺🇸 US | 🔴 | vless | @evay_vpn | 12",
                 "🇺🇸 US | 🔴 | vless | @evay_vpn | 13",
@@ -188,7 +190,6 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 7",
                 "🇺🇸 US | 🔴 | vless | @vpnfree_irann | 2",
-                "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 13",
                 "🇮🇹 IT | 🔴 | vless | @xsv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 10",
                 "🇺🇸 US | 🔴 | vless | @bored_vpn | 8",
@@ -218,6 +219,7 @@
                 "🇳🇱 NL | 🟢 | vless | @v2rayexpress | 10",
                 "🇩🇪 DE | 🟢 | vless | @v2rayexpress | 11",
                 "🇩🇪 DE | 🔴 | vless | @vmessorg | 24",
+                "🇩🇪 DE | 🟢 | vless | @vmessorg | 25",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",
                 "🇳🇱 NL | 🟢 | vless | @vpncostumer | 16",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 13",
@@ -302,6 +304,15 @@
             "server": "2sudo.winapp3.ir",
             "server_port": 80,
             "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @configshubplus | 15",
+            "type": "vless",
+            "server": "speedy.mooo.info",
+            "server_port": 80,
+            "uuid": "968e304b-a629-446c-b390-c98a77416222",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -528,15 +539,6 @@
             "server": "netmeli.noytads.ir",
             "server_port": 80,
             "uuid": "e018bfab-0902-47a0-abfc-7efbd017ec73",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 13",
-            "type": "vless",
-            "server": "EVAY_VPN.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "41f52408-143d-40ba-8e09-82df8b72a6d0",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1003,6 +1005,29 @@
             "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vmessorg | 25",
+            "type": "vless",
+            "server": "80.240.23.101",
+            "server_port": 47567,
+            "uuid": "73cc7084-a427-4193-8fe0-6dd72ac48265",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.black-moai.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qmdcGi9MFglpiaqalAFvOUGNehBjYIwaXLbula8K0gU",
+                    "short_id": "a862ded52ae3ea"
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🟢 | vless | @vpncostumer | 14",

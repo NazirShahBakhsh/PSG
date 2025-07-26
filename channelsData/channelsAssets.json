@@ -308,7 +308,7 @@
         "types": [
             "vless",
             "trojan",
-            "vmess"
+            "ss"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/configshubplus.jpg"
@@ -683,8 +683,8 @@
     },
     "free1ss": {
         "types": [
-            "vless",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "🍊Aperto Shadowsocks Outline Vless VPN 🍊",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/free1ss.jpg"
@@ -999,9 +999,9 @@
     },
     "hope_net": {
         "types": [
-            "vless",
-            "ss",
             "trojan",
+            "ss",
+            "vless",
             "vmess"
         ],
         "title": "🕊 Hope Net",
@@ -1039,9 +1039,9 @@
     "ip_cf_config": {
         "types": [
             "trojan",
+            "vless",
             "vmess",
-            "ss",
-            "vless"
+            "ss"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2446,8 +2446,8 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vmess",
             "trojan",
+            "vmess",
             "ss",
             "vless"
         ],
@@ -2532,6 +2532,7 @@
     "v2raych": {
         "types": [
             "vless",
+            "vmess",
             "trojan"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
@@ -3203,9 +3204,9 @@
     },
     "zerobaipiao": {
         "types": [
-            "trojan",
             "vmess",
-            "ss"
+            "ss",
+            "trojan"
         ],
         "title": "免费节点 🏆【1小时前更新】",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/zerobaipiao.jpg"
