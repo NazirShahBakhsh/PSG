@@ -100,6 +100,10 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
+                "🇯🇵 JP | 🟢 | trojan | @freevpnatm | 13",
+                "🇯🇵 JP | 🟢 | trojan | @freevpnatm | 14",
+                "🇯🇵 JP | 🟢 | trojan | @freevpnatm | 15",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -120,6 +124,10 @@
             "outbounds": [
                 "❔ XX | 🟢 | trojan | @armodchannel | 59",
                 "❔ XX | 🔴 | trojan | @armodchannel | 60",
+                "🇯🇵 JP | 🟢 | trojan | @freevpnatm | 13",
+                "🇯🇵 JP | 🟢 | trojan | @freevpnatm | 14",
+                "🇯🇵 JP | 🟢 | trojan | @freevpnatm | 15",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
                 "❔ XX | 🟢 | trojan | @iraniv2ray | 3",
                 "❔ XX | 🟢 | trojan | @jiedianf | 3",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 4",
@@ -185,6 +193,61 @@
                     "Host": "asia.artunnel57.host"
                 }
             }
+        },
+        {
+            "tag": "🇯🇵 JP | 🟢 | trojan | @freevpnatm | 13",
+            "type": "trojan",
+            "server": "jp2.78b6f218-a566-9905-b660-cd30c9ea0e03.02444020.the-best-airport.com",
+            "server_port": 443,
+            "password": "d3d478b4-54a5-46e5-ab38-be052101df9c",
+            "tls": {
+                "enabled": true,
+                "server_name": "new.download.the-best-airport.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🟢 | trojan | @freevpnatm | 14",
+            "type": "trojan",
+            "server": "jp4.78b6f218-a566-9905-b660-cd30c9ea0e03.69408ae5.the-best-airport.com",
+            "server_port": 443,
+            "password": "d3d478b4-54a5-46e5-ab38-be052101df9c",
+            "tls": {
+                "enabled": true,
+                "server_name": "new.download.the-best-airport.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🟢 | trojan | @freevpnatm | 15",
+            "type": "trojan",
+            "server": "sg2.78b6f218-a566-9905-b660-cd30c9ea0e03.2c4b5066.the-best-airport.com",
+            "server_port": 443,
+            "password": "d3d478b4-54a5-46e5-ab38-be052101df9c",
+            "tls": {
+                "enabled": true,
+                "server_name": "new.download.the-best-airport.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 11",
+            "type": "trojan",
+            "server": "13c2c931-swin40-swy6li-tni2.cu.plebai.net",
+            "server_port": 15229,
+            "password": "5e2f888c-68ef-11ef-96ca-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @iraniv2ray | 3",

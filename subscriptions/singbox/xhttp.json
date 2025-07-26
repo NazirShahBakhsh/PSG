@@ -111,14 +111,12 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
-                "🇫🇮 FI | 🟢 | vless | @getconfigir | 18",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
                 "🇬🇧 GB | 🟢 | vless | @netmellianti | 15",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 14",
                 "🇩🇪 DE | 🔴 | vless | @proxy_hiddfy | 18",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 11",
-                "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 6",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
@@ -179,14 +177,12 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 7",
-                "🇫🇮 FI | 🟢 | vless | @getconfigir | 18",
                 "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 0",
                 "🇬🇧 GB | 🟢 | vless | @netmellianti | 15",
                 "🇺🇸 US | 🟢 | vless | @noforcedheaven | 14",
                 "🇩🇪 DE | 🔴 | vless | @proxy_hiddfy | 18",
                 "🇩🇪 DE | 🟢 | vless | @proxystore11 | 11",
-                "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
                 "🇺🇸 US | 🔴 | vless | @turboo_server | 6",
                 "🇩🇪 DE | 🔴 | vless | @v2ray03 | 0",
                 "🇺🇸 US | 🔴 | vless | @v2ray_sub | 5",
@@ -391,29 +387,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @getconfigir | 18",
-            "type": "vless",
-            "server": "speedtest.net.zula.ir.nobitex.ir.shakhle.ir",
-            "server_port": 39001,
-            "uuid": "15449e06-b519-414a-9e0d-fbb4a0fd2780",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y1o",
-                    "short_id": "f23547"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @ghotb_scarf | 7",
             "type": "vless",
             "server": "ips.rainoteam.store",
@@ -501,24 +474,6 @@
                     "enabled": true,
                     "public_key": "y7msPZW4eWBT4CJ5v_blgiXUd06HuKvTs3rhlpw9fnk",
                     "short_id": "0570"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @sharecentrepro | 1",
-            "type": "vless",
-            "server": "optmaze.speegy.club",
-            "server_port": 443,
-            "uuid": "0dbad6ba-be87-46e1-ab90-30c53ef1878d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "drive.speegy.club",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
