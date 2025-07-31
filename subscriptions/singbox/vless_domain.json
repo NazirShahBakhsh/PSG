@@ -98,8 +98,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔ XX | 🟢 | vless | @Fr33C0nfig | 47",
-                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 48"
+                "❔ XX | 🟢 | vless | @Fr33C0nfig | 32",
+                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 33"
             ],
             "interrupt_exist_connections": false
         },
@@ -107,8 +107,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔ XX | 🟢 | vless | @Fr33C0nfig | 47",
-                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 48"
+                "❔ XX | 🟢 | vless | @Fr33C0nfig | 32",
+                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 33"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -128,7 +128,7 @@
             "type": "dns"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @Fr33C0nfig | 47",
+            "tag": "❔ XX | 🟢 | vless | @Fr33C0nfig | 32",
             "type": "vless",
             "server": "de.multiapvps.ir",
             "server_port": 4433,
@@ -151,7 +151,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 48",
+            "tag": "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 33",
             "type": "vless",
             "server": "usa.multiapvps.ir",
             "server_port": 4434,
