@@ -98,10 +98,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 46",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "❔ XX | 🟢 | vless | @Fr33C0nfig | 47",
-                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 48"
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 31",
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 34",
+                "❔ XX | 🟢 | vless | @Fr33C0nfig | 32",
+                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 33"
             ],
             "interrupt_exist_connections": false
         },
@@ -109,10 +109,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 46",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
-                "❔ XX | 🟢 | vless | @Fr33C0nfig | 47",
-                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 48"
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 31",
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 34",
+                "❔ XX | 🟢 | vless | @Fr33C0nfig | 32",
+                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 33"
             ],
             "url": "https://detectportal.firefox.com/success.txt",
             "interval": "5m",
@@ -132,7 +132,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 46",
+            "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 31",
             "type": "vless",
             "server": "94.182.142.28",
             "server_port": 2020,
@@ -141,7 +141,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+            "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 34",
             "type": "vless",
             "server": "81.12.32.135",
             "server_port": 32990,
@@ -150,7 +150,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @Fr33C0nfig | 47",
+            "tag": "❔ XX | 🟢 | vless | @Fr33C0nfig | 32",
             "type": "vless",
             "server": "de.multiapvps.ir",
             "server_port": 4433,
@@ -173,7 +173,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 48",
+            "tag": "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 33",
             "type": "vless",
             "server": "usa.multiapvps.ir",
             "server_port": 4434,
